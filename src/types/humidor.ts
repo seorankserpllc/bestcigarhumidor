@@ -140,6 +140,7 @@ export interface GuideSource {
   label: string;
   url: string;
   publisher: string;
+  sourceType: 'Peer-reviewed research' | 'Government / extension' | 'Government / technical reference' | 'Government / technical research' | 'Government / regulation' | 'Botanical authority' | 'Manufacturer instructions';
 }
 
 export interface CigarGuide {

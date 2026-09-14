@@ -25,7 +25,7 @@ export const CIGAR_GUIDES: CigarGuide[] = [
       {
         id: 'what-a-wineador-solves',
         title: '1. What a Wineador Actually Solves',
-        contentMarkdown: `Cigars benefit from a **stable** environment. A practical target for many collections is 65–69% RH and roughly 65–70°F (18–21°C). Warmer storage increases cigarette-beetle activity; large humidity swings can also stress wrappers and change how a cigar burns.
+        contentMarkdown: `Cigars benefit from a **stable** environment. Many collectors use 65–69% RH and roughly 65–70°F (18–21°C) as a practical storage range, but it is a convention rather than a universal laboratory-derived optimum. Tobacco is hygroscopic, so its equilibrium moisture changes with surrounding RH and temperature. Experimental research also shows that cigarette-beetle development and reproduction change substantially with temperature.
 
 An electric cabinet helps with temperature control and insulation. It does not automatically control humidity unless the model has an active humidity system. Most owners still need humidity packs or another properly sized humidification method, plus a calibrated hygrometer.
 
@@ -76,15 +76,16 @@ There is no credible universal figure showing that sealing a drain improves rete
         title: '4. Condition Cedar, Then Verify',
         contentMarkdown: `New cedar shelves can absorb moisture while they approach equilibrium. Clean the cabinet according to its manual, air out manufacturing odors, and install a calibrated hygrometer before adding cigars.
 
-For removable unfinished cedar, follow the humidity-pack maker’s seasoning instructions. Boveda designates 84% packs for **empty wood humidors only** and commonly uses a 14-day conditioning period. Do not wipe cedar with water; uneven wetting can raise grain or warp thin parts.
+For removable unfinished cedar, follow the humidity-control maker’s instructions. **If you are using Boveda B84 specifically**, Boveda instructs users to place the packs in an empty wood humidor, keep it closed for 14 days, remove the B84 packs, and then install maintenance packs. Those timing and usage details are manufacturer instructions, not independent scientific findings. Do not wipe cedar with water; uneven wetting can raise grain or warp thin parts.
 
-After conditioning, remove the seasoning packs, install 65% or 69% maintenance packs, and wait for the empty cabinet to stabilize. Add cigars only after both temperature and RH remain in range. Never mix different RH pack levels in the same enclosure.`
+After conditioning, install one chosen maintenance RH level and wait for the empty cabinet to stabilize. Add cigars only after temperature and RH remain steady. Follow the chosen humidity product’s instructions rather than combining different systems or RH levels.`
       }
     ],
     sources: [
-      { label: 'The Art of Aging Cigars', publisher: 'Boveda', url: 'https://bovedainc.com/the-art-of-aging-cigars/' },
-      { label: 'What Boveda RH do I need for tobacco?', publisher: 'Boveda', url: 'https://bovedainc.com/question/what-boveda-rh-do-i-need/' },
-      { label: 'Cigarette Beetle (E-239)', publisher: 'Purdue University Extension', url: 'https://extension.entm.purdue.edu/publications/E-239/E-239.pdf' },
+      { label: 'Cigarette Beetle (E-239)', publisher: 'Purdue University Extension', url: 'https://extension.entm.purdue.edu/publications/E-239/E-239.pdf', sourceType: 'Government / extension' },
+      { label: 'Temperature effects on cigarette-beetle growth and reproduction', publisher: 'Insects, 2021', url: 'https://doi.org/10.3390/insects12121103', sourceType: 'Peer-reviewed research' },
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'B84 seasoning directions for an empty wood humidor', publisher: 'Boveda', url: 'https://store.bovedainc.com/products/boveda-for-cigars-seasoning', sourceType: 'Manufacturer instructions' },
     ]
   },
   {
@@ -142,8 +143,8 @@ Do not caulk the wooden lid-to-base joint. That surface needs to close evenly. A
       }
     ],
     sources: [
-      { label: 'Wood Handbook: moisture relations and dimensional change', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr282.pdf' },
-      { label: 'What Boveda RH do I need for tobacco?', publisher: 'Boveda', url: 'https://bovedainc.com/question/what-boveda-rh-do-i-need/' },
+      { label: 'Wood Handbook: moisture relations and dimensional change', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr282.pdf', sourceType: 'Government / technical reference' },
+      { label: 'Humidity fixed points of binary saturated aqueous solutions', publisher: 'National Bureau of Standards (NIST)', url: 'https://nvlpubs.nist.gov/nistpubs/jres/81a/jresv81an1p89_a1b.pdf', sourceType: 'Government / technical research' },
     ]
   },
   {
@@ -202,8 +203,8 @@ Instead, inspect periodically for damaged wrappers, excess moisture, off odors, 
       }
     ],
     sources: [
-      { label: 'What Boveda Should I Use in a Tupperdor?', publisher: 'Boveda', url: 'https://bovedainc.com/what-boveda-should-i-use-in-a-tupperdor/' },
-      { label: 'Water-vapor and oxygen permeability testing of polypropylene packaging', publisher: 'Food Packaging and Shelf Life', url: 'https://doi.org/10.1016/j.fpsl.2023.101121' },
+      { label: 'Water-vapor and oxygen permeability testing of polypropylene packaging', publisher: 'Food Packaging and Shelf Life, 2023', url: 'https://doi.org/10.1016/j.fpsl.2023.101121', sourceType: 'Peer-reviewed research' },
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
     ]
   },
   {
@@ -262,9 +263,9 @@ This approach works in Denver, Santa Fe, and any heated or arid home because it 
       }
     ],
     sources: [
-      { label: 'Relative Humidity definition', publisher: 'NOAA / National Weather Service', url: 'https://forecast.weather.gov/glossary.php?word=RELATIVE+HUMIDITY' },
-      { label: 'Humidity Control for Cigar Smokers', publisher: 'Boveda', url: 'https://bovedainc.com/humidity-control-for-cigar-smokers/' },
-      { label: 'What Boveda RH do I need for tobacco?', publisher: 'Boveda', url: 'https://bovedainc.com/question/what-boveda-rh-do-i-need/' },
+      { label: 'Relative humidity definition', publisher: 'NOAA / National Weather Service', url: 'https://forecast.weather.gov/glossary.php?word=RELATIVE+HUMIDITY', sourceType: 'Government / technical reference' },
+      { label: 'The use of dew-point temperature in humidity calculations', publisher: 'National Bureau of Standards (NIST)', url: 'https://nvlpubs.nist.gov/nistpubs/jres/74c/jresv74cn3-4p117_a1b.pdf', sourceType: 'Government / technical research' },
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
     ]
   },
   {
@@ -319,9 +320,9 @@ Avoid substituting strongly aromatic closet-lining woods such as eastern redceda
       }
     ],
     sources: [
-      { label: 'Cedrela odorata botanical record', publisher: 'Royal Botanic Gardens, Kew', url: 'https://powo.science.kew.org/taxon/51010-2' },
-      { label: 'Spanish-Cedar technical note', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplrn/fplrn078.pdf' },
-      { label: 'Wood Handbook: moisture relations', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr282.pdf' },
+      { label: 'Cedrela odorata botanical record', publisher: 'Royal Botanic Gardens, Kew', sourceType: 'Botanical authority', url: 'https://powo.science.kew.org/taxon/51010-2' },
+      { label: 'Spanish-Cedar technical note', publisher: 'USDA Forest Products Laboratory', sourceType: 'Government / technical reference', url: 'https://www.fpl.fs.usda.gov/documnts/fplrn/fplrn078.pdf' },
+      { label: 'Wood Handbook: moisture relations', publisher: 'USDA Forest Products Laboratory', sourceType: 'Government / technical reference', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr282.pdf' },
     ]
   },
   {
@@ -381,10 +382,10 @@ After arrival, let a cold case warm gradually while closed to reduce the chance 
       }
     ],
     sources: [
-      { label: 'PackSafe: Lighters', publisher: 'Federal Aviation Administration', url: 'https://www.faa.gov/hazmat/packsafe/lighters' },
-      { label: 'Airline Passengers and Lighters FAQ', publisher: 'Federal Aviation Administration', url: 'https://www.faa.gov/sites/faa.gov/files/hazmat/packsafe/resources/Airline_Passengers_Lighters_Faq.pdf' },
-      { label: 'What Can I Bring? Cigar cutters and torch lighters', publisher: 'Transportation Security Administration', url: 'https://www.tsa.gov/travel/security-screening/whatcanibring/all-list' },
-      { label: 'Pilot’s Handbook: cabin pressurization', publisher: 'Federal Aviation Administration', url: 'https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf' },
+      { label: 'PackSafe: Lighters', publisher: 'Federal Aviation Administration', sourceType: 'Government / regulation', url: 'https://www.faa.gov/hazmat/packsafe/lighters' },
+      { label: 'Airline Passengers and Lighters FAQ', publisher: 'Federal Aviation Administration', sourceType: 'Government / regulation', url: 'https://www.faa.gov/sites/faa.gov/files/hazmat/packsafe/resources/Airline_Passengers_Lighters_Faq.pdf' },
+      { label: 'What Can I Bring? Cigar cutters and torch lighters', publisher: 'Transportation Security Administration', sourceType: 'Government / regulation', url: 'https://www.tsa.gov/travel/security-screening/whatcanibring/all-list' },
+      { label: 'Pilot’s Handbook: cabin pressurization', publisher: 'Federal Aviation Administration', sourceType: 'Government / regulation', url: 'https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf' },
     ]
   }
 ];

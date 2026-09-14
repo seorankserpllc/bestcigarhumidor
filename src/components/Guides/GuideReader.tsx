@@ -165,12 +165,19 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
         <div>
           <span className="text-[11px] font-bold uppercase tracking-wider text-amber-400">Sources &amp; review standard</span>
           <p className="text-xs text-stone-400 mt-1 leading-relaxed">
-            Reviewed {guide.reviewedDate}. Recommendations distinguish measured guidance from rules of thumb. Product performance varies by room conditions, seal quality, and calibration.
+            Reviewed {guide.reviewedDate}. Evidence priority is peer-reviewed research and government or university guidance. Manufacturer sources appear only for that maker’s product specifications or instructions—not as independent proof.
           </p>
         </div>
         <ul className="grid gap-2 text-xs">
           {guide.sources.map(source => (
-            <li key={source.url}>
+            <li key={source.url} className="flex flex-col sm:flex-row sm:items-center gap-1.5 sm:gap-2">
+              <span className={`w-fit shrink-0 rounded-full border px-2 py-0.5 text-[9px] font-bold uppercase tracking-wide ${
+                source.sourceType === 'Manufacturer instructions'
+                  ? 'border-amber-800/60 bg-amber-950/30 text-amber-400'
+                  : 'border-sky-900/60 bg-sky-950/30 text-sky-400'
+              }`}>
+                {source.sourceType}
+              </span>
               <a href={source.url} target="_blank" rel="noopener noreferrer" className="text-stone-300 hover:text-amber-300 transition-colors underline decoration-stone-700 underline-offset-4">
                 {source.label} <span className="text-stone-500">— {source.publisher}</span>
               </a>

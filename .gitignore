@@ -25,7 +25,9 @@ dist-ssr
 
 # Temporary QA screenshots and test profiles
 finder-*.png
+!public/finder-lounge-original.png
 *-qa*.png
 .chrome-qa/
 *.bak*
 *.updated
+.codex-remote-attachments/
