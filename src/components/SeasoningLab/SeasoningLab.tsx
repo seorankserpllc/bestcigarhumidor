@@ -5,11 +5,7 @@ import {
 } from 'lucide-react';
 import { getAmazonUrl } from '../../utils/amazonLinks';
 
-interface SeasoningLabProps {
-  affiliateTag: string;
-}
-
-export const SeasoningLab: React.FC<SeasoningLabProps> = ({ affiliateTag }) => {
+export const SeasoningLab: React.FC = () => {
   // Salt Test state
   const [saltTestReading, setSaltTestReading] = useState<number>(73);
 
@@ -336,7 +332,7 @@ export const SeasoningLab: React.FC<SeasoningLabProps> = ({ affiliateTag }) => {
 
             <div className="flex items-center justify-between text-xs text-stone-400">
               <a
-                href={getAmazonUrl('Boveda One Step Hygrometer Calibration Kit 75', 'B000A33FVY', affiliateTag)}
+                href={getAmazonUrl('Boveda One Step Hygrometer Calibration Kit 75', 'B000A3UBLA')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-amber-400 hover:text-amber-300 underline flex items-center gap-1"
@@ -369,7 +365,7 @@ export const SeasoningLab: React.FC<SeasoningLabProps> = ({ affiliateTag }) => {
             <div className="p-3.5 rounded-lg bg-amber-950/20 border border-amber-900/40 text-xs text-stone-300 space-y-1">
               <strong className="text-amber-300 block">How to apply this offset:</strong>
               {saltOffset === 0 ? (
-                <span>Your hygrometer is calibrated to laboratory accuracy. No adjustment needed!</span>
+                <span>This 75% reference check indicates that no offset is needed.</span>
               ) : saltOffset > 0 ? (
                 <span>
                   Your gauge reads <strong>{Math.abs(saltOffset)}% LOW</strong>. In the Govee smartphone app or physical calibration screw, adjust the offset by <strong>+{saltOffset}%</strong> so it displays the true humidity.

@@ -186,7 +186,7 @@ export const DIY_BLUEPRINTS: DIYBlueprint[] = [
         notes: 'Genuine 1/4" kiln-dried Spanish Cedar thin lumber boards.'
       },
       {
-        productId: 'cigar-oasis-plus-3',
+        productId: 'cigar-oasis-plus-4',
         quantity: 1,
         notes: 'Active micro-fan electronic humidifier for up to 1000 cigars (10 cu. ft).'
       },

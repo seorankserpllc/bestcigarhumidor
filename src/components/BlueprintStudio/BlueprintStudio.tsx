@@ -9,12 +9,10 @@ import {
 } from 'lucide-react';
 
 interface BlueprintStudioProps {
-  affiliateTag: string;
   selectedBlueprintId?: string;
 }
 
 export const BlueprintStudio: React.FC<BlueprintStudioProps> = ({
-  affiliateTag,
   selectedBlueprintId
 }) => {
   const [activeBlueprintId, setActiveBlueprintId] = useState<string>(
@@ -50,7 +48,7 @@ export const BlueprintStudio: React.FC<BlueprintStudioProps> = ({
           DIY Humidor Blueprints & Amazon Part Kits
         </h1>
         <p className="text-sm text-stone-300 leading-relaxed">
-          Step-by-step engineering schematics to assemble your own high-performance humidor using readily available Amazon parts. Better seals, higher capacity, and massive cost savings.
+          Step-by-step engineering schematics to assemble your own high-performance humidor using readily available parts. Better seals, higher capacity, and massive cost savings.
         </p>
       </div>
 
@@ -199,7 +197,7 @@ export const BlueprintStudio: React.FC<BlueprintStudioProps> = ({
                       Est. ~${(prod.price * mat.quantity).toFixed(2)}
                     </span>
                     <a
-                      href={getAmazonUrl(prod.amazonSearchQuery, prod.asin, affiliateTag)}
+                      href={getAmazonUrl(prod.amazonSearchQuery, prod.asin)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-amber-600 hover:bg-amber-500 text-stone-950 flex items-center space-x-1.5 transition-colors shadow-sm"

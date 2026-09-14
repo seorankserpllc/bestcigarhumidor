@@ -7,13 +7,12 @@ import { GuideMarkdown } from './GuideMarkdown';
 import { 
   ArrowLeft, Clock, Share2, CheckCircle2, 
   AlertTriangle, Sparkles, Wrench, ExternalLink, 
-  BookOpen, Star, ChevronRight
+  BookOpen, ChevronRight
 } from 'lucide-react';
 
 interface GuideReaderProps {
   guide: CigarGuide;
   allProducts: AmazonProduct[];
-  affiliateTag: string;
   onBack: () => void;
   onSelectProduct: (productId: string) => void;
   onSelectBlueprint: (blueprintId: string) => void;
@@ -22,7 +21,6 @@ interface GuideReaderProps {
 export const GuideReader: React.FC<GuideReaderProps> = ({
   guide,
   allProducts,
-  affiliateTag,
   onBack,
   onSelectProduct,
   onSelectBlueprint
@@ -192,7 +190,7 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
               Humidors & Gear Featured in This Guide
             </h3>
             <p className="text-xs text-stone-400 mt-1">
-              Read our dedicated lab review or check current Amazon pricing:
+              Read our editorial review or check current Amazon pricing and availability:
             </p>
           </div>
 
@@ -222,10 +220,7 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
                         {prod.name}
                       </h4>
                       <div className="flex items-center space-x-2 text-[11px] text-stone-400 mt-1">
-                        <span className="text-amber-400 flex items-center">
-                          <Star className="w-3 h-3 fill-amber-400 mr-0.5" />
-                          {prod.rating}
-                        </span>
+                        <span className="text-stone-500">Editor researched</span>
                         <span className="px-1.5 py-0.5 rounded bg-amber-950/60 border border-amber-800/40 text-[10px] font-bold text-amber-300">
                           {prod.price <= 40 ? '$' : prod.price <= 120 ? '$$' : prod.price <= 300 ? '$$$' : '$$$$'} • Check Price
                         </span>
@@ -245,7 +240,7 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
                     Read Full Review
                   </button>
                   <a
-                    href={getAmazonUrl(prod.amazonSearchQuery, prod.asin, affiliateTag)}
+                    href={getAmazonUrl(prod.amazonSearchQuery, prod.asin)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="py-1.5 px-2 rounded-lg text-xs font-bold bg-amber-600 hover:bg-amber-500 text-stone-950 flex items-center justify-center space-x-1 transition-colors"

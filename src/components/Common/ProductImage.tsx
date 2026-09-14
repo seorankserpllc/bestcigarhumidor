@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 interface ProductImageProps {
-  src: string;
+  src?: string;
   alt: string;
   category: string;
   subCategory?: string;
@@ -18,8 +18,9 @@ export const ProductImage: React.FC<ProductImageProps> = ({
   imageClassName,
 }) => {
   const [hasError, setHasError] = useState(false);
+  const humidityLabel = alt.match(/\b(?:65|69|72|75|84)%/)?.[0] ?? 'RH';
 
-  // If external image fails to load or is blocked, render an aficionado SVG illustration
+  // Render branded representative artwork unless a compliant, current image source is supplied.
   if (hasError || !src) {
     return (
       <div className="w-full h-full bg-gradient-to-br from-[#1a110d] via-[#140d0a] to-[#0c0705] flex flex-col items-center justify-center p-4 relative overflow-hidden border border-amber-900/30">
@@ -40,7 +41,7 @@ export const ProductImage: React.FC<ProductImageProps> = ({
               <rect x="22" y="12" width="20" height="5" rx="1" fill="#1b120c" stroke="currentColor" strokeWidth="1" />
               <text x="32" y="16" fontSize="3.5" fill="#38bdf8" textAnchor="middle" fontFamily="monospace">66°F 65%</text>
             </svg>
-          ) : category === 'desktop_wood' ? (
+          ) : category === 'desktop_wood' || category === 'cabinet' ? (
             <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeWidth="2" className="w-16 h-16 text-amber-500">
               {/* Wood Desktop Humidor */}
               <path d="M8 24 L32 14 L56 24 L32 34 Z" fill="#2d1c13" stroke="currentColor" />
@@ -84,7 +85,7 @@ export const ProductImage: React.FC<ProductImageProps> = ({
               {/* Boveda Pack */}
               <rect x="14" y="16" width="36" height="32" rx="3" fill="#382117" stroke="#b45309" />
               <rect x="18" y="20" width="28" height="24" rx="1" fill="#24140e" stroke="#d97706" strokeWidth="1" strokeDasharray="1 1" />
-              <text x="32" y="33" fontSize="8" fill="#fbbf24" textAnchor="middle" fontWeight="bold" fontFamily="serif">65%</text>
+              <text x="32" y="33" fontSize="8" fill="#fbbf24" textAnchor="middle" fontWeight="bold" fontFamily="serif">{humidityLabel}</text>
               <text x="32" y="40" fontSize="2.5" fill="#d4af37" textAnchor="middle">2-WAY RH</text>
             </svg>
           ) : (
@@ -102,7 +103,7 @@ export const ProductImage: React.FC<ProductImageProps> = ({
           {alt}
         </span>
         <span className="text-[9px] text-stone-500 uppercase tracking-widest mt-0.5">
-          {category.replace('_', ' ')}
+          Representative {category.replace(/_/g, ' ')}
         </span>
       </div>
     );

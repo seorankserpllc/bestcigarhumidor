@@ -1,15 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { 
   Compass, Scale, Wrench, ShoppingBag, BookOpen, 
-  ChevronDown, Menu, X, Tag, ShieldCheck, Mail
+  ChevronDown, Menu, X, ShieldCheck, Mail
 } from 'lucide-react';
 import { BrandLogo } from './Common/BrandLogo';
 
 interface HeaderProps {
   activeTab: 'wizard' | 'build-vs-buy' | 'blueprints' | 'catalog' | 'seasoning-lab' | 'guides' | 'contact';
   setActiveTab: (tab: 'wizard' | 'build-vs-buy' | 'blueprints' | 'catalog' | 'seasoning-lab' | 'guides' | 'contact') => void;
-  affiliateTag: string;
-  setAffiliateTag: (tag: string) => void;
   onSelectCatalogCategory?: (category: string) => void;
   onSelectBlueprint?: (blueprintId: string) => void;
   onOpenLegal?: (doc: any) => void;
@@ -18,16 +16,12 @@ interface HeaderProps {
 export const Header: React.FC<HeaderProps> = ({
   activeTab,
   setActiveTab,
-  affiliateTag,
-  setAffiliateTag,
   onSelectCatalogCategory,
   onSelectBlueprint,
   onOpenLegal
 }) => {
   const [reviewsDropdownOpen, setReviewsDropdownOpen] = useState(false);
   const [diyDropdownOpen, setDiyDropdownOpen] = useState(false);
-  const [showTagModal, setShowTagModal] = useState(false);
-  const [tempTag, setTempTag] = useState(affiliateTag);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const reviewsRef = useRef<HTMLDivElement>(null);
@@ -47,10 +41,6 @@ export const Header: React.FC<HeaderProps> = ({
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const handleSaveTag = () => {
-    setAffiliateTag(tempTag.trim() || 'cigaradvisor-20');
-    setShowTagModal(false);
-  };
 
   const handleCategoryClick = (category: string) => {
     if (onSelectCatalogCategory) {
@@ -275,17 +265,6 @@ export const Header: React.FC<HeaderProps> = ({
               </button>
             )}
 
-            <button
-              onClick={() => {
-                setTempTag(affiliateTag);
-                setShowTagModal(true);
-              }}
-              className="hidden sm:block p-2 rounded-xl text-stone-400 hover:text-amber-400 hover:bg-stone-900/80 border border-stone-800/70 hover:border-amber-900/60 transition-colors"
-              title={`Amazon Affiliate Tag (${affiliateTag}) - Click to customize`}
-              aria-label="Amazon Affiliate Settings"
-            >
-              <Tag className="w-4 h-4 text-amber-500/80" />
-            </button>
 
             <button
               onClick={() => {
@@ -393,74 +372,10 @@ export const Header: React.FC<HeaderProps> = ({
               <span>Contact Aficionado Review Desk</span>
             </button>
 
-            <div className="pt-2 border-t border-stone-800/80 flex items-center justify-between text-[11px] text-stone-500">
-              <button
-                onClick={() => {
-                  setShowTagModal(true);
-                  setMobileMenuOpen(false);
-                }}
-                className="text-amber-400 hover:underline"
-              >
-                Configure Tag ({affiliateTag})
-              </button>
-            </div>
           </div>
         )}
       </div>
 
-      {/* Affiliate Tag Modal */}
-      {showTagModal && (
-        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
-          <div className="bg-[#1b120e] border border-amber-900/60 rounded-2xl max-w-md w-full p-6 shadow-2xl space-y-4 animate-in fade-in duration-200">
-            <div className="flex items-center justify-between border-b border-amber-950 pb-3">
-              <div className="flex items-center space-x-2 text-amber-400">
-                <Tag className="w-5 h-5" />
-                <h3 className="font-serif text-lg font-bold text-amber-100">
-                  Amazon Associates Tag
-                </h3>
-              </div>
-              <button
-                onClick={() => setShowTagModal(false)}
-                className="text-stone-400 hover:text-white p-1"
-              >
-                <X className="w-5 h-5" />
-              </button>
-            </div>
-
-            <p className="text-xs text-stone-300 leading-relaxed">
-              Every product button links directly to Amazon product detail pages (`amazon.com/dp/:asin?tag=yourtag`). Test with your store ID below:
-            </p>
-
-            <div className="space-y-1">
-              <label className="text-[11px] font-bold uppercase tracking-wider text-stone-400">
-                Tracking ID
-              </label>
-              <input
-                type="text"
-                value={tempTag}
-                onChange={(e) => setTempTag(e.target.value)}
-                placeholder="e.g. cigaradvisor-20"
-                className="w-full bg-[#120b08] border border-stone-800 rounded-xl px-4 py-2.5 text-sm text-stone-100 placeholder-stone-600 focus:outline-none focus:border-amber-500 font-mono"
-              />
-            </div>
-
-            <div className="flex items-center justify-end space-x-3 pt-3 border-t border-amber-950">
-              <button
-                onClick={() => setShowTagModal(false)}
-                className="px-4 py-2 rounded-xl text-xs font-semibold text-stone-400 hover:text-white"
-              >
-                Cancel
-              </button>
-              <button
-                onClick={handleSaveTag}
-                className="px-5 py-2 rounded-xl text-xs font-bold text-stone-950 bg-amber-600 hover:bg-amber-500 transition-all shadow"
-              >
-                Save & Apply Tag
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
     </header>
   );
 };

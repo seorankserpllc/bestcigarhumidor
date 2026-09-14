@@ -135,10 +135,10 @@ export const LegalModal: React.FC<LegalModalProps> = ({
 
               <div className="space-y-3">
                 <h3 className="font-serif text-base font-bold text-amber-100">
-                  3. Editorial Independence & Lab Testing Guarantee
+                  3. Editorial Independence & Review Method
                 </h3>
                 <p>
-                  We are an independent, aficionado-led research platform. Our recommendations, lab benchmark scores (Seal Integrity, Thermal Stability, Humidity Retention), and Build vs. Buy verdicts are formulated using empirical testing protocols. We never accept paid compensation or free manufacturer products in exchange for positive reviews. If a product fails our seal integrity or thermal insulation benchmark, we report it candidly.
+                  We are an independent, aficionado-led research platform. Recommendations compare product design, listed specifications, intended use, marketplace feedback strength, capacity, and value. Editorial scores are comparative judgments—not laboratory certifications or Amazon customer ratings. We do not accept payment in exchange for positive placement.
                 </p>
               </div>
 
@@ -147,7 +147,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({
                   4. Direct Linking Commitment
                 </h3>
                 <p>
-                  We respect our users' time. When our decision engine recommends a humidor or accessory, clicking our referral buttons directs you straight to that product’s active, verified Amazon Product Detail Page. We never route users to general search result queries.
+                  We respect our users' time. When our decision engine recommends a humidor or accessory, clicking our referral buttons directs you straight to the Amazon Product Detail Page associated with the checked ASIN. We never route users to general search result queries.
                 </p>
               </div>
             </div>

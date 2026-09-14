@@ -172,7 +172,7 @@ export function runHumidorRecommendationEngine(answers: QuizAnswers): Recommenda
     answers.hasHVAC
   );
 
-  // Ready-made products: prioritize budget fit, usable capacity, rating, and review depth.
+  // Ready-made products: prioritize budget fit, usable capacity, and editorial fit scores.
   const recommendedBuyProducts = AMAZON_PRODUCTS.filter(
     p => p.category === primaryArchetype || (primaryArchetype === 'tupperdor' && p.category === 'acrylic')
   ).sort((a, b) => {
@@ -182,8 +182,10 @@ export function runHumidorRecommendationEngine(answers: QuizAnswers): Recommenda
     const aCapacityFit = a.capacitySticks >= targetCapacity ? 1 : 0;
     const bCapacityFit = b.capacitySticks >= targetCapacity ? 1 : 0;
     if (aCapacityFit !== bCapacityFit) return bCapacityFit - aCapacityFit;
-    if (a.rating !== b.rating) return b.rating - a.rating;
-    return b.reviewCount - a.reviewCount;
+    const aEditorialScore = a.scorecard?.valueScore ?? a.sealRating;
+    const bEditorialScore = b.scorecard?.valueScore ?? b.sealRating;
+    if (aEditorialScore !== bEditorialScore) return bEditorialScore - aEditorialScore;
+    return b.sealRating - a.sealRating;
   }).slice(0, 3);
 
   if (recommendedBuyProducts.length === 0) {

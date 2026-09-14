@@ -21,10 +21,6 @@ import { Compass } from 'lucide-react';
 
 export function App() {
   const [activeTab, setActiveTab] = useState<'wizard' | 'build-vs-buy' | 'blueprints' | 'catalog' | 'seasoning-lab' | 'guides' | 'contact'>('wizard');
-  const [affiliateTag, setAffiliateTag] = useState<string>(() => {
-    return localStorage.getItem('humidor_affiliate_tag') || 'cigaradvisor-20';
-  });
-  
   const [quizAnswers, setQuizAnswers] = useState<QuizAnswers | undefined>(undefined);
   const [recommendationResult, setRecommendationResult] = useState<RecommendationResult | null>(null);
   const [selectedBlueprintId, setSelectedBlueprintId] = useState<string>('blueprint-tupperdor-7l');
@@ -34,11 +30,6 @@ export function App() {
   const [activeProduct, setActiveProduct] = useState<AmazonProduct | null>(null);
   const [activeGuide, setActiveGuide] = useState<CigarGuide | null>(null);
   const [legalDoc, setLegalDoc] = useState<LegalDocType | null>(null);
-
-  // Save affiliate tag to localStorage
-  useEffect(() => {
-    localStorage.setItem('humidor_affiliate_tag', affiliateTag);
-  }, [affiliateTag]);
 
   // URL Hash Router: parse hash on load & listen for hash changes
   useEffect(() => {
@@ -188,8 +179,6 @@ export function App() {
       <Header
         activeTab={activeTab}
         setActiveTab={handleNavigateTab}
-        affiliateTag={affiliateTag}
-        setAffiliateTag={setAffiliateTag}
         onSelectCatalogCategory={handleOpenCatalogCategory}
         onSelectBlueprint={handleOpenBlueprint}
         onOpenLegal={handleOpenLegal}
@@ -201,7 +190,6 @@ export function App() {
         {activeProduct ? (
           <ProductDetailPage
             product={activeProduct}
-            affiliateTag={affiliateTag}
             allGuides={CIGAR_GUIDES}
             onBack={handleBackFromProduct}
             onOpenGuide={handleSelectGuide}
@@ -212,7 +200,6 @@ export function App() {
           <GuideReader
             guide={activeGuide}
             allProducts={AMAZON_PRODUCTS}
-            affiliateTag={affiliateTag}
             onBack={handleBackFromGuide}
             onSelectProduct={handleSelectProduct}
             onSelectBlueprint={handleOpenBlueprint}
@@ -226,7 +213,7 @@ export function App() {
                   <div className="space-y-6">
                     {/* Finder hero: warm leather-club atmosphere with plain-language positioning */}
                     <section className="finder-lounge-hero max-w-6xl mx-auto mt-5 sm:mt-8">
-                      <img src="/finder-lounge.jpg" alt="Leather armchair in a warmly lit cigar lounge" className="finder-lounge-hero__image" />
+                      <img src="/finder-lounge-original.png" alt="Warm private cigar lounge with a leather sofa and illuminated humidor cabinet" className="finder-lounge-hero__image" />
                       <div className="finder-lounge-hero__shade" />
                       <div className="finder-lounge-hero__content">
                         <div className="inline-flex items-center gap-2 text-[11px] font-bold uppercase tracking-[0.2em] text-amber-300">
@@ -259,7 +246,6 @@ export function App() {
                 ) : (
                   <ResultsView
                     result={recommendationResult}
-                    affiliateTag={affiliateTag}
                     onRetake={handleRetake}
                     onOpenBlueprint={handleOpenBlueprint}
                     onOpenCatalogCategory={handleOpenCatalogCategory}
@@ -271,21 +257,18 @@ export function App() {
 
             {activeTab === 'build-vs-buy' && (
               <BuildVsBuyCalculator
-                affiliateTag={affiliateTag}
                 onSelectBlueprint={handleOpenBlueprint}
               />
             )}
 
             {activeTab === 'blueprints' && (
               <BlueprintStudio
-                affiliateTag={affiliateTag}
                 selectedBlueprintId={selectedBlueprintId}
               />
             )}
 
             {activeTab === 'catalog' && (
               <ProductCatalog
-                affiliateTag={affiliateTag}
                 initialCategory={catalogCategory}
                 onSelectProduct={handleSelectProduct}
               />
@@ -299,7 +282,7 @@ export function App() {
             )}
 
             {activeTab === 'seasoning-lab' && (
-              <SeasoningLab affiliateTag={affiliateTag} />
+              <SeasoningLab />
             )}
 
             {activeTab === 'contact' && (

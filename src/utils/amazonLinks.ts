@@ -1,15 +1,11 @@
-export function getAmazonUrl(
-  searchQuery: string,
-  asin?: string,
-  affiliateTag: string = 'cigaradvisor-20'
-): string {
-  const cleanTag = affiliateTag.trim() || 'cigaradvisor-20';
+export const AMAZON_ASSOCIATE_TAG = 'bestcigarhumidor0c-20';
+
+export function getAmazonUrl(searchQuery: string, asin?: string): string {
   const cleanAsin = asin?.trim();
 
-  // Direct product page link on Amazon
   if (cleanAsin) {
-    return `https://www.amazon.com/dp/${cleanAsin}?tag=${encodeURIComponent(cleanTag)}`;
+    return `https://www.amazon.com/dp/${encodeURIComponent(cleanAsin)}?tag=${AMAZON_ASSOCIATE_TAG}`;
   }
 
-  return `https://www.amazon.com/dp/${encodeURIComponent(searchQuery)}?tag=${encodeURIComponent(cleanTag)}`;
+  return `https://www.amazon.com/s?k=${encodeURIComponent(searchQuery)}&tag=${AMAZON_ASSOCIATE_TAG}`;
 }

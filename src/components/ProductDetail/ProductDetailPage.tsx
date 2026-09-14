@@ -3,14 +3,13 @@ import type { AmazonProduct, CigarGuide } from '../../types/humidor';
 import { getAmazonUrl } from '../../utils/amazonLinks';
 import { ProductImage } from '../Common/ProductImage';
 import { 
-  Star, ShoppingBag, ExternalLink, ArrowLeft, Share2, Check, X, 
+  ShoppingBag, ExternalLink, ArrowLeft, Share2, Check, X,
   ShieldCheck, Zap, Wrench, AlertTriangle, HelpCircle, BookOpen, 
   CheckCircle2, Box, Droplets, Thermometer, Sparkles
 } from 'lucide-react';
 
 interface ProductDetailPageProps {
   product: AmazonProduct;
-  affiliateTag: string;
   allGuides: CigarGuide[];
   onBack: () => void;
   onOpenGuide: (guideSlug: string) => void;
@@ -19,7 +18,6 @@ interface ProductDetailPageProps {
 
 export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
   product,
-  affiliateTag,
   allGuides,
   onBack,
   onOpenGuide,
@@ -30,7 +28,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
 
   // Dynamic document title for programmatic SEO
   useEffect(() => {
-    document.title = `${product.brand} ${product.name} Review & Lab Test | Best Cigar Humidor`;
+    document.title = `${product.name} Editorial Review | Best Cigar Humidor`;
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [product]);
 
@@ -58,30 +56,11 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
               {
                 "@type": "Product",
                 "name": product.name,
-                "image": product.imageUrl,
                 "description": product.description,
                 "brand": {
                   "@type": "Brand",
                   "name": product.brand
                 },
-                "review": {
-                  "@type": "Review",
-                  "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": product.rating.toString(),
-                    "bestRating": "5"
-                  },
-                  "author": {
-                    "@type": "Organization",
-                    "name": "Best Cigar Humidor Testing Lab"
-                  }
-                },
-                "aggregateRating": {
-                  "@type": "AggregateRating",
-                  "ratingValue": product.rating.toString(),
-                  "reviewCount": product.reviewCount.toString(),
-                  "bestRating": "5"
-                }
               },
               {
                 "@type": "FAQPage",
@@ -120,7 +99,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
           </button>
 
           <a
-            href={getAmazonUrl(product.amazonSearchQuery, product.asin, affiliateTag)}
+            href={getAmazonUrl(product.amazonSearchQuery, product.asin)}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-1.5 px-4 py-1.5 rounded-lg text-xs font-bold bg-amber-600 hover:bg-amber-500 text-stone-950 shadow-md transition-colors"
@@ -144,15 +123,15 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
           </span>
           <span className="text-stone-600">•</span>
           <span className="text-emerald-400 font-bold text-[10px] uppercase tracking-wider bg-emerald-950/60 px-2 py-0.5 rounded border border-emerald-800/50">
-            Verified Amazon Listing
+            Listing checked Sep 2026
           </span>
         </div>
 
         <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-amber-100 tracking-tight leading-tight">
-          {product.brand} {product.name} Review: Lab Tested & Aficionado Breakdown
+          {product.name}: Editorial Review & Buying Guide
         </h1>
         <p className="text-sm text-stone-300 max-w-4xl leading-relaxed">
-          In-depth laboratory analysis covering seal integrity, thermal insulation, hygrometer accuracy, and real-world stick capacity across multiple cigar ring gauges.
+          An independent comparison of the listed design, likely capacity, setup needs, limitations, and the type of cigar owner this product fits best.
         </p>
       </div>
 
@@ -172,7 +151,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
               {product.brand}
             </div>
             <div className="absolute bottom-3 right-3 px-3 py-1 rounded-xl bg-black/90 backdrop-blur-md border border-amber-800/60 text-amber-300 text-xs font-bold shadow-xl">
-              Check Price on Amazon
+              View current listing on Amazon
             </div>
           </div>
 
@@ -187,7 +166,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
                 <span className="font-semibold text-stone-100">{product.capacitySticks > 0 ? `${product.capacitySticks} Cigars` : 'Universal'}</span>
               </div>
               <div>
-                <span className="text-stone-500 block text-[10px] uppercase">Seal Rating</span>
+                <span className="text-stone-500 block text-[10px] uppercase">Editorial Seal Score</span>
                 <span className="font-semibold text-emerald-400">{product.sealRating} / 10</span>
               </div>
               {product.dimensions && (
@@ -216,12 +195,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
         <div className="lg:col-span-7 space-y-6">
           <div className="space-y-3">
             <div className="flex items-center space-x-2 text-xs">
-              <div className="flex items-center text-amber-400">
-                <Star className="w-4 h-4 fill-amber-400 mr-1" />
-                <span className="font-bold text-sm">{product.rating}</span>
-              </div>
-              <span className="text-stone-500">•</span>
-              <span className="text-stone-400 font-medium">{product.reviewCount.toLocaleString()} Verified Amazon Reviews</span>
+              <span className="text-stone-400 font-medium">Selection reviewed September 14, 2026</span>
               <span className="text-stone-500">•</span>
               <span className="text-amber-400 font-semibold uppercase text-[10px] bg-amber-950/60 px-2 py-0.5 rounded border border-amber-800/40">
                 {product.category.replace('_', ' ')}
@@ -262,18 +236,18 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
           <div className="p-5 rounded-2xl bg-gradient-to-r from-[#201510] via-[#1a110d] to-[#201510] border border-amber-700/50 flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-xl">
             <div>
               <span className="text-[10px] uppercase font-bold tracking-wider text-amber-400 block">
-                Amazon Direct Marketplace
+                Current Amazon Listing
               </span>
               <div className="flex items-baseline space-x-2">
                 <span className="font-serif text-2xl font-bold text-amber-200">
                   {product.priceTierFormatted || 'Check Live Pricing'}
                 </span>
-                <span className="text-xs text-emerald-400 font-semibold">Prime Eligible • Live Deals</span>
+                <span className="text-xs text-stone-400 font-semibold">Price and availability are shown on Amazon</span>
               </div>
             </div>
 
             <a
-              href={getAmazonUrl(product.amazonSearchQuery, product.asin, affiliateTag)}
+              href={getAmazonUrl(product.amazonSearchQuery, product.asin)}
               target="_blank"
               rel="noopener noreferrer"
               className="py-3 px-6 rounded-xl text-sm font-bold bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 text-stone-950 shadow-lg shadow-amber-950/60 flex items-center justify-center space-x-2 transition-transform transform hover:scale-[1.02]"
@@ -286,20 +260,20 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
         </div>
       </div>
 
-      {/* LAB TEST SCORECARD (H2) */}
+      {/* EDITORIAL PRODUCT FIT SCORECARD (H2) */}
       {product.scorecard && (
         <section className="p-6 sm:p-8 rounded-2xl bg-[#17100d] border border-amber-900/50 shadow-xl space-y-6">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-amber-950 pb-4">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-amber-400">
-                Aficionado Lab Benchmarks
+                Editorial Comparison
               </span>
               <h2 className="font-serif text-xl sm:text-2xl font-bold text-amber-100">
-                Tested Performance Scorecard
+                Product Fit Scorecard
               </h2>
             </div>
             <div className="text-xs text-stone-400">
-              Evaluated across 45-day continuous hygrometer logs
+              Comparative scores based on design, listed specifications and intended use
             </div>
           </div>
 
@@ -342,7 +316,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
               Real-World Vitola Storage Capacity
             </h2>
             <p className="text-xs text-stone-400 mt-1">
-              Manufacturers advertise stick count based on tiny 42 RG coronas. Here is what actually fits:
+              Capacity varies by cigar size and shelf layout. Use these figures only as planning estimates:
             </p>
           </div>
 
@@ -385,23 +359,6 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
         </section>
       )}
 
-      {/* LAB OBSERVATIONS & HANDS-ON FINDINGS (H2) */}
-      {product.labObservations && (
-        <section className="p-6 sm:p-8 rounded-2xl bg-[#17100d] border border-amber-900/50 shadow-xl space-y-4">
-          <h2 className="font-serif text-xl font-bold text-amber-100 flex items-center gap-2">
-            <Sparkles className="w-5 h-5 text-amber-400" />
-            Hands-On Lab Testing Notes
-          </h2>
-          <div className="space-y-2 text-xs text-stone-300">
-            {product.labObservations.map((obs, idx) => (
-              <div key={idx} className="p-3 rounded-lg bg-[#120b08] border border-stone-800 flex items-start space-x-2.5">
-                <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                <span>{obs}</span>
-              </div>
-            ))}
-          </div>
-        </section>
-      )}
 
       {/* UNIT-SPECIFIC SEASONING & SETUP GUIDE (H2) */}
       {product.unitSpecificSeasoning && (
@@ -411,7 +368,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
             Setup & Seasoning Protocol for This Model
           </h2>
           <p className="text-xs text-stone-400">
-            Follow this exact sequence before stocking cigars to ensure zero wood warping and eliminate humidity crashes:
+            Use this setup sequence as a starting point, then confirm the manufacturer’s current instructions:
           </p>
           <div className="space-y-3 pt-2">
             {product.unitSpecificSeasoning.map((step, idx) => (
@@ -501,7 +458,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
               Frequently Asked Questions & Buying Advice
             </h2>
             <p className="text-xs text-stone-400">
-              Key considerations, comparisons, and operational tips verified by our testing team:
+              Key considerations, comparisons, and operational tips compiled by our editorial team:
             </p>
           </div>
 

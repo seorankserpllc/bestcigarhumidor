@@ -3,24 +3,22 @@ import { AMAZON_PRODUCTS } from '../../data/products';
 import { getAmazonUrl } from '../../utils/amazonLinks';
 import { ProductImage } from '../Common/ProductImage';
 import { 
-  Search, Star, ShoppingBag, ExternalLink, Zap, Check
+  Search, ShoppingBag, ExternalLink, Zap, Check
 } from 'lucide-react';
 
 interface ProductCatalogProps {
-  affiliateTag: string;
   initialCategory?: string;
   onSelectProduct: (productId: string) => void;
 }
 
 export const ProductCatalog: React.FC<ProductCatalogProps> = ({
-  affiliateTag,
   initialCategory,
   onSelectProduct
 }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>(initialCategory || 'all');
   const [maxPrice, setMaxPrice] = useState<number>(2000);
-  const [sortBy, setSortBy] = useState<'rating' | 'price-asc' | 'price-desc' | 'capacity'>('rating');
+  const [sortBy, setSortBy] = useState<'recommended' | 'price-asc' | 'price-desc' | 'capacity'>('recommended');
 
   const categories = [
     { id: 'all', label: 'All Products' },
@@ -55,7 +53,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
       }
       return true;
     }).sort((a, b) => {
-      if (sortBy === 'rating') return b.rating - a.rating;
+      if (sortBy === 'recommended') return (b.scorecard?.valueScore ?? b.sealRating) - (a.scorecard?.valueScore ?? a.sealRating);
       if (sortBy === 'price-asc') return a.price - b.price;
       if (sortBy === 'price-desc') return b.price - a.price;
       if (sortBy === 'capacity') return b.capacitySticks - a.capacitySticks;
@@ -69,13 +67,13 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
       <div className="text-center max-w-3xl mx-auto space-y-3">
         <span className="text-xs font-bold uppercase tracking-widest text-amber-400 bg-amber-500/10 border border-amber-500/30 px-3 py-1 rounded-full inline-flex items-center gap-1.5">
           <ShoppingBag className="w-3.5 h-3.5" />
-          Curated Amazon Directory
+          Curated Marketplace Directory
         </span>
         <h1 className="font-serif text-3xl sm:text-4xl font-bold text-amber-100">
           The Aficionado Cigar Storage & Accessories Catalog
         </h1>
         <p className="text-sm text-stone-300 leading-relaxed">
-          Every product vetted for seal integrity, hygrometer accuracy, and real-world stick capacity. Directly linked to Amazon with transparent associate tracking.
+          Selections are based on category fit, listing accuracy, marketplace feedback strength, useful capacity, and value. Product availability was checked September 14, 2026.
         </p>
       </div>
 
@@ -102,7 +100,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
               onChange={(e) => setSortBy(e.target.value as any)}
               className="bg-[#120b08] border border-stone-800 rounded-xl px-3 py-2 text-xs text-stone-200 focus:outline-none focus:border-amber-500"
             >
-              <option value="rating">Highest Rated</option>
+              <option value="recommended">Editor’s Picks</option>
               <option value="price-asc">Price: Low to High</option>
               <option value="price-desc">Price: High to Low</option>
               <option value="capacity">Capacity (Sticks)</option>
@@ -170,11 +168,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
                   <span className="font-semibold text-amber-500 uppercase tracking-wider text-[10px]">
                     {prod.brand}
                   </span>
-                  <div className="flex items-center space-x-1 text-stone-300">
-                    <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
-                    <span className="font-bold">{prod.rating}</span>
-                    <span className="text-stone-500">({prod.reviewCount.toLocaleString()})</span>
-                  </div>
+                  <span className="text-[10px] text-stone-500 uppercase tracking-wide">Selection checked Sep 2026</span>
                 </div>
 
                 <h3 className="font-serif text-base font-bold text-amber-100 line-clamp-2">
@@ -216,7 +210,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
                 Read Review
               </button>
               <a
-                href={getAmazonUrl(prod.amazonSearchQuery, prod.asin, affiliateTag)}
+                href={getAmazonUrl(prod.amazonSearchQuery, prod.asin)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center space-x-1 py-2.5 px-3 rounded-xl text-xs font-bold bg-amber-600 hover:bg-amber-500 text-stone-950 transition-colors shadow-md"

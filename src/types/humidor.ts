@@ -93,9 +93,7 @@ export interface AmazonProduct {
   priceBracket?: '$' | '$$' | '$$$' | '$$$$' | '$$$$$' | 'budget' | 'mid' | 'premium' | 'luxury';
   priceTierFormatted?: string;
   capacitySticks: number;
-  rating: number;
-  reviewCount: number;
-  imageUrl: string;
+  imageUrl?: string;
   asin?: string;
   amazonSearchQuery: string;
   description: string;
@@ -114,7 +112,6 @@ export interface AmazonProduct {
   };
   scorecard?: ProductScorecard;
   realWorldCapacity?: RealWorldCapacity;
-  labObservations?: string[];
   unitSpecificSeasoning?: string[];
   whoShouldBuy?: string[];
   whoShouldAvoid?: string[];

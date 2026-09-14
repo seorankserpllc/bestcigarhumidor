@@ -3,12 +3,10 @@ import { Scale, Check, X, ShoppingBag, Wrench, ArrowRight, ExternalLink } from '
 import { getAmazonUrl } from '../../utils/amazonLinks';
 
 interface BuildVsBuyCalculatorProps {
-  affiliateTag: string;
   onSelectBlueprint: (blueprintId: string) => void;
 }
 
 export const BuildVsBuyCalculator: React.FC<BuildVsBuyCalculatorProps> = ({
-  affiliateTag,
   onSelectBlueprint
 }) => {
   const [capacity, setCapacity] = useState<number>(100);
@@ -210,7 +208,7 @@ export const BuildVsBuyCalculator: React.FC<BuildVsBuyCalculatorProps> = ({
 
           <div className="pt-4 border-t border-stone-800">
             <a
-              href={getAmazonUrl(buyTitle, undefined, affiliateTag)}
+              href={getAmazonUrl(buyTitle, undefined)}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full flex items-center justify-center space-x-2 py-3 rounded-xl font-bold text-sm bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 text-stone-950 shadow-lg shadow-amber-950/60 transition-transform transform hover:scale-[1.02]"

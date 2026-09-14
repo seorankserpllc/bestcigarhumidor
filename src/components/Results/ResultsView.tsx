@@ -5,12 +5,11 @@ import { ProductImage } from '../Common/ProductImage';
 import { 
   Award, AlertTriangle, Mountain, ShoppingCart, 
   ExternalLink, Wrench, CheckCircle, Flame, Droplets, RotateCcw, 
-  ArrowRight, Sparkles, Star
+  ArrowRight, Sparkles
 } from 'lucide-react';
 
 interface ResultsViewProps {
   result: RecommendationResult;
-  affiliateTag: string;
   onRetake: () => void;
   onOpenBlueprint: (blueprintId: string) => void;
   onOpenCatalogCategory: (category: string) => void;
@@ -19,7 +18,6 @@ interface ResultsViewProps {
 
 export const ResultsView: React.FC<ResultsViewProps> = ({
   result,
-  affiliateTag,
   onRetake,
   onOpenBlueprint,
   onOpenCatalogCategory,
@@ -188,7 +186,7 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform" 
                   />
                   <div className="absolute top-3 right-3 px-3 py-1 rounded-lg bg-black/80 backdrop-blur-sm border border-stone-700 text-amber-300 text-xs font-bold shadow-md">
-                    Top product
+                    Editorial pick
                   </div>
                 </div>
 
@@ -197,13 +195,9 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
                     {topBuyProduct.name}
                   </h3>
                   <div className="flex items-center space-x-2 mt-1 text-xs text-stone-400">
-                    <span className="text-amber-400 flex items-center">
-                      <Star className="w-3.5 h-3.5 fill-amber-400 inline mr-1" />
-                      {topBuyProduct.rating}
-                    </span>
-                    <span>({topBuyProduct.reviewCount.toLocaleString()} retailer reviews)</span>
+                    <span>Selection checked Sep 2026</span>
                     <span>•</span>
-                    <span className="text-stone-300 font-semibold">{topBuyProduct.capacitySticks} Cigars</span>
+                    <span className="text-stone-300 font-semibold">Up to {topBuyProduct.capacitySticks} cigars</span>
                   </div>
                 </div>
 
@@ -232,7 +226,7 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
                   <ArrowRight className="w-3.5 h-3.5" />
                 </button>
                 <a
-                  href={getAmazonUrl(topBuyProduct.amazonSearchQuery, topBuyProduct.asin, affiliateTag)}
+                  href={getAmazonUrl(topBuyProduct.amazonSearchQuery, topBuyProduct.asin)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full flex items-center justify-center space-x-2 py-3 rounded-xl font-bold text-sm bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 text-stone-950 shadow-lg shadow-amber-950/60 transition-transform transform hover:scale-[1.02]"
@@ -388,7 +382,7 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
                   Review
                 </button>
                 <a
-                  href={getAmazonUrl(item.amazonSearchQuery, item.asin, affiliateTag)}
+                  href={getAmazonUrl(item.amazonSearchQuery, item.asin)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="py-1.5 px-2 rounded-lg text-[11px] font-bold bg-amber-600 hover:bg-amber-500 text-stone-950 flex items-center justify-center space-x-1 transition-all"

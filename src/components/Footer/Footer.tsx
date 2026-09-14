@@ -63,7 +63,7 @@ export const Footer: React.FC<FooterProps> = ({
           <div className="space-y-3">
             <span className="text-xs font-bold uppercase tracking-wider text-amber-200 flex items-center gap-1.5 font-serif">
               <ShoppingBag className="w-3.5 h-3.5 text-amber-500" />
-              Popular Lab Reviews
+              Popular Product Reviews
             </span>
             <ul className="space-y-2 text-stone-400 text-xs">
               <li>
@@ -76,10 +76,10 @@ export const Footer: React.FC<FooterProps> = ({
               </li>
               <li>
                 <button 
-                  onClick={() => onSelectProduct('needone-48l-large-electric-cigar-cooler-heater-review')}
+                  onClick={() => onSelectProduct('kingchii-33l-electric-cigar-humidor-review')}
                   className="hover:text-amber-300 transition-colors text-left"
                 >
-                  Needone 48L Cabinet Humidor
+                  KingChii 33L Electric Humidor
                 </button>
               </li>
               <li>

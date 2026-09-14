@@ -19,7 +19,7 @@ export const CIGAR_GUIDES: CigarGuide[] = [
     publishedDate: '2026-08-15',
     heroVisual: 'wineador',
     excerpt: 'A wineador can reduce room-temperature swings, but only if its operating range matches the room and its humidity system is set up deliberately.',
-    featuredProductIds: ['needone-23l', 'needone-48l', 'kingchii-48l', 'boveda-320g-65'],
+    featuredProductIds: ['needone-23l', 'kingchii-33l', 'kingchii-16l', 'boveda-320g-65'],
     relatedBlueprintIds: ['blueprint-converted-wineador'],
     sections: [
       {
@@ -336,7 +336,7 @@ Avoid substituting strongly aromatic closet-lining woods such as eastern redceda
     publishedDate: '2026-03-05',
     heroVisual: 'travel',
     excerpt: 'Protect the cigars, keep torch lighters out of the cabin, and verify the latest U.S. rules and airline policy before every trip.',
-    featuredProductIds: ['xikar-15-travel', 'herf-a-dor-40', 'colibri-v-cut', 'scorch-torch-triple'],
+    featuredProductIds: ['cigar-caddy-10', 'flauno-travel-5', 'colibri-v-cut', 'mrs-brog-triple-torch'],
     relatedBlueprintIds: ['blueprint-tupperdor-7l'],
     sections: [
       {
