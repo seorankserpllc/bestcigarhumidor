@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0f0b09] text-stone-100 antialiased min-h-screen selection:bg-amber-600 selection:text-white;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #19120f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3e2619;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5d3824;
+}
+
+/* Atmospheric subtle leather / lounge tone */
+.bg-leather {
+  background-color: #0c0806;
+  background-image: radial-gradient(circle at 50% 0%, #1a100a 0%, #0c0806 75%);
+}
+
+/* Subtle Warm Cigar Lounge Glow */
+.lounge-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(217, 119, 6, 0.12) 0%, rgba(180, 83, 9, 0.04) 45%, transparent 70%);
+}
+
+/* Burnished Cigar Leather Card */
+.leather-card {
+  background: linear-gradient(180deg, #18100c 0%, #120b08 100%);
+  border: 1px solid rgba(180, 83, 9, 0.25);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.6);
+}
+
+.leather-card:hover {
+  border-color: rgba(217, 119, 6, 0.4);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fef0cd 0%, #dfa84b 45%, #ffd875 55%, #c18128 85%, #8f5412 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wood-gradient-text {
+  background: linear-gradient(135deg, #f5c8a4 0%, #c97f4d 50%, #894924 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* Reusable editorial feature art: deterministic, local, and brand-consistent. */
+.guide-feature-art {
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  overflow: hidden;
+  color: #f2c465;
+  background: radial-gradient(circle at 68% 38%, rgba(217, 119, 6, 0.2), transparent 26%), linear-gradient(135deg, #25140d 0%, #110b08 58%, #090706 100%);
+}
+.guide-feature-art--compact { min-height: 100%; }
+.guide-feature-art__grid { position: absolute; inset: 0; opacity: 0.2; background-image: linear-gradient(rgba(245, 158, 11, 0.15) 1px, transparent 1px), linear-gradient(90deg, rgba(245, 158, 11, 0.15) 1px, transparent 1px); background-size: 32px 32px; mask-image: linear-gradient(to left, black, transparent 88%); }
+.guide-feature-art__glow { position: absolute; width: 44%; aspect-ratio: 1; right: 9%; top: 50%; transform: translateY(-50%); border-radius: 999px; border: 1px solid rgba(245, 158, 11, 0.16); box-shadow: 0 0 80px rgba(217, 119, 6, 0.08), inset 0 0 50px rgba(217, 119, 6, 0.06); }
+.guide-feature-art__masthead, .guide-feature-art__footer { position: absolute; z-index: 3; left: 6%; right: 6%; display: flex; justify-content: space-between; align-items: center; font-size: 10px; font-weight: 700; letter-spacing: 0.18em; }
+.guide-feature-art__masthead { top: 9%; color: rgba(253, 230, 138, 0.64); }
+.guide-feature-art__footer { bottom: 10%; align-items: end; }
+.guide-feature-art__footer div { display: grid; gap: 4px; }
+.guide-feature-art__footer strong { font-family: Georgia, serif; font-size: clamp(14px, 2vw, 24px); letter-spacing: 0.04em; color: #fef3c7; }
+.guide-feature-art__kicker { color: #d97706; }
+.guide-feature-art__category { color: rgba(214, 211, 209, 0.68); }
+.guide-feature-art__rule { position: absolute; z-index: 2; top: 19%; left: 6%; width: 27%; height: 1px; background: linear-gradient(90deg, #d97706, transparent); }
+.guide-feature-art__icon-stack { position: absolute; z-index: 2; width: 38%; aspect-ratio: 1; right: 12%; top: 50%; transform: translateY(-50%); display: grid; place-items: center; }
+.guide-feature-art__orbit { position: absolute; border-radius: 999px; border: 1px solid rgba(245, 158, 11, 0.25); }
+.guide-feature-art__orbit--outer { inset: 0; }
+.guide-feature-art__orbit--inner { inset: 20%; border-style: dashed; }
+.guide-feature-art__primary { width: 34%; height: 34%; stroke-width: 1.25; filter: drop-shadow(0 0 14px rgba(245, 158, 11, 0.3)); }
+.guide-feature-art__satellite { position: absolute; width: 13%; height: 13%; color: #a8a29e; stroke-width: 1.5; }
+.guide-feature-art__satellite--left { left: -2%; top: 45%; }
+.guide-feature-art__satellite--right { right: 8%; top: 5%; }
+.guide-feature-art--compact .guide-feature-art__masthead, .guide-feature-art--compact .guide-feature-art__category, .guide-feature-art--compact .guide-feature-art__kicker { display: none; }
+.guide-feature-art--compact .guide-feature-art__footer { left: 6%; bottom: 9%; }
+.guide-feature-art--compact .guide-feature-art__footer strong { font-size: 13px; }
+.guide-feature-art--compact .guide-feature-art__icon-stack { width: 42%; right: 9%; }
+@media (max-width: 640px) { .guide-feature-art { min-height: 180px; } .guide-feature-art__category { display: none; } .guide-feature-art__icon-stack { width: 43%; right: 8%; } }
+
+
+/* Humidor Finder — warm leather-club atmosphere */
+.finder-lounge-hero { position: relative; min-height: 540px; overflow: hidden; border-radius: 30px; border: 1px solid rgba(180, 83, 9, 0.42); box-shadow: 0 28px 80px rgba(0, 0, 0, 0.62), inset 0 0 0 1px rgba(251, 191, 36, 0.05); }
+.finder-lounge-hero__image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 68%; filter: saturate(0.82) contrast(1.08) brightness(0.72); }
+.finder-lounge-hero__shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(10, 6, 4, 0.98) 0%, rgba(17, 9, 5, 0.9) 44%, rgba(20, 10, 5, 0.34) 72%, rgba(6, 4, 3, 0.22) 100%), linear-gradient(0deg, rgba(9, 5, 3, 0.72), transparent 45%); }
+.finder-lounge-hero__content { position: relative; z-index: 2; width: 100%; min-height: 540px; max-width: 690px; padding: clamp(36px, 7vw, 86px); display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 20px; text-align: left; }
+.finder-trust-pill { display: inline-flex; align-items: center; gap: 6px; padding: 7px 10px; border: 1px solid rgba(217, 119, 6, 0.42); border-radius: 999px; background: rgba(16, 9, 6, 0.68); backdrop-filter: blur(8px); }
+.finder-trust-pill::before { content: ''; width: 5px; height: 5px; border-radius: 99px; background: #f59e0b; box-shadow: 0 0 10px rgba(245, 158, 11, 0.8); }
+.finder-primary-button { display: inline-flex; align-items: center; gap: 12px; padding: 13px 18px; border-radius: 12px; color: #1c0d06; background: linear-gradient(135deg, #f4c76c, #c87a24); border: 1px solid rgba(254, 243, 199, 0.5); font-size: 14px; font-weight: 800; box-shadow: 0 12px 30px rgba(78, 35, 8, 0.44); transition: transform 160ms ease, filter 160ms ease; }
+.finder-primary-button:hover { transform: translateY(-1px); filter: brightness(1.08); }
+.finder-card { background: radial-gradient(circle at 84% 0%, rgba(158, 73, 29, 0.17), transparent 31%), radial-gradient(circle at 14px 14px, rgba(255, 222, 173, 0.025) 1px, transparent 1.5px), linear-gradient(145deg, #21110c, #130b08 62%, #0d0806); background-size: auto, 28px 28px, auto; box-shadow: 0 26px 70px rgba(0, 0, 0, 0.58), inset 0 1px rgba(255, 225, 180, 0.035); }
+.finder-wizard button { min-height: 42px; }
+.finder-wizard input[type='range'] { accent-color: #d9912b; }
+.finder-lounge-hero__content > * { max-width: 100%; }
+@media (max-width: 640px) { .finder-lounge-hero { width: calc(100% - 24px); margin-inline: 12px; min-height: 570px; border-radius: 22px; } .finder-lounge-hero__image { object-position: 58% center; } .finder-lounge-hero__shade { background: linear-gradient(0deg, rgba(9, 5, 3, 0.98) 0%, rgba(15, 8, 5, 0.88) 58%, rgba(10, 6, 4, 0.45) 100%); } .finder-lounge-hero__content { min-height: 570px; padding: 32px 24px; justify-content: flex-end; } }
