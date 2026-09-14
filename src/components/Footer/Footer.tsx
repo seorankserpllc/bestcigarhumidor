@@ -1,12 +1,12 @@
 import React from 'react';
-import { Wrench, BookOpen, ShoppingBag } from 'lucide-react';
+import { Wrench, BookOpen, ShoppingBag, Mail } from 'lucide-react';
 import type { LegalDocType } from '../Legal/LegalModal';
 import { BrandLogo } from '../Common/BrandLogo';
 
 interface FooterProps {
   onOpenLegal: (doc: LegalDocType) => void;
   onOpenCookieSettings: () => void;
-  onNavigateTab: (tab: 'wizard' | 'build-vs-buy' | 'blueprints' | 'catalog' | 'seasoning-lab' | 'guides') => void;
+  onNavigateTab: (tab: 'wizard' | 'build-vs-buy' | 'blueprints' | 'catalog' | 'seasoning-lab' | 'guides' | 'contact') => void;
   onSelectProduct: (productIdOrSlug: string) => void;
   onSelectGuide: (slug: string) => void;
   onSelectBlueprint: (id: string) => void;
@@ -46,6 +46,16 @@ export const Footer: React.FC<FooterProps> = ({
               <p className="leading-relaxed">
                 As an Amazon Associate I earn from qualifying purchases. We participate in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn fees by linking to Amazon.com and affiliated sites.
               </p>
+            </div>
+
+            <div className="pt-1">
+              <button
+                onClick={() => onNavigateTab('contact')}
+                className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-[#18100c] border border-amber-900/60 hover:border-amber-600/70 text-amber-300 hover:text-white text-xs font-semibold transition-colors shadow-sm"
+              >
+                <Mail className="w-3.5 h-3.5 text-amber-400" />
+                <span>Contact Aficionado Review Desk</span>
+              </button>
             </div>
           </div>
 
@@ -280,6 +290,14 @@ export const Footer: React.FC<FooterProps> = ({
               className="text-amber-500 hover:text-amber-400 font-semibold underline"
             >
               Cookie Preferences
+            </button>
+            <span>•</span>
+            <button 
+              onClick={() => onNavigateTab('contact')}
+              className="text-amber-400 hover:text-amber-300 font-semibold flex items-center gap-1"
+            >
+              <Mail className="w-3 h-3" />
+              <span>Contact Us</span>
             </button>
           </div>
         </div>

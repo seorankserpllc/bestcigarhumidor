@@ -9,6 +9,7 @@ import { SeasoningLab } from './components/SeasoningLab/SeasoningLab';
 import { GuidesHub } from './components/Guides/GuidesHub';
 import { GuideReader } from './components/Guides/GuideReader';
 import { ProductDetailPage } from './components/ProductDetail/ProductDetailPage';
+import { ContactView } from './components/Contact/ContactView';
 import { Footer } from './components/Footer/Footer';
 import { LegalModal, type LegalDocType } from './components/Legal/LegalModal';
 import { CookieConsentBanner } from './components/Legal/CookieConsentBanner';
@@ -19,7 +20,7 @@ import { runHumidorRecommendationEngine } from './utils/matchingEngine';
 import { Compass } from 'lucide-react';
 
 export function App() {
-  const [activeTab, setActiveTab] = useState<'wizard' | 'build-vs-buy' | 'blueprints' | 'catalog' | 'seasoning-lab' | 'guides'>('wizard');
+  const [activeTab, setActiveTab] = useState<'wizard' | 'build-vs-buy' | 'blueprints' | 'catalog' | 'seasoning-lab' | 'guides' | 'contact'>('wizard');
   const [affiliateTag, setAffiliateTag] = useState<string>(() => {
     return localStorage.getItem('humidor_affiliate_tag') || 'cigaradvisor-20';
   });
@@ -82,7 +83,7 @@ export function App() {
 
       // Check for tab routes
       const tabMatch = hash.replace('#/', '').replace('#', '') as any;
-      if (['wizard', 'build-vs-buy', 'blueprints', 'catalog', 'seasoning-lab', 'guides'].includes(tabMatch)) {
+      if (['wizard', 'build-vs-buy', 'blueprints', 'catalog', 'seasoning-lab', 'guides', 'contact'].includes(tabMatch)) {
         setActiveTab(tabMatch);
         setActiveProduct(null);
         setActiveGuide(null);
@@ -95,7 +96,7 @@ export function App() {
     return () => window.removeEventListener('hashchange', handleHashChange);
   }, []);
 
-  const handleNavigateTab = (tab: 'wizard' | 'build-vs-buy' | 'blueprints' | 'catalog' | 'seasoning-lab' | 'guides') => {
+  const handleNavigateTab = (tab: 'wizard' | 'build-vs-buy' | 'blueprints' | 'catalog' | 'seasoning-lab' | 'guides' | 'contact') => {
     setActiveTab(tab);
     setActiveProduct(null);
     setActiveGuide(null);
@@ -299,6 +300,10 @@ export function App() {
 
             {activeTab === 'seasoning-lab' && (
               <SeasoningLab affiliateTag={affiliateTag} />
+            )}
+
+            {activeTab === 'contact' && (
+              <ContactView onNavigate={handleNavigateTab} />
             )}
           </>
         )}

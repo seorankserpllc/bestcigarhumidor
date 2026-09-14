@@ -1,13 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { 
   Compass, Scale, Wrench, ShoppingBag, BookOpen, 
-  ChevronDown, Menu, X, Tag, ShieldCheck
+  ChevronDown, Menu, X, Tag, ShieldCheck, Mail
 } from 'lucide-react';
 import { BrandLogo } from './Common/BrandLogo';
 
 interface HeaderProps {
-  activeTab: 'wizard' | 'build-vs-buy' | 'blueprints' | 'catalog' | 'seasoning-lab' | 'guides';
-  setActiveTab: (tab: 'wizard' | 'build-vs-buy' | 'blueprints' | 'catalog' | 'seasoning-lab' | 'guides') => void;
+  activeTab: 'wizard' | 'build-vs-buy' | 'blueprints' | 'catalog' | 'seasoning-lab' | 'guides' | 'contact';
+  setActiveTab: (tab: 'wizard' | 'build-vs-buy' | 'blueprints' | 'catalog' | 'seasoning-lab' | 'guides' | 'contact') => void;
   affiliateTag: string;
   setAffiliateTag: (tag: string) => void;
   onSelectCatalogCategory?: (category: string) => void;
@@ -267,7 +267,7 @@ export const Header: React.FC<HeaderProps> = ({
             {onOpenLegal && (
               <button
                 onClick={() => onOpenLegal('affiliate-disclosure')}
-                className="p-2 rounded-xl text-stone-400 hover:text-amber-400 hover:bg-stone-900/80 border border-stone-800/70 hover:border-amber-900/60 transition-colors"
+                className="hidden sm:block p-2 rounded-xl text-stone-400 hover:text-amber-400 hover:bg-stone-900/80 border border-stone-800/70 hover:border-amber-900/60 transition-colors"
                 title="Amazon Associates FTC Disclosure"
                 aria-label="FTC Disclosure"
               >
@@ -280,11 +280,27 @@ export const Header: React.FC<HeaderProps> = ({
                 setTempTag(affiliateTag);
                 setShowTagModal(true);
               }}
-              className="p-2 rounded-xl text-stone-400 hover:text-amber-400 hover:bg-stone-900/80 border border-stone-800/70 hover:border-amber-900/60 transition-colors"
+              className="hidden sm:block p-2 rounded-xl text-stone-400 hover:text-amber-400 hover:bg-stone-900/80 border border-stone-800/70 hover:border-amber-900/60 transition-colors"
               title={`Amazon Affiliate Tag (${affiliateTag}) - Click to customize`}
               aria-label="Amazon Affiliate Settings"
             >
               <Tag className="w-4 h-4 text-amber-500/80" />
+            </button>
+
+            <button
+              onClick={() => {
+                setActiveTab('contact');
+                window.location.hash = '#/contact';
+              }}
+              className={`hidden sm:block p-2 rounded-xl border transition-colors ${
+                activeTab === 'contact'
+                  ? 'bg-amber-600/25 text-amber-300 border-amber-600/60'
+                  : 'text-stone-400 hover:text-amber-400 hover:bg-stone-900/80 border-stone-800/70 hover:border-amber-900/60'
+              }`}
+              title="Contact Review Desk / Aficionado Inquiries"
+              aria-label="Contact Us"
+            >
+              <Mail className="w-4 h-4 text-amber-500/80" />
             </button>
 
             {/* Mobile Hamburger Button */}
@@ -310,7 +326,7 @@ export const Header: React.FC<HeaderProps> = ({
               className="w-full text-left p-3 rounded-xl bg-amber-600/20 text-amber-300 border border-amber-500/30 font-bold flex items-center space-x-2"
             >
               <Compass className="w-4 h-4" />
-              <span>Humidor Finder (Smart Selector)</span>
+              <span>Humidor Finder</span>
             </button>
 
             <button
@@ -359,6 +375,22 @@ export const Header: React.FC<HeaderProps> = ({
             >
               <BookOpen className="w-4 h-4 text-amber-400" />
               <span>Editorial & Technical Guides</span>
+            </button>
+
+            <button
+              onClick={() => {
+                setActiveTab('contact');
+                setMobileMenuOpen(false);
+                window.location.hash = '#/contact';
+              }}
+              className={`w-full text-left p-3 rounded-xl font-semibold flex items-center space-x-2 transition-colors ${
+                activeTab === 'contact'
+                  ? 'bg-amber-600/20 text-amber-300 border border-amber-500/30'
+                  : 'bg-stone-900 text-stone-200'
+              }`}
+            >
+              <Mail className="w-4 h-4 text-amber-400" />
+              <span>Contact Aficionado Review Desk</span>
             </button>
 
             <div className="pt-2 border-t border-stone-800/80 flex items-center justify-between text-[11px] text-stone-500">
