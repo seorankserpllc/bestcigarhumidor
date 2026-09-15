@@ -1,0 +1,41 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/guide/:slug",
+      "destination": "/guides/:slug",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/products/:slug",
+      "destination": "/"
+    },
+    {
+      "source": "/legal/:doc",
+      "destination": "/"
+    },
+    {
+      "source": "/build-vs-buy",
+      "destination": "/"
+    },
+    {
+      "source": "/blueprints",
+      "destination": "/"
+    },
+    {
+      "source": "/catalog",
+      "destination": "/"
+    },
+    {
+      "source": "/seasoning-lab",
+      "destination": "/"
+    },
+    {
+      "source": "/contact",
+      "destination": "/"
+    }
+  ]
+}

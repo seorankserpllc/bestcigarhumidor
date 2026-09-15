@@ -19,8 +19,28 @@ import type { QuizAnswers, RecommendationResult, AmazonProduct, CigarGuide } fro
 import { runHumidorRecommendationEngine } from './utils/matchingEngine';
 import { Compass } from 'lucide-react';
 
+type ActiveTab = 'wizard' | 'build-vs-buy' | 'blueprints' | 'catalog' | 'seasoning-lab' | 'guides' | 'contact';
+
+const TAB_PATHS: Record<ActiveTab, string> = {
+  wizard: '/',
+  'build-vs-buy': '/build-vs-buy',
+  blueprints: '/blueprints',
+  catalog: '/catalog',
+  'seasoning-lab': '/seasoning-lab',
+  guides: '/guides',
+  contact: '/contact',
+};
+
+const PATH_TABS = Object.fromEntries(
+  Object.entries(TAB_PATHS).map(([tab, path]) => [path, tab]),
+) as Record<string, ActiveTab>;
+
+function navigateToPath(path: string, replace = false) {
+  window.history[replace ? 'replaceState' : 'pushState']({}, '', path);
+}
+
 export function App() {
-  const [activeTab, setActiveTab] = useState<'wizard' | 'build-vs-buy' | 'blueprints' | 'catalog' | 'seasoning-lab' | 'guides' | 'contact'>('wizard');
+  const [activeTab, setActiveTab] = useState<ActiveTab>('wizard');
   const [quizAnswers, setQuizAnswers] = useState<QuizAnswers | undefined>(undefined);
   const [recommendationResult, setRecommendationResult] = useState<RecommendationResult | null>(null);
   const [selectedBlueprintId, setSelectedBlueprintId] = useState<string>('blueprint-tupperdor-7l');
@@ -31,26 +51,38 @@ export function App() {
   const [activeGuide, setActiveGuide] = useState<CigarGuide | null>(null);
   const [legalDoc, setLegalDoc] = useState<LegalDocType | null>(null);
 
-  // URL Hash Router: parse hash on load & listen for hash changes
+  // History API router with one-time migration from the legacy hash URLs.
   useEffect(() => {
-    const handleHashChange = () => {
-      const hash = window.location.hash;
-      if (!hash || hash === '#' || hash === '#/') {
-        return;
+    const syncRoute = () => {
+      let path = window.location.pathname.replace(/\/+$/, '') || '/';
+      const legacyHash = window.location.hash;
+
+      if (legacyHash.startsWith('#/')) {
+        const legacyRoute = legacyHash.slice(2);
+        let migratedPath: string | undefined;
+        if (legacyRoute.startsWith('guide/')) migratedPath = `/guides/${legacyRoute.slice('guide/'.length)}`;
+        else if (legacyRoute.startsWith('product/')) migratedPath = `/products/${legacyRoute.slice('product/'.length)}`;
+        else if (legacyRoute.startsWith('legal/')) migratedPath = `/legal/${legacyRoute.slice('legal/'.length)}`;
+        else if (legacyRoute in TAB_PATHS) migratedPath = TAB_PATHS[legacyRoute as ActiveTab];
+
+        if (migratedPath) {
+          navigateToPath(migratedPath, true);
+          path = migratedPath;
+        }
       }
 
-      // Check for legal route: #/legal/:doc
-      if (hash.startsWith('#/legal/')) {
-        const doc = hash.replace('#/legal/', '') as LegalDocType;
+      const legalMatch = path.match(/^\/legal\/([^/]+)$/);
+      if (legalMatch) {
+        const doc = decodeURIComponent(legalMatch[1]) as LegalDocType;
         if (['affiliate-disclosure', 'privacy-policy', 'terms', 'cookie-policy'].includes(doc)) {
           setLegalDoc(doc);
           return;
         }
       }
 
-      // Check for product route: #/product/:slugOrId
-      if (hash.startsWith('#/product/')) {
-        const idOrSlug = hash.replace('#/product/', '');
+      const productMatch = path.match(/^\/products\/([^/]+)$/);
+      if (productMatch) {
+        const idOrSlug = decodeURIComponent(productMatch[1]);
         const matchedProduct = AMAZON_PRODUCTS.find(p => p.slug === idOrSlug || p.id === idOrSlug);
         if (matchedProduct) {
           setActiveProduct(matchedProduct);
@@ -60,11 +92,19 @@ export function App() {
         }
       }
 
-      // Check for guide route: #/guide/:slugOrId
-      if (hash.startsWith('#/guide/')) {
-        const slugOrId = hash.replace('#/guide/', '');
+      const legacyGuidePath = path.match(/^\/guide\/([^/]+)$/);
+      if (legacyGuidePath) {
+        const canonicalPath = `/guides/${legacyGuidePath[1]}`;
+        navigateToPath(canonicalPath, true);
+        path = canonicalPath;
+      }
+
+      const guideMatch = path.match(/^\/guides\/([^/]+)$/);
+      if (guideMatch) {
+        const slugOrId = decodeURIComponent(guideMatch[1]);
         const matchedGuide = CIGAR_GUIDES.find(g => g.slug === slugOrId || g.id === slugOrId);
         if (matchedGuide) {
+          setActiveTab('guides');
           setActiveGuide(matchedGuide);
           setActiveProduct(null);
           setLegalDoc(null);
@@ -72,27 +112,37 @@ export function App() {
         }
       }
 
-      // Check for tab routes
-      const tabMatch = hash.replace('#/', '').replace('#', '') as any;
-      if (['wizard', 'build-vs-buy', 'blueprints', 'catalog', 'seasoning-lab', 'guides', 'contact'].includes(tabMatch)) {
-        setActiveTab(tabMatch);
+      const matchedTab = PATH_TABS[path];
+      if (matchedTab) {
+        setActiveTab(matchedTab);
         setActiveProduct(null);
         setActiveGuide(null);
         setLegalDoc(null);
+        return;
       }
+
+      setActiveTab('wizard');
+      setActiveProduct(null);
+      setActiveGuide(null);
+      setLegalDoc(null);
+      navigateToPath('/', true);
     };
 
-    handleHashChange();
-    window.addEventListener('hashchange', handleHashChange);
-    return () => window.removeEventListener('hashchange', handleHashChange);
+    syncRoute();
+    window.addEventListener('popstate', syncRoute);
+    window.addEventListener('hashchange', syncRoute);
+    return () => {
+      window.removeEventListener('popstate', syncRoute);
+      window.removeEventListener('hashchange', syncRoute);
+    };
   }, []);
 
-  const handleNavigateTab = (tab: 'wizard' | 'build-vs-buy' | 'blueprints' | 'catalog' | 'seasoning-lab' | 'guides' | 'contact') => {
+  const handleNavigateTab = (tab: ActiveTab) => {
     setActiveTab(tab);
     setActiveProduct(null);
     setActiveGuide(null);
     setLegalDoc(null);
-    window.location.hash = `#/${tab}`;
+    navigateToPath(TAB_PATHS[tab]);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -102,7 +152,7 @@ export function App() {
       setActiveProduct(prod);
       setActiveGuide(null);
       setLegalDoc(null);
-      window.location.hash = `#/product/${prod.slug || prod.id}`;
+      navigateToPath(`/products/${prod.slug || prod.id}`);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };
@@ -110,28 +160,28 @@ export function App() {
   const handleSelectGuide = (guideSlugOrId: string) => {
     const guide = CIGAR_GUIDES.find(g => g.slug === guideSlugOrId || g.id === guideSlugOrId);
     if (guide) {
+      setActiveTab('guides');
       setActiveGuide(guide);
       setActiveProduct(null);
       setLegalDoc(null);
-      window.location.hash = `#/guide/${guide.slug || guide.id}`;
+      navigateToPath(`/guides/${guide.slug || guide.id}`);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };
 
   const handleOpenLegal = (doc: LegalDocType) => {
     setLegalDoc(doc);
-    window.location.hash = `#/legal/${doc}`;
+    navigateToPath(`/legal/${doc}`);
   };
 
   const handleCloseLegal = () => {
     setLegalDoc(null);
-    if (window.location.hash.startsWith('#/legal/')) {
-      window.location.hash = activeProduct 
-        ? `#/product/${activeProduct.slug || activeProduct.id}` 
-        : activeGuide 
-          ? `#/guide/${activeGuide.slug || activeGuide.id}` 
-          : `#/${activeTab}`;
-    }
+    const returnPath = activeProduct
+      ? `/products/${activeProduct.slug || activeProduct.id}`
+      : activeGuide
+        ? `/guides/${activeGuide.slug || activeGuide.id}`
+        : TAB_PATHS[activeTab];
+    navigateToPath(returnPath, true);
   };
 
   const handleOpenCookieSettings = () => {
@@ -140,14 +190,14 @@ export function App() {
 
   const handleBackFromProduct = () => {
     setActiveProduct(null);
-    window.location.hash = `#/${activeTab}`;
+    navigateToPath(TAB_PATHS[activeTab]);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleBackFromGuide = () => {
     setActiveGuide(null);
     setActiveTab('guides');
-    window.location.hash = '#/guides';
+    navigateToPath('/guides');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -160,7 +210,7 @@ export function App() {
   const handleRetake = () => {
     setRecommendationResult(null);
     setActiveTab('wizard');
-    window.location.hash = '#/wizard';
+    navigateToPath('/');
   };
 
   const handleOpenBlueprint = (blueprintId: string) => {

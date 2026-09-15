@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import type { CigarGuide } from '../../types/humidor';
 import { BookOpen, Clock, User, ArrowRight } from 'lucide-react';
 import { GuideFeatureArt } from './GuideFeatureArt';
@@ -10,6 +10,27 @@ interface GuidesHubProps {
 
 export const GuidesHub: React.FC<GuidesHubProps> = ({ guides, onSelectGuide }) => {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
+
+  useEffect(() => {
+    const title = 'Cigar Humidor Guides | Best Cigar Humidor';
+    const description = 'Source-backed guides for choosing, setting up, and maintaining cigar humidors, including electric, desktop, travel, and DIY options.';
+    const canonicalUrl = `${window.location.origin}/guides`;
+
+    document.title = title;
+    document.querySelector<HTMLMetaElement>('meta[name="description"]')?.setAttribute('content', description);
+    document.querySelector<HTMLMetaElement>('meta[property="og:title"]')?.setAttribute('content', title);
+    document.querySelector<HTMLMetaElement>('meta[property="og:description"]')?.setAttribute('content', description);
+    document.querySelector<HTMLMetaElement>('meta[property="og:url"]')?.setAttribute('content', canonicalUrl);
+    document.querySelector<HTMLMetaElement>('meta[property="og:type"]')?.setAttribute('content', 'website');
+
+    let canonical = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.rel = 'canonical';
+      document.head.appendChild(canonical);
+    }
+    canonical.href = canonicalUrl;
+  }, []);
 
   const categories = [
     { id: 'all', label: 'All Guides' },
@@ -63,9 +84,17 @@ export const GuidesHub: React.FC<GuidesHubProps> = ({ guides, onSelectGuide }) =
         {filteredGuides.map((guide) => (
           <article
             key={guide.id}
-            onClick={() => onSelectGuide(guide.slug)}
-            className="bg-[#17100d] border border-amber-900/40 rounded-2xl overflow-hidden flex flex-col justify-between shadow-xl hover:border-amber-600/60 cursor-pointer transition-all group"
+            className="bg-[#17100d] border border-amber-900/40 rounded-2xl overflow-hidden shadow-xl hover:border-amber-600/60 transition-all group"
           >
+            <a
+              href={`/guides/${guide.slug}`}
+              onClick={(event) => {
+                if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+                event.preventDefault();
+                onSelectGuide(guide.slug);
+              }}
+              className="flex h-full flex-col justify-between"
+            >
             <div>
               {/* Branded editorial artwork */}
               <div className="aspect-video w-full relative overflow-hidden">
@@ -106,6 +135,7 @@ export const GuidesHub: React.FC<GuidesHubProps> = ({ guides, onSelectGuide }) =
                 <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
               </span>
             </div>
+            </a>
           </article>
         ))}
       </div>

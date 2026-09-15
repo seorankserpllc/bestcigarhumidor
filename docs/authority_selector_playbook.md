@@ -50,7 +50,7 @@ You create a site that delivers 5x–10x higher conversion rates, earns genuine 
 ```
 
 ### Deployment Strategy
-Build as a Single Page Application (SPA) with Hash routing (`#/product/:slug`, `#/guide/:slug`, `#/legal/:doc`). This enables 100% static hosting on Cloudflare Pages, Vercel, Netlify, or AWS S3 + CloudFront with zero server maintenance, zero database overhead, and sub-100ms global response times.
+Use normal History API paths (`/products/:slug`, `/guides/:slug`, `/legal/:doc`) with host rewrites for direct visits. Generate crawlable guide entry HTML, canonical metadata, structured data, and sitemap URLs at build time; never use fragment URLs as editorial canonicals.
 
 ---
 

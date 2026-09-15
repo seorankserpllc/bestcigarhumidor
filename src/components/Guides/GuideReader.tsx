@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import type { CigarGuide, AmazonProduct } from '../../types/humidor';
 import { getAmazonUrl } from '../../utils/amazonLinks';
 import { ProductImage } from '../Common/ProductImage';
@@ -27,8 +27,41 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
 }) => {
   const [copied, setCopied] = useState(false);
 
+  useEffect(() => {
+    const canonicalUrl = `${window.location.origin}/guides/${guide.slug}`;
+    const title = `${guide.title} | Best Cigar Humidor`;
+    document.title = title;
+
+    const setMeta = (selector: string, attribute: string, value: string) => {
+      let element = document.head.querySelector<HTMLMetaElement>(selector);
+      if (!element) {
+        element = document.createElement('meta');
+        const [key, name] = attribute === 'property'
+          ? ['property', selector.match(/property="([^"]+)"/)?.[1] || '']
+          : ['name', selector.match(/name="([^"]+)"/)?.[1] || ''];
+        element.setAttribute(key, name);
+        document.head.appendChild(element);
+      }
+      element.setAttribute('content', value);
+    };
+
+    setMeta('meta[name="description"]', 'name', guide.subtitle || guide.excerpt);
+    setMeta('meta[property="og:title"]', 'property', title);
+    setMeta('meta[property="og:description"]', 'property', guide.subtitle || guide.excerpt);
+    setMeta('meta[property="og:url"]', 'property', canonicalUrl);
+    setMeta('meta[property="og:type"]', 'property', 'article');
+
+    let canonical = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.rel = 'canonical';
+      document.head.appendChild(canonical);
+    }
+    canonical.href = canonicalUrl;
+  }, [guide]);
+
   const handleShare = () => {
-    const url = `${window.location.origin}${window.location.pathname}#/guide/${guide.slug}`;
+    const url = `${window.location.origin}/guides/${guide.slug}`;
     navigator.clipboard.writeText(url).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2500);

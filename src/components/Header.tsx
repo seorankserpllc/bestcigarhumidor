@@ -45,8 +45,9 @@ export const Header: React.FC<HeaderProps> = ({
   const handleCategoryClick = (category: string) => {
     if (onSelectCatalogCategory) {
       onSelectCatalogCategory(category);
+    } else {
+      setActiveTab('catalog');
     }
-    setActiveTab('catalog');
     setReviewsDropdownOpen(false);
     setMobileMenuOpen(false);
   };
@@ -54,8 +55,9 @@ export const Header: React.FC<HeaderProps> = ({
   const handleBlueprintClick = (blueprintId: string) => {
     if (onSelectBlueprint) {
       onSelectBlueprint(blueprintId);
+    } else {
+      setActiveTab('blueprints');
     }
-    setActiveTab('blueprints');
     setDiyDropdownOpen(false);
     setMobileMenuOpen(false);
   };
@@ -69,7 +71,6 @@ export const Header: React.FC<HeaderProps> = ({
           <div 
             onClick={() => {
               setActiveTab('wizard');
-              window.location.hash = '#/wizard';
             }}
             className="cursor-pointer group shrink-0"
           >
@@ -83,7 +84,6 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               onClick={() => {
                 setActiveTab('wizard');
-                window.location.hash = '#/wizard';
               }}
               className={`flex items-center space-x-2 px-3 py-2 rounded-xl text-xs font-bold uppercase tracking-wider transition-all duration-200 ${
                 activeTab === 'wizard'
@@ -193,7 +193,6 @@ export const Header: React.FC<HeaderProps> = ({
                     onClick={() => {
                       setActiveTab('build-vs-buy');
                       setDiyDropdownOpen(false);
-                      window.location.hash = '#/build-vs-buy';
                     }}
                     className="w-full text-left px-3 py-2 rounded-xl hover:bg-stone-800/80 text-stone-200 hover:text-amber-300 flex items-center justify-between"
                   >
@@ -239,7 +238,6 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               onClick={() => {
                 setActiveTab('guides');
-                window.location.hash = '#/guides';
               }}
               className={`flex items-center space-x-1.5 px-3 py-2 rounded-xl text-xs font-semibold transition-all ${
                 activeTab === 'guides'
@@ -269,7 +267,6 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               onClick={() => {
                 setActiveTab('contact');
-                window.location.hash = '#/contact';
               }}
               className={`hidden sm:block p-2 rounded-xl border transition-colors ${
                 activeTab === 'contact'
@@ -300,7 +297,6 @@ export const Header: React.FC<HeaderProps> = ({
               onClick={() => {
                 setActiveTab('wizard');
                 setMobileMenuOpen(false);
-                window.location.hash = '#/wizard';
               }}
               className="w-full text-left p-3 rounded-xl bg-amber-600/20 text-amber-300 border border-amber-500/30 font-bold flex items-center space-x-2"
             >
@@ -312,7 +308,6 @@ export const Header: React.FC<HeaderProps> = ({
               onClick={() => {
                 setActiveTab('catalog');
                 setMobileMenuOpen(false);
-                window.location.hash = '#/catalog';
               }}
               className="w-full text-left p-3 rounded-xl bg-stone-900 text-stone-200 font-semibold flex items-center space-x-2"
             >
@@ -324,7 +319,6 @@ export const Header: React.FC<HeaderProps> = ({
               onClick={() => {
                 setActiveTab('build-vs-buy');
                 setMobileMenuOpen(false);
-                window.location.hash = '#/build-vs-buy';
               }}
               className="w-full text-left p-3 rounded-xl bg-stone-900 text-stone-200 font-semibold flex items-center space-x-2"
             >
@@ -336,7 +330,6 @@ export const Header: React.FC<HeaderProps> = ({
               onClick={() => {
                 setActiveTab('blueprints');
                 setMobileMenuOpen(false);
-                window.location.hash = '#/blueprints';
               }}
               className="w-full text-left p-3 rounded-xl bg-stone-900 text-stone-200 font-semibold flex items-center space-x-2"
             >
@@ -348,7 +341,6 @@ export const Header: React.FC<HeaderProps> = ({
               onClick={() => {
                 setActiveTab('guides');
                 setMobileMenuOpen(false);
-                window.location.hash = '#/guides';
               }}
               className="w-full text-left p-3 rounded-xl bg-stone-900 text-stone-200 font-semibold flex items-center space-x-2"
             >
@@ -360,7 +352,6 @@ export const Header: React.FC<HeaderProps> = ({
               onClick={() => {
                 setActiveTab('contact');
                 setMobileMenuOpen(false);
-                window.location.hash = '#/contact';
               }}
               className={`w-full text-left p-3 rounded-xl font-semibold flex items-center space-x-2 transition-colors ${
                 activeTab === 'contact'
