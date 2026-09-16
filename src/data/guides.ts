@@ -8,6 +8,138 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+  "id": "best-humidors-beginners",
+  "slug": "best-humidors-for-beginners",
+  "title": "Best Humidors for Beginners: Four Storage Paths",
+  "subtitle": "Choose a first humidor by collection size, room conditions, setup effort, and where you will use it.",
+  "category": "selection",
+  "categoryLabel": "Buying Guides",
+  "readTimeMinutes": 8,
+  "author": "Best Cigar Humidor Editorial Desk",
+  "authorRole": "Independent storage research & fact-checking",
+  "publishedDate": "2026-09-16",
+  "reviewedDate": "2026-09-16",
+  "heroVisual": "tupperdor",
+  "excerpt": "A practical comparison of a compact acrylic jar, 7 L DIY container, cedar desktop box, and hard travel case—without pretending one format suits everyone.",
+  "featuredProductIds": [
+    "prestige-aj25-acrylic",
+    "sistema-236oz",
+    "klaro-renzo",
+    "flauno-travel-5"
+  ],
+  "comparisonRows": [
+    {
+      "productId": "prestige-aj25-acrylic",
+      "fit": "Small home collection",
+      "capacity": "Maker claims up to 25; fewer with larger ring gauges",
+      "tradeoff": "Easy to inspect, but narrow jar access and no cooling"
+    },
+    {
+      "productId": "sistema-236oz",
+      "fit": "Flexible budget storage",
+      "capacity": "7 L volume; count depends on cigar size and layout",
+      "tradeoff": "Roomy, plain looking, and needs separate RH monitoring"
+    },
+    {
+      "productId": "klaro-renzo",
+      "fit": "Display on a desk or shelf",
+      "capacity": "Maker lists about 28–30 at 52 ring gauge",
+      "tradeoff": "Cedar needs conditioning; glass and wood require monitoring"
+    },
+    {
+      "productId": "flauno-travel-5",
+      "fit": "Day trips and short travel",
+      "capacity": "Listing says five medium cigars or four at 52 ring gauge",
+      "tradeoff": "Protective small case, cramped for everyday collecting"
+    }
+  ],
+  "useBrandedProductArt": true,
+  "relatedBlueprintIds": [
+    "blueprint-tupperdor-7l"
+  ],
+  "sections": [
+    {
+      "id": "quick-choice",
+      "title": "1. Start with the job, not a universal winner",
+      "contentMarkdown": "The first question is how many cigars you expect to keep at one time and where the container will sit. A tightly packed \"25 count\" jar can hold fewer large cigars; a 7 L food container offers more layout flexibility but no furniture appeal. A travel case solves impact and packing, not a growing home collection. All four choices below are passive containers. None chills a warm room or heats a cold one.\n\n**Our selection rule:** Favor a verified exact listing, a closure you can inspect, a size that leaves space around the cigars, and a setup you will actually maintain. The format labels are use cases, not measured performance awards. We did not buy or test these units. Product details below come from their current Amazon listings or, for Renzo, its maker's specifications.\n\n**Affiliate disclosure:** If you buy through a product link, Best Cigar Humidor may earn a commission. This does not change your price. The picks are editorial judgments based on disclosed specifications and storage needs."
+    },
+    {
+      "id": "comparison",
+      "title": "2. Compare the four beginner formats",
+      "contentMarkdown": "Use the comparison below as a starting point. Capacity figures are manufacturer or listing claims, not our measured counts. A cigar's length, ring gauge, packaging, and the space taken by a humidifier all change the fit.\n\nThe most useful distinction is **home storage versus transport**. The jar, container, and Renzo can stay on a shelf in a temperature-stable room. The Flauno case is sized for carrying a few cigars; choose another format if you intend to build a collection."
+    },
+    {
+      "id": "prestige",
+      "title": "3. Prestige AJ25: compact acrylic starter jar",
+      "contentMarkdown": "The [Prestige Import Group AJ25 review](/product/prestige-aj25-acrylic-humidor-review) covers the jar in detail. Its current Amazon listing identifies a 25 count acrylic jar with a clasp, rubber gasket, Spanish cedar lining on the bottom, and a removable round humidifier. Those are listing claims, not a measured seal or capacity test.\n\n**Choose it if** you keep a small rotation and want to see the contents without lifting the lid. A separate calibrated hygrometer makes the inside condition easier to judge. **Choose something else if** you expect to store boxes, use thick cigars, or want convenient access to cigars at the bottom. The included humidifier is a starting accessory; follow its directions and verify the settled RH instead of assuming the jar will self regulate. Acrylic needs no wood conditioning, although the cedar insert should be clean and dry before loading."
+    },
+    {
+      "id": "sistema",
+      "title": "4. Sistema KLIP IT 7 L: practical DIY storage",
+      "contentMarkdown": "The current listing for the [Sistema KLIP IT 7 L container](/product/sistema-236oz-7l-airtight-container-tupperdor-core-review) describes a 7 L food storage box with clips and a flexible lid seal. It is not sold as a complete cigar humidor: add an appropriately sized humidity source and a calibrated hygrometer. The site's [tupperdor setup guide](/guides/science-of-airtight-tupperdors) and DIY blueprint explain the layout.\n\n**Choose it if** you want flexible capacity without paying for display woodwork. Wash and fully dry a new food container before adding cigars, check for any lingering odor, and avoid squeezing cigars against the lid. **Choose something else if** you want a display piece or a ready-made humidification kit. The listing's food-storage seal does not prove a precise RH will hold forever, and the container cannot cool its contents."
+    },
+    {
+      "id": "renzo",
+      "title": "5. Case Elegance Renzo: desktop presentation",
+      "contentMarkdown": "The [Renzo review](/product/klaro-renzo-glass-top-humidor-review) is the display-focused option. Its maker lists a glass top, cedar lining, front digital hygrometer, accessory drawer, and two Hydro Channels. The current Amazon page is the brown Renzo variant. Case Elegance's capacity chart estimates about 28–30 cigars at 52 ring gauge; larger cigars leave less usable space.\n\n**Choose it if** the box will live in a visible, conditioned room and you are willing to monitor a wood humidor. Follow the maker's Renzo seasoning directions before adding cigars, then check the hygrometer against a known reference. **Choose something else if** you need immediate no-setup storage, keep factory boxes, or have a room whose temperature swings beyond your storage plan. A digital display is a convenience, not proof that the whole box maintains one RH. The hydro system controls moisture only; it does not regulate temperature."
+    },
+    {
+      "id": "flauno",
+      "title": "6. Flauno five-cigar case: a travel companion",
+      "contentMarkdown": "The [Flauno five-cigar case review](/product/flauno-five-cigar-travel-humidor-review) covers a compact hard case. Its current Amazon listing includes a humidifier disc and cutter and claims room for up to five medium cigars or four at 52 ring gauge. The physical protection and small format make sense for a day bag or short trip, while the foam and accessories reduce the room available for unusually large cigars.\n\n**Choose it if** you often carry only a few cigars. **Choose something else if** this would be your only home storage or you need a box of cigars for a longer trip. Check the seal, disc, and actual RH before departure. A travel case should not be left in a hot car; it has no active cooling. For flights, read our [current U.S. packing guide](/guides/travelers-cigar-handbook-tsa-torch-pressure) before packing cutters or lighters."
+    },
+    {
+      "id": "setup",
+      "title": "7. A first-week setup that avoids guesswork",
+      "contentMarkdown": "Tobacco absorbs and releases moisture as surrounding humidity changes; research on tobacco sorption supports watching the actual environment rather than treating a single RH number as a guarantee. NIST's hygrometer calibration work also shows why a displayed number is a measurement that needs a trustworthy reference. For a household instrument, follow its calibration instructions and look for a stable trend before changing the humidity source.\n\n1. Put the container in the room where you will use it, away from direct sun and heat sources. Measure the room temperature; passive containers cannot correct it.\n2. Clean and dry the acrylic jar, travel case, or food container as appropriate. Follow Case Elegance's conditioning instructions for the cedar Renzo.\n3. Add one humidity method at the maker's recommended amount. Keep liquid away from cigars and unfinished wood surfaces.\n4. Place a checked hygrometer where it can read the storage air, close the container, and watch the trend before loading valuable cigars.\n5. Add cigars with breathing room. Recheck after loading, then adjust one variable at a time if the reading remains outside the range you chose.\n\nFor a deeper explanation of moisture buffering, see the [Spanish cedar guide](/guides/spanish-cedar-biology-guide). For comparing storage types against your budget and room, use the [humidor finder](/)."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need to season an acrylic jar or plastic tupperdor?",
+      "answer": "No wood box seasoning is needed for the plastic enclosure. Clean and dry it, then install a humidity source and checked hygrometer. If you add unfinished cedar, follow the cedar supplier's conditioning guidance and watch the RH trend."
+    },
+    {
+      "question": "Is a 25 count jar enough for 25 large cigars?",
+      "answer": "The 25 count is the listing's capacity claim. Thick or long cigars and the included humidifier reduce usable space. Buy for your actual cigar dimensions and leave room to retrieve them without crushing wrappers."
+    },
+    {
+      "question": "Will a desktop humidor keep cigars cool in summer?",
+      "answer": "A passive wood box, acrylic jar, or plastic container cannot actively cool. Measure the room where it will sit. If that room runs warm, improve the location or evaluate a correctly specified electric cabinet."
+    },
+    {
+      "question": "Can a travel case replace a home humidor?",
+      "answer": "It can hold a few cigars for a short period when its humidity is monitored, but the Flauno's stated four to five cigar capacity makes it restrictive for a growing home collection."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Moisture sorption isotherms of various tobaccos",
+      "publisher": "Agricultural and Biological Chemistry, 1978",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/00021369.1978.10863351",
+      "sourceType": "Peer-reviewed research"
+    },
+    {
+      "label": "Hygrometers and relative-humidity calibration",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers",
+      "sourceType": "Government / technical reference"
+    },
+    {
+      "label": "Renzo specifications and capacity chart",
+      "publisher": "Case Elegance",
+      "url": "https://caseelegance.com/products/glass-top-cedar-humidor-with-front-digital-hygrometer",
+      "sourceType": "Manufacturer instructions"
+    },
+    {
+      "label": "Renzo seasoning instructions",
+      "publisher": "Case Elegance",
+      "url": "https://caseelegance.com/blogs/humidors/new-unboxing-seasoning-instructions-the-popular-glass-top-humidor",
+      "sourceType": "Manufacturer instructions"
+    }
+  ]
+},
+  {
     id: 'wineador-masterclass',
     slug: 'electric-wineador-masterclass-heating-cooling',
     title: 'Electric Wineadors: Cooling, Heating, Drainage & Setup',

@@ -235,7 +235,7 @@ export function App() {
       />
 
       {/* Main Content Area */}
-      <main className="flex-1 pb-16">
+      <main className="flex-1 min-w-0 w-full pb-16">
         {/* 1. STANDALONE PRODUCT DETAIL PAGE (Takes precedence if activeProduct is set) */}
         {activeProduct ? (
           <ProductDetailPage

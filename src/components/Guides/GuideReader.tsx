@@ -7,7 +7,7 @@ import { GuideMarkdown } from './GuideMarkdown';
 import { 
   ArrowLeft, Clock, Share2, CheckCircle2, 
   AlertTriangle, Sparkles, Wrench, ExternalLink, 
-  BookOpen, ChevronRight
+  BookOpen, ChevronRight, Box
 } from 'lucide-react';
 
 interface GuideReaderProps {
@@ -68,10 +68,10 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
     });
   };
 
-  const featuredProducts = allProducts.filter(p => guide.featuredProductIds.includes(p.id));
+  const featuredProducts = guide.featuredProductIds.map(id => allProducts.find(p => p.id === id)).filter((p): p is AmazonProduct => Boolean(p));
 
   return (
-    <div className="max-w-4xl mx-auto py-8 px-4 space-y-8">
+    <div className="w-full min-w-0 max-w-4xl mx-auto py-8 px-4 space-y-8">
       {/* Top Breadcrumb & Share */}
       <div className="flex items-center justify-between pb-4 border-b border-amber-950/80">
         <button
@@ -161,6 +161,34 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
 
             <GuideMarkdown>{section.contentMarkdown}</GuideMarkdown>
 
+            {section.id === 'comparison' && guide.comparisonRows && (
+              <>
+              <p className="text-xs text-stone-400 sm:hidden">Swipe sideways to compare capacity and tradeoffs.</p>
+              <div className="overflow-x-auto rounded-xl border border-amber-900/50">
+                <table className="w-full min-w-[620px] text-left text-xs sm:text-sm">
+                  <caption className="sr-only">Beginner humidor format comparison</caption>
+                  <thead className="bg-amber-950/50 text-amber-200">
+                    <tr><th scope="col" className="p-3">Product</th><th scope="col" className="p-3">Best fit</th><th scope="col" className="p-3">Capacity basis</th><th scope="col" className="p-3">Main tradeoff</th></tr>
+                  </thead>
+                  <tbody>
+                    {guide.comparisonRows.map(row => {
+                      const product = allProducts.find(p => p.id === row.productId);
+                      if (!product) return null;
+                      return (
+                        <tr key={row.productId} className="border-t border-stone-800 align-top">
+                          <th scope="row" className="p-3 font-semibold text-amber-100">{product.name}</th>
+                          <td className="p-3">{row.fit}</td>
+                          <td className="p-3">{row.capacity}</td>
+                          <td className="p-3">{row.tradeoff}</td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+              </>
+            )}
+
             {/* Stylized Callout */}
             {section.callout && (
               <div className={`p-4 rounded-xl border flex items-start space-x-3 text-xs leading-relaxed ${
@@ -192,6 +220,20 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
           </section>
         ))}
       </div>
+
+      {guide.faqs && guide.faqs.length > 0 && (
+        <section className="space-y-4" aria-labelledby="guide-faq-title">
+          <h2 id="guide-faq-title" className="font-serif text-2xl font-bold text-amber-100">Frequently asked questions</h2>
+          <div className="grid gap-3">
+            {guide.faqs.map(faq => (
+              <div key={faq.question} className="rounded-xl border border-stone-800 bg-[#140d0a] p-4">
+                <h3 className="font-semibold text-amber-200">{faq.question}</h3>
+                <p className="mt-2 text-sm leading-6 text-stone-300">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Sources & review note */}
       <aside className="p-5 sm:p-6 rounded-2xl bg-[#140d0a] border border-stone-800 space-y-4">
@@ -243,14 +285,20 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
                 <div className="space-y-3">
                   <div className="flex space-x-3">
                     <div className="w-16 h-16 rounded-lg overflow-hidden shrink-0 border border-stone-800">
-                      <ProductImage 
-                        src={prod.imageUrl} 
-                        alt={prod.name} 
-                        category={prod.category}
-                        subCategory={prod.subCategory}
-                        className="w-full h-full"
-                        imageClassName="w-full h-full object-cover"
-                      />
+                      {guide.useBrandedProductArt ? (
+                        <div className="w-full h-full bg-gradient-to-br from-amber-950 to-stone-950 flex items-center justify-center" role="img" aria-label="Original representative humidor artwork">
+                          <Box className="w-8 h-8 text-amber-400" />
+                        </div>
+                      ) : (
+                        <ProductImage
+                          src={prod.imageUrl}
+                          alt={prod.name}
+                          category={prod.category}
+                          subCategory={prod.subCategory}
+                          className="w-full h-full"
+                          imageClassName="w-full h-full object-cover"
+                        />
+                      )}
                     </div>
                     <div>
                       <span className="text-[10px] font-bold text-amber-500 uppercase block">
@@ -262,13 +310,13 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
                       <div className="flex items-center space-x-2 text-[11px] text-stone-400 mt-1">
                         <span className="text-stone-500">Editor researched</span>
                         <span className="px-1.5 py-0.5 rounded bg-amber-950/60 border border-amber-800/40 text-[10px] font-bold text-amber-300">
-                          {prod.price <= 40 ? '$' : prod.price <= 120 ? '$$' : prod.price <= 300 ? '$$$' : '$$$$'} • Check Price
+                          {prod.priceBracket} • Check Price
                         </span>
                       </div>
                     </div>
                   </div>
                   <p className="text-[11px] text-stone-400 line-clamp-2">
-                    {prod.description}
+                    {guide.comparisonRows?.find(row => row.productId === prod.id)?.tradeoff || prod.description}
                   </p>
                 </div>
 

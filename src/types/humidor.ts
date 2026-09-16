@@ -136,6 +136,13 @@ export interface GuideSection {
 
 export type GuideVisual = 'wineador' | 'glass-top' | 'tupperdor' | 'altitude' | 'cedar' | 'travel';
 
+export interface GuideComparisonRow {
+  productId: string;
+  fit: string;
+  capacity: string;
+  tradeoff: string;
+}
+
 export interface GuideSource {
   label: string;
   url: string;
@@ -161,6 +168,9 @@ export interface CigarGuide {
   sources: GuideSource[];
   featuredProductIds: string[];
   relatedBlueprintIds?: string[];
+  comparisonRows?: GuideComparisonRow[];
+  faqs?: { question: string; answer: string }[];
+  useBrandedProductArt?: boolean;
 }
 
 export interface DIYBlueprint {

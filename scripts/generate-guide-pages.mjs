@@ -24,8 +24,8 @@ function addHeadMarkup(html, markup) {
   return html.replace('</head>', `${markup}\n  </head>`);
 }
 
-async function loadGuides() {
-  const sourcePath = path.join(rootDir, 'src', 'data', 'guides.ts');
+async function loadData(filename, exportName) {
+  const sourcePath = path.join(rootDir, 'src', 'data', filename);
   const source = await fs.readFile(sourcePath, 'utf8');
   const compiled = ts.transpileModule(source, {
     compilerOptions: {
@@ -36,10 +36,10 @@ async function loadGuides() {
   }).outputText;
   const moduleUrl = `data:text/javascript;base64,${Buffer.from(compiled).toString('base64')}`;
   const module = await import(moduleUrl);
-  return module.CIGAR_GUIDES;
+  return module[exportName];
 }
 
-function guideHtml(baseHtml, guide) {
+function guideHtml(baseHtml, guide, products) {
   const canonicalUrl = `${siteOrigin}/guides/${guide.slug}`;
   const title = `${guide.title} | Best Cigar Humidor`;
   const description = guide.subtitle || guide.excerpt;
@@ -84,6 +84,33 @@ function guideHtml(baseHtml, guide) {
     ],
   };
 
+  if (guide.comparisonRows?.length) {
+    schema['@graph'].push({
+      '@type': 'ItemList',
+      itemListOrder: 'https://schema.org/ItemListOrderAscending',
+      numberOfItems: guide.comparisonRows.length,
+      itemListElement: guide.comparisonRows.map((row, index) => {
+        const product = products.find(item => item.id === row.productId);
+        if (!product) throw new Error('Unknown guide comparison product: ' + row.productId);
+        return {
+          '@type': 'ListItem',
+          position: index + 1,
+          name: product.name,
+          url: siteOrigin + '/product/' + product.slug,
+        };
+      }),
+    });
+  }
+  if (guide.faqs?.length) {
+    schema['@graph'].push({
+      '@type': 'FAQPage',
+      mainEntity: guide.faqs.map(faq => ({
+        '@type': 'Question',
+        name: faq.question,
+        acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+      })),
+    });
+  }
   let html = baseHtml.replace(/<title>.*?<\/title>/i, `<title>${escapeAttribute(title)}</title>`);
   html = replaceMeta(html, 'name', 'description', description);
   html = replaceMeta(html, 'property', 'og:title', title);
@@ -114,14 +141,15 @@ function guidesHubHtml(baseHtml) {
   return html;
 }
 
-const guides = await loadGuides();
+const guides = await loadData('guides.ts', 'CIGAR_GUIDES');
+const products = await loadData('products.ts', 'AMAZON_PRODUCTS');
 const baseHtml = await fs.readFile(path.join(distDir, 'index.html'), 'utf8');
 const guidesDir = path.join(distDir, 'guides');
 await fs.mkdir(guidesDir, { recursive: true });
 
 await fs.writeFile(path.join(distDir, 'guides.html'), guidesHubHtml(baseHtml));
 for (const guide of guides) {
-  await fs.writeFile(path.join(guidesDir, `${guide.slug}.html`), guideHtml(baseHtml, guide));
+  await fs.writeFile(path.join(guidesDir, `${guide.slug}.html`), guideHtml(baseHtml, guide, products));
 }
 
 const sitemapEntries = [

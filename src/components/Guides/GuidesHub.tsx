@@ -34,7 +34,7 @@ export const GuidesHub: React.FC<GuidesHubProps> = ({ guides, onSelectGuide }) =
 
   const categories = [
     { id: 'all', label: 'All Guides' },
-    { id: 'selection', label: 'Electric & Tech' },
+    { id: 'selection', label: 'Buying Guides & Electric' },
     { id: 'maintenance', label: 'Woodcraft & Care' },
     { id: 'science', label: 'Climate & Science' },
     { id: 'diy', label: 'DIY & Value' },

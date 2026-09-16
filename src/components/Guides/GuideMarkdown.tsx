@@ -1,10 +1,14 @@
 import React from 'react';
 
 const renderInline = (text: string): React.ReactNode[] => {
-  const parts = text.split(/(\*\*.*?\*\*)/g);
+  const parts = text.split(/(\*\*.*?\*\*|\[[^\]]+\]\((?:\/|https:\/\/)[^)]+\))/g);
   return parts.filter(Boolean).map((part, index) => {
     if (part.startsWith('**') && part.endsWith('**')) {
       return <strong key={index} className="font-semibold text-stone-100">{part.slice(2, -2)}</strong>;
+    }
+    const link = part.match(/^\[([^\]]+)\]\((\/[^)]*|https:\/\/[^)]*)\)$/);
+    if (link) {
+      return <a key={index} href={link[2]} className="text-amber-300 underline underline-offset-4 hover:text-amber-200" {...(link[2].startsWith('https://') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>{link[1]}</a>;
     }
     return <React.Fragment key={index}>{part}</React.Fragment>;
   });
@@ -34,7 +38,7 @@ export const GuideMarkdown: React.FC<{ children: string }> = ({ children }) => {
         if (isOrdered || isUnordered) {
           const ListTag = isOrdered ? 'ol' : 'ul';
           return (
-            <ListTag key={blockIndex} className={`${isOrdered ? 'list-decimal' : 'list-disc'} space-y-2 pl-6 marker:text-amber-500`}>
+            <ListTag key={blockIndex} className={(isOrdered ? 'list-decimal' : 'list-disc') + ' space-y-2 pl-6 marker:text-amber-500'}>
               {lines.map((line, index) => (
                 <li key={index}>{renderInline(line.replace(isOrdered ? /^\d+\.\s/ : /^-\s/, ''))}</li>
               ))}
