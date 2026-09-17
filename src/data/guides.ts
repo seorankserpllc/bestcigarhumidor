@@ -8,6 +8,137 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+  "id": "best-electric-cigar-humidors",
+  "slug": "best-electric-cigar-humidors",
+  "title": "Best Electric Cigar Humidors: 16L, 23L, and 33L Compared",
+  "subtitle": "Choose a cabinet by room temperature, usable space, and humidity setup—not the largest advertised cigar count.",
+  "category": "selection",
+  "categoryLabel": "Electric & Tech",
+  "readTimeMinutes": 9,
+  "author": "Best Cigar Humidor Editorial Desk",
+  "authorRole": "Independent storage research & fact-checking",
+  "publishedDate": "2026-09-17",
+  "reviewedDate": "2026-09-17",
+  "heroVisual": "wineador",
+  "excerpt": "Three verified electric cabinets compared by collection size, temperature function, humidity workload, and setup tradeoffs.",
+  "featuredProductIds": [
+    "kingchii-16l",
+    "needone-23l",
+    "kingchii-33l"
+  ],
+  "comparisonRows": [
+    {
+      "productId": "kingchii-16l",
+      "fit": "Small space or smaller collection",
+      "capacity": "16 L; maker/listing claim up to 100 cigars",
+      "tradeoff": "Compact shelves leave less room for boxes and larger cigars"
+    },
+    {
+      "productId": "needone-23l",
+      "fit": "Warm indoor room needing cooling",
+      "capacity": "23 L; listing claim up to 150 cigars",
+      "tradeoff": "Listing describes cooling control; do not assume it heats"
+    },
+    {
+      "productId": "kingchii-33l",
+      "fit": "More loose cigars or a few boxes",
+      "capacity": "33 L; maker/listing claim up to 250 cigars",
+      "tradeoff": "Larger footprint and more wood to condition"
+    }
+  ],
+  "useBrandedProductArt": true,
+  "relatedBlueprintIds": [
+    "blueprint-converted-wineador"
+  ],
+  "sections": [
+    {
+      "id": "how-we-chose",
+      "title": "1. What these picks mean",
+      "contentMarkdown": "These are three **size and use-case choices**, not lab-tested performance winners. On September 17, 2026, we opened each live Amazon.com product page and matched its ASIN, brand, cabinet volume, advertised cigar count, and listed cedar storage and hygrometer to the existing catalog record. We have not bought these cabinets or measured their temperature stability, seal, humidity uniformity, power use, or noise. Counts and feature claims come from the current product listings or linked maker pages.\n\n**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish live prices, star ratings, or review counts. The comparison below is editorial guidance for choosing a format, not a claim that one cabinet is objectively best for every room."
+    },
+    {
+      "id": "comparison",
+      "title": "2. Compare the three cabinet sizes",
+      "contentMarkdown": "Start with the **temperature of the room where the cabinet will run**. Then estimate the space taken by your actual cigar lengths, ring gauges, boxes, humidity source, and the shelves. The stated 100, 150, and 250 counts are maker or listing maximums, not our measured fit. A shelf of large cigars or a factory box can use the space differently from rows of small loose cigars.\n\nThe table summarizes the practical buying decision. None of these product names by itself proves automatic humidity control. Plan to read the exact manual, provide the specified humidity method, and check an independent hygrometer after setup."
+    },
+    {
+      "id": "kingchii-16",
+      "title": "3. KingChii 16L: compact cabinet",
+      "contentMarkdown": "The current Amazon page for the [KingChii 16L review](/product/kingchii-16l-electric-cigar-humidor-review) identifies a two-layer, 100-count electric cabinet with Spanish cedar storage and a hygrometer. KingChii's own 16L page says its semiconductor system can heat and cool within a stated 54–74°F setting range. Treat that as a manufacturer specification, not proof it will hold every set point in every room.\n\n**Choose it if** floor or desk space matters and you store a modest rotation of loose cigars. **Choose another size if** you want to keep factory boxes or many long, thick cigars. The nominal 100-count figure can shrink quickly with those layouts. The hygrometer tells you something about RH, but the temperature controller alone does not add or remove the water needed to maintain your chosen RH."
+    },
+    {
+      "id": "needone-23",
+      "title": "4. NEEDONE 23L: cooling-focused middle size",
+      "contentMarkdown": "The live Amazon listing for the [NEEDONE 23L review](/product/needone-23l-electric-cigar-humidor-review) calls this a thermoelectric **cooling-control** cabinet with Spanish cedar shelves and drawer, a hygrometer, and a 150-count capacity claim. NEEDONE sells several different 23L cabinets, including heating models; those features must not be transferred to this ASIN. Rely on the exact listing and its manual for this variant.\n\n**Choose it if** a conditioned indoor room tends to run warmer than your desired storage setting and 16 L is too tight. **Choose a heating-capable model instead if** the room can fall below the intended setting. This product's listing title does not promise heating. Thermoelectric cooling moves heat out of the cabinet; its result depends on the air around the unit and clear ventilation. Check the manual's ambient limits and leave its required clearance. Avoid an unconditioned garage or direct sun unless the manual explicitly supports that location."
+    },
+    {
+      "id": "kingchii-33",
+      "title": "5. KingChii 33L: room for a growing collection",
+      "contentMarkdown": "The current [KingChii 33L review](/product/kingchii-33l-electric-cigar-humidor-review) links to the four-layer, 250-count Amazon variant. The maker describes heating and cooling temperature control, Spanish cedar storage, and a stated 54–74°F setting range. Those are advertised specifications. They do not establish independent temperature accuracy or humidity uniformity.\n\n**Choose it if** you need more flexible shelf space for a growing mix of cigars and a few small boxes. **Choose a smaller unit if** most days you hold only a handful of cigars or space and energy use matter more than spare capacity. The 33 L interior gives more arrangement options, but each cedar surface and cigar load changes the humidity balance during setup. Verify RH at more than one shelf over time before trusting a single front display."
+    },
+    {
+      "id": "setup",
+      "title": "6. Set up the cabinet before loading valuable cigars",
+      "contentMarkdown": "Tobacco exchanges moisture with surrounding air; published tobacco sorption research supports monitoring the storage environment rather than assuming a fixed setting guarantees cigar condition. NIST's hygrometer calibration guidance is a reminder that RH readouts are measurements with uncertainty. A built-in display is useful, but compare it with a checked independent instrument.\n\n1. Measure the intended room's high and low temperatures for several days. Match them to the **exact manual's** ambient limits, heating or cooling functions, and ventilation clearance.\n2. Let a shipped cabinet stand and acclimate for the period its manual specifies. Clean it only as directed. Check for odors and confirm the door closes properly.\n3. Condition unfinished cedar using the cabinet and humidity-source maker's instructions. Keep free water away from cigars, electronics, and unfinished wood unless the manual specifically directs otherwise.\n4. Put a checked hygrometer on a shelf, run the empty cabinet with the selected humidity method, and observe the trend. Add cigars gradually. Recheck after the load changes.\n5. If the readings drift, verify the instrument, door, humidity source, and room conditions before changing multiple settings at once. Watch for condensation and follow the manual's drainage directions.\n\nOur [electric wineador setup guide](/guides/electric-wineador-masterclass-heating-cooling) explains temperature functions, drainage, and cedar conditioning in more detail. The [humidor finder](/) can help decide whether an electric cabinet fits your room and collection."
+    },
+    {
+      "id": "when-to-skip",
+      "title": "7. When a passive humidor makes more sense",
+      "contentMarkdown": "If the room already stays near your desired storage temperature, an electric cabinet may add cost, space, electricity use, and setup without solving a temperature problem. A compact [acrylic jar or wood desktop option](/guides/best-humidors-for-beginners) may suit a small rotation. A sealed food container can offer more room with simple humidity monitoring, though it does not cool or heat. If you need to carry cigars, choose a protective travel case rather than moving a plugged-in cabinet. The buying question is the room's measured condition and the collection's real dimensions, not a universal 'electric is better' rule."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an electric cigar humidor control humidity automatically?",
+      "answer": "Do not infer that from the word electric. These listings emphasize temperature control and include hygrometers, but you still need the humidity method required by the exact manual and should verify RH with a checked instrument."
+    },
+    {
+      "question": "Are the advertised 100, 150, and 250 cigar counts realistic for large cigars?",
+      "answer": "They are maker or listing claims, not our measured counts. Thick or long cigars, boxes, dividers, and the humidification method reduce usable space. Compare interior layout with your actual cigars before ordering."
+    },
+    {
+      "question": "Will the NEEDONE 23L heat a cold room?",
+      "answer": "The verified Amazon title for ASIN B09DCCYYKP advertises cooling control. NEEDONE sells other 23L variants with heating, so confirm the exact model and manual; do not rely on heating for this listing."
+    },
+    {
+      "question": "Can I put an electric humidor in a garage?",
+      "answer": "Only if the exact manual allows the garage's measured hot and cold temperatures and you can provide required ventilation. Unconditioned spaces can exceed a cabinet's operating limits."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Hygrometers and relative-humidity calibration",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers",
+      "sourceType": "Government / technical reference"
+    },
+    {
+      "label": "Moisture sorption isotherms of various tobaccos",
+      "publisher": "Agricultural and Biological Chemistry, 1978",
+      "url": "https://doi.org/10.1271/bbb1961.42.2285",
+      "sourceType": "Peer-reviewed research"
+    },
+    {
+      "label": "KingChii 16L specifications",
+      "publisher": "KingChii",
+      "url": "https://www.kingchii.com/products/16l-electric-humidity-control-cabinet",
+      "sourceType": "Manufacturer instructions"
+    },
+    {
+      "label": "KingChii 33L specifications",
+      "publisher": "KingChii",
+      "url": "https://www.kingchii.com/products/kingchii-33l-electric-cigar-humidor",
+      "sourceType": "Manufacturer instructions"
+    },
+    {
+      "label": "NEEDONE 23L cooling cabinet product family",
+      "publisher": "NEEDONE",
+      "url": "https://needonelife.com/products/no-23a-cigar-humidor-23l-cooling-electronic-cabinet",
+      "sourceType": "Manufacturer instructions"
+    }
+  ]
+},
+  {
   "id": "best-humidors-beginners",
   "slug": "best-humidors-for-beginners",
   "title": "Best Humidors for Beginners: Four Storage Paths",

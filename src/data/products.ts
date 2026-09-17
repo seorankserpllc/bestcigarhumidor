@@ -237,7 +237,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     electricFeatures: { heating: false, cooling: true, tempRange: '54°F–74°F (listed)', activeHumidity: false },
     scorecard: { sealIntegrity: 8.6, thermalStability: 8.8, humidityRetention: 8.4, craftsmanship: 8.4, valueScore: 8.7 },
     diyAlternativeBlueprintId: 'blueprint-converted-wineador',
-    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling']
+    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors']
   },
   {
     id: 'kingchii-33l',
@@ -251,16 +251,16 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     capacitySticks: 250,
     asin: 'B0B93HN22D',
     amazonSearchQuery: 'KingChii 33L Electric Cigar Humidor B0B93HN22D',
-    description: 'A 33L cooling-control cabinet with four Spanish cedar shelves and a digital hygrometer. The larger interior is better suited to boxes and a growing collection than compact 16L models.',
-    highlights: ['33L interior', 'Four cedar shelves', 'Thermoelectric cooling', 'Advertised 250-count capacity'],
+    description: 'A 33L temperature-control cabinet with four Spanish cedar shelves and a digital hygrometer. KingChii advertises both heating and cooling for this model; humidity still needs separate monitoring and management.',
+    highlights: ['33L interior', 'Four cedar shelves', 'Manufacturer-listed heating and cooling', 'Advertised 250-count capacity'],
     pros: ['Strong balance of capacity and footprint', 'Current listing has a meaningful review history', 'Removable shelf layout'],
-    cons: ['Cooling only', 'Requires separate humidity control', 'Real capacity falls with larger ring gauges and boxes'],
+    cons: ['Verify the room fits the manufacturer operating limits', 'Requires separate humidity control', 'Real capacity falls with larger ring gauges and boxes'],
     bestFor: 'Collectors who want a medium electric cabinet without moving to furniture-sized storage.',
     sealRating: 8.5,
-    electricFeatures: { heating: false, cooling: true, tempRange: '54°F–74°F (listed)', activeHumidity: false },
+    electricFeatures: { heating: true, cooling: true, tempRange: '54°F–74°F (maker-listed)', activeHumidity: false },
     scorecard: { sealIntegrity: 8.5, thermalStability: 8.7, humidityRetention: 8.3, craftsmanship: 8.2, valueScore: 8.8 },
     diyAlternativeBlueprintId: 'blueprint-converted-wineador',
-    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling']
+    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors']
   },
   {
     id: 'kingchii-16l',
@@ -274,16 +274,16 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     capacitySticks: 100,
     asin: 'B0BQJ5H5YT',
     amazonSearchQuery: 'KingChii 16L Electric Cigar Humidor B0BQJ5H5YT',
-    description: 'A compact thermoelectric cigar cabinet with two Spanish cedar shelves and cooling control. It is the space-saving electric choice in this finder.',
-    highlights: ['Compact 16L cabinet', 'Two cedar shelves', 'Thermoelectric cooling', 'Advertised 100-count capacity'],
+    description: 'A compact 16L cabinet with two Spanish cedar storage layers. KingChii advertises heating and cooling for this model; humidity still needs separate monitoring and management.',
+    highlights: ['Compact 16L cabinet', 'Two cedar storage layers', 'Manufacturer-listed heating and cooling', 'Advertised 100-count capacity'],
     pros: ['Smaller footprint for an office or bedroom', 'Established listing within the KingChii range', 'Simple temperature control'],
-    cons: ['Cooling only', 'No active humidity control', 'Best with fewer than the advertised 100 large cigars'],
-    bestFor: 'Smaller indoor collections that need cooling but not active heating.',
+    cons: ['Verify the room fits the manufacturer operating limits', 'No active humidity control', 'Best with fewer than the advertised 100 large cigars'],
+    bestFor: 'Smaller indoor collections that need temperature control in a compact cabinet.',
     sealRating: 8.4,
-    electricFeatures: { heating: false, cooling: true, tempRange: '54°F–74°F (listed)', activeHumidity: false },
+    electricFeatures: { heating: true, cooling: true, tempRange: '54°F–74°F (maker-listed)', activeHumidity: false },
     scorecard: { sealIntegrity: 8.4, thermalStability: 8.6, humidityRetention: 8.2, craftsmanship: 8.1, valueScore: 8.5 },
     diyAlternativeBlueprintId: 'blueprint-converted-wineador',
-    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling']
+    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors']
   },
 
   // ================= ACRYLIC & AIRTIGHT =================

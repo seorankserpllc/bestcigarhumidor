@@ -166,7 +166,7 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
               <p className="text-xs text-stone-400 sm:hidden">Swipe sideways to compare capacity and tradeoffs.</p>
               <div className="overflow-x-auto rounded-xl border border-amber-900/50">
                 <table className="w-full min-w-[620px] text-left text-xs sm:text-sm">
-                  <caption className="sr-only">Beginner humidor format comparison</caption>
+                  <caption className="sr-only">{guide.title} product comparison</caption>
                   <thead className="bg-amber-950/50 text-amber-200">
                     <tr><th scope="col" className="p-3">Product</th><th scope="col" className="p-3">Best fit</th><th scope="col" className="p-3">Capacity basis</th><th scope="col" className="p-3">Main tradeoff</th></tr>
                   </thead>

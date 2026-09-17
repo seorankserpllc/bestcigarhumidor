@@ -28,10 +28,11 @@ const [guides, products, getAmazonUrl] = await Promise.all([
   })(),
 ]);
 
-const guide = guides.find(item => item.slug === 'best-humidors-for-beginners');
-if (!guide) throw new Error('Beginner guide is missing');
+const slug = process.argv[2] || 'best-humidors-for-beginners';
+const guide = guides.find(item => item.slug === slug);
+if (!guide) throw new Error('Guide is missing: ' + slug);
 if (/amazon\.com\/s\?|amzn\.to/i.test(JSON.stringify(guide))) throw new Error('Guide contains a search or short Amazon URL');
-if (guide.featuredProductIds.length !== 4 || new Set(guide.featuredProductIds).size !== 4) throw new Error('Expected four distinct products');
+if (guide.featuredProductIds.length === 0 || new Set(guide.featuredProductIds).size !== guide.featuredProductIds.length) throw new Error('Guide must have distinct featured products');
 for (const id of guide.featuredProductIds) {
   const product = products.find(item => item.id === id);
   if (!product || !/^[A-Z0-9]{10}$/.test(product.asin || '')) throw new Error('Missing verified ASIN for ' + id);
@@ -40,4 +41,4 @@ for (const id of guide.featuredProductIds) {
   if (actual !== expected) throw new Error('Wrong destination for ' + id + ': ' + actual);
   console.log(id + ' -> ' + actual);
 }
-console.log('All beginner guide product CTAs resolve to direct tagged ASIN pages.');
+console.log('All ' + slug + ' product CTAs resolve to direct tagged ASIN pages.');
