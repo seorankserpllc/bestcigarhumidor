@@ -353,7 +353,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     bestFor: 'Flights, golf days and weekend trips with five to ten cigars.',
     sealRating: 9.6,
     scorecard: { sealIntegrity: 9.6, thermalStability: 7.4, humidityRetention: 9.5, craftsmanship: 8.5, valueScore: 8.8 },
-    relatedGuideSlugs: ['travelers-cigar-handbook-tsa-torch-pressure']
+    relatedGuideSlugs: ['best-travel-humidors', 'travelers-cigar-handbook-tsa-torch-pressure']
   },
   {
     id: 'flauno-travel-5',
@@ -374,7 +374,29 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     bestFor: 'Short trips and smokers who carry only a few cigars at a time.',
     sealRating: 9.5,
     scorecard: { sealIntegrity: 9.5, thermalStability: 7.2, humidityRetention: 9.4, craftsmanship: 8.2, valueScore: 9.1 },
-    relatedGuideSlugs: ['travelers-cigar-handbook-tsa-torch-pressure']
+    relatedGuideSlugs: ['best-travel-humidors', 'travelers-cigar-handbook-tsa-torch-pressure']
+  },
+  {
+    id: 'cigar-caddy-40',
+    slug: 'cigar-caddy-40-travel-humidor-review',
+    name: 'Cigar Caddy 40-Cigar Waterproof Travel Humidor',
+    brand: 'Cigar Caddy',
+    category: 'travel_case',
+    price: 0,
+    priceBracket: '$$',
+    priceTierFormatted: '$$ (Large rugged travel case)',
+    capacitySticks: 40,
+    asin: 'B0055QM9NA',
+    amazonSearchQuery: 'Cigar Caddy 40 Cigar Travel Humidor B0055QM9NA',
+    description: 'A large black-matte hard travel case. The current listing and maker identify a 40-cigar capacity, ABS molded shell, foam interior, locking clasps, stainless-steel latch hinges and a humidifier disc in the lid.',
+    highlights: ['Listing claim: up to 40 cigars', 'ABS molded hard case', 'Foam interior', 'One humidifier disc in the lid'],
+    pros: ['Useful capacity tier for groups and longer trips', 'Maker lists replaceable locking clasps and stainless-steel latch hinges', 'Handle and large format simplify carrying a shared selection'],
+    cons: ['Large 12.25 × 9.75 × 5.375-inch footprint', 'Passive case does not regulate temperature', 'Usable count falls with thick, long or tubed cigars'],
+    bestFor: 'Group trips and extended travel where five- or ten-cigar cases are genuinely too small.',
+    sealRating: 0,
+    dimensions: '12.25" × 9.75" × 5.375" (maker-listed)',
+    material: 'ABS molded plastic with foam interior (listing information)',
+    relatedGuideSlugs: ['best-travel-humidors', 'travelers-cigar-handbook-tsa-torch-pressure']
   },
 
   // ================= CABINET HUMIDORS =================

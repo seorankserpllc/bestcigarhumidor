@@ -101,7 +101,7 @@ export interface AmazonProduct {
   pros: string[];
   cons: string[];
   bestFor: string;
-  sealRating: number; // 1 to 10
+  sealRating: number; // 1 to 10; use 0 when no independent rating is available
   dimensions?: string;
   material?: string;
   electricFeatures?: {

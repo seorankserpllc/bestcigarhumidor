@@ -8,6 +8,157 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-travel-humidors',
+    slug: 'best-travel-humidors',
+    title: 'Best Travel Humidors: 5, 10, and 40-Cigar Cases Compared',
+    subtitle: 'Choose a hard case by the cigars you actually carry, the protection you need, and the room left for humidity control.',
+    category: 'selection',
+    categoryLabel: 'Travel & Mobility',
+    readTimeMinutes: 9,
+    ...editorialByline,
+    publishedDate: '2026-09-19',
+    reviewedDate: '2026-09-19',
+    heroVisual: 'travel',
+    excerpt: 'Three verified hard travel humidors compared by realistic use case, listed capacity, included components, bulk, and flight-planning tradeoffs.',
+    featuredProductIds: ['flauno-travel-5', 'cigar-caddy-10', 'cigar-caddy-40'],
+    comparisonRows: [
+      {
+        productId: 'flauno-travel-5',
+        fit: 'Day trip or compact weekend kit',
+        capacity: 'Listing: five medium cigars, or four at 52 ring gauge',
+        tradeoff: 'Smallest footprint; cutter and disc use some interior room'
+      },
+      {
+        productId: 'cigar-caddy-10',
+        fit: 'Weekend trip or a few cigars to share',
+        capacity: 'Listing: up to ten Churchill cigars',
+        tradeoff: 'More flexible than a five-count case, but bulkier in a day bag'
+      },
+      {
+        productId: 'cigar-caddy-40',
+        fit: 'Group travel or a longer stay',
+        capacity: 'Listing and maker claim: up to 40 cigars',
+        tradeoff: 'Large 12.25 × 9.75 × 5.375-inch case; capacity varies with cigar size'
+      }
+    ],
+    useBrandedProductArt: true,
+    relatedBlueprintIds: ['blueprint-tupperdor-7l'],
+    sections: [
+      {
+        id: 'how-we-chose',
+        title: '1. What these travel picks mean',
+        contentMarkdown: `This is a **capacity and use-case comparison**, not a lab test or a universal ranking. On September 19, 2026, we opened each live Amazon.com product page and matched the displayed brand, exact ASIN, capacity variant, case format, and included components to the catalog record. We did not buy, drop, immerse, pressure-test, or measure the humidity retention of these cases. Protection, seal, and capacity wording below is clearly attributed to the current listing or maker.
+
+Current search results often stretch to ten or fifteen products, publish prices and ratings that change, or describe personal testing without enough detail to reproduce it. This guide is narrower: one compact kit, one middle-size hard case, and one large group-trip case, with the reasons to skip each. None actively heats or cools. A sealed case left in a hot car is still a hot case.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, star ratings, review counts, badges, or claims of ownership.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Compare the three capacity tiers',
+        contentMarkdown: `Estimate how many cigars you will carry on a normal trip, then add only a little working room. Oversizing adds bulk; overpacking can press feet, caps, and wrappers into the foam or accessories. Advertised counts are fit claims, not measurements from our editorial team. Long Churchills, thick cigars, tubes, a cutter, and the humidity source all change usable capacity.
+
+The decision table is intentionally practical. Choose the five-count for compact carry, the ten-count when you want a margin for a weekend, and the forty-count only when a group or extended trip justifies luggage-sized storage.`
+      },
+      {
+        id: 'flauno-five',
+        title: '3. Flauno five-cigar case: compact kit',
+        contentMarkdown: `The live page for the [Flauno five-cigar travel case](/product/flauno-five-cigar-travel-humidor-review) is ASIN **B0956TGQ5G**. Its listing says the case holds up to five medium-ring cigars or four 52-ring-gauge cigars and includes a humidifier disc and stainless-steel cutter. It lists an 8.2 × 3.8 × 1.55-inch interior, an ABS shell, two clasps, a sealed closure, and U-shaped foam. Those are seller specifications, not independent test results.
+
+**Choose it if** you normally carry three to five cigars and want the cutter in the same compact case. **Choose the ten-count instead if** you carry large cigars, want space between accessories and wrappers, or expect to share. The included disc does not prove a particular RH. Follow its directions carefully, keep free liquid away from cigars, and verify the settled condition before a long trip.`
+      },
+      {
+        id: 'cigar-caddy-ten',
+        title: '4. Cigar Caddy 3240: middle-size hard case',
+        contentMarkdown: `The current [Cigar Caddy 3240 review](/product/cigar-caddy-10-travel-humidor-review) links to ASIN **B001CRWDBE**. The rendered listing identifies the matte-black 3240, claims room for ten Churchill cigars, and lists a foam interior, two clasps, a humidifier disc, lanyard and clip, plus a coin-operated air-pressure release. Its water, seal, impact, and temperature statements are manufacturer claims; we did not independently verify them.
+
+**Choose it if** a five-count case is routinely tight but a forty-count box would be luggage by itself. **Choose the Flauno if** compactness matters more than extra capacity. **Choose the forty-count if** ten is genuinely too few for the group. The ten-count does not include the Flauno's cutter, so pack any allowed accessory separately from the wrappers.`
+      },
+      {
+        id: 'cigar-caddy-forty',
+        title: '5. Cigar Caddy 40: group-trip capacity',
+        contentMarkdown: `The live Amazon page for the [Cigar Caddy 40 review](/product/cigar-caddy-40-travel-humidor-review) is ASIN **B0055QM9NA** and identifies the black-matte 40-cigar model. Its bullets list ABS molded plastic, two removable locking clasps, stainless-steel latch hinges, foam protection, and one humidifier disc in the lid. Quality Importers' current product page identifies the black **HUM-CC40**, gives dimensions of 12.25 × 9.75 × 5.375 inches, and also lists one F75 humidifier in the lid.
+
+**Choose it if** you are supplying a group, carrying a broad selection, or staying long enough to justify a large case. **Choose a smaller case if** you usually smoke only a few cigars away from home. The 40 count is a listing and maker maximum, not our measured fit; thick, tubed, or unusually long cigars can reduce it. The larger air volume and load also deserve setup time before departure rather than a last-minute splash of water into the disc.`
+      },
+      {
+        id: 'pack-and-monitor',
+        title: '6. Pack for protection and stable humidity',
+        contentMarkdown: `Tobacco exchanges moisture with surrounding air, and published sorption research shows that equilibrium moisture changes with RH and tobacco type. That supports monitoring the actual case instead of assuming an “airtight” label or humidifier disc guarantees cigar condition. NIST calibrates humidity instruments against known humidified air; at home, the practical lesson is to compare a small hygrometer with a trusted reference and treat every display as a measurement with uncertainty.
+
+1. Air out a new case open until no packaging or foam odor remains. Clean only as its maker directs and let every part dry fully.
+2. Check that the gasket, hinge, and clasps are clean and undamaged. A marketing claim does not replace inspecting the case you received.
+3. Use one humidity method in the amount its maker specifies. Do not let free liquid touch cigars or pool in the foam.
+4. Close the loaded case before departure and watch the trend with a checked compact hygrometer when trip length justifies one.
+5. Arrange cigars so feet and caps are not pressed against the cutter, humidifier, or clasps. Do not force the lid.
+6. Keep the case away from direct sun, heaters, and parked vehicles. These passive cases do not regulate temperature.
+
+For home storage after the trip, move the cigars back to a properly monitored humidor. The [humidor finder](/) compares permanent formats, while the [beginner humidor guide](/guides/best-humidors-for-beginners) explains why a travel case is usually not the best primary collection box.`
+      },
+      {
+        id: 'flying',
+        title: '7. A humidor does not make every accessory flight-safe',
+        contentMarkdown: `For U.S. flights, check the TSA and FAA again before each departure and check the airline as well. FAA guidance updated April 13, 2026 says torch, blue-flame, and jet-flame lighters are not allowed in the cabin or ordinary checked baggage. It permits one absorbed-liquid or ordinary butane lighter per passenger in carry-on or on the person, subject to the detailed restrictions on its page. Butane refills are forbidden. TSA says cigar cutters are generally allowed in carry-on but notes that screening officers make the final decision.
+
+The presence of a cigar cutter, lighter pocket, pressure feature, or “travel” label does not override those rules. Pack the case so a gate-checked carry-on can be reorganized without losing restricted items, and never assume a cigar humidor is a DOT-approved lighter case. Our [flying-with-cigars guide](/guides/travelers-cigar-handbook-tsa-torch-pressure) keeps the equipment rules separate from the storage decision.`
+      },
+    ],
+    faqs: [
+      {
+        question: 'What size travel humidor should I buy?',
+        answer: 'Count what you normally carry, include the dimensions of your longest and thickest cigars, and leave room for the humidity source without compressing wrappers. Five suits a compact outing, ten adds weekend flexibility, and forty is mainly for groups or extended travel.'
+      },
+      {
+        question: 'Do advertised cigar counts include large ring gauges?',
+        answer: 'Not reliably. The Flauno listing is unusually specific—five medium cigars or four at 52 ring gauge—but other counts are maker or listing maximums. Thick, long, or tubed cigars and accessories can reduce usable capacity.'
+      },
+      {
+        question: 'Does a travel humidor control temperature?',
+        answer: 'No. These are passive hard cases. They may protect against impacts and slow moisture exchange, but they cannot cool a hot car, heat a cold bag, or hold a chosen temperature.'
+      },
+      {
+        question: 'Can I bring the included cigar cutter on a U.S. flight?',
+        answer: 'TSA currently lists cigar cutters as generally allowed in carry-on, while recommending checked baggage and reserving final discretion to the officer. Recheck the current TSA page and your airline before travel.'
+      },
+      {
+        question: 'Can I pack a torch lighter inside the travel humidor?',
+        answer: 'Not as a way around flight rules. FAA says torch, blue-flame, and jet-flame lighters are not allowed in the cabin or ordinary checked baggage. A cigar humidor is not a DOT-approved lighter container.'
+      }
+    ],
+    sources: [
+      {
+        label: 'Moisture sorption isotherms of various tobaccos',
+        publisher: 'Agricultural and Biological Chemistry, 1978',
+        url: 'https://doi.org/10.1271/bbb1961.42.2285',
+        sourceType: 'Peer-reviewed research'
+      },
+      {
+        label: 'Hygrometers and relative-humidity calibration',
+        publisher: 'National Institute of Standards and Technology',
+        url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers',
+        sourceType: 'Government / technical reference'
+      },
+      {
+        label: 'PackSafe: lighters',
+        publisher: 'Federal Aviation Administration',
+        url: 'https://www.faa.gov/hazmat/packsafe/lighters',
+        sourceType: 'Government / regulation'
+      },
+      {
+        label: 'What Can I Bring? Cigar cutters',
+        publisher: 'Transportation Security Administration',
+        url: 'https://www.tsa.gov/travel/security-screening/whatcanibring/items/cigar-cutters',
+        sourceType: 'Government / regulation'
+      },
+      {
+        label: 'Cigar Caddy 40 specifications (HUM-CC40)',
+        publisher: 'Quality Importers',
+        url: 'https://www.qualityimporters.com/cigar-caddyr-40ct-black-40-ct',
+        sourceType: 'Manufacturer instructions'
+      }
+    ]
+  },
+  {
   "id": "best-electric-cigar-humidors",
   "slug": "best-electric-cigar-humidors",
   "title": "Best Electric Cigar Humidors: 16L, 23L, and 33L Compared",

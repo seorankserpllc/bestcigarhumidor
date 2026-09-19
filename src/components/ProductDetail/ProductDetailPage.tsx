@@ -167,7 +167,9 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
               </div>
               <div>
                 <span className="text-stone-500 block text-[10px] uppercase">Editorial Seal Score</span>
-                <span className="font-semibold text-emerald-400">{product.sealRating} / 10</span>
+                <span className="font-semibold text-emerald-400">
+                  {product.sealRating > 0 ? `${product.sealRating} / 10` : 'Not independently rated'}
+                </span>
               </div>
               {product.dimensions && (
                 <div>
