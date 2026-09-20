@@ -147,7 +147,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({
                   4. Direct Linking Commitment
                 </h3>
                 <p>
-                  We respect our users' time. When our decision engine recommends a humidor or accessory, clicking our referral buttons directs you straight to the Amazon Product Detail Page associated with the checked ASIN. We never route users to general search result queries.
+                  We respect our users' time. When we recommend a humidor or accessory, the buying button opens that exact Amazon product page. We never make readers search for the product again.
                 </p>
               </div>
             </div>
@@ -237,7 +237,7 @@ export const LegalModal: React.FC<LegalModalProps> = ({
                   4. Intellectual Property
                 </h3>
                 <p>
-                  All proprietary testing methodology, scoring algorithms, interactive widgets, and written technical guides are the intellectual property of Best Cigar Humidor. Brand names, logos, and ASINs belong to their respective trademark holders.
+                  All proprietary testing methodology, scoring algorithms, interactive widgets, and written guides are the intellectual property of Best Cigar Humidor. Product names, brand names, and logos belong to their respective owners.
                 </p>
               </div>
             </div>

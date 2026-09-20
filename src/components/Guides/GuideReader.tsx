@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import type { CigarGuide, AmazonProduct } from '../../types/humidor';
 import { getAmazonUrl } from '../../utils/amazonLinks';
+import { getEditorialRating } from '../../utils/productRatings';
 import { ProductImage } from '../Common/ProductImage';
 import { GuideFeatureArt } from './GuideFeatureArt';
 import { GuideMarkdown } from './GuideMarkdown';
 import { 
   ArrowLeft, Clock, Share2, CheckCircle2, 
   AlertTriangle, Sparkles, Wrench, ExternalLink, 
-  BookOpen, ChevronRight, Box
+  BookOpen, ChevronRight, Star
 } from 'lucide-react';
 
 interface GuideReaderProps {
@@ -272,73 +273,84 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
               Humidors & Gear Featured in This Guide
             </h3>
             <p className="text-xs text-stone-400 mt-1">
-              Read our editorial review or check current Amazon pricing and availability:
+              Every recommendation includes the exact product image, our full review, and a direct link to its Amazon product page.
+            </p>
+            <p className="mt-2 text-[11px] leading-relaxed text-stone-500">
+              Editorial ratings are our assessment of fit and performance based on the review factors shown on each product page. They are not Amazon customer ratings.
             </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {featuredProducts.map((prod) => (
-              <div
-                key={prod.id}
-                className="bg-[#120b08] border border-stone-800 rounded-xl p-4 flex flex-col justify-between hover:border-amber-700/60 transition-all group"
-              >
-                <div className="space-y-3">
-                  <div className="flex space-x-3">
-                    <div className="w-16 h-16 rounded-lg overflow-hidden shrink-0 border border-stone-800">
-                      {guide.useBrandedProductArt ? (
-                        <div className="w-full h-full bg-gradient-to-br from-amber-950 to-stone-950 flex items-center justify-center" role="img" aria-label="Original representative humidor artwork">
-                          <Box className="w-8 h-8 text-amber-400" />
+            {featuredProducts.map((prod) => {
+              const editorialRating = getEditorialRating(prod);
+
+              return (
+                <article
+                  key={prod.id}
+                  className="bg-[#120b08] border border-stone-800 rounded-xl overflow-hidden flex flex-col justify-between hover:border-amber-700/60 transition-all group"
+                >
+                  <div>
+                    <div className="relative aspect-[16/10] overflow-hidden bg-[#f3eee5] border-b border-stone-800 p-4">
+                      <ProductImage
+                        src={prod.imageUrl}
+                        alt={prod.name}
+                        category={prod.category}
+                        subCategory={prod.subCategory}
+                        className="w-full h-full"
+                        imageClassName="w-full h-full object-contain mix-blend-multiply group-hover:scale-[1.03] transition-transform duration-300"
+                      />
+                      {editorialRating !== null && (
+                        <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full border border-amber-600/50 bg-stone-950/95 px-2.5 py-1 text-[11px] font-bold text-amber-200 shadow-lg">
+                          <Star className="h-3 w-3 fill-amber-400 text-amber-400" />
+                          <span>{editorialRating.toFixed(1)}/10</span>
+                          <span className="sr-only"> editorial rating</span>
                         </div>
-                      ) : (
-                        <ProductImage
-                          src={prod.imageUrl}
-                          alt={prod.name}
-                          category={prod.category}
-                          subCategory={prod.subCategory}
-                          className="w-full h-full"
-                          imageClassName="w-full h-full object-cover"
-                        />
                       )}
                     </div>
-                    <div>
-                      <span className="text-[10px] font-bold text-amber-500 uppercase block">
-                        {prod.brand}
-                      </span>
-                      <h4 className="font-serif text-xs font-bold text-stone-200 line-clamp-2">
-                        {prod.name}
-                      </h4>
-                      <div className="flex items-center space-x-2 text-[11px] text-stone-400 mt-1">
-                        <span className="text-stone-500">Editor researched</span>
-                        <span className="px-1.5 py-0.5 rounded bg-amber-950/60 border border-amber-800/40 text-[10px] font-bold text-amber-300">
-                          {prod.priceBracket} • Check Price
+
+                    <div className="space-y-3 p-4">
+                      <div>
+                        <span className="text-[10px] font-bold text-amber-500 uppercase block">
+                          {prod.brand}
                         </span>
+                        <h4 className="font-serif text-sm font-bold leading-snug text-stone-100">
+                          {prod.name}
+                        </h4>
+                        <div className="mt-2 flex flex-wrap items-center gap-2 text-[10px]">
+                          <span className="rounded-full border border-emerald-900/60 bg-emerald-950/30 px-2 py-0.5 font-semibold text-emerald-300">
+                            Full editorial review
+                          </span>
+                          <span className="rounded-full border border-amber-800/40 bg-amber-950/60 px-2 py-0.5 font-bold text-amber-300">
+                            {prod.priceBracket} • Check live price
+                          </span>
+                        </div>
                       </div>
+                      <p className="text-[11px] leading-relaxed text-stone-400 line-clamp-3">
+                        {guide.comparisonRows?.find(row => row.productId === prod.id)?.tradeoff || prod.description}
+                      </p>
                     </div>
                   </div>
-                  <p className="text-[11px] text-stone-400 line-clamp-2">
-                    {guide.comparisonRows?.find(row => row.productId === prod.id)?.tradeoff || prod.description}
-                  </p>
-                </div>
 
-                <div className="grid grid-cols-2 gap-2 pt-3 mt-3 border-t border-stone-800/80">
-                  <button
-                    onClick={() => onSelectProduct(prod.slug || prod.id)}
-                    className="py-1.5 px-2 rounded-lg text-xs font-semibold bg-stone-900 hover:bg-stone-800 text-amber-300 border border-amber-900/40 text-center transition-colors"
-                  >
-                    Read Full Review
-                  </button>
-                  <a
-                    href={getAmazonUrl(prod.amazonSearchQuery, prod.asin)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="py-1.5 px-2 rounded-lg text-xs font-bold bg-amber-600 hover:bg-amber-500 text-stone-950 flex items-center justify-center space-x-1 transition-colors"
-                  >
-                    <span>Check Price</span>
-                    <ExternalLink className="w-3 h-3" />
-                  </a>
-                </div>
-              </div>
-            ))}
+                  <div className="grid grid-cols-2 gap-2 border-t border-stone-800/80 p-4 pt-3">
+                    <button
+                      onClick={() => onSelectProduct(prod.slug || prod.id)}
+                      className="py-1.5 px-2 rounded-lg text-xs font-semibold bg-stone-900 hover:bg-stone-800 text-amber-300 border border-amber-900/40 text-center transition-colors"
+                    >
+                      Read Full Review
+                    </button>
+                    <a
+                      href={getAmazonUrl(prod.amazonSearchQuery, prod.asin)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="py-1.5 px-2 rounded-lg text-xs font-bold bg-amber-600 hover:bg-amber-500 text-stone-950 flex items-center justify-center space-x-1 transition-colors"
+                    >
+                      <span>Check Price</span>
+                      <ExternalLink className="w-3 h-3" />
+                    </a>
+                  </div>
+                </article>
+              );
+            })}
           </div>
         </div>
       )}

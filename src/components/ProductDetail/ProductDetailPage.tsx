@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import type { AmazonProduct, CigarGuide } from '../../types/humidor';
 import { getAmazonUrl } from '../../utils/amazonLinks';
+import { getEditorialRating } from '../../utils/productRatings';
 import { ProductImage } from '../Common/ProductImage';
 import { 
   ShoppingBag, ExternalLink, ArrowLeft, Share2, Check, X,
@@ -25,6 +26,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
 }) => {
   const [copied, setCopied] = useState(false);
   const [selectedVitola, setSelectedVitola] = useState<'robustos' | 'coronas' | 'torosChurchills' | 'gordos'>('robustos');
+  const editorialRating = getEditorialRating(product);
 
   // Dynamic document title for programmatic SEO
   useEffect(() => {
@@ -57,10 +59,25 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
                 "@type": "Product",
                 "name": product.name,
                 "description": product.description,
+                "image": product.imageUrl,
                 "brand": {
                   "@type": "Brand",
                   "name": product.brand
                 },
+                "review": editorialRating !== null ? {
+                  "@type": "Review",
+                  "author": {
+                    "@type": "Organization",
+                    "name": "Best Cigar Humidor"
+                  },
+                  "reviewBody": product.description,
+                  "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": editorialRating.toFixed(1),
+                    "bestRating": "10",
+                    "worstRating": "1"
+                  }
+                } : undefined,
               },
               {
                 "@type": "FAQPage",
@@ -166,9 +183,9 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
                 <span className="font-semibold text-stone-100">{product.capacitySticks > 0 ? `${product.capacitySticks} Cigars` : 'Universal'}</span>
               </div>
               <div>
-                <span className="text-stone-500 block text-[10px] uppercase">Editorial Seal Score</span>
+                <span className="text-stone-500 block text-[10px] uppercase">Overall Editorial Rating</span>
                 <span className="font-semibold text-emerald-400">
-                  {product.sealRating > 0 ? `${product.sealRating} / 10` : 'Not independently rated'}
+                  {editorialRating !== null ? `${editorialRating.toFixed(1)} / 10` : 'Not numerically rated'}
                 </span>
               </div>
               {product.dimensions && (

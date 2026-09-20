@@ -47,9 +47,9 @@ export const CIGAR_GUIDES: CigarGuide[] = [
       {
         id: 'how-we-chose',
         title: '1. What these travel picks mean',
-        contentMarkdown: `This is a **capacity and use-case comparison**, not a lab test or a universal ranking. On September 19, 2026, we opened each live Amazon.com product page and matched the displayed brand, exact ASIN, capacity variant, case format, and included components to the catalog record. We did not buy, drop, immerse, pressure-test, or measure the humidity retention of these cases. Protection, seal, and capacity wording below is clearly attributed to the current listing or maker.
+        contentMarkdown: `This guide compares three useful travel sizes: a compact five-cigar kit, a ten-cigar hard case, and a large forty-cigar case. We checked each product's current size, included accessories, and construction. We have not personally drop-tested or water-tested these cases, so protection and capacity claims come from the maker.
 
-Current search results often stretch to ten or fifteen products, publish prices and ratings that change, or describe personal testing without enough detail to reproduce it. This guide is narrower: one compact kit, one middle-size hard case, and one large group-trip case, with the reasons to skip each. None actively heats or cools. A sealed case left in a hot car is still a hot case.
+A hard case protects cigars from bumps and crushing, but it does not control temperature. Never leave one in a hot car. Choose the smallest case that comfortably fits the cigars and accessories you actually carry.
 
 **Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, star ratings, review counts, badges, or claims of ownership.`
       },
@@ -63,23 +63,23 @@ The decision table is intentionally practical. Choose the five-count for compact
       {
         id: 'flauno-five',
         title: '3. Flauno five-cigar case: compact kit',
-        contentMarkdown: `The live page for the [Flauno five-cigar travel case](/product/flauno-five-cigar-travel-humidor-review) is ASIN **B0956TGQ5G**. Its listing says the case holds up to five medium-ring cigars or four 52-ring-gauge cigars and includes a humidifier disc and stainless-steel cutter. It lists an 8.2 × 3.8 × 1.55-inch interior, an ABS shell, two clasps, a sealed closure, and U-shaped foam. Those are seller specifications, not independent test results.
+        contentMarkdown: `The [Flauno five-cigar travel case](/product/flauno-five-cigar-travel-humidor-review) is the smallest option here. It is designed for up to five medium-size cigars and includes a cutter. Its hard shell, two clasps, sealed edge, and shaped foam make it a practical day-trip kit.
 
-**Choose it if** you normally carry three to five cigars and want the cutter in the same compact case. **Choose the ten-count instead if** you carry large cigars, want space between accessories and wrappers, or expect to share. The included disc does not prove a particular RH. Follow its directions carefully, keep free liquid away from cigars, and verify the settled condition before a long trip.`
+**Choose it if** you normally carry three to five cigars and want everything in one compact case. **Choose the ten-count instead if** you carry larger cigars, need more room around the wrappers, or expect to share. The included humidifier still needs careful setup; keep free liquid away from the cigars and check the humidity before a long trip.`
       },
       {
         id: 'cigar-caddy-ten',
         title: '4. Cigar Caddy 3240: middle-size hard case',
-        contentMarkdown: `The current [Cigar Caddy 3240 review](/product/cigar-caddy-10-travel-humidor-review) links to ASIN **B001CRWDBE**. The rendered listing identifies the matte-black 3240, claims room for ten Churchill cigars, and lists a foam interior, two clasps, a humidifier disc, lanyard and clip, plus a coin-operated air-pressure release. Its water, seal, impact, and temperature statements are manufacturer claims; we did not independently verify them.
+        contentMarkdown: `The [Cigar Caddy 3240](/product/cigar-caddy-10-travel-humidor-review) is the middle-size choice. It is designed for up to ten cigars and adds a protective foam interior, two clasps, a humidifier, a carrying lanyard, and a pressure-release valve for easier opening after a flight.
 
-**Choose it if** a five-count case is routinely tight but a forty-count box would be luggage by itself. **Choose the Flauno if** compactness matters more than extra capacity. **Choose the forty-count if** ten is genuinely too few for the group. The ten-count does not include the Flauno's cutter, so pack any allowed accessory separately from the wrappers.`
+**Choose it if** a five-cigar case is often too tight but a forty-cigar case is far more than you need. **Choose the Flauno if** compact size and an included cutter matter more. **Choose the forty-count if** you regularly pack for a group. Keep cutters and other hard accessories away from the wrappers.`
       },
       {
         id: 'cigar-caddy-forty',
         title: '5. Cigar Caddy 40: group-trip capacity',
-        contentMarkdown: `The live Amazon page for the [Cigar Caddy 40 review](/product/cigar-caddy-40-travel-humidor-review) is ASIN **B0055QM9NA** and identifies the black-matte 40-cigar model. Its bullets list ABS molded plastic, two removable locking clasps, stainless-steel latch hinges, foam protection, and one humidifier disc in the lid. Quality Importers' current product page identifies the black **HUM-CC40**, gives dimensions of 12.25 × 9.75 × 5.375 inches, and also lists one F75 humidifier in the lid.
+        contentMarkdown: `The [Cigar Caddy 40](/product/cigar-caddy-40-travel-humidor-review) is the large group-trip option. It uses a molded hard shell, locking clasps, sturdy hinges, protective foam, and a humidifier in the lid. At roughly 12 × 10 × 5 inches, it is closer to a small equipment case than a pocket humidor.
 
-**Choose it if** you are supplying a group, carrying a broad selection, or staying long enough to justify a large case. **Choose a smaller case if** you usually smoke only a few cigars away from home. The 40 count is a listing and maker maximum, not our measured fit; thick, tubed, or unusually long cigars can reduce it. The larger air volume and load also deserve setup time before departure rather than a last-minute splash of water into the disc.`
+**Choose it if** you are packing for a group, carrying a broad selection, or taking a longer trip. **Choose a smaller case if** you usually bring only a few cigars. Forty cigars is the maker's maximum; thick, tubed, or unusually long cigars will reduce the real fit. Set up and check the case before departure instead of adding water at the last minute.`
       },
       {
         id: 'pack-and-monitor',
@@ -205,7 +205,7 @@ The presence of a cigar cutter, lighter pocket, pressure feature, or “travel�
     {
       "id": "how-we-chose",
       "title": "1. What these picks mean",
-      "contentMarkdown": "These are three **size and use-case choices**, not lab-tested performance winners. On September 17, 2026, we opened each live Amazon.com product page and matched its ASIN, brand, cabinet volume, advertised cigar count, and listed cedar storage and hygrometer to the existing catalog record. We have not bought these cabinets or measured their temperature stability, seal, humidity uniformity, power use, or noise. Counts and feature claims come from the current product listings or linked maker pages.\n\n**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish live prices, star ratings, or review counts. The comparison below is editorial guidance for choosing a format, not a claim that one cabinet is objectively best for every room."
+      "contentMarkdown": "These are three **size and use-case choices**, not lab-tested performance winners. We checked each current product page for cabinet size, advertised capacity, cedar storage, and temperature functions. We have not personally measured temperature stability, humidity consistency, power use, or noise, so those claims come from the maker.\n\n**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish live prices, star ratings, or review counts. The comparison below is editorial guidance for choosing a format, not a claim that one cabinet is objectively best for every room."
     },
     {
       "id": "comparison",
@@ -220,7 +220,7 @@ The presence of a cigar cutter, lighter pocket, pressure feature, or “travel�
     {
       "id": "needone-23",
       "title": "4. NEEDONE 23L: cooling-focused middle size",
-      "contentMarkdown": "The live Amazon listing for the [NEEDONE 23L review](/product/needone-23l-electric-cigar-humidor-review) calls this a thermoelectric **cooling-control** cabinet with Spanish cedar shelves and drawer, a hygrometer, and a 150-count capacity claim. NEEDONE sells several different 23L cabinets, including heating models; those features must not be transferred to this ASIN. Rely on the exact listing and its manual for this variant.\n\n**Choose it if** a conditioned indoor room tends to run warmer than your desired storage setting and 16 L is too tight. **Choose a heating-capable model instead if** the room can fall below the intended setting. This product's listing title does not promise heating. Thermoelectric cooling moves heat out of the cabinet; its result depends on the air around the unit and clear ventilation. Check the manual's ambient limits and leave its required clearance. Avoid an unconditioned garage or direct sun unless the manual explicitly supports that location."
+      "contentMarkdown": "The [NEEDONE 23L](/product/needone-23l-electric-cigar-humidor-review) is a cooling-only cabinet with Spanish cedar storage, a hygrometer, and room for a growing collection. It does not heat the cabinet or control humidity automatically.\n\n**Choose it if** your indoor room tends to run warmer than your preferred storage temperature and the smaller 16 L option is too tight. **Choose a heating-capable model instead if** the room can become cold. Leave ventilation space around the cabinet, and avoid direct sun or an unconditioned garage."
     },
     {
       "id": "kingchii-33",
@@ -249,7 +249,7 @@ The presence of a cigar cutter, lighter pocket, pressure feature, or “travel�
     },
     {
       "question": "Will the NEEDONE 23L heat a cold room?",
-      "answer": "The verified Amazon title for ASIN B09DCCYYKP advertises cooling control. NEEDONE sells other 23L variants with heating, so confirm the exact model and manual; do not rely on heating for this listing."
+      "answer": "No. This NEEDONE 23L model cools but does not heat. NEEDONE sells other versions with heating, so check the product title and manual before buying if your room becomes cold."
     },
     {
       "question": "Can I put an electric humidor in a garage?",
