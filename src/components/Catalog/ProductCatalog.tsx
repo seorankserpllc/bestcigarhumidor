@@ -135,14 +135,14 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
           >
             <div>
               {/* Product Image & Badges */}
-              <div className="aspect-[4/3] w-full bg-black/50 relative overflow-hidden">
+              <div className="aspect-[4/3] w-full bg-[#f3eee5] relative overflow-hidden p-4 border-b border-stone-800">
                 <ProductImage
                   src={prod.imageUrl}
                   alt={prod.name}
                   category={prod.category}
                   subCategory={prod.subCategory}
                   className="w-full h-full"
-                  imageClassName="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  imageClassName="w-full h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute top-3 right-3 px-2.5 py-1 rounded-lg bg-black/85 backdrop-blur-sm border border-amber-900/50 text-amber-300 text-xs font-semibold shadow flex items-center gap-1.5">
                   <span className="font-bold text-amber-400">

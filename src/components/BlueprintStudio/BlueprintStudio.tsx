@@ -166,14 +166,14 @@ export const BlueprintStudio: React.FC<BlueprintStudioProps> = ({
                       )}
                     </button>
 
-                    <div className="w-12 h-12 rounded-lg overflow-hidden shrink-0 border border-stone-800 bg-black">
+                    <div className="w-12 h-12 rounded-lg overflow-hidden shrink-0 border border-stone-800 bg-[#f3eee5] p-1">
                       <ProductImage
                         src={prod.imageUrl}
                         alt={prod.name}
                         category={prod.category}
                         subCategory={prod.subCategory}
                         className="w-full h-full"
-                        imageClassName="w-full h-full object-cover"
+                        imageClassName="w-full h-full object-contain mix-blend-multiply"
                       />
                     </div>
 

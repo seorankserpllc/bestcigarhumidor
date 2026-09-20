@@ -115,6 +115,8 @@ export const ProductImage: React.FC<ProductImageProps> = ({
       alt={alt}
       onError={() => setHasError(true)}
       loading="lazy"
+      decoding="async"
+      referrerPolicy="no-referrer"
       className={imageClassName || className}
     />
   );

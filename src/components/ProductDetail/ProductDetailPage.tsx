@@ -156,13 +156,13 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         {/* Product Media Column */}
         <div className="lg:col-span-5 space-y-4">
-          <div className="aspect-[4/3] w-full rounded-2xl overflow-hidden bg-black/60 border border-amber-900/40 relative shadow-2xl group flex items-center justify-center p-2">
+          <div className="aspect-[4/3] w-full rounded-2xl overflow-hidden bg-[#f3eee5] border border-amber-900/40 relative shadow-2xl group flex items-center justify-center p-4">
             <ProductImage 
               src={product.imageUrl} 
               alt={product.name}
               category={product.category}
               subCategory={product.subCategory}
-              className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" 
+              className="w-full h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-500"
             />
             <div className="absolute top-3 left-3 px-3 py-1 rounded-full bg-black/85 backdrop-blur-sm border border-stone-700 text-amber-400 text-xs font-bold uppercase tracking-wider">
               {product.brand}

@@ -177,13 +177,13 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
                   <span className="text-xs text-stone-400 font-medium">Little or no assembly</span>
                 </div>
 
-                <div className="aspect-video w-full rounded-xl overflow-hidden bg-black/40 border border-stone-800 relative">
+                <div className="aspect-video w-full rounded-xl overflow-hidden bg-[#f3eee5] border border-stone-800 relative p-4">
                   <ProductImage 
                     src={topBuyProduct.imageUrl} 
                     alt={topBuyProduct.name}
                     category={topBuyProduct.category}
                     subCategory={topBuyProduct.subCategory}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform" 
+                    className="w-full h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform"
                   />
                   <div className="absolute top-3 right-3 px-3 py-1 rounded-lg bg-black/80 backdrop-blur-sm border border-stone-700 text-amber-300 text-xs font-bold shadow-md">
                     Editorial pick
@@ -346,14 +346,14 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
               className="bg-[#130b08] border border-stone-800 rounded-xl p-4 flex flex-col justify-between hover:border-amber-800/60 transition-colors"
             >
               <div className="space-y-3">
-                <div className="aspect-square w-full rounded-lg overflow-hidden bg-black/40 relative">
+                <div className="aspect-square w-full rounded-lg overflow-hidden bg-[#f3eee5] relative p-4">
                   <ProductImage
                     src={item.imageUrl}
                     alt={item.name}
                     category={item.category}
                     subCategory={item.subCategory}
                     className="w-full h-full"
-                    imageClassName="w-full h-full object-cover"
+                    imageClassName="w-full h-full object-contain mix-blend-multiply"
                   />
                   <span className="absolute bottom-2 right-2 px-2 py-0.5 rounded bg-black/85 backdrop-blur-sm text-amber-300 font-semibold text-[10px] border border-amber-900/40 shadow">
                     Check Price
