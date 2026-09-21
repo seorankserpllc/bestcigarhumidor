@@ -273,16 +273,18 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
               Humidors & Gear Featured in This Guide
             </h3>
             <p className="text-xs text-stone-400 mt-1">
-              Every recommendation includes the exact product image, our full review, and a direct link to its Amazon product page.
+              Every recommendation includes our full review and a direct link to its exact Amazon product page.
             </p>
-            <p className="mt-2 text-[11px] leading-relaxed text-stone-500">
-              Editorial ratings are our assessment of fit and performance based on the review factors shown on each product page. They are not Amazon customer ratings.
-            </p>
+            {!guide.useBrandedProductArt && (
+              <p className="mt-2 text-[11px] leading-relaxed text-stone-500">
+                Editorial ratings are our assessment of fit and performance based on the review factors shown on each product page. They are not Amazon customer ratings.
+              </p>
+            )}
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {featuredProducts.map((prod) => {
-              const editorialRating = getEditorialRating(prod);
+              const editorialRating = guide.useBrandedProductArt ? null : getEditorialRating(prod);
 
               return (
                 <article
@@ -291,14 +293,18 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
                 >
                   <div>
                     <div className="relative aspect-[16/10] overflow-hidden bg-[#f3eee5] border-b border-stone-800 p-4">
-                      <ProductImage
-                        src={prod.imageUrl}
-                        alt={prod.name}
-                        category={prod.category}
-                        subCategory={prod.subCategory}
-                        className="w-full h-full"
-                        imageClassName="w-full h-full object-contain mix-blend-multiply group-hover:scale-[1.03] transition-transform duration-300"
-                      />
+                      {guide.useBrandedProductArt ? (
+                        <GuideFeatureArt variant={guide.heroVisual} category={prod.brand} compact />
+                      ) : (
+                        <ProductImage
+                          src={prod.imageUrl}
+                          alt={prod.name}
+                          category={prod.category}
+                          subCategory={prod.subCategory}
+                          className="w-full h-full"
+                          imageClassName="w-full h-full object-contain mix-blend-multiply group-hover:scale-[1.03] transition-transform duration-300"
+                        />
+                      )}
                       {editorialRating !== null && (
                         <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full border border-amber-600/50 bg-stone-950/95 px-2.5 py-1 text-[11px] font-bold text-amber-200 shadow-lg">
                           <Star className="h-3 w-3 fill-amber-400 text-amber-400" />

@@ -8,6 +8,156 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-desktop-humidors',
+    slug: 'best-desktop-humidors',
+    title: 'Best Desktop Humidors: Three Sizes and Materials Compared',
+    subtitle: 'Compare a compact acrylic jar, a medium cedar desktop, and a large display humidor by usable capacity, setup work, and room conditions.',
+    category: 'selection',
+    categoryLabel: 'Desktop & Display',
+    readTimeMinutes: 9,
+    ...editorialByline,
+    publishedDate: '2026-09-21',
+    reviewedDate: '2026-09-21',
+    heroVisual: 'glass-top',
+    excerpt: 'Three verified desktop humidors compared by material, realistic capacity, footprint, included humidity equipment, and maintenance tradeoffs.',
+    featuredProductIds: ['xifei-acrylic-jar', 'klaro-renzo', 'klaro-octodor'],
+    comparisonRows: [
+      {
+        productId: 'xifei-acrylic-jar',
+        fit: 'Small collection or low-maintenance secondary storage',
+        capacity: 'Listing: about 15–20 cigars, depending on size',
+        tradeoff: 'Compact and simple, but no tray or accessory drawer'
+      },
+      {
+        productId: 'klaro-renzo',
+        fit: 'Medium collection and traditional desk presentation',
+        capacity: 'Listing: roughly 30–35 average 52-ring-gauge cigars',
+        tradeoff: 'Cedar needs conditioning; Hydro Channels use interior space'
+      },
+      {
+        productId: 'klaro-octodor',
+        fit: 'Larger loose-cigar collection and display space',
+        capacity: 'Maker/listing range: 50–100 cigars',
+        tradeoff: 'Large 13.75 × 9.5 × 8.6-inch footprint and more cedar to condition'
+      }
+    ],
+    useBrandedProductArt: true,
+    relatedBlueprintIds: ['blueprint-tupperdor-7l'],
+    sections: [
+      {
+        id: 'what-these-picks-mean',
+        title: '1. What these desktop picks mean',
+        contentMarkdown: `This guide compares three genuinely different desktop choices: a clear acrylic jar for a small collection, a medium wood-and-glass box, and a large cedar-lined display humidor. We verified each exact Amazon listing on September 21, 2026, including the ASIN, selected variant, stated capacity, and included components. We have not owned, seal-tested, weighed, or laboratory-tested these units, so product performance and capacity statements remain maker or listing claims.
+
+The most useful desktop humidor is the one that fits your actual cigars, room, and maintenance habits. None of these passive containers heats or cools the air. If the room experiences damaging temperature swings, a different location or a suitable temperature-controlled cabinet matters more than buying the largest box.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, star ratings, review counts, badges, or claims of hands-on ownership.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Compare material, working capacity, and setup',
+        contentMarkdown: `Start with the number and size of cigars you normally keep, then leave working room for the humidifier, dividers, and air movement. Advertised counts are not standardized measurements. Thick cigars, long Churchills, tubes, and loose accessories can reduce usable capacity sharply.
+
+The acrylic option has almost no unfinished wood to condition, while the Renzo and Octodor use cedar that must reach a stable moisture balance before valuable cigars go in. Wood can buffer short humidity changes, but it also adds setup time and does not guarantee a good seal. A glass top makes the collection visible without opening the lid; it is still another joint whose condition should be checked.`
+      },
+      {
+        id: 'xifei-acrylic',
+        title: '3. XIFEI acrylic jar: compact and simple',
+        contentMarkdown: `The [XIFEI acrylic humidor jar](/products/xifei-acrylic-humidor-jar-review) is the smallest choice. The current clear variant is a 7.28-inch-tall, 5-inch-diameter acrylic jar with a clasp, rubber gasket, external hygrometer, bottom cedar lining, and a loose rectangular humidifier. Its listing says about 15–20 cigars depending on their dimensions.
+
+**Choose it if** you keep a small rotation and value a compact seal over furniture styling. It needs less wood-conditioning work than the two cedar-lined boxes. **Choose a wood desktop instead if** you want a tray, dividers, accessory storage, or a more traditional presentation. The included hygrometer and humidifier are components, not proof of accuracy or automatic control; check the instrument and keep free liquid away from wrappers.`
+      },
+      {
+        id: 'renzo',
+        title: '4. Renzo: medium cedar desktop',
+        contentMarkdown: `The current [Klaro Renzo review](/products/klaro-renzo-glass-top-humidor-review) links to the brown Renzo, ASIN B07GXSVH1H. Amazon identifies it as the CASE ELEGANCE glass-top Renzo. The listing includes two Hydro Channels, a gel packet, regular and dry-climate solution bottles, and a digital hygrometer; accessories shown in the drawer are not included. The listed exterior is about 9 × 8.5 × 5.4 inches.
+
+Capacity changes by cigar size. Amazon currently says roughly 30–35 average 52-ring-gauge cigars, while the maker's more detailed table lists 28–30 Toro 52s and larger counts for slimmer cigars. **Choose it if** that medium working range suits your collection and you want a display box with an accessory drawer. **Choose the acrylic jar if** you want less conditioning work, or the Octodor if you need substantially more loose-cigar space. Follow the current maker instructions for the exact Hydro Channel setup rather than improvising with extra liquid.`
+      },
+      {
+        id: 'octodor',
+        title: '5. Octodor: larger desktop display',
+        contentMarkdown: `The [Klaro Octodor review](/products/klaro-octodor-large-glass-top-humidor-review) links to the black 50–100-cigar variant, ASIN B082P929XD. The current listing and maker describe a glass top, digital hygrometer, recessed Hydro System, removable cedar tray and divider, full cedar lining, and a felt-lined accessory drawer. Case Elegance lists the exterior at 13.75 × 9.5 × 8.6 inches.
+
+**Choose it if** you have a larger loose-cigar collection, enough furniture depth, and a reason to separate cigars between the tray and lower space. **Choose the Renzo if** the larger footprint and added cedar are unnecessary. The 100-cigar figure is a maximum maker claim, not our measured fit. Large ring gauges and a less tightly packed arrangement will lower the count. The box is passive: it cannot cool a sunny room or heat a cold one.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '6. Use these criteria before you buy',
+        contentMarkdown: `**Measure the furniture first.** Include clearance for the lid, drawer, and your hands. The Octodor needs a credenza-size surface, while the acrylic jar is easier to place on a small desk.
+
+**Count the cigars you really store.** Use your longest length and largest ring gauge, not a generic “stick” count. Add modest growth room without buying a mostly empty box that consumes unnecessary space.
+
+**Match the material to your patience.** Acrylic is quick to clean and needs little wood conditioning. Cedar-lined boxes require maker-directed setup and periodic observation, especially after dry weather or long openings.
+
+**Treat the hygrometer as an instrument.** NIST calibration work uses air with known moisture content and reports measurement uncertainty. At home, compare the included gauge with a trusted reference before relying on one number. Watch trends after loading the humidor.
+
+**Measure room temperature separately.** None of these models regulates temperature. If the intended room becomes hot, cold, or highly variable, see the [best electric humidor guide](/guides/best-electric-cigar-humidors) before committing to a passive desktop box.`
+      },
+      {
+        id: 'setup',
+        title: '7. Set up and verify before loading valuable cigars',
+        contentMarkdown: `Tobacco exchanges moisture with surrounding air. Peer-reviewed sorption research measured different equilibrium moisture levels as relative humidity changed, which is why a stable display reading and the cigar's response over time matter more than a single setup-day number.
+
+1. Inspect the exact unit you receive. Check the gasket, glass perimeter, hinges, drawer, finish, and hygrometer opening for damage or gaps.
+2. Air out packaging odors with the unit open. Clean only as the maker directs and let every surface dry fully.
+3. For the Renzo or Octodor, follow the current maker's conditioning instructions and quantities. Do not add unlisted liquid directly to the wood. The XIFEI's small cedar lining does not require the same process as a full wood box.
+4. Check the hygrometer against a trusted reference, place the humidity source so it cannot touch cigars, and close the empty humidor.
+5. Observe the trend until it is stable. Add cigars without forcing the lid or blocking the humidity source, then recheck after the load changes.
+
+The [seasoning lab](/seasoning-lab) helps plan a controlled setup. If your priority is maximum seal efficiency rather than display furniture, compare the [tupperdor guide](/guides/science-of-airtight-tupperdors) or run the [humidor finder](/) for a format-level recommendation.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'How large should a desktop humidor be for 25 cigars?',
+        answer: 'Choose from the dimensions of your actual cigars and the space used by the humidity source, not the advertised count alone. A nominal 30–50-cigar box can be a practical working size for 25 thicker cigars, while a 15–20-cigar jar may be too tight.'
+      },
+      {
+        question: 'Does an acrylic desktop humidor need seasoning?',
+        answer: 'The acrylic shell does not absorb water like a full cedar-lined box. A jar with a small cedar base may need brief stabilization, but it does not require the same wood-conditioning process as the Renzo or Octodor. Follow the exact maker instructions.'
+      },
+      {
+        question: 'Can I trust the advertised cigar capacity?',
+        answer: 'Treat it as a maximum fit claim. Ring gauge, length, tubes, trays, dividers, and the humidifier all change usable capacity. Maker size-specific tables are more useful than one headline count, but they still are not independent measurements.'
+      },
+      {
+        question: 'Does a built-in hygrometer control humidity?',
+        answer: 'No. It only measures humidity, and every measurement has uncertainty. The enclosure, humidity source, room conditions, cigar load, and how often you open the humidor determine the actual trend.'
+      },
+      {
+        question: 'Will a desktop humidor control temperature?',
+        answer: 'No. These three products are passive. Keep them away from direct sun, heaters, and rooms with large temperature swings. Consider a suitable electric cabinet when room temperature cannot be managed.'
+      }
+    ],
+    sources: [
+      {
+        label: 'Moisture sorption isotherms of various tobaccos',
+        publisher: 'Agricultural and Biological Chemistry, 1978',
+        url: 'https://doi.org/10.1271/bbb1961.42.2285',
+        sourceType: 'Peer-reviewed research'
+      },
+      {
+        label: 'Hygrometers and relative-humidity calibration',
+        publisher: 'National Institute of Standards and Technology',
+        url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers',
+        sourceType: 'Government / technical reference'
+      },
+      {
+        label: 'Renzo specifications, capacity table, and included components',
+        publisher: 'Case Elegance',
+        url: 'https://caseelegance.com/products/glass-top-cedar-humidor-with-front-digital-hygrometer',
+        sourceType: 'Manufacturer instructions'
+      },
+      {
+        label: 'Octodor specifications and included components',
+        publisher: 'Case Elegance',
+        url: 'https://caseelegance.com/collections/humidors/products/octodor-large-glass-top-humidor',
+        sourceType: 'Manufacturer instructions'
+      }
+    ]
+  },
+  {
     id: 'best-travel-humidors',
     slug: 'best-travel-humidors',
     title: 'Best Travel Humidors: 5, 10, and 40-Cigar Cases Compared',

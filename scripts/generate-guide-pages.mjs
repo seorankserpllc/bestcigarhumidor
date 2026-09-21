@@ -96,7 +96,7 @@ function guideHtml(baseHtml, guide, products) {
           '@type': 'ListItem',
           position: index + 1,
           name: product.name,
-          url: siteOrigin + '/product/' + product.slug,
+          url: siteOrigin + '/products/' + product.slug,
         };
       }),
     });

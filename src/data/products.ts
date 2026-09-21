@@ -85,7 +85,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
       },
     ],
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide']
+    relatedGuideSlugs: ['glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors']
   },
   {
     id: 'klaro-octodor',
@@ -162,7 +162,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
       },
     ],
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide']
+    relatedGuideSlugs: ['glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors']
   },
   {
     id: 'woodronic-3drawer',
@@ -338,7 +338,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     sealRating: 9.2,
     scorecard: { sealIntegrity: 9.2, thermalStability: 6.5, humidityRetention: 9.1, craftsmanship: 7.5, valueScore: 9.2 },
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['science-of-airtight-tupperdors']
+    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-desktop-humidors']
   },
 
   // ================= TRAVEL HUMIDORS =================
