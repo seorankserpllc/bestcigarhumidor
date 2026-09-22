@@ -167,55 +167,26 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   {
     id: 'woodronic-3drawer',
     slug: 'woodronic-3-drawer-spanish-cedar-cabinet-review',
-    name: 'Woodronic 3-Drawer Handmade Spanish Cedar Cabinet Humidor',
+    name: 'Woodronic 4-Drawer LED Cigar Humidor Cabinet',
     brand: 'Woodronic',
-    category: 'desktop_wood',
+    category: 'cabinet',
     price: 0, // internal budget ref
     priceBracket: '$$$',
-    priceTierFormatted: '$$$ (Mid-Tier: $120–$200)',
-    capacitySticks: 120,
+    priceTierFormatted: '$$$ (Large passive cabinet)',
+    capacitySticks: 250,
     asin: 'B0CXXNHCP4',
-    amazonSearchQuery: 'Woodronic 3 Drawer Handmade Cigar Humidor Cabinet Spanish Cedar',
+    amazonSearchQuery: 'Woodronic 4 Drawer LED Cigar Humidor Cabinet B0CXXNHCP4',
     imageUrl: 'https://m.media-amazon.com/images/I/61+G+6E22+L._AC_SL1200_.jpg',
-    description: 'A vertical desktop cabinet with 3 independent Spanish cedar sliding drawers and acrylic viewing front. Ideal for organizing cigars by brand, strength, or aging date.',
-    highlights: ['3 Slide-out Spanish Cedar Drawers', 'Crystal Clear Acrylic Door', 'Accurate Electronic Hygrometer', 'Compact Vertical Footprint'],
-    pros: ['Categorize mild, medium, and maduro in separate drawers', 'Vertical orientation saves precious desk real estate', 'Magnetic door closure with perimeter sealing'],
-    cons: ['Opening drawers lets air escape faster than top-down boxes', 'Drawers fit standard vitolas; very long Churchills must sit diagonally'],
-    bestFor: 'Organizers who want easy access to diverse cigar selections without digging.',
-    sealRating: 7.9,
-    dimensions: '9.8" x 9.8" x 13.4"',
-    material: 'Natural Spanish Cedar & Ebony Finish',
-    scorecard: {
-      sealIntegrity: 7.9,
-      thermalStability: 6.8,
-      humidityRetention: 7.8,
-      craftsmanship: 8.6,
-      valueScore: 8.8,
-    },
-    realWorldCapacity: {
-      coronas: 110,
-      robustos: 85,
-      torosChurchills: 65,
-      gordos: 40,
-      factoryBoxes: 0,
-      notes: 'Each drawer accommodates approximately 25-30 robustos. Vertical design prevents bottom cigars from being crushed.'
-    },
-    unitSpecificSeasoning: [
-      'Pull out all 3 cedar drawers and place one Boveda 84% pack inside each drawer.',
-      'Latch door closed for 14 days.',
-      'Replace with one 69% Boveda pack per drawer.'
-    ],
-    whoShouldBuy: [
-      'Smokers who love organizing their collection by wrapper (Connecticut, Habano, Maduro) across distinct drawers.'
-    ],
-    whoShouldAvoid: [
-      'Smokers in desert regions who open the humidor 5+ times per day.'
-    ],
-    failureModesToWatch: [
-      'Ensure drawer divider pins are seated flush so drawers do not rub against the magnetic front door.'
-    ],
+    description: 'The current ASIN is a tall passive display cabinet with four cedar-lined cigar drawers, a separate accessory drawer, LED lighting, a digital hygrometer, two gel humidifiers and a keyed glass-front door.',
+    highlights: ['Four cedar-lined cigar drawers', 'Separate accessory drawer', 'LED-lit glass-front display', 'Two gel humidifiers and digital hygrometer'],
+    pros: ['Separates a large loose-cigar collection across drawers', 'Shows the collection without opening the door', 'Pre-wired for an optional electric humidifier'],
+    cons: ['Does not heat or cool the room air', 'Optional electric humidifier is not included', 'The 250-cigar figure is a listing claim, not an independent fit test'],
+    bestFor: 'A large loose-cigar collection in a temperature-stable room where vertical organization matters.',
+    sealRating: 0,
+    dimensions: '13.03" x 9.13" x 25.98" (listing)',
+    material: 'Wood cabinet with cedar-lined drawers and glass front',
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['spanish-cedar-biology-guide', 'glass-top-humidor-truth-leaks-sealing']
+    relatedGuideSlugs: ['spanish-cedar-biology-guide', 'glass-top-humidor-truth-leaks-sealing', 'best-large-capacity-humidors']
   },
 
   // ================= ELECTRIC / WINEADORS =================
@@ -256,16 +227,16 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     asin: 'B0B93HN22D',
     amazonSearchQuery: 'KingChii 33L Electric Cigar Humidor B0B93HN22D',
     imageUrl: 'https://m.media-amazon.com/images/I/61NyVcJO0hL._AC_SL1200_.jpg',
-    description: 'A 33L temperature-control cabinet with four Spanish cedar shelves and a digital hygrometer. KingChii advertises both heating and cooling for this model; humidity still needs separate monitoring and management.',
-    highlights: ['33L interior', 'Four cedar shelves', 'Manufacturer-listed heating and cooling', 'Advertised 250-count capacity'],
-    pros: ['Strong balance of capacity and footprint', 'Current listing has a meaningful review history', 'Removable shelf layout'],
-    cons: ['Verify the room fits the manufacturer operating limits', 'Requires separate humidity control', 'Real capacity falls with larger ring gauges and boxes'],
-    bestFor: 'Collectors who want a medium electric cabinet without moving to furniture-sized storage.',
-    sealRating: 8.5,
+    description: 'A 33L temperature-control cabinet with four Spanish cedar storage layers and a hygrometer. KingChii lists heating and cooling for this model; humidity still needs a separate source and monitoring.',
+    highlights: ['33L interior', 'Four cedar storage layers', 'Maker-listed heating and cooling', 'Maker-listed 250-cigar capacity'],
+    pros: ['Adds temperature control to a large-cigar-count format', 'Removable cedar storage layers', 'Compact floor footprint compared with wide furniture cabinets'],
+    cons: ['Humidity control is not automatic', 'Current Amazon and maker pages show different temperature ranges', 'The 250-cigar figure is a maker claim and falls with larger cigars or boxes'],
+    bestFor: 'A large loose-cigar collection that needs active temperature control as well as separate humidity management.',
+    sealRating: 0,
+    dimensions: '20.07" D x 9.92" W x 24" H (maker-listed)',
     electricFeatures: { heating: true, cooling: true, tempRange: '54°F–74°F (maker-listed)', activeHumidity: false },
-    scorecard: { sealIntegrity: 8.5, thermalStability: 8.7, humidityRetention: 8.3, craftsmanship: 8.2, valueScore: 8.8 },
     diyAlternativeBlueprintId: 'blueprint-converted-wineador',
-    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors']
+    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors', 'best-large-capacity-humidors']
   },
   {
     id: 'kingchii-16l',
@@ -424,16 +395,16 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     asin: 'B0CRB2P122',
     amazonSearchQuery: 'Marvero 300 Count Walnut Cigar Humidor Cabinet B0CRB2P122',
     imageUrl: 'https://m.media-amazon.com/images/I/81cVaWnLUEL._AC_SL1200_.jpg',
-    description: 'A large non-electric walnut-finish cabinet with cedar drawers, a digital hygrometer and included humidification accessories. It replaces the previous listing, which incorrectly linked to a small desktop model.',
-    highlights: ['Advertised 300-count capacity', 'Cedar drawer storage', 'Digital hygrometer', 'Furniture-style walnut finish'],
-    pros: ['Meaningful marketplace review history for a large cabinet', 'Better organization than a single deep box', 'Suitable for a dedicated lounge'],
-    cons: ['Not temperature controlled', 'Advertised capacity assumes smaller cigars', 'Included humidifiers should be monitored with a calibrated gauge'],
+    description: 'A passive walnut-finish cabinet with five movable cedar drawers, a double glass door, digital thermo-hygrometer, two humidifiers and two humidity packs.',
+    highlights: ['Maker-listed 300-cigar capacity', 'Five movable cedar drawers', 'Double glass door', 'Digital thermo-hygrometer and four humidity accessories'],
+    pros: ['Organizes a large loose-cigar collection across five drawers', 'Furniture-style display format', 'Included humidity components support initial setup'],
+    cons: ['Does not heat or cool the room air', 'The 300-cigar figure is a maker claim, not an independent fit test', 'Included humidifiers still require a calibrated reference and observation'],
     bestFor: 'Large indoor collections kept in a temperature-stable room.',
-    sealRating: 8.2,
+    sealRating: 0,
+    dimensions: '12.2" x 10.24" x 17.72" (listing)',
     material: 'Walnut-finish cabinet with cedar drawers',
-    scorecard: { sealIntegrity: 8.2, thermalStability: 8.0, humidityRetention: 8.1, craftsmanship: 8.6, valueScore: 8.4 },
     diyAlternativeBlueprintId: 'blueprint-cabinet-conversion',
-    relatedGuideSlugs: ['spanish-cedar-biology-guide']
+    relatedGuideSlugs: ['spanish-cedar-biology-guide', 'best-large-capacity-humidors']
   },
 
   // ================= DIY PARTS =================
