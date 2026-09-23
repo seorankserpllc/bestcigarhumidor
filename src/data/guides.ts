@@ -8,6 +8,157 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-acrylic-humidors',
+    slug: 'best-acrylic-humidors',
+    title: 'Best Acrylic Humidors: Three Clear Storage Formats Compared',
+    subtitle: 'Compare a small gasketed box, a 25-cigar jar, and a layered display humidor by layout, capacity basis, setup work, and room conditions.',
+    category: 'selection',
+    categoryLabel: 'Acrylic & Airtight',
+    readTimeMinutes: 10,
+    ...editorialByline,
+    publishedDate: '2026-09-23',
+    reviewedDate: '2026-09-23',
+    heroVisual: 'tupperdor',
+    excerpt: 'Three verified acrylic humidors compared by usable layout, cigar-size capacity, included components, footprint, and maintenance tradeoffs.',
+    featuredProductIds: ['tisfa-small-acrylic', 'prestige-aj25-acrylic', 'klaro-felix-pro-acrylic'],
+    comparisonRows: [
+      {
+        productId: 'tisfa-small-acrylic',
+        fit: 'Small daily rotation in a compact rectangular box',
+        capacity: 'Listing: about 15–20 cigars, depending on ring gauge',
+        tradeoff: 'Included gauge and humidifier need verification; no internal tray'
+      },
+      {
+        productId: 'prestige-aj25-acrylic',
+        fit: 'Simple upright jar for long cigars and a small collection',
+        capacity: 'Listing: 25 cigars; accepts cigars up to 8 inches long',
+        tradeoff: 'No included hygrometer; bottom cigars are less convenient to reach'
+      },
+      {
+        productId: 'klaro-felix-pro-acrylic',
+        fit: 'Larger collection that benefits from layered organization',
+        capacity: 'Maker table: 20–25 Toro 60s, 35–40 Toro 54s, or higher counts for slimmer cigars',
+        tradeoff: 'Largest footprint and more cedar/setup work than the jar or small box'
+      }
+    ],
+    useBrandedProductArt: true,
+    relatedBlueprintIds: ['blueprint-tupperdor-7l'],
+    sections: [
+      {
+        id: 'what-these-picks-mean',
+        title: '1. What these acrylic picks mean',
+        contentMarkdown: `This guide compares three different ways to use clear acrylic storage: a compact gasketed box, an upright jar, and a larger layered display humidor. We rendered and checked each exact Amazon.com product page on September 23, 2026. We confirmed the displayed brand, product title, selected size, ASIN, stated capacity, included components, and a current purchasing option for TISFA small B09LM167T7, Prestige AJ25 B00J21X9IS, and Case Elegance Felix Pro B0CHTZWV9T.
+
+We have not owned, seal-tested, drop-tested, load-tested, or measured humidity performance for these units. Capacity and construction details are current listing or manufacturer information, not independent results. A fourth candidate—the standard Felix at ASIN B0CHV7DWKD—was excluded because its rendered Amazon page resolved to the Felix Pro variant instead of preserving an exact product match.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, star ratings, review counts, badges, or claims of hands-on ownership.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Compare layout, capacity basis, and main tradeoff',
+        contentMarkdown: `Acrylic simplifies the enclosure, but it does not standardize capacity. A 25-count jar may be easier for long cigars yet awkward for reaching the bottom. A rectangular box uses shelf depth more efficiently. A layered design separates cigars but loses interior volume to trays, dividers, cedar, and the humidity source.
+
+Treat every count as a fit estimate. Ring gauge, length, tubes, cellophane, the humidifier, and the space you leave around cigars all change usable capacity. The Felix Pro's maker table is more informative than a single headline number because it shows how the estimate changes by cigar size.`
+      },
+      {
+        id: 'tisfa-small',
+        title: '3. TISFA small: compact rectangular storage',
+        contentMarkdown: `The [TISFA small acrylic humidor](/products/tisfa-small-acrylic-cigar-humidor-review), ASIN B09LM167T7, is the smallest and lowest-capacity choice here. The current small variant has a clear acrylic body, clasp, rubber gasket, cedar at the bottom, an adjustable hygrometer, and a humidifier. Its listing says about 15–20 cigars depending on ring gauge.
+
+**Choose it if** you keep a small daily rotation and want cigars to lie horizontally in a compact box. **Choose the Prestige jar if** your longest cigars fit its upright layout better or you do not need an included gauge. **Choose the Felix Pro if** you need trays and substantially more working room. The listing's sealing and humidity statements are manufacturer claims; inspect the gasket and check the gauge against a trusted reference before relying on either.`
+      },
+      {
+        id: 'prestige-aj25',
+        title: '4. Prestige AJ25: simple upright jar',
+        contentMarkdown: `The [Prestige Import Group AJ25](/products/prestige-aj25-acrylic-humidor-review), ASIN B00J21X9IS, is a 9-inch-tall, 5.25-inch-diameter acrylic jar. The current listing identifies a clasp, integrated rubber gasket, Spanish cedar lining at the bottom, and a removable round humidifier that can attach under the lid or sit at the base. It claims space for 25 cigars up to 8 inches long. Cigars and a hygrometer are not listed as included.
+
+**Choose it if** an upright jar suits your furniture and you want a simple enclosure for a small collection. **Choose the TISFA if** a flat rectangular layout and included gauge are more useful. **Choose the Felix Pro if** you often rotate cigars from the bottom or want separated layers. The 25-count figure is not our measured fit; thick cigars and space around the humidifier will reduce it.`
+      },
+      {
+        id: 'felix-pro',
+        title: '5. Felix Pro: layered acrylic display storage',
+        contentMarkdown: `The [Case Elegance Felix Pro](/products/klaro-felix-pro-acrylic-humidor-review), ASIN B0CHTZWV9T, is the large organized option. Amazon currently identifies the 50–60-cigar Felix Pro with two acrylic storage trays and a Spanish cedar tray. Case Elegance lists a 12.3 × 8.8 × 5.9-inch body, digital hygrometer, black ashwood base, acrylic divider and shelves, solid Spanish cedar base tray, and starter humidity pack.
+
+Capacity depends heavily on cigar dimensions. The maker lists 20–25 Toro 60s, 35–40 Toro 54s, 38–45 Toro 52s, 50–60 Churchill 47s, and 70–90 Robusto 50s. Those are maker estimates, not our load test. **Choose it if** layered organization and a display footprint justify the extra size. **Choose a smaller jar or box if** most of that space would remain empty or your shelf cannot provide full lid clearance.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '6. Use these criteria before buying acrylic',
+        contentMarkdown: `**Start with cigar dimensions, not the headline count.** Measure your longest cigar and largest ring gauge. Decide whether an upright jar, one open layer, or stacked trays make the cigars you smoke easiest to reach.
+
+**Inspect the complete closure.** The acrylic shell has no large mass of unfinished wood to condition, but the enclosure still depends on the lid, clasp or hinge, gasket or fitted lip, hygrometer opening, and every bonded joint. A material label alone does not prove a low leak rate.
+
+**Budget space for humidity equipment.** Included humidifiers are components, not automatic control. Keep free liquid away from wrappers, follow the exact device instructions, and leave enough air space to avoid crushing cigars against the lid.
+
+**Check the hygrometer.** NIST calibrates humidity instruments against air with known moisture content and reports measurement uncertainty. A household gauge is not a control system. Compare it with a trusted reference and watch a stable trend before making changes.
+
+**Measure the room temperature.** All three picks are passive. They cannot cool direct sun, a hot shelf, or a room with large temperature swings. If temperature is the actual problem, compare the [best electric cigar humidors](/guides/best-electric-cigar-humidors) instead.`
+      },
+      {
+        id: 'setup',
+        title: '7. Set up the enclosure without guessing',
+        contentMarkdown: `Tobacco exchanges moisture with the surrounding air. Peer-reviewed sorption research found different equilibrium moisture contents as relative humidity changed, so the meaningful signal is a stable trend inside the loaded enclosure—not a single reading immediately after setup.
+
+1. Confirm the delivered ASIN and variant before discarding the packaging. Inspect the acrylic, joints, lid, clasp or hinge, gasket, hygrometer opening, trays, and cedar for shipping damage.
+2. Air out packaging odors. Clean and dry the enclosure only as its maker directs; abrasive or incompatible cleaners can damage clear surfaces.
+3. Acrylic does not need the same conditioning as a full wood box. Stabilize any cedar insert or tray according to the product instructions without soaking the acrylic enclosure or leaving liquid where it can contact cigars.
+4. Check the hygrometer against a trusted reference. Add one humidity method in the specified amount, close the empty unit, and wait for a stable trend.
+5. Load cigars without blocking the humidity source or forcing the lid. Recheck after the cigar load changes, then adjust one variable at a time.
+
+Use the [seasoning lab](/seasoning-lab) to plan a controlled setup. For a lower-cost utility container, compare the [tupperdor guide](/guides/science-of-airtight-tupperdors). For a format-level recommendation based on your room and collection, use the [humidor finder](/).`
+      },
+      {
+        id: 'when-to-choose-another-format',
+        title: '8. When another format is the better choice',
+        contentMarkdown: `Choose a [wood desktop humidor](/guides/best-desktop-humidors) when traditional presentation and a larger cedar interior matter more than quick setup. Choose a gasketed food container when utility, replaceability, and low cost matter more than display. Choose a [travel humidor](/guides/best-travel-humidors) when impact protection and luggage fit matter more than visibility.
+
+None of these acrylic models is a substitute for temperature control. If the intended room is routinely too warm, too cold, or highly variable, fix the location or evaluate an appropriately specified electric cabinet. Acrylic is a storage format, not a universal upgrade and not an active climate system.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'Does an acrylic humidor need seasoning?',
+        answer: 'The acrylic shell does not absorb moisture like unfinished wood. A cedar base or tray may need maker-directed stabilization, but that is not the same as conditioning a fully cedar-lined wooden box.'
+      },
+      {
+        question: 'Is a 25-count acrylic jar large enough for 25 cigars?',
+        answer: 'Possibly, but treat 25 as a maximum listing claim. Thick ring gauges, tubes, space around the humidifier, and a less tightly packed arrangement can reduce the working count.'
+      },
+      {
+        question: 'Can acrylic control cigar temperature?',
+        answer: 'No. These are passive enclosures. Keep them away from direct sun and heat sources, measure the room, and consider a suitable temperature-controlled cabinet when the room itself is outside your storage plan.'
+      },
+      {
+        question: 'Do I need a hygrometer in a clear humidor?',
+        answer: 'Visibility lets you inspect cigars and a gauge without opening the lid, but it does not reveal relative humidity by itself. Use a checked hygrometer and interpret trends rather than reacting to every short fluctuation.'
+      },
+      {
+        question: 'Why was the standard Felix not included?',
+        answer: 'During this review, the standard Felix ASIN did not preserve an exact match on the rendered Amazon page and resolved to the Felix Pro variant. We omitted it rather than risk sending readers to the wrong product.'
+      }
+    ],
+    sources: [
+      {
+        label: 'Moisture sorption isotherms of various tobaccos',
+        publisher: 'Agricultural and Biological Chemistry, 1978',
+        url: 'https://doi.org/10.1271/bbb1961.42.2285',
+        sourceType: 'Peer-reviewed research'
+      },
+      {
+        label: 'Hygrometers and relative-humidity calibration',
+        publisher: 'National Institute of Standards and Technology',
+        url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers',
+        sourceType: 'Government / technical reference'
+      },
+      {
+        label: 'Felix Pro dimensions, materials, components, and capacity table',
+        publisher: 'Case Elegance',
+        url: 'https://caseelegance.com/products/felix-pro-tupperdor-airtight-acrylic-humidor',
+        sourceType: 'Manufacturer instructions'
+      }
+    ]
+  },
+  {
     id: 'best-large-capacity-humidors',
     slug: 'best-large-capacity-humidors',
     title: 'Best Large-Capacity Humidors: Three 250–300 Cigar Options',

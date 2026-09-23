@@ -4,6 +4,7 @@ import type { AmazonProduct, CigarGuide } from '../../types/humidor';
 import { getAmazonUrl } from '../../utils/amazonLinks';
 import { getEditorialRating } from '../../utils/productRatings';
 import { ProductImage } from '../Common/ProductImage';
+import { GuideFeatureArt } from './GuideFeatureArt';
 
 interface GuideProductCardProps {
   product: AmazonProduct;
@@ -12,20 +13,24 @@ interface GuideProductCardProps {
 }
 
 export const GuideProductCard: React.FC<GuideProductCardProps> = ({ product, guide, onSelectProduct }) => {
-  const editorialRating = getEditorialRating(product);
+  const editorialRating = guide.useBrandedProductArt ? null : getEditorialRating(product);
   const comparison = guide.comparisonRows?.find(row => row.productId === product.id);
 
   return (
     <article className="group overflow-hidden rounded-xl border border-stone-800 bg-[#120b08] shadow-lg transition-colors hover:border-amber-700/70">
       <div className="relative aspect-[16/10] overflow-hidden border-b border-stone-800 bg-[#f3eee5] p-4">
-        <ProductImage
-          src={product.imageUrl}
-          alt={product.name}
-          category={product.category}
-          subCategory={product.subCategory}
-          className="h-full w-full"
-          imageClassName="h-full w-full object-contain mix-blend-multiply transition-transform duration-300 group-hover:scale-[1.03]"
-        />
+        {guide.useBrandedProductArt ? (
+          <GuideFeatureArt variant={guide.heroVisual} category={product.brand} compact />
+        ) : (
+          <ProductImage
+            src={product.imageUrl}
+            alt={product.name}
+            category={product.category}
+            subCategory={product.subCategory}
+            className="h-full w-full"
+            imageClassName="h-full w-full object-contain mix-blend-multiply transition-transform duration-300 group-hover:scale-[1.03]"
+          />
+        )}
         {editorialRating !== null && (
           <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full border border-amber-600/50 bg-stone-950/95 px-2.5 py-1 text-[11px] font-bold text-amber-200 shadow-lg">
             <Star className="h-3 w-3 fill-amber-400 text-amber-400" />
@@ -73,21 +78,25 @@ export const GuideProductCard: React.FC<GuideProductCardProps> = ({ product, gui
 };
 
 export const InlineGuideProductOffer: React.FC<GuideProductCardProps> = ({ product, guide, onSelectProduct }) => {
-  const editorialRating = getEditorialRating(product);
+  const editorialRating = guide.useBrandedProductArt ? null : getEditorialRating(product);
   const comparison = guide.comparisonRows?.find(row => row.productId === product.id);
 
   return (
     <aside className="my-5 overflow-hidden rounded-xl border border-amber-800/60 bg-[#17100d] shadow-lg" aria-label={`Buy ${product.name}`}>
       <div className="grid grid-cols-[104px_1fr] gap-3 p-3 sm:grid-cols-[148px_1fr] sm:gap-5 sm:p-4">
         <div className="aspect-square overflow-hidden rounded-lg border border-stone-800 bg-[#f3eee5] p-2 sm:p-3">
-          <ProductImage
-            src={product.imageUrl}
-            alt={product.name}
-            category={product.category}
-            subCategory={product.subCategory}
-            className="h-full w-full"
-            imageClassName="h-full w-full object-contain mix-blend-multiply"
-          />
+          {guide.useBrandedProductArt ? (
+            <GuideFeatureArt variant={guide.heroVisual} category={product.brand} compact />
+          ) : (
+            <ProductImage
+              src={product.imageUrl}
+              alt={product.name}
+              category={product.category}
+              subCategory={product.subCategory}
+              className="h-full w-full"
+              imageClassName="h-full w-full object-contain mix-blend-multiply"
+            />
+          )}
         </div>
         <div className="min-w-0 self-center">
           <div className="mb-1 flex flex-wrap items-center gap-2">
