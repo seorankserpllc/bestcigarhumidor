@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import type { CigarGuide, AmazonProduct } from '../../types/humidor';
 import { getAmazonUrl } from '../../utils/amazonLinks';
-import { getEditorialRating } from '../../utils/productRatings';
-import { ProductImage } from '../Common/ProductImage';
 import { GuideFeatureArt } from './GuideFeatureArt';
 import { GuideMarkdown } from './GuideMarkdown';
+import { GuideProductCard, InlineGuideProductOffer } from './GuideProductCards';
 import { 
   ArrowLeft, Clock, Share2, CheckCircle2, 
   AlertTriangle, Sparkles, Wrench, ExternalLink, 
-  BookOpen, ChevronRight, Star
+  BookOpen, ChevronRight
 } from 'lucide-react';
 
 interface GuideReaderProps {
@@ -126,10 +125,42 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
         </div>
       </header>
 
+      {/* Products and purchase paths belong near the decision, not at the end of the article. */}
+      {featuredProducts.length > 0 && (
+        <section
+          aria-labelledby="guide-quick-picks-title"
+          className="space-y-5 rounded-2xl border border-amber-800/60 bg-[#17100d] p-5 shadow-xl sm:p-7"
+        >
+          <div className="space-y-1">
+            <span className="text-xs font-bold uppercase tracking-wider text-amber-400">Quick Picks</span>
+            <h2 id="guide-quick-picks-title" className="font-serif text-2xl font-bold text-amber-100">
+              See the Products and Check Current Prices
+            </h2>
+            <p className="max-w-2xl text-sm leading-6 text-stone-300">
+              These are the exact products discussed in this guide. Compare the recommendation, open our full review, or go directly to the Amazon product page.
+            </p>
+            <p className="text-[11px] leading-5 text-stone-500">
+              As an Amazon Associate, we may earn from qualifying purchases. Amazon prices and availability can change.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            {featuredProducts.map(product => (
+              <GuideProductCard
+                key={product.id}
+                product={product}
+                guide={guide}
+                onSelectProduct={onSelectProduct}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* Branded editorial artwork */}
       <div className="aspect-[21/9] w-full rounded-2xl overflow-hidden border border-amber-900/40 relative shadow-2xl">
         <GuideFeatureArt variant={guide.heroVisual} category={guide.categoryLabel} />
       </div>
+
 
       {/* Table of Contents Quick Nav */}
       <div className="p-5 rounded-xl bg-[#140d0a] border border-stone-800 space-y-2">
@@ -154,13 +185,29 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
 
       {/* Main Guide Content Sections */}
       <div className="space-y-10 text-stone-200 leading-relaxed font-sans text-sm sm:text-base">
-        {guide.sections.map((section) => (
-          <section key={section.id} id={section.id} className="space-y-4 scroll-mt-24">
+        {guide.sections.map((section) => {
+          const sectionContent = section.contentMarkdown.toLowerCase();
+          const sectionProducts = featuredProducts.filter(product => {
+            const slug = product.slug?.toLowerCase();
+            return Boolean(slug && sectionContent.includes(slug));
+          });
+
+          return (
+            <section key={section.id} id={section.id} className="space-y-4 scroll-mt-24">
             <h2 className="font-serif text-2xl font-bold text-amber-100 border-b border-amber-950/80 pb-2">
               {section.title}
             </h2>
 
             <GuideMarkdown>{section.contentMarkdown}</GuideMarkdown>
+
+            {sectionProducts.map(product => (
+              <InlineGuideProductOffer
+                key={product.id}
+                product={product}
+                guide={guide}
+                onSelectProduct={onSelectProduct}
+              />
+            ))}
 
             {section.id === 'comparison' && guide.comparisonRows && (
               <>
@@ -177,7 +224,20 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
                       if (!product) return null;
                       return (
                         <tr key={row.productId} className="border-t border-stone-800 align-top">
-                          <th scope="row" className="p-3 font-semibold text-amber-100">{product.name}</th>
+                          <th scope="row" className="p-3 font-semibold text-amber-100">
+                            <button onClick={() => onSelectProduct(product.slug || product.id)} className="text-left hover:text-amber-300 hover:underline">
+                              {product.name}
+                            </button>
+                            <a
+                              href={getAmazonUrl(product.amazonSearchQuery, product.asin)}
+                              target="_blank"
+                              rel="noopener noreferrer sponsored"
+                              className="mt-2 flex w-fit items-center gap-1 rounded-md bg-amber-600 px-2.5 py-1.5 text-[11px] font-bold text-stone-950 hover:bg-amber-500"
+                            >
+                              Check price on Amazon
+                              <ExternalLink className="h-3 w-3" />
+                            </a>
+                          </th>
                           <td className="p-3">{row.fit}</td>
                           <td className="p-3">{row.capacity}</td>
                           <td className="p-3">{row.tradeoff}</td>
@@ -218,8 +278,9 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
                 </div>
               </div>
             )}
-          </section>
-        ))}
+            </section>
+          );
+        })}
       </div>
 
       {guide.faqs && guide.faqs.length > 0 && (
@@ -261,105 +322,6 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
           ))}
         </ul>
       </aside>
-
-      {/* FEATURED PRODUCTS SPOTLIGHT (Direct links to product review pages) */}
-      {featuredProducts.length > 0 && (
-        <div className="p-6 sm:p-8 rounded-2xl bg-[#17100d] border border-amber-900/50 shadow-xl space-y-6 pt-6">
-          <div>
-            <span className="text-xs font-bold uppercase tracking-wider text-amber-400">
-              Recommended Equipment
-            </span>
-            <h3 className="font-serif text-xl sm:text-2xl font-bold text-amber-100">
-              Humidors & Gear Featured in This Guide
-            </h3>
-            <p className="text-xs text-stone-400 mt-1">
-              Every recommendation includes our full review and a direct link to its exact Amazon product page.
-            </p>
-            {!guide.useBrandedProductArt && (
-              <p className="mt-2 text-[11px] leading-relaxed text-stone-500">
-                Editorial ratings are our assessment of fit and performance based on the review factors shown on each product page. They are not Amazon customer ratings.
-              </p>
-            )}
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {featuredProducts.map((prod) => {
-              const editorialRating = guide.useBrandedProductArt ? null : getEditorialRating(prod);
-
-              return (
-                <article
-                  key={prod.id}
-                  className="bg-[#120b08] border border-stone-800 rounded-xl overflow-hidden flex flex-col justify-between hover:border-amber-700/60 transition-all group"
-                >
-                  <div>
-                    <div className="relative aspect-[16/10] overflow-hidden bg-[#f3eee5] border-b border-stone-800 p-4">
-                      {guide.useBrandedProductArt ? (
-                        <GuideFeatureArt variant={guide.heroVisual} category={prod.brand} compact />
-                      ) : (
-                        <ProductImage
-                          src={prod.imageUrl}
-                          alt={prod.name}
-                          category={prod.category}
-                          subCategory={prod.subCategory}
-                          className="w-full h-full"
-                          imageClassName="w-full h-full object-contain mix-blend-multiply group-hover:scale-[1.03] transition-transform duration-300"
-                        />
-                      )}
-                      {editorialRating !== null && (
-                        <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full border border-amber-600/50 bg-stone-950/95 px-2.5 py-1 text-[11px] font-bold text-amber-200 shadow-lg">
-                          <Star className="h-3 w-3 fill-amber-400 text-amber-400" />
-                          <span>{editorialRating.toFixed(1)}/10</span>
-                          <span className="sr-only"> editorial rating</span>
-                        </div>
-                      )}
-                    </div>
-
-                    <div className="space-y-3 p-4">
-                      <div>
-                        <span className="text-[10px] font-bold text-amber-500 uppercase block">
-                          {prod.brand}
-                        </span>
-                        <h4 className="font-serif text-sm font-bold leading-snug text-stone-100">
-                          {prod.name}
-                        </h4>
-                        <div className="mt-2 flex flex-wrap items-center gap-2 text-[10px]">
-                          <span className="rounded-full border border-emerald-900/60 bg-emerald-950/30 px-2 py-0.5 font-semibold text-emerald-300">
-                            Full editorial review
-                          </span>
-                          <span className="rounded-full border border-amber-800/40 bg-amber-950/60 px-2 py-0.5 font-bold text-amber-300">
-                            {prod.priceBracket} • Check live price
-                          </span>
-                        </div>
-                      </div>
-                      <p className="text-[11px] leading-relaxed text-stone-400 line-clamp-3">
-                        {guide.comparisonRows?.find(row => row.productId === prod.id)?.tradeoff || prod.description}
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-2 gap-2 border-t border-stone-800/80 p-4 pt-3">
-                    <button
-                      onClick={() => onSelectProduct(prod.slug || prod.id)}
-                      className="py-1.5 px-2 rounded-lg text-xs font-semibold bg-stone-900 hover:bg-stone-800 text-amber-300 border border-amber-900/40 text-center transition-colors"
-                    >
-                      Read Full Review
-                    </button>
-                    <a
-                      href={getAmazonUrl(prod.amazonSearchQuery, prod.asin)}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="py-1.5 px-2 rounded-lg text-xs font-bold bg-amber-600 hover:bg-amber-500 text-stone-950 flex items-center justify-center space-x-1 transition-colors"
-                    >
-                      <span>Check Price</span>
-                      <ExternalLink className="w-3 h-3" />
-                    </a>
-                  </div>
-                </article>
-              );
-            })}
-          </div>
-        </div>
-      )}
 
       {/* RELATED BLUEPRINTS */}
       {guide.relatedBlueprintIds && guide.relatedBlueprintIds.length > 0 && (
