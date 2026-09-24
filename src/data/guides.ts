@@ -8,6 +8,173 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-cigar-hygrometers',
+    slug: 'best-cigar-hygrometers',
+    title: 'Best Cigar Hygrometers: Bluetooth, Wi-Fi, and Display Models Compared',
+    subtitle: 'Choose between local Bluetooth history, away-from-home Wi-Fi alerts, and a slim no-app display without mistaking a sensor for humidity control.',
+    category: 'selection',
+    categoryLabel: 'Humidity Monitoring',
+    readTimeMinutes: 10,
+    ...editorialByline,
+    publishedDate: '2026-09-24',
+    reviewedDate: '2026-09-24',
+    heroVisual: 'hygrometer',
+    excerpt: 'Three verified digital cigar hygrometers compared by connection, display, alerts, history, power, placement, and calibration limits.',
+    featuredProductIds: ['govee-bluetooth-hygrometer', 'govee-wifi-hygrometer', 'caliber-v-hygrometer'],
+    comparisonRows: [
+      {
+        productId: 'govee-bluetooth-hygrometer',
+        fit: 'One nearby humidor where an LCD and local phone history are useful',
+        capacity: 'One-pack H5075; LCD, Bluetooth, two AAA batteries, app history and export',
+        tradeoff: 'No Wi-Fi; phone alerts depend on an active Bluetooth connection within practical range'
+      },
+      {
+        productId: 'govee-wifi-hygrometer',
+        fit: 'A home humidor that needs readings and alerts while the owner is away',
+        capacity: 'One-item H5179; Wi-Fi plus Bluetooth, three AA batteries, app history and export',
+        tradeoff: 'No screen; remote use depends on 2.4 GHz Wi-Fi, the app, power, and service availability'
+      },
+      {
+        productId: 'caliber-v-hygrometer',
+        fit: 'A traditional desktop humidor that needs a slim, readable gauge without an app',
+        capacity: 'Black Caliber V; temperature/RH display, magnetic mount, included battery, user adjustment',
+        tradeoff: 'No phone history, remote readings, or alerts; opening the humidor may be needed to read it'
+      }
+    ],
+    useBrandedProductArt: true,
+    sections: [
+      {
+        id: 'what-these-picks-mean',
+        title: '1. What these hygrometer picks mean',
+        contentMarkdown: `This is a comparison of three monitoring approaches, not a laboratory ranking. We rendered each exact Amazon.com page on September 24, 2026 and confirmed the displayed product title, model, ASIN, selected one-item or one-pack offer where applicable, included components, and a current in-stock buying option for Govee H5075 B07Y36FWTT, Govee H5179 B0872ZWV8X, and Cigar Oasis Caliber V B00JXOKQVW.
+
+We have not owned, calibrated, aged, battery-tested, or compared these three units in the same chamber. Accuracy, refresh rate, wireless range, battery life, alert behavior, and data-retention figures are manufacturer specifications. They are not independent performance results. A hygrometer reports conditions; it does not add or remove moisture and does not cool a hot humidor.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, star ratings, review counts, badges, or claims of hands-on use.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Compare the connection, display, and main dependency',
+        contentMarkdown: `Start with how you will actually read the sensor. Bluetooth is useful when you are normally near the humidor and want history without paying for remote connectivity. Wi-Fi is useful when an away-from-home notification could change what you do. A dedicated display is simpler when you do not want an app, account, network, or cloud service in the monitoring path.
+
+None of those choices proves one sensor is more accurate than another. Govee and Cigar Oasis currently specify ±3% RH for these models. That specification describes a permitted measurement band under the maker's conditions; it is not a promise that two household sensors will show the same number at every moment. Watch stable trends and verify the instrument before reacting to a small difference.`
+      },
+      {
+        id: 'govee-h5075',
+        title: '3. Govee H5075: local Bluetooth history plus an LCD',
+        contentMarkdown: `The [Govee H5075 Bluetooth hygrometer](/products/govee-bluetooth-digital-hygrometer-h5075-review), ASIN B07Y36FWTT, combines a large LCD with Bluetooth app access. The rendered one-pack Amazon listing names the H5075, includes the digital unit, two batteries, and a manual, and lists temperature and humidity, max/min values, preset app alerts, graph history, and CSV export. Govee specifies ±3% RH and a Bluetooth range measured in open, unobstructed conditions; its own current page shows both 196 feet in marketing copy and 164 feet in the FAQ, so this guide does not turn either figure into a real-home guarantee.
+
+**Choose it if** the humidor is usually within Bluetooth reach and you want both an on-device glance and phone history. **Choose the H5179 if** you need readings while away from home. **Choose the Caliber V if** an app adds complexity you do not want. Bluetooth alerts are not equivalent to internet alerts: once the phone is out of range or disconnected, the H5075 cannot notify that phone through Wi-Fi.`
+      },
+      {
+        id: 'govee-h5179',
+        title: '4. Govee H5179: screenless Wi-Fi monitoring',
+        contentMarkdown: `The [Govee H5179 Wi-Fi hygrometer](/products/govee-wifi-thermometer-hygrometer-h5179-review), ASIN B0872ZWV8X, is the remote-monitoring choice. The rendered Amazon one-item listing identifies Wi-Fi and Bluetooth, app alerts, historical data and export, one sensor, one lanyard loop, and one manual. Govee's current specifications add three AA batteries, ±3% RH, and 2.4 GHz Wi-Fi only. The device has no front display, so readings depend on the app.
+
+**Choose it if** you travel, keep the humidor in another building area, or want to see a trend before opening the enclosure. **Choose the H5075 if** local Bluetooth and an LCD are enough. **Choose the Caliber V if** you want the fewest connectivity dependencies. Wi-Fi does not make the humidor self-correcting: an alert still requires a working sensor, batteries, network, internet service, app delivery, and a person able to respond.`
+      },
+      {
+        id: 'caliber-v',
+        title: '5. Cigar Oasis Caliber V: slim display without an app',
+        contentMarkdown: `The [Cigar Oasis Caliber V](/products/oasis-caliber-v-digital-hygrometer-review), ASIN B00JXOKQVW, is the purpose-built cigar option. The current black Amazon listing identifies a digital temperature and humidity display, magnetic mount, included battery, and user calibration. Cigar Oasis specifies a slim e-ink display, ±3% RH, a 20–90% RH measuring range, Fahrenheit/Celsius selection, and three-day high, low, and average values.
+
+**Choose it if** a readable internal gauge and no-app operation matter more than remote history. It can be especially sensible behind a glass lid, where the display can be checked without opening the box. **Choose a Govee if** graphs, exports, or alerts matter. The Caliber V's maker says it arrives pre-calibrated, but that is not independent verification and does not remove the need to check a new or aging instrument against a suitable reference.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '6. Use these criteria before buying a hygrometer',
+        contentMarkdown: `**Separate monitoring from control.** A hygrometer measures temperature and relative humidity. Humidity packs, reservoirs, fans, seals, room HVAC, and active cabinets change the environment. Buying a connected sensor will not repair a leaking lid or cool a hot room.
+
+**Choose the connection you will maintain.** Bluetooth reduces network dependence but is local. Wi-Fi extends access but adds router, internet, app, account, notification, and battery dependencies. A no-app display is simple but cannot warn you from another room unless you look at it.
+
+**Treat accuracy as a range, not a score.** NIST calibrates hygrometers by exposing them to air with accurately known moisture content in a controlled chamber and reports measurement uncertainty. A consumer maker's ±3% RH specification is not the same as a NIST calibration certificate. Do not rank products by tenths of a percent that the listed uncertainty cannot support.
+
+**Check physical fit and airflow.** Leave room around the sensor. Do not press it against wet media, bury it under cigars, or place it directly in a fan stream unless that exact location is what you intend to monitor. A single point may not represent every drawer or shelf in a large cabinet.
+
+**Plan for failure.** Keep spare batteries, know whether history is stored locally or in an app, and decide what an alert would make you do. For a valuable or large collection, two checked sensors in different locations can reveal a gradient or a failed device, but two agreeing consumer sensors are still not an independent standard.`
+      },
+      {
+        id: 'verification-and-placement',
+        title: '7. Verify and place the sensor without chasing noise',
+        contentMarkdown: `Tobacco exchanges moisture with surrounding air, and peer-reviewed sorption research shows that equilibrium moisture changes with relative humidity. That makes the trend inside the enclosure useful—but only when the sensor and its placement are understood.
+
+1. Confirm the delivered model and ASIN before discarding the packaging. Install the specified battery and follow the exact maker setup instructions.
+2. Let the new sensor stabilize in one location. Do not compare one device immediately after moving it from a different temperature or humidity environment.
+3. Check it against a suitable humidity reference whose instructions define the sealed volume, time, and expected value. NIST's laboratory method is far more controlled than a household check, so record the reference method and its limitations.
+4. Apply a calibration offset only when the reading difference is stable, repeatable, and within the product's adjustment range. Do not force several changing readings to agree by repeatedly editing offsets.
+5. Place the checked sensor where cigars actually sit, away from direct contact with humidification media and without blocking circulation. In a multi-shelf cabinet, compare more than one position before assuming the whole enclosure is uniform.
+6. Watch the trend after loading cigars or changing humidity equipment. Investigate the seal, room temperature, sensor battery, placement, and humidity source before changing several variables at once.
+
+Use the [seasoning lab](/seasoning-lab) for a controlled setup plan. The [humidor finder](/) helps match the enclosure to the room, while the [high-altitude preservation guide](/guides/high-altitude-cigar-preservation) explains why a stable internal reading matters more than a location label.`
+      },
+      {
+        id: 'when-to-choose-another-tool',
+        title: '8. When another tool or another sensor is the better choice',
+        contentMarkdown: `A small [desktop humidor](/guides/best-desktop-humidors) may need only one slim display. A large drawer cabinet may justify sensors at the top and bottom. An [electric humidor](/guides/best-electric-cigar-humidors) still benefits from an independent checked sensor because the cabinet display and control loop are separate questions. A [travel case](/guides/best-travel-humidors) may not have room for a large LCD or lanyard-style device.
+
+Choose a purpose-built calibrated instrument or professional calibration service when documented traceability matters. Choose a simple second consumer sensor when your goal is only to catch a gross disagreement. Most importantly, choose a humidity-control or temperature-control solution—not another display—when measurement already shows that the environment itself is the problem.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'Does a hygrometer control humidity in a cigar humidor?',
+        answer: 'No. It measures temperature and relative humidity. The enclosure, humidity source, room conditions, and any active control equipment determine what happens next.'
+      },
+      {
+        question: 'Can the Govee H5075 alert me when I am away from home?',
+        answer: 'Not through Wi-Fi. The H5075 is Bluetooth-only, so app communication depends on a nearby connected phone. Choose a verified Wi-Fi model such as the H5179 when away-from-home access is the actual requirement.'
+      },
+      {
+        question: 'Does the Govee H5179 have a display?',
+        answer: 'No. The current H5179 listing is a screenless Wi-Fi and Bluetooth sensor. Readings, history, and alerts are viewed in the Govee Home app.'
+      },
+      {
+        question: 'Should I calibrate a new digital hygrometer?',
+        answer: 'Verify it against a suitable reference before relying on it. Apply an offset only after a stable, repeatable difference is established and the maker supports adjustment.'
+      },
+      {
+        question: 'Where should a hygrometer sit inside a humidor?',
+        answer: 'Place it near the cigars without direct contact with wet media, walls that may create a local condition, or a strong fan stream. Large or divided cabinets may need more than one measurement point.'
+      },
+      {
+        question: 'Is a ±3% RH specification accurate enough for cigars?',
+        answer: 'It can be useful for watching broad trends, but it means small differences may fall within the stated uncertainty. Verify the instrument, avoid reacting to every short fluctuation, and use a more traceable method when tighter documented accuracy is required.'
+      }
+    ],
+    sources: [
+      {
+        label: 'Moisture sorption isotherms of various tobaccos',
+        publisher: 'Agricultural and Biological Chemistry, 1978',
+        url: 'https://doi.org/10.1271/bbb1961.42.2285',
+        sourceType: 'Peer-reviewed research'
+      },
+      {
+        label: 'Hygrometers and relative-humidity calibration',
+        publisher: 'National Institute of Standards and Technology',
+        url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers',
+        sourceType: 'Government / technical reference'
+      },
+      {
+        label: 'Govee H5075 specifications, connection, batteries, and data features',
+        publisher: 'Govee',
+        url: 'https://us.govee.com/products/govee-bluetooth-hygrometer-thermometer-h5075',
+        sourceType: 'Manufacturer instructions'
+      },
+      {
+        label: 'Govee H5179 specifications, Wi-Fi requirements, batteries, and data features',
+        publisher: 'Govee',
+        url: 'https://us.govee.com/products/wi-fi-temperature-humidity-sensor',
+        sourceType: 'Manufacturer instructions'
+      },
+      {
+        label: 'Caliber V display, measuring range, adjustment, and history specifications',
+        publisher: 'Cigar Oasis',
+        url: 'https://www.cigaroasis.com/products/cigar-oasis-caliber-v-slim-digital-hygrometer',
+        sourceType: 'Manufacturer instructions'
+      }
+    ]
+  },
+  {
     id: 'best-acrylic-humidors',
     slug: 'best-acrylic-humidors',
     title: 'Best Acrylic Humidors: Three Clear Storage Formats Compared',

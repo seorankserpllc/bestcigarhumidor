@@ -663,29 +663,22 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     asin: 'B07Y36FWTT',
     amazonSearchQuery: 'Govee Bluetooth Hygrometer Thermometer H5075 with LCD Screen',
     imageUrl: 'https://m.media-amazon.com/images/I/61Vm0Qx+NEL._AC_SL1200_.jpg',
-    description: 'The most popular smart humidor sensor in the cigar community. Swiss-made Sensirion sensor with ±0.5°F and ±3% RH accuracy. High-contrast LCD screen plus 260-ft Bluetooth range with 2-year data export.',
-    highlights: ['Swiss Sensirion High-Precision Sensor', 'Clear LCD Display with Min/Max', '260-ft Bluetooth App Connectivity', 'Alert Notifications for Temp/RH Spikes'],
-    pros: ['Check humidity from your phone without opening humidor and breaking seal', 'App displays hourly/daily humidity trend graphs', 'Calibration offset can be adjusted in 0.1% increments in app'],
-    cons: ['Bluetooth only (needs to be within 200 ft; use H5179 for Wi-Fi remote check)'],
-    bestFor: 'Must-have companion for EVERY humidor setup (Tupperdor, desktop, wineador).',
-    sealRating: 10.0,
-    scorecard: {
-      sealIntegrity: 10.0,
-      thermalStability: 9.8,
-      humidityRetention: 10.0,
-      craftsmanship: 9.4,
-      valueScore: 9.9,
-    },
+    description: 'A Bluetooth temperature and humidity monitor with an LCD display, app history, alerts while connected, and CSV export. Govee specifies ±3% RH accuracy; that is a maker specification, not our test result.',
+    highlights: ['LCD temperature and humidity display', 'Bluetooth app connection', 'Preset app alerts while connected', 'Historical data and CSV export'],
+    pros: ['Read the display without opening a glass-top humidor', 'Review local trends in the Govee Home app', 'Uses replaceable AAA batteries'],
+    cons: ['Bluetooth only; it is not an away-from-home Wi-Fi monitor', 'Maker-listed wireless range assumes open, unobstructed conditions'],
+    bestFor: 'One nearby humidor where a visible display and local phone history are useful.',
+    sealRating: 0,
     unitSpecificSeasoning: [
-      'Perform the 24-hour Boveda 75% calibration test and input calibration offset into Govee Home app settings.'
+      'Compare the sensor with a trusted humidity reference and apply an offset only when the reference method supports it.'
     ],
     whoShouldBuy: [
-      'Every cigar smoker regardless of whether they have a $20 Tupperdor or $2,000 Cabinet.'
+      'Owners who want an LCD plus Bluetooth history for a nearby humidor.'
     ],
     whoShouldAvoid: [
-      'Smokers who refuse to use smartphone apps.'
+      'Owners who need alerts while away from Bluetooth range.'
     ],
-    relatedGuideSlugs: ['high-altitude-cigar-preservation', 'science-of-airtight-tupperdors']
+    relatedGuideSlugs: ['best-cigar-hygrometers', 'high-altitude-cigar-preservation', 'science-of-airtight-tupperdors']
   },
   {
     id: 'govee-wifi-hygrometer',
@@ -700,29 +693,22 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     asin: 'B0872ZWV8X',
     amazonSearchQuery: 'Govee WiFi Thermometer Hygrometer Sensor H5179 Remote App Alert',
     imageUrl: 'https://m.media-amazon.com/images/I/61UNq0X0rwL._AC_SL1200_.jpg',
-    description: 'Direct Wi-Fi connected smart sensor. Sends instant push notifications to your smartphone anywhere in the world if humidity drops below your target or temperature spikes into the beetle danger zone.',
-    highlights: ['Direct Wi-Fi (No Hub Needed)', 'Worldwide Remote Monitoring', 'Custom Push & Email Alerts', 'Historical Data Cloud Storage'],
-    pros: ['Check humidor status while traveling abroad on vacation', 'Instant alerts if AC fails or humidifier runs dry', 'No need to be near the humidor'],
-    cons: ['No front LCD screen (all data viewed in smartphone app)', 'Slightly higher battery usage than Bluetooth models'],
-    bestFor: 'Frequent travelers and high-value collection owners requiring 24/7 security.',
-    sealRating: 10.0,
-    scorecard: {
-      sealIntegrity: 10.0,
-      thermalStability: 9.8,
-      humidityRetention: 10.0,
-      craftsmanship: 9.3,
-      valueScore: 9.5,
-    },
+    description: 'A screenless Wi-Fi and Bluetooth temperature and humidity monitor for app-based remote readings, alerts, history, and CSV export. Govee specifies ±3% RH accuracy; that is a maker specification, not our test result.',
+    highlights: ['Wi-Fi and Bluetooth connection', 'Remote app readings and alerts', 'Historical data and CSV export', 'Three AA batteries'],
+    pros: ['Check readings away from home when Wi-Fi and the service are working', 'Set temperature and humidity alert ranges in the app', 'No separate gateway listed for this model'],
+    cons: ['No on-device display', 'Requires 2.4 GHz Wi-Fi and the Govee Home app for remote use'],
+    bestFor: 'A home humidor that needs away-from-home trend checks and alerts.',
+    sealRating: 0,
     unitSpecificSeasoning: [
-      'Calibrate with 75% salt bag before placing into humidor.'
+      'Compare the sensor with a trusted humidity reference before relying on alerts or applying an offset.'
     ],
     whoShouldBuy: [
-      'Frequent travelers and owners of collections exceeding $1,000 in value.'
+      'Owners who need remote readings and alerts beyond Bluetooth range.'
     ],
     whoShouldAvoid: [
-      'Smokers wanting a quick visual glance on an LCD screen.'
+      'Owners who want a display without depending on an app or Wi-Fi service.'
     ],
-    relatedGuideSlugs: ['travelers-cigar-handbook-tsa-torch-pressure', 'high-altitude-cigar-preservation']
+    relatedGuideSlugs: ['best-cigar-hygrometers', 'travelers-cigar-handbook-tsa-torch-pressure', 'high-altitude-cigar-preservation']
   },
   {
     id: 'caliber-v-hygrometer',
@@ -742,8 +728,17 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     pros: ['Straightforward dedicated display', 'Long marketplace history', 'Fits many desktop humidors'],
     cons: ['No remote alerts', 'Calibrate before use'],
     bestFor: 'Traditional humidors that need a readable internal digital gauge.',
-    sealRating: 8.8,
-    relatedGuideSlugs: ['high-altitude-cigar-preservation']
+    sealRating: 0,
+    unitSpecificSeasoning: [
+      'Compare the Caliber V with a trusted humidity reference and use its adjustment control only when the reference method supports an offset.'
+    ],
+    whoShouldBuy: [
+      'Owners who want a slim, readable in-humidor display without an app.'
+    ],
+    whoShouldAvoid: [
+      'Owners who need phone history, remote alerts, or away-from-home monitoring.'
+    ],
+    relatedGuideSlugs: ['best-cigar-hygrometers', 'high-altitude-cigar-preservation']
   },
 
   // ================= HUMIDIFICATION =================

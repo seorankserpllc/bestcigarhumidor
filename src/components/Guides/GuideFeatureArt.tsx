@@ -8,6 +8,7 @@ import {
   LockKeyhole,
   Mountain,
   Plane,
+  Radio,
   Snowflake,
   Thermometer,
   TreePine,
@@ -27,6 +28,7 @@ const visualConfig = {
   altitude: { number: '04', label: 'DRY-CLIMATE STORAGE', primary: Mountain, secondary: Gauge, tertiary: Thermometer },
   cedar: { number: '05', label: 'MATERIALS GUIDE', primary: TreePine, secondary: Leaf, tertiary: Gauge },
   travel: { number: '06', label: 'TRAVEL PROTOCOL', primary: Plane, secondary: Box, tertiary: LockKeyhole },
+  hygrometer: { number: '07', label: 'HUMIDITY MONITORING', primary: Gauge, secondary: Radio, tertiary: Thermometer },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;
