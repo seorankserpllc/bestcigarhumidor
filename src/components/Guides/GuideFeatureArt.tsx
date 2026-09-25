@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   Box,
+  Droplets,
   Fan,
   Gauge,
   GlassWater,
@@ -29,6 +30,7 @@ const visualConfig = {
   cedar: { number: '05', label: 'MATERIALS GUIDE', primary: TreePine, secondary: Leaf, tertiary: Gauge },
   travel: { number: '06', label: 'TRAVEL PROTOCOL', primary: Plane, secondary: Box, tertiary: LockKeyhole },
   hygrometer: { number: '07', label: 'HUMIDITY MONITORING', primary: Gauge, secondary: Radio, tertiary: Thermometer },
+  humidifier: { number: '08', label: 'HUMIDITY CONTROL', primary: Droplets, secondary: Gauge, tertiary: Fan },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;

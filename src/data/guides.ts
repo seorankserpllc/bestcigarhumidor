@@ -8,6 +8,190 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-humidor-humidifiers',
+    slug: 'best-humidor-humidifiers',
+    title: 'Best Humidor Humidifiers: Packs and Active Control Compared',
+    subtitle: 'Choose a small two-way pack, one large pack, or an electronic cabinet unit by enclosure capacity, target RH, maintenance, airflow, and power needs.',
+    category: 'selection',
+    categoryLabel: 'Humidity Control',
+    readTimeMinutes: 11,
+    ...editorialByline,
+    publishedDate: '2026-09-25',
+    reviewedDate: '2026-09-25',
+    heroVisual: 'humidifier',
+    excerpt: 'Three verified cigar-humidor humidifiers compared by enclosure size, humidity target, maintenance, airflow, power, and setup limits.',
+    featuredProductIds: ['boveda-69-brick', 'boveda-320g-65', 'cigar-oasis-plus-4'],
+    comparisonRows: [
+      {
+        productId: 'boveda-69-brick',
+        fit: 'Small or medium airtight and well-sealed humidors where 69% RH is the chosen target',
+        capacity: 'Twelve Size 60 packs; maker says one pack per 25 cigars of enclosure capacity',
+        tradeoff: 'Recurring replacements; all 12 packs are the same 69% target and do not move air'
+      },
+      {
+        productId: 'boveda-320g-65',
+        fit: 'A sealed cooler, electric cabinet, or larger humidor where 65% RH is the chosen target',
+        capacity: 'One Size 320 pack; maker says it equals five Size 60 packs and serves a 100-count container',
+        tradeoff: 'Large footprint, no fan, and the verified single-pack listing includes no mounting plate'
+      },
+      {
+        productId: 'cigar-oasis-plus-4',
+        fit: 'A passive cabinet from 4 to 10 cubic feet that needs active humidity circulation',
+        capacity: 'Maker lists about 300–1,000 cigars; fan, sensor, display, refill cartridge, and accessory kit',
+        tradeoff: 'Requires power, cabinet space, distilled-water service, and sensor verification; not maker-suggested for wineadors'
+      }
+    ],
+    useBrandedProductArt: true,
+    sections: [
+      {
+        id: 'what-these-picks-mean',
+        title: '1. What these humidifier picks mean',
+        contentMarkdown: `This is a fit comparison, not a claim that one humidifier is best for every cigar owner. We rendered each exact Amazon.com listing on September 25, 2026 and confirmed the displayed product title, selected size or model, ASIN, listed contents, and an in-stock buying option for Boveda 69% Size 60 twelve-count B00CPPG21Y, Boveda 65% Size 320 single B01MR6PUXF, and Cigar Oasis Plus 4.0 B00K1XBX5C.
+
+Current search results often rank foam, gel, beads, packs, and electronic units in one long list, then repeat a universal “ideal” RH or treat a product's stated set point as measured performance. This guide instead starts with the enclosure: its rated capacity, internal volume, seal, layout, room temperature, and the work you are willing to maintain. It also separates passive moisture buffering from fan-driven distribution and from temperature control.
+
+We have not owned, opened, weighed, calibrated, leak-tested, or run these products side by side. Capacity, target RH, service interval, airflow, app, and accuracy statements are manufacturer information, not independent results. Tobacco moisture changes with surrounding relative humidity, but neither a printed pack value nor an electronic set point proves the condition at every cigar.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, star ratings, review counts, badges, or claims of hands-on use.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Compare scale, maintenance, and the main dependency',
+        contentMarkdown: `Choose the Size 60 carton when you want flexible placement across one or more small and medium enclosures. Choose the Size 320 when one larger passive pack suits a sealed container and 65% is the target you have deliberately chosen. Choose the Plus 4.0 only when the enclosure is genuinely cabinet-size and active circulation justifies its power, water, sensor, cable, and maintenance requirements.
+
+Do not compare the headline cigar counts as if they were measured with the same cigar or layout. Boveda tells buyers to size packs from the container's rated capacity, not the number of cigars currently inside. Cigar Oasis specifies both an internal-volume range and an approximate cigar range for the Plus 4.0. For a divided cabinet, cubic feet, shelf arrangement, circulation paths, and sensor placement are more informative than a single optimistic count.`
+      },
+      {
+        id: 'boveda-size-60',
+        title: '3. Boveda 69% Size 60 twelve-count: flexible passive packs',
+        contentMarkdown: `The [Boveda 69% Size 60 twelve-count](/products/boveda-69-rh-size-60-12-pack-review), ASIN B00CPPG21Y, is the most flexible choice here. The rendered listing identifies twelve individually wrapped Size 60 packs at 69% RH. Boveda says to use one Size 60 for every 25 cigars the enclosure is designed to hold, so the carton can supply one maker-rated 300-count total capacity or be divided among several smaller humidors.
+
+**Choose it if** you have small or medium storage, want no cable or reservoir, and have already decided that 69% suits the enclosure and your preference. **Choose the Size 320 if** one large passive pack would reduce clutter and 65% is the intended target. **Choose active control if** a large cabinet needs fan-driven distribution.
+
+The printed 69% value is a control target under the maker's specified use, not a guarantee that a consumer hygrometer will read exactly 69% everywhere. A drafty wooden box may run differently from a gasketed container, and a pack cannot cool a warm room. Follow the maker's count based on total capacity; under-sizing to the current inventory can shorten useful life or slow recovery.`
+      },
+      {
+        id: 'boveda-size-320',
+        title: '4. Boveda 65% Size 320 single: one large passive pack',
+        contentMarkdown: `The [Boveda 65% Size 320](/products/boveda-320g-large-humidity-control-pack-review), ASIN B01MR6PUXF, is one large two-way pack. The current rendered Amazon title says “Single, Size 320,” and the listing says it equals five Size 60 packs and is intended for a storage box holding up to 100 total items. Boveda's current sizing help likewise says one Size 320 per 100 cigars of container capacity.
+
+**Choose it if** a sealed cooler, electric cabinet, or larger box has room for one large pack and 65% is your deliberate target. **Choose Size 60 packs if** you need distributed placement, a 69% target, or smaller increments. **Choose an active unit if** a large passive cabinet needs air movement rather than only a larger moisture source.
+
+The verified ASIN includes one pack; it does **not** include the metal mounting plate shown in some manufacturer examples. That plate is a separate accessory. The Size 320 also has no fan, display, alert, or temperature control. A larger passive pack may reduce clutter, but it cannot diagnose a leaking enclosure or prove uniform RH across multiple drawers.`
+      },
+      {
+        id: 'cigar-oasis-plus',
+        title: '5. Cigar Oasis Plus 4.0: active control for a large passive cabinet',
+        contentMarkdown: `The [Cigar Oasis Plus 4.0](/products/cigar-oasis-plus-4-electronic-humidifier-review), ASIN B00K1XBX5C, is the active option. The rendered Amazon listing identifies the Plus 4.0, an LCD display, sensor fan, refill cartridge, vapor system, and accessory kit, with a 300–1,000-cigar claim. Cigar Oasis specifies 4–10 cubic feet, a thin power ribbon, an adjustable set point, a backlit temperature/RH display, optional Wi-Fi service, and a pre-treated cartridge refilled with distilled water.
+
+**Choose it if** you have a passive cabinet in that volume range, can route power without damaging the seal, and want the unit's fan to distribute humidified air. **Choose packs if** the enclosure is smaller, airtight, or does not need active circulation. The maker specifically says the Plus 4.0 is not suggested for climate-controlled wineadors, so an owner of an [electric cigar humidor](/guides/best-electric-cigar-humidors) should follow that cabinet's humidity instructions rather than assuming a large active humidifier is compatible.
+
+This is not set-and-forget temperature control. The unit adds moisture and circulates air; it does not refrigerate or heat the cabinet. It also introduces a sensor, fan, cable, power supply, cartridge, and water-service routine. Cigar Oasis says to refill around every two to four months and replace the cartridge annually, but actual service demand can vary with the enclosure and room. Verify the cabinet with an independent checked sensor instead of treating the control display as a calibration certificate.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '6. Use these criteria before buying a humidor humidifier',
+        contentMarkdown: `**Size from the enclosure, not today's inventory.** A 100-count box holding 20 cigars still exposes the humidity source to the whole box and its wood, leakage, and air. Use the maker's stated capacity basis, then verify the result.
+
+**Choose the RH target deliberately.** This guide's two passive products are different targets: 69% and 65%. Do not buy by pack size alone. Tobacco sorption research shows that equilibrium moisture changes with surrounding RH; personal draw and burn preference, cigar construction, seal, and measurement uncertainty matter. Avoid universal claims that every cigar and enclosure must use one number.
+
+**Separate moisture supply from distribution.** Passive packs exchange water vapor without a fan. An active cabinet unit moves humidified air but needs clearance and circulation paths. Drawers, tight boxes, and overpacked shelves can still create local differences.
+
+**Keep temperature in the plan.** None of these products cools an overheated room. Relative humidity is temperature-dependent, and a humidity controller is not a substitute for suitable room conditions or a compatible temperature-controlled cabinet.
+
+**Count maintenance and failure modes.** Packs are consumables and eventually need replacement. An electronic unit needs power, distilled water, cartridge service, and a functioning fan and sensor. Decide which routine you will actually perform and what happens during an outage or trip.
+
+**Verify with a separate instrument.** NIST calibrates hygrometers in controlled air of known moisture content and reports uncertainty. A consumer sensor or controller does not become a reference standard because it shows a decimal. Check it, place it near the cigars without touching wet media, and watch stable trends rather than every short fluctuation.`
+      },
+      {
+        id: 'setup-and-monitoring',
+        title: '7. Set up the system without mixing instructions',
+        contentMarkdown: `1. Measure the usable enclosure volume and confirm its stated cigar capacity. Note drawers, full boxes, vents, and the space the humidifier will occupy.
+2. Confirm the delivered model and ASIN. For B00CPPG21Y, verify 69%, Size 60, and twelve packs. For B01MR6PUXF, verify 65%, Size 320, and one pack. For B00K1XBX5C, verify Plus 4.0 and the listed cartridge and accessory kit.
+3. Prepare or season the empty enclosure according to its own instructions. A humidity-control product should not be used to hide an unverified leak, wet wood, or incompatible cabinet design.
+4. For Boveda, remove any clear outer overwrap but do not cut the brown pack. Use enough packs for the enclosure's rated capacity. Boveda says not to mix RH levels or combine its packs with another humidity product in the same enclosure.
+5. For the Plus 4.0, follow the current manual and maker instructions for cartridge preparation, distilled-water refilling, placement, cable routing, clearance, set point, and optional app. Do not leave loose water where it can contact cigars, wood, or electronics.
+6. Place a checked independent hygrometer near the cigars, away from direct contact with the humidity source. In a tall cabinet, compare more than one shelf before assuming conditions are uniform.
+7. Let the closed system stabilize and record a trend. If the reading stays off target, inspect capacity sizing, seal, room temperature, sensor placement, airflow, pack condition, water level, and power before changing several variables at once.
+
+Use the [seasoning lab](/seasoning-lab) for a controlled setup sequence and the [hygrometer guide](/guides/best-cigar-hygrometers) to choose between a local display, Bluetooth history, and Wi-Fi monitoring.`
+      },
+      {
+        id: 'when-to-choose-another-solution',
+        title: '8. When another solution is the better choice',
+        contentMarkdown: `Choose a [gasketed tupperdor](/guides/science-of-airtight-tupperdors) before buying a stronger humidifier when the real problem is a leaky decorative box. Choose a [desktop humidor](/guides/best-desktop-humidors) or [acrylic humidor](/guides/best-acrylic-humidors) when the current cabinet is far larger than the collection and difficult to stabilize. Choose a compatible [electric humidor](/guides/best-electric-cigar-humidors) when room temperature, not moisture supply, is the limiting factor.
+
+The Size 60 carton is excessive if you need only one small pack today and cannot store the unopened remainder as directed. The 65% Size 320 is the wrong choice when your plan requires a different RH or the enclosure has nowhere safe to place it. The Plus 4.0 is unnecessary for a small sealed box and inappropriate when the cabinet maker forbids added active humidification or there is no safe power route.
+
+If readings remain unstable after correct sizing, stop adding devices. Verify the hygrometer, inspect the seal, reduce overpacking, check the room, and change one variable at a time. More humidity equipment cannot compensate reliably for an unknown measurement error or uncontrolled temperature.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'How many Boveda Size 60 packs should I use?',
+        answer: 'Boveda currently says one Size 60 for every 25 cigars the enclosure is designed to hold, based on total capacity rather than the number of cigars inside. Verify the result with a checked hygrometer.'
+      },
+      {
+        question: 'Can I mix 65% and 69% humidity packs?',
+        answer: 'Boveda says not to mix different RH levels or combine its packs with another humidification product in the same enclosure. Choose one target and follow the maker’s sizing instructions.'
+      },
+      {
+        question: 'Does ASIN B01MR6PUXF include a mounting plate?',
+        answer: 'No. The verified Amazon listing is one 65% Size 320 pack. A metal mounting plate appears in separate manufacturer examples but is not included with this ASIN.'
+      },
+      {
+        question: 'Does an electronic humidor humidifier control temperature?',
+        answer: 'No. The Cigar Oasis Plus 4.0 adds moisture and circulates air; it does not cool or heat the enclosure. Room conditions and any separate temperature-control system still matter.'
+      },
+      {
+        question: 'Can I use the Cigar Oasis Plus 4.0 in a wineador?',
+        answer: 'Cigar Oasis currently says the Plus 4.0 is not suggested for climate-controlled wineadors. Follow the cabinet maker’s humidity instructions and verify compatibility before adding any active humidifier.'
+      },
+      {
+        question: 'Do I still need a hygrometer with humidity-control packs or an electronic unit?',
+        answer: 'Yes, an independently checked hygrometer is useful for verifying conditions where the cigars sit. A pack label or controller display is not proof that every shelf or drawer is at the same RH.'
+      }
+    ],
+    sources: [
+      {
+        label: 'Moisture sorption isotherms of various tobaccos',
+        publisher: 'Agricultural and Biological Chemistry, 1978',
+        url: 'https://doi.org/10.1271/bbb1961.42.2285',
+        sourceType: 'Peer-reviewed research'
+      },
+      {
+        label: 'Hygrometers and relative-humidity calibration',
+        publisher: 'National Institute of Standards and Technology',
+        url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers',
+        sourceType: 'Government / technical reference'
+      },
+      {
+        label: 'Size 60 use, sizing, packaging, and handling',
+        publisher: 'Boveda',
+        url: 'https://store.bovedainc.com/products/boveda-for-cigars-size-60',
+        sourceType: 'Manufacturer instructions'
+      },
+      {
+        label: 'Size 320 equivalence, capacity basis, and mounting-plate distinction',
+        publisher: 'Boveda',
+        url: 'https://bovedainc.com/320-gram-boveda/',
+        sourceType: 'Manufacturer instructions'
+      },
+      {
+        label: 'Plus 4.0 volume, capacity, cartridge, power, and compatibility specifications',
+        publisher: 'Cigar Oasis',
+        url: 'https://www.cigaroasis.com/products/oasis-plus-4-0-electronic-humidifier',
+        sourceType: 'Manufacturer instructions'
+      },
+      {
+        label: 'Plus 4.0 model identification and refill instructions',
+        publisher: 'Cigar Oasis',
+        url: 'https://www.cigaroasis.com/pages/faq',
+        sourceType: 'Manufacturer instructions'
+      }
+    ]
+  },
+  {
     id: 'best-cigar-hygrometers',
     slug: 'best-cigar-hygrometers',
     title: 'Best Cigar Hygrometers: Bluetooth, Wi-Fi, and Display Models Compared',

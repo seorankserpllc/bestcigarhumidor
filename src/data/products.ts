@@ -776,13 +776,13 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     asin: 'B00CPPG21Y',
     amazonSearchQuery: 'Boveda 69 Size 60 12 Count B00CPPG21Y',
     imageUrl: 'https://m.media-amazon.com/images/I/81FH8PnY7mL._AC_SL1200_.jpg',
-    description: 'A 12-count box of Size 60 two-way humidity packs for general cigar storage at 69% RH.',
-    highlights: ['69% RH target', 'Twelve Size 60 packs', 'Two-way humidity control', 'No refilling'],
-    pros: ['Established high-feedback listing', 'Common choice for seasoned wood humidors', 'Simple maintenance'],
-    cons: ['May run too moist in highly airtight containers', 'Not a substitute for temperature control'],
-    bestFor: 'Seasoned wooden humidors that stabilize below the pack rating.',
-    sealRating: 10,
-    relatedGuideSlugs: ['glass-top-humidor-truth-leaks-sealing']
+    description: 'The verified 12-count carton of individually wrapped Size 60 packs, labeled for two-way humidity control at 69% RH.',
+    highlights: ['69% RH target', 'Twelve individually wrapped Size 60 packs', 'Maker sizes one pack per 25-count capacity', 'No reservoir or power'],
+    pros: ['Simple passive setup', 'Enough packs for several small enclosures or up to a maker-rated 300-count total capacity', 'No refilling'],
+    cons: ['Replacement is an ongoing consumable cost', 'Pack count follows enclosure capacity rather than current inventory', 'Does not control temperature'],
+    bestFor: 'Small and medium airtight or well-sealed humidors where 69% is the chosen target.',
+    sealRating: 0,
+    relatedGuideSlugs: ['glass-top-humidor-truth-leaks-sealing', 'best-humidor-humidifiers']
   },
   {
     id: 'boveda-72-brick',
@@ -829,36 +829,29 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   {
     id: 'boveda-320g-65',
     slug: 'boveda-320g-large-humidity-control-pack-review',
-    name: 'Boveda 320g Large Humidity Control Pack (65% RH) with Mounting Plate',
+    name: 'Boveda 65% RH Size 320 Humidity Control Pack (Single)',
     brand: 'Boveda',
     category: 'humidification',
     price: 0, // internal budget ref
     priceBracket: '$',
     priceTierFormatted: '$ (Budget: Under $35)',
-    capacitySticks: 150,
+    capacitySticks: 100,
     asin: 'B01MR6PUXF',
-    amazonSearchQuery: 'Boveda 320 Gram 65 RH Humidity Control Pack with Metal Mounting Plate',
+    amazonSearchQuery: 'Boveda 65 Size 320 Single B01MR6PUXF',
     imageUrl: 'https://m.media-amazon.com/images/I/81VrvLazlqL._AC_SL1200_.jpg',
-    description: 'Industrial-grade humidity brick. Equivalent to more than six 60g packs combined. Ideal for Coolidors, wineadors, and large 100-250 stick wooden desktop cabinets.',
-    highlights: ['Equals Six 60g Packs in One Unit', 'Lasts up to 1-2 Years in Sealed Units', 'Rigid Protective Casing', 'Optional Magnetic Mounting Plate'],
-    pros: ['Eliminates clutter of numerous small packets', 'Enormous surface area provides rapid humidity recovery after lid opening', 'Zero maintenance for years in a Coolidor'],
-    cons: ['Larger footprint requires dedicated shelf space'],
-    bestFor: 'Coolidors, electric wineadors, and large desktop cabinets.',
-    sealRating: 10.0,
-    scorecard: {
-      sealIntegrity: 10.0,
-      thermalStability: 9.9,
-      humidityRetention: 10.0,
-      craftsmanship: 9.8,
-      valueScore: 9.6,
-    },
+    description: 'One large 65% RH Size 320 two-way humidity pack; the current listing does not include a mounting plate.',
+    highlights: ['65% RH target', 'One Size 320 pack', 'Maker equates it to five Size 60 packs', 'Maker sizes one pack for a 100-count container'],
+    pros: ['One large pack reduces small-pack clutter', 'No reservoir, cable, or power', 'Can serve sealed coolers, electric cabinets, or larger humidors when 65% is the chosen target'],
+    cons: ['Takes more shelf space than one Size 60', 'Mounting plate is separate', 'Does not circulate air or control temperature'],
+    bestFor: 'A sealed container or humidor up to the maker-rated 100-count capacity where a 65% target fits the owner’s plan.',
+    sealRating: 0,
     whoShouldBuy: [
       'Owners of Coolidors, 23L/48L Wineadors, or large cabinet humidors.'
     ],
     whoShouldAvoid: [
       'Small 25-50 count desktop boxes with tight clearance.'
     ],
-    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'science-of-airtight-tupperdors']
+    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'science-of-airtight-tupperdors', 'best-humidor-humidifiers']
   },
   {
     id: 'cigar-oasis-plus-4',
@@ -873,13 +866,13 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     asin: 'B00K1XBX5C',
     amazonSearchQuery: 'Cigar Oasis Plus 4.0 B00K1XBX5C',
     imageUrl: 'https://m.media-amazon.com/images/I/71Yza3oeVPL._AC_SL1200_.jpg',
-    description: 'The current Plus 4.0 active humidifier for larger cabinets, with a refill cartridge, fan-driven vapor circulation and digital controls.',
-    highlights: ['Active fan circulation', 'Digital humidity control', 'Refillable cartridge', 'Listed for 300–1,000 cigars'],
-    pros: ['Better suited to large cabinets than passive packs alone', 'Established specialist brand', 'Replaceable refill cartridge'],
-    cons: ['Requires power and periodic refilling', 'Current marketplace feedback is more mixed than passive Boveda products'],
-    bestFor: 'Large cabinets and coolidors that need active humidity circulation.',
-    sealRating: 8.5,
-    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling']
+    description: 'The current Plus 4.0 active humidifier with a sensor-controlled fan, refill cartridge, display, and accessory kit for large passive cabinets.',
+    highlights: ['Active fan circulation', 'Adjustable humidity set point', 'Refillable cartridge', 'Maker lists 4–10 cubic feet or about 300–1,000 cigars'],
+    pros: ['Moves humidified air through a large enclosure', 'Large display and onboard controls', 'Replaceable refill cartridge'],
+    cons: ['Requires power and periodic distilled-water refills', 'Takes cabinet space and adds fan, sensor, cable, and cartridge dependencies', 'Maker does not suggest it for climate-controlled wineadors'],
+    bestFor: 'A 4–10 cubic-foot passive cabinet that needs active humidity distribution and has a safe route for the thin power cable.',
+    sealRating: 0,
+    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-humidor-humidifiers']
   },
 
   // ================= CUTTERS, LIGHTERS & ACCESSORIES =================
