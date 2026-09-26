@@ -251,16 +251,17 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     asin: 'B0BQJ5H5YT',
     amazonSearchQuery: 'KingChii 16L Electric Cigar Humidor B0BQJ5H5YT',
     imageUrl: 'https://m.media-amazon.com/images/I/61b2IOQJoNL._AC_SL1500_.jpg',
-    description: 'A compact 16L cabinet with two Spanish cedar storage layers. KingChii advertises heating and cooling for this model; humidity still needs separate monitoring and management.',
-    highlights: ['Compact 16L cabinet', 'Two cedar storage layers', 'Manufacturer-listed heating and cooling', 'Advertised 100-count capacity'],
-    pros: ['Smaller footprint for an office or bedroom', 'Established listing within the KingChii range', 'Simple temperature control'],
-    cons: ['Verify the room fits the manufacturer operating limits', 'No active humidity control', 'Best with fewer than the advertised 100 large cigars'],
-    bestFor: 'Smaller indoor collections that need temperature control in a compact cabinet.',
-    sealRating: 8.4,
-    electricFeatures: { heating: true, cooling: true, tempRange: '54°F–74°F (maker-listed)', activeHumidity: false },
-    scorecard: { sealIntegrity: 8.4, thermalStability: 8.6, humidityRetention: 8.2, craftsmanship: 8.1, valueScore: 8.5 },
+    description: 'A 16 L temperature-controlled cabinet with two Spanish cedar storage layers, a built-in hygrometer, and a maker-claimed capacity of up to 100 cigars. Humidity still needs separate management and verification.',
+    highlights: ['16 L cabinet', 'Two cedar storage layers', 'Maker-listed heating and cooling', 'Up to 100-cigar maker claim'],
+    pros: ['Narrow 9.8-inch listed width', 'Heating and cooling are listed by KingChii', 'Built-in circulation fan and hygrometer'],
+    cons: ['Its 20-inch listed depth plus ventilation and door clearance require more room than the face suggests', 'No active humidity control', 'Amazon currently lists 64–74°F while KingChii lists 54–74°F'],
+    bestFor: 'A small indoor collection that needs temperature control and has a ventilated shelf, counter, or stand near an outlet.',
+    sealRating: 0,
+    dimensions: '20" x 9.8" x 14.1" (maker and current listing)',
+    material: 'Electric cabinet with double-layer glass door and Spanish cedar shelves/drawer',
+    electricFeatures: { heating: true, cooling: true, tempRange: '54–74°F maker page; 64–74°F current Amazon bullet', activeHumidity: false },
     diyAlternativeBlueprintId: 'blueprint-converted-wineador',
-    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors']
+    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors', 'best-humidors-for-small-spaces']
   },
 
   // ================= ACRYLIC & AIRTIGHT =================
@@ -336,7 +337,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   {
     id: 'xifei-acrylic-jar',
     slug: 'xifei-acrylic-humidor-jar-review',
-    name: 'XIFEI Acrylic Humidor Jar with Hygrometer',
+    name: 'XIFEI Acrylic Humidor Jar with Humidifier and Hygrometer',
     brand: 'XIFEI',
     category: 'acrylic',
     price: 0,
@@ -346,15 +347,16 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     asin: 'B07H244RDZ',
     amazonSearchQuery: 'XIFEI Acrylic Humidor Jar B07H244RDZ',
     imageUrl: 'https://m.media-amazon.com/images/I/61MDeIjeJML._AC_SL1200_.jpg',
-    description: 'A compact clear acrylic jar with a clasp seal, humidifier and hygrometer. It is one of the most established airtight cigar jars currently listed on Amazon.',
-    highlights: ['Clasp-and-gasket seal', 'Clear acrylic body', 'Integrated hygrometer', 'About 18-cigar advertised capacity'],
-    pros: ['Large marketplace review history', 'Compact and easy to monitor', 'Good low-cost secondary storage'],
-    cons: ['Small capacity', 'Calibrate the included hygrometer before relying on it'],
-    bestFor: 'Casual smokers and small office or travel-prep collections.',
-    sealRating: 9.2,
-    scorecard: { sealIntegrity: 9.2, thermalStability: 6.5, humidityRetention: 9.1, craftsmanship: 7.5, valueScore: 9.2 },
+    description: 'A clear acrylic jar with a clasp, rubber gasket, external hygrometer, cedar bottom lining, and loose rectangular humidifier. The current listing claims about 15–20 cigars depending on size.',
+    highlights: ['Clasp and rubber gasket', 'Clear acrylic body', 'External hygrometer and loose humidifier', '15–20-cigar listing claim'],
+    pros: ['Five-inch listed diameter uses little shelf width', 'Clear body shows the contents without opening', 'Included humidity accessories reduce the initial parts list'],
+    cons: ['Capacity changes with cigar dimensions', 'The included hygrometer still needs checking', 'Passive jar cannot control temperature'],
+    bestFor: 'A 15–20-cigar rotation that needs a narrow vertical container on a temperature-stable shelf.',
+    sealRating: 0,
+    dimensions: '7.28" high x 5" diameter (current listing)',
+    material: 'Clear acrylic with rubber gasket and cedar bottom lining',
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-desktop-humidors']
+    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-desktop-humidors', 'best-acrylic-humidors', 'best-humidors-for-small-spaces']
   },
 
   // ================= TRAVEL HUMIDORS =================
@@ -456,54 +458,40 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   {
     id: 'sistema-236oz',
     slug: 'sistema-236oz-7l-airtight-container-tupperdor-core-review',
-    name: 'Sistema Klip It Collection 236 Oz (7.0 Liter) Airtight Container',
+    name: 'Sistema KLIP IT Large 7 L Food Storage Container',
     brand: 'Sistema',
     category: 'diy_part',
     subCategory: 'tupperdor_core',
     price: 0, // internal budget ref
     priceBracket: '$',
-    priceTierFormatted: '$ (Budget: Under $25)',
-    capacitySticks: 80,
+    priceTierFormatted: '$ (DIY container)',
+    capacitySticks: 0,
     asin: 'B00284AG5U',
     amazonSearchQuery: 'Sistema 1870 Klip It Collection 236 Ounce 7.0 Liter Food Storage',
     imageUrl: 'https://m.media-amazon.com/images/I/61a5OLd878L._AC_SL1200_.jpg',
-    description: 'The undisputed king of DIY Tupperdors. BPA-free food grade polypropylene with 4 heavy-duty locking clips and an inner flexible rubber gasket. Dimensions fit two standard Spanish cedar trays perfectly.',
-    highlights: ['236 oz / 7.0 Liter Volume', 'Patented Easy-Locking Clips', 'Flexible Inner Gasket for 100% Hermetic Seal', 'BPA & Phthalate Free'],
-    pros: ['Costs under $20 yet holds humidity better than a $500 wooden humidor', 'Never warps, leaks, or needs seasonal re-seasoning', 'Fits two standard 12.5" x 7.5" cedar trays stackable'],
-    cons: ['Industrial utility appearance (plastic tub)', 'Needs initial soap & warm water wash to clear factory smell'],
-    bestFor: 'The heart of the famous $45 DIY Tupperdor build.',
-    sealRating: 10.0,
-    dimensions: '13.8" x 10.8" x 3.5"',
-    scorecard: {
-      sealIntegrity: 10.0,
-      thermalStability: 6.8,
-      humidityRetention: 10.0,
-      craftsmanship: 8.5,
-      valueScore: 10.0,
-    },
-    realWorldCapacity: {
-      coronas: 90,
-      robustos: 75,
-      torosChurchills: 60,
-      gordos: 40,
-      factoryBoxes: 0,
-      notes: 'Fits two stacked Mantello cedar trays or one cedar tray plus loose cigars.'
-    },
+    description: 'A 7 L rectangular food-storage container with clip-on lid and flexible seal. It is not sold as a cigar humidor and includes no hygrometer, humidifier, cedar tray, or cigar-capacity claim.',
+    highlights: ['7 L / 236 oz maker-listed volume', 'Clip-on lid with flexible seal', 'Stackable rectangular shape', 'No cigar accessories included'],
+    pros: ['Low 4.7-inch listed height', 'Broad shallow layout can fit under some shelves', 'Official care instructions allow the seal to be removed for cleaning'],
+    cons: ['Not a turnkey cigar humidor', 'Requires a separately sized humidity source and checked hygrometer', 'No manufacturer cigar-count claim'],
+    bestFor: 'A low-profile DIY tupperdor when utility matters more than display and the owner will measure the cigar layout.',
+    sealRating: 0,
+    dimensions: '14" long x 9.3" wide x 4.7" high (maker-listed)',
+    material: 'Plastic food-storage container with flexible lid seal',
     unitSpecificSeasoning: [
-      'Wash with warm Dawn dish soap and water, let dry in sunshine for 3 hours to remove factory plastic aroma.',
-      'Season cedar trays separately before stacking.'
+      'Remove packaging, wash the container and flexible seal according to Sistema care instructions, and dry every part completely before reassembly.',
+      'Add a separately sized humidity source and a checked hygrometer; any optional cedar tray must be measured against the actual usable interior.'
     ],
     whoShouldBuy: [
-      'Value-conscious aficionados who prioritize flawless smokeability and zero humidity leaks over wooden furniture aesthetics.'
+      'Owners who want a shallow utility container and are comfortable assembling and monitoring the storage system.'
     ],
     whoShouldAvoid: [
-      'Buyers looking for an executive desk showpiece to impress dinner guests.'
+      'Buyers who want a turnkey display humidor or active temperature control.'
     ],
     failureModesToWatch: [
-      'Open lid for 30 seconds every 3-4 weeks to allow fresh oxygen exchange.'
+      'Inspect the removable flexible seal after cleaning and confirm every clip closes evenly.'
     ],
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'high-altitude-cigar-preservation']
+    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'high-altitude-cigar-preservation', 'best-humidors-for-beginners', 'best-humidors-for-small-spaces']
   },
   {
     id: 'spanish-cedar-tray-mantello',

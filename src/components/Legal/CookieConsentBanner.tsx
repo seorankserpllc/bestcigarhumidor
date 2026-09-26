@@ -89,7 +89,7 @@ export const CookieConsentBanner: React.FC<CookieConsentBannerProps> = ({
       {isVisible && !showSettingsModal && (
         <div className="fixed bottom-0 inset-x-0 z-40 p-4 sm:p-6 animate-in slide-in-from-bottom duration-300 pointer-events-none">
           <div className="max-w-5xl mx-auto bg-[#1a110d]/95 backdrop-blur-md border border-amber-900/60 rounded-2xl p-5 sm:p-6 shadow-2xl shadow-black pointer-events-auto flex flex-col md:flex-row md:items-center justify-between gap-4">
-            <div className="flex items-start space-x-3.5">
+            <div className="flex min-w-0 items-start space-x-3.5">
               <div className="p-2.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 shrink-0 mt-0.5">
                 <Cookie className="w-5 h-5" />
               </div>
@@ -118,7 +118,7 @@ export const CookieConsentBanner: React.FC<CookieConsentBannerProps> = ({
               </div>
             </div>
 
-            <div className="flex flex-wrap items-center gap-2 shrink-0 self-end md:self-center">
+            <div className="flex w-full min-w-0 flex-wrap items-center gap-2 self-stretch sm:w-auto sm:self-end md:shrink-0 md:self-center">
               <button
                 onClick={() => setShowSettingsModal(true)}
                 className="px-3 py-2 rounded-xl text-xs font-semibold text-stone-300 hover:text-white bg-stone-900/80 hover:bg-stone-800 border border-stone-800 transition-colors flex items-center gap-1.5"

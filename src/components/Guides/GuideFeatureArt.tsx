@@ -31,6 +31,7 @@ const visualConfig = {
   travel: { number: '06', label: 'TRAVEL PROTOCOL', primary: Plane, secondary: Box, tertiary: LockKeyhole },
   hygrometer: { number: '07', label: 'HUMIDITY MONITORING', primary: Gauge, secondary: Radio, tertiary: Thermometer },
   humidifier: { number: '08', label: 'HUMIDITY CONTROL', primary: Droplets, secondary: Gauge, tertiary: Fan },
+  compact: { number: '09', label: 'SMALL-SPACE STORAGE', primary: Box, secondary: Gauge, tertiary: Thermometer },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;

@@ -8,6 +8,205 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-humidors-small-spaces',
+    slug: 'best-humidors-for-small-spaces',
+    title: 'Best Humidors for Small Spaces: Three Footprints Compared',
+    subtitle: 'Compare a narrow acrylic jar, a shallow DIY container, and a compact electric cabinet by real dimensions, access clearance, capacity basis, and temperature needs.',
+    category: 'selection',
+    categoryLabel: 'Small-Space Storage',
+    readTimeMinutes: 12,
+    ...editorialByline,
+    publishedDate: '2026-09-26',
+    reviewedDate: '2026-09-26',
+    heroVisual: 'compact',
+    excerpt: 'Three verified small-space cigar storage options compared by footprint, clearance, capacity basis, setup, humidity work, and temperature control.',
+    featuredProductIds: ['xifei-acrylic-jar', 'sistema-236oz', 'kingchii-16l'],
+    comparisonRows: [
+      {
+        productId: 'xifei-acrylic-jar',
+        fit: 'A visible 15–20-cigar rotation on a narrow, temperature-stable shelf',
+        capacity: '5-inch diameter by 7.28 inches high; current listing claims about 15–20 cigars by cigar size',
+        tradeoff: 'Very limited growth room; included humidifier and hygrometer still need setup and verification'
+      },
+      {
+        productId: 'sistema-236oz',
+        fit: 'A low-profile utility tupperdor for a shelf or drawer with enough top-opening clearance',
+        capacity: '14 by 9.3 by 4.7 inches and 7 L; maker makes no cigar-count claim',
+        tradeoff: 'Not a turnkey humidor; humidity source, checked gauge, and any tray are separate'
+      },
+      {
+        productId: 'kingchii-16l',
+        fit: 'A ventilated counter or stand where room temperature makes powered control useful',
+        capacity: '20 by 9.8 by 14.1 inches; maker claims up to 100 cigars across two cedar storage layers',
+        tradeoff: 'Needs outlet, ventilation and door clearance; temperature control does not actively control humidity'
+      }
+    ],
+    useBrandedProductArt: true,
+    sections: [
+      {
+        id: 'what-these-picks-mean',
+        title: '1. What “best for a small space” means here',
+        contentMarkdown: `A small-space humidor is not simply the box with the lowest advertised cigar count. It must fit the **whole operating space**: the footprint, height, lid or door path, ventilation clearance, cable route, and the room temperature it cannot change. A shallow container can occupy more shelf width than a vertical jar. A narrow electric cabinet can be 20 inches deep before clearance is added.
+
+We rendered the exact Amazon.com product pages on September 26, 2026 and confirmed the displayed title, selected size or variant, ASIN, listed dimensions or capacity basis, included components, and an in-stock buying option for the XIFEI clear acrylic jar B07H244RDZ, Sistema KLIP IT Large 7 L container B00284AG5U, and KingChii 16 L two-layer cabinet B0BQJ5H5YT.
+
+Current search results often publish long “small humidor” lists without a consistent definition of small. Some repeat changing prices and ratings, call seals perfect without independent testing, or link a product name to an unrelated Amazon item. Several also treat a travel case or 100-plus-cigar cabinet as apartment-ready without measuring access, ventilation, or the collection's actual cigar sizes. This guide instead compares three layouts that solve different space constraints.
+
+We have not owned, filled, leak-tested, calibrated, measured, or run these products side by side. Capacity, dimensions, temperature range, included parts, and material descriptions are current listing or manufacturer information. No pick is objectively best for every room.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, star ratings, review counts, badges, or claims of hands-on use.`
+      },
+      {
+        id: 'measure-the-space',
+        title: '2. Measure the operating space, not only the box',
+        contentMarkdown: `**Start with width, depth, and height.** Mark the listed exterior dimensions with painter's tape on the intended shelf, counter, or drawer. Then measure the narrowest doorway, cabinet opening, or shelf lip the product must pass through.
+
+**Add access clearance.** The XIFEI clasp lid and the Sistema lid need room above the container and room for your hands. The KingChii door must open far enough to remove its cedar storage layers. A box that technically fits under a shelf may still be frustrating or impossible to load.
+
+**Add ventilation and power.** Passive acrylic and plastic containers need no outlet, but they also cannot correct a hot room. The KingChii needs a level indoor surface, a compatible outlet, air around its ventilation openings, and a cable path that will not be pinched. Use the clearance in the manual delivered with the exact model; do not build it tightly into furniture from the exterior dimensions alone.
+
+**Measure the room for several days.** A passive container follows room temperature. A powered cabinet may be useful when the measured room falls outside the desired storage plan, but its range and ambient limits still matter. Keep every option away from direct sun, radiators, cooking heat, and a shelf that becomes hot from nearby electronics.
+
+**Plan for opening and growth.** Count the cigars you have, note their lengths and ring gauges, and include the humidity source and gauge in a paper layout. Leave useful access rather than filling every cubic inch. If the collection is likely to double soon, a tiny jar may become a secondary rotation box rather than the economical long-term choice.`
+      },
+      {
+        id: 'comparison',
+        title: '3. Compare footprint, usable capacity, and the missing piece',
+        contentMarkdown: `Choose the XIFEI when the limiting dimension is shelf width and about 15–20 cigars is enough. Choose the Sistema when low height and a broad, shallow layout fit the furniture and you are willing to assemble the humidity system. Choose the KingChii only when powered temperature control solves a measured room problem and its full installation envelope fits.
+
+The three capacity statements are not equivalent. XIFEI gives an approximate cigar count that changes with cigar size. Sistema sells a 7 L food container and makes no cigar-storage claim. KingChii advertises up to 100 cigars, but the actual number changes with length, ring gauge, spacing, and the room taken by cedar storage and humidity equipment. Use the table as a fit screen, not a laboratory ranking.`
+      },
+      {
+        id: 'xifei-jar',
+        title: '4. XIFEI acrylic jar: smallest shelf footprint',
+        contentMarkdown: `The [XIFEI acrylic humidor jar](/products/xifei-acrylic-humidor-jar-review), ASIN B07H244RDZ, is the narrowest option here. The current rendered listing identifies the clear variant at 7.28 inches high and 5 inches in diameter, with a claim of about 15–20 cigars depending on size. It lists a clasp, rubber gasket, external hygrometer, cedar bottom lining, and a rectangular humidifier placed inside the jar.
+
+**Choose it if** you keep a small rotation and want visibility in a five-inch-wide footprint. The vertical shape can use an awkward corner of a bookshelf more efficiently than a wide desktop box.
+
+**Choose something else if** you buy boxes, keep long or thick cigars, expect fast collection growth, or cannot lift and arrange cigars without crowding them. The advertised count is not a standardized test, and the included accessories occupy interior space.
+
+The jar is passive. It cannot cool sunlight, a warm kitchen shelf, or a room with large temperature swings. The listing's gasket description is not independent evidence of a perfect seal, and the included hygrometer should be checked before it guides humidity changes. Watch the stabilized trend after loading rather than assuming the external dial is correct.`
+      },
+      {
+        id: 'sistema-container',
+        title: '5. Sistema 7 L: shallow DIY storage with no cigar-count promise',
+        contentMarkdown: `The [Sistema KLIP IT Large 7 L container](/products/sistema-236oz-7l-airtight-container-tupperdor-core-review), ASIN B00284AG5U, is the low-profile utility option. The current Amazon title identifies one clear-and-blue 7 L container. Sistema lists style 1870 at 14 inches long, 9.3 inches wide, and 4.7 inches high, with locking clips and a flexible lid seal.
+
+This is a food-storage container, **not** a complete cigar humidor. The verified listing includes no cigar humidity source, hygrometer, cedar tray, or cigar-capacity claim. That omission is useful information: buyers can choose their own checked sensor and appropriately sized humidity method, but the total cost and occupied space are greater than the empty container suggests.
+
+**Choose it if** a shallow rectangle fits a shelf or deep drawer better than a jar and utility appearance is acceptable. **Choose the XIFEI** if you want a narrower ready-made cigar jar. **Choose a traditional desktop humidor** if display furniture matters more than a low profile.
+
+Before buying trays, compare their outside dimensions with the container's **usable interior**, not only its 14-by-9.3-inch exterior. We do not claim a cigar count because neither the Amazon listing nor Sistema does. Cigar length, ring gauge, arrangement, accessories, and clearance determine the working load. Follow Sistema's instructions to wash the container and removable seal, then dry every part completely before assembling a cigar-storage system.`
+      },
+      {
+        id: 'kingchii-cabinet',
+        title: '6. KingChii 16 L: narrow face with temperature control',
+        contentMarkdown: `The [KingChii 16 L electric humidor](/products/kingchii-16l-electric-cigar-humidor-review), ASIN B0BQJ5H5YT, is the powered option. The rendered Amazon title confirms the 16 L, two-layer, 100-capacity variant with Spanish cedar storage and a hygrometer. Both the current listing and KingChii give exterior dimensions of 20 by 9.8 by 14.1 inches.
+
+The narrow 9.8-inch face can fit spaces that reject a wide cabinet, but the 20-inch depth is substantial. Add the door path, plug, cable bend, and ventilation required by the received manual. It is a freestanding appliance, not a tightly enclosed built-in.
+
+**Choose it if** your measured room makes heating or cooling useful, you have a stable ventilated surface near an outlet, and the collection needs more room than a jar. **Choose a passive container** when the room is already suitable and you want less cost, noise, equipment, and maintenance.
+
+KingChii currently lists heating and cooling and a 54–74°F range on its product page, while the main Amazon feature bullet for this exact ASIN says 64–74°F. The guide does not resolve that conflict by guessing; confirm the range and ambient limits in the manual supplied with the unit. The cabinet does not list active humidity control. Its fan and built-in hygrometer do not replace a compatible humidity source or an independently checked sensor.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '7. Use these selection criteria before buying',
+        contentMarkdown: `**Match the shape to the furniture.** A jar saves horizontal space, a shallow container saves height, and a narrow electric cabinet trades width for depth. “Compact” without three dimensions is not a useful specification.
+
+**Treat capacity as a planning input.** Measure representative cigars and include accessories in the layout. Do not convert 7 L into a cigar count or treat two different maker counts as comparable tests.
+
+**Separate humidity from temperature.** All three options still need humidity monitoring. Only the KingChii changes temperature, and the maker does not describe it as active humidity control. The XIFEI and Sistema follow the room.
+
+**Count setup parts.** XIFEI lists a hygrometer and humidifier. Sistema includes neither. KingChii lists cedar storage and a hygrometer, but humidity management remains a separate task. A low purchase price can stop being the lowest-cost path after trays, packs, sensors, or replacement accessories.
+
+**Choose maintenance you will perform.** A small jar is easy to inspect but fills quickly. A removable food-container seal needs cleaning and correct reassembly. An electric cabinet needs power, airflow, cleaning, and attention to the manual.
+
+**Verify the measurement.** NIST calibrates RH sensors in controlled air of known moisture content and reports uncertainty. A consumer dial or display is not a reference standard. Compare it with a trustworthy method, place it where the cigars sit, and judge stable trends before changing the humidity source.`
+      },
+      {
+        id: 'setup',
+        title: '8. Set up a compact humidor without losing the space advantage',
+        contentMarkdown: `1. Tape the exterior footprint in the intended location and add opening, hand, cable, plug, and ventilation space.
+2. Confirm the delivered title, variant, and ASIN. XIFEI should show B07H244RDZ and the clear jar; Sistema should show B00284AG5U and the 7 L single container; KingChii should show B0BQJ5H5YT and the 16 L two-layer variant.
+3. Inspect for shipping damage, strong odor, a damaged gasket or seal, loose hardware, or a door that does not close evenly. Return a damaged product rather than trying to hide a physical fault with more humidification.
+4. Clean only as the maker directs. Sistema says to remove packaging, wash the container and flexible seal, and dry them before reassembly. Follow the current instructions supplied with the XIFEI and KingChii; keep free liquid away from cigars and electronics.
+5. Add one compatible humidity method sized for the enclosure plan. Do not let a pack, reservoir, tray, or sensor crush cigars or block the KingChii's circulation path.
+6. Check the hygrometer, close the empty system, and watch the trend. Condition any unfinished cedar according to the product and humidity-source instructions before loading valuable cigars.
+7. Load gradually with enough room to remove cigars and inspect the humidity source. Recheck the trend after the moisture load changes.
+8. If readings drift, verify the sensor, room temperature, seal, pack or reservoir condition, loading, and airflow before changing several variables at once.
+
+Use the [seasoning lab](/seasoning-lab) for a controlled setup sequence, the [hygrometer guide](/guides/best-cigar-hygrometers) for monitoring choices, and the [humidor humidifier guide](/guides/best-humidor-humidifiers) to compare passive and active moisture systems.`
+      },
+      {
+        id: 'when-to-choose-another',
+        title: '9. When another storage format is the better choice',
+        contentMarkdown: `Choose a [travel humidor](/guides/best-travel-humidors) when impact protection and luggage fit matter more than home access. Choose a [desktop humidor](/guides/best-desktop-humidors) when presentation and a traditional cedar interior justify a wider footprint. Choose a [larger-capacity humidor](/guides/best-large-capacity-humidors) when boxes or near-term growth would immediately overfill these options.
+
+A tiny container is false economy if it forces a second purchase next month. An electric cabinet is unnecessary if the measured room is already stable and the real problem is only humidity. A broad tupperdor is not space-saving if its lid cannot open under the shelf. The right answer is the smallest operating envelope that fits the actual collection, accessories, room conditions, and maintenance routine—not the smallest number in a product title.
+
+For a format-level recommendation based on collection size, room, and priorities, use the [humidor finder](/). For a deeper DIY plan, see the [airtight tupperdor guide](/guides/science-of-airtight-tupperdors).`
+      }
+    ],
+    faqs: [
+      {
+        question: 'Which option has the smallest footprint?',
+        answer: 'The XIFEI jar has the smallest listed horizontal footprint at 5 inches in diameter. It is 7.28 inches high and still needs room to work the clasp and open the lid.'
+      },
+      {
+        question: 'How many cigars fit in the Sistema 7 L container?',
+        answer: 'Sistema makes no cigar-count claim for this food container, so this guide does not invent one. Measure your cigar lengths and ring gauges and subtract space for the humidity source, hygrometer, any tray, and usable access.'
+      },
+      {
+        question: 'Is the Sistema container a complete humidor?',
+        answer: 'No. The verified listing is one 7 L food-storage container. It includes no cigar humidity source, hygrometer, cedar tray, or cigar-specific setup instructions.'
+      },
+      {
+        question: 'Does the KingChii 16 L control humidity?',
+        answer: 'The current listing describes temperature control, circulation, cedar storage, and a hygrometer, but not active humidity control. Plan a compatible humidity method and verify it with a checked sensor.'
+      },
+      {
+        question: 'Can the KingChii really hold 100 cigars?',
+        answer: 'One hundred is a maker claim, not our measured result. Actual capacity changes with cigar dimensions, spacing, shelf arrangement, and the room taken by humidity equipment.'
+      },
+      {
+        question: 'Do acrylic and plastic containers need seasoning?',
+        answer: 'The plastic or acrylic shell does not need wood-style seasoning. Any unfinished cedar component may need conditioning under its own instructions, and the complete closed system should stabilize before valuable cigars are loaded.'
+      },
+      {
+        question: 'Where should a small humidor be placed?',
+        answer: 'Use a stable indoor location away from direct sun and heat, with enough access to open it. An electric cabinet also needs a level surface, a suitable outlet, and the ventilation clearance specified in its received manual.'
+      }
+    ],
+    sources: [
+      {
+        label: 'Moisture sorption isotherms of various tobaccos',
+        publisher: 'Agricultural and Biological Chemistry, 1978',
+        url: 'https://doi.org/10.1271/bbb1961.42.2285',
+        sourceType: 'Peer-reviewed research'
+      },
+      {
+        label: 'Hygrometers and relative-humidity calibration',
+        publisher: 'National Institute of Standards and Technology',
+        url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers',
+        sourceType: 'Government / technical reference'
+      },
+      {
+        label: '7 L Rectangle dimensions, capacity, seal, and care instructions',
+        publisher: 'Sistema',
+        url: 'https://www.sistemaplastics.com/7l-rectangle',
+        sourceType: 'Manufacturer instructions'
+      },
+      {
+        label: '16 L dimensions, capacity, heating/cooling, temperature range, and storage specifications',
+        publisher: 'KingChii',
+        url: 'https://www.kingchii.com/products/16l-electric-humidity-control-cabinet',
+        sourceType: 'Manufacturer instructions'
+      }
+    ],
+    relatedBlueprintIds: ['blueprint-tupperdor-7l']
+  },
+  {
     id: 'best-humidor-humidifiers',
     slug: 'best-humidor-humidifiers',
     title: 'Best Humidor Humidifiers: Packs and Active Control Compared',
