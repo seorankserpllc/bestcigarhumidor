@@ -186,7 +186,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     dimensions: '13.03" x 9.13" x 25.98" (listing)',
     material: 'Wood cabinet with cedar-lined drawers and glass front',
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['spanish-cedar-biology-guide', 'glass-top-humidor-truth-leaks-sealing', 'best-large-capacity-humidors']
+    relatedGuideSlugs: ['spanish-cedar-biology-guide', 'glass-top-humidor-truth-leaks-sealing', 'best-large-capacity-humidors', 'best-humidors-for-long-term-storage']
   },
 
   // ================= ELECTRIC / WINEADORS =================
@@ -236,7 +236,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     dimensions: '20.07" D x 9.92" W x 24" H (maker-listed)',
     electricFeatures: { heating: true, cooling: true, tempRange: '54°F–74°F (maker-listed)', activeHumidity: false },
     diyAlternativeBlueprintId: 'blueprint-converted-wineador',
-    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors', 'best-large-capacity-humidors']
+    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors', 'best-large-capacity-humidors', 'best-humidors-for-long-term-storage']
   },
   {
     id: 'kingchii-16l',
@@ -491,7 +491,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
       'Inspect the removable flexible seal after cleaning and confirm every clip closes evenly.'
     ],
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'high-altitude-cigar-preservation', 'best-humidors-for-beginners', 'best-humidors-for-small-spaces']
+    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'high-altitude-cigar-preservation', 'best-humidors-for-beginners', 'best-humidors-for-small-spaces', 'best-humidors-for-long-term-storage']
   },
   {
     id: 'spanish-cedar-tray-mantello',

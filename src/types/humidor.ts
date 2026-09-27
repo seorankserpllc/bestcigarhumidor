@@ -134,7 +134,7 @@ export interface GuideSection {
   callout?: GuideCallout;
 }
 
-export type GuideVisual = 'wineador' | 'glass-top' | 'tupperdor' | 'altitude' | 'cedar' | 'travel' | 'hygrometer' | 'humidifier' | 'compact';
+export type GuideVisual = 'wineador' | 'glass-top' | 'tupperdor' | 'altitude' | 'cedar' | 'travel' | 'hygrometer' | 'humidifier' | 'compact' | 'long-term';
 
 export interface GuideComparisonRow {
   productId: string;

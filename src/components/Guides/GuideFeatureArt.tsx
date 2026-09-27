@@ -32,6 +32,7 @@ const visualConfig = {
   hygrometer: { number: '07', label: 'HUMIDITY MONITORING', primary: Gauge, secondary: Radio, tertiary: Thermometer },
   humidifier: { number: '08', label: 'HUMIDITY CONTROL', primary: Droplets, secondary: Gauge, tertiary: Fan },
   compact: { number: '09', label: 'SMALL-SPACE STORAGE', primary: Box, secondary: Gauge, tertiary: Thermometer },
+  'long-term': { number: '10', label: 'LONG-TERM STORAGE', primary: LockKeyhole, secondary: Gauge, tertiary: Thermometer },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;

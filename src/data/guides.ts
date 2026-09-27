@@ -8,6 +8,174 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-humidors-long-term-storage',
+    slug: 'best-humidors-for-long-term-storage',
+    title: 'Best Humidors for Long-Term Storage: Three Systems Compared',
+    subtitle: 'Compare a small airtight container, a large passive cedar cabinet, and a temperature-controlled cabinet by access, capacity, monitoring, and failure planning.',
+    category: 'selection',
+    categoryLabel: 'Long-Term Storage',
+    readTimeMinutes: 13,
+    ...editorialByline,
+    publishedDate: '2026-09-27',
+    reviewedDate: '2026-09-27',
+    heroVisual: 'long-term',
+    excerpt: 'Three verified long-term cigar-storage systems compared by enclosure, room-temperature dependence, organization, monitoring, and recovery planning.',
+    featuredProductIds: ['sistema-236oz', 'woodronic-3drawer', 'kingchii-33l'],
+    comparisonRows: [
+      {
+        productId: 'sistema-236oz',
+        fit: 'A small aging batch or backup rotation in a temperature-stable room',
+        capacity: '7 L container; no maker cigar-count claim and no cigar accessories included',
+        tradeoff: 'Utility appearance, limited organization, and entirely dependent on room temperature'
+      },
+      {
+        productId: 'woodronic-3drawer',
+        fit: 'A large loose-cigar collection in a stable indoor room where drawers and display matter',
+        capacity: 'Four cedar cigar drawers; current listing claims 200–250 cigars up to 7 inches',
+        tradeoff: 'Passive cabinet; headline capacity is untested and optional electric humidifier is not included'
+      },
+      {
+        productId: 'kingchii-33l',
+        fit: 'A growing collection whose room makes powered heating or cooling useful',
+        capacity: '33 L, four storage layers, and a maker/listing claim of up to 250 cigars',
+        tradeoff: 'Still needs separate humidity management; Amazon and maker temperature ranges conflict'
+      }
+    ],
+    useBrandedProductArt: true,
+    sections: [
+      {
+        id: 'what-long-term-means',
+        title: '1. What “best for long-term storage” means here',
+        contentMarkdown: `Long-term storage is not a promise that every cigar improves with age. Tobacco blend, construction, packaging, starting condition, and personal taste all affect the result. The useful buying question is simpler: **which system can keep your chosen conditions observable and repeatable for months or years without making access, maintenance, or recovery impractical?**
+
+We reviewed the current search results before writing. Many competing pages publish one universal RH or temperature rule, treat maker capacity as measured capacity, claim thicker cedar produces better aging, or describe a passive insulated box as if it actively cools. Others report hands-on seal or climate tests without enough detail to evaluate them. This guide does not copy those rankings. It separates enclosure, humidity source, room temperature, access pattern, organization, and contingency planning.
+
+On September 27, 2026, we rendered and checked the exact Amazon.com pages for the Sistema KLIP IT Large 7 L container B00284AG5U, Woodronic four-drawer 250-count cabinet B0CXXNHCP4, and KingChii 33 L four-layer cabinet B0B93HN22D. We confirmed the displayed product identity, selected size or capacity variant, ASIN, current listed components, and a live purchase option. Sistema and KingChii showed in stock; Woodronic showed only three left.
+
+We have not owned, filled, leak-tested, calibrated, or operated these products. Capacity, dimensions, components, temperature functions, noise, and storage-layer descriptions are current manufacturer or listing information, not independent performance results. No pick is objectively best for every collection.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, star ratings, review counts, badges, popularity claims, or invented hands-on results.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Compare the storage system, not one headline number',
+        contentMarkdown: `The Sistema is the small, low-complexity enclosure. The Woodronic adds large drawer organization and furniture presentation but remains passive. The KingChii adds powered temperature control but does not actively create or regulate humidity.
+
+Those differences matter more than a claimed cigar count. A 250-cigar drawer cabinet and a 250-cigar electric cabinet do not provide the same layout, access, temperature behavior, or service requirements. Headline counts also change with cigar length, ring gauge, spacing, packaging, humidity equipment, and whether the collection stays in factory boxes.
+
+Use the table as a decision aid, not a laboratory ranking. First decide whether the room itself is suitable. Then decide how often you will open the collection, whether you store singles or boxes, and what happens during a sensor error, dried humidity source, power outage, or equipment failure.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '3. Five criteria that matter over months and years',
+        contentMarkdown: `**1. A stable room is part of every system.** Passive containers follow room temperature. A powered cabinet has a specified operating envelope and needs ventilation. None belongs in direct sun, beside a radiator, or in an uncontrolled vehicle or shed.
+
+**2. Humidity is a measured trend, not a magic set point.** Tobacco absorbs and releases moisture as surrounding RH changes. Published sorption research supports watching the actual enclosure instead of assuming one number guarantees cigar condition. Choose an RH plan that suits the cigars and your preference, then look for stability rather than reacting to every short fluctuation.
+
+**3. The gauge needs a reference.** NIST humidity work uses known reference conditions and reports uncertainty. A built-in display is useful, but it is not self-validating. Check it against a suitable reference, place it near the stored cigars, and keep notes when the load or humidity source changes.
+
+**4. Access pattern changes the design.** A deep aging batch opened rarely can live in a simple container. A daily collection benefits from drawers or divided zones so one selection does not disturb everything. If you age cigars and smoke from the same enclosure, consider a smaller working box fed from the long-term collection.
+
+**5. Recovery should be planned before loading.** Keep a clean temporary container and compatible humidity source available. Know how you will move the collection during cleaning, seasoning, a power problem, a damaged seal, or an out-of-range reading. Long-term storage becomes safer when the backup is ordinary rather than improvised.`
+      },
+      {
+        id: 'sistema-container',
+        title: '4. Sistema 7 L: small sealed storage with few moving parts',
+        contentMarkdown: `The [Sistema KLIP IT Large 7 L container](/products/sistema-236oz-7l-airtight-container-tupperdor-core-review), ASIN B00284AG5U, is a food-storage container rather than a turnkey humidor. The current Amazon page shows the 7 L single-container variant in stock. Sistema identifies style 1870 at 355 by 235 by 120 mm, approximately 14 by 9.3 by 4.7 inches, with locking clips and a flexible seal.
+
+**Choose it if** you want a small aging batch, a backup enclosure, or a separate group that can remain closed most of the time. Its shallow shape makes visual inventory simple, and there is no dry wood mass that must be conditioned before use.
+
+**Choose something else if** display matters, you want drawers, you store many factory boxes, or the intended room needs temperature control. The exact listing includes no cigar humidity source, hygrometer, cedar tray, or cigar-count promise. Those are separate decisions and consume usable interior space.
+
+Wash and dry the container and removable seal according to Sistema's instructions. Reject persistent food, detergent, or plastic odors. Polypropylene packaging has measurable water-vapor transmission, and the lid assembly is not laboratory hermetic, so “airtight” should not be turned into a claim of zero exchange or permanent pack life. Inspect the clips and gasket, then monitor the stabilized enclosure.`
+      },
+      {
+        id: 'woodronic-cabinet',
+        title: '5. Woodronic four-drawer cabinet: organized passive storage',
+        contentMarkdown: `The [Woodronic four-drawer cabinet](/products/woodronic-3-drawer-spanish-cedar-cabinet-review), ASIN B0CXXNHCP4, is the furniture-style passive option. Its rendered page showed the selected 250-count variant with a live buy box and only three units left. The current listing describes four Spanish-cedar-lined cigar drawers, a separate accessory drawer, LED lighting, a digital hygrometer, two gel humidifiers with solution, a keyed glass-front door, and wiring for an optional electric humidifier. That optional device is not included.
+
+The listing gives a 200–250-cigar range and a maximum vertical length of seven inches. Treat both as maker information, not a standardized fit test. The catalog dimensions are 13.03 by 9.13 by 25.98 inches; add door swing, drawer pull-out distance, hand space, and access to the cable before choosing a location.
+
+**Choose it if** you keep many loose cigars, want four accessible zones, and the intended indoor room already stays within your temperature plan. **Choose the Sistema** for a smaller low-maintenance batch. **Choose the KingChii** when the measured room makes powered temperature control important.
+
+Wood exchanges moisture with surrounding air, so the drawers need controlled conditioning and observation. Follow the instructions supplied with the exact cabinet and humidity media. Do not turn the listing's “airtight” language or included digital display into proof of seal performance, calibration, or uniform RH across all drawers. Check more than one level while commissioning the cabinet.`
+      },
+      {
+        id: 'kingchii-cabinet',
+        title: '6. KingChii 33 L: temperature control with separate humidity work',
+        contentMarkdown: `The [KingChii 33 L electric humidor](/products/kingchii-33l-electric-cigar-humidor-review), ASIN B0B93HN22D, is the powered-temperature choice. The rendered Amazon page confirmed the black 33 L, four-layer, 250-capacity listing with Spanish cedar storage and a built-in hygrometer, and it showed in stock.
+
+**Choose it if** several days of room measurements show that heating or cooling would materially reduce temperature excursions, you have a suitable outlet and ventilation, and the four-layer layout fits the collection. **Choose a passive option** when the room is already stable and you prefer fewer powered components.
+
+This is not automatic humidity control. The cabinet still needs a compatible humidity source, an independently checked sensor, and observation after the cigar load changes. The maker's capacity is not our measured working capacity, especially for larger cigars or intact boxes.
+
+There is a specification conflict worth preserving. Amazon's current main bullet for this ASIN says 64–72°F and no more than 40 dB. KingChii's current 33 L page says heating and cooling from 54–74°F and no more than 38 dB. We do not resolve that conflict by guessing. Confirm the received manual, ambient limits, clearances, and warranty before relying on either range. Plan a passive backup in case the unit is unplugged, serviced, or fails.`
+      },
+      {
+        id: 'commissioning-checklist',
+        title: '7. Commission the empty system before valuable cigars go in',
+        contentMarkdown: `1. Measure the intended room's temperature and RH for several days. Record daily highs, lows, direct-sun exposure, and nearby heat sources.
+2. Inspect the exact enclosure, seal, hinges, clips, door alignment, drawers, cable, and included parts. Stop if there is damage or a persistent odor.
+3. Clean only as the product instructions allow. Dry plastic completely. Condition cedar with controlled humidity rather than applying unlisted liquid directly to the wood.
+4. Add one humidity method at the maker's recommended amount. Do not mix RH ratings or place wet media against cigars, unfinished wood, or electronics.
+5. Check the hygrometer against a suitable reference. For a multi-level cabinet, compare readings at more than one shelf or drawer.
+6. Run the empty system until the readings are stable enough to understand. Add cigars gradually, keep space for access, and record how the load changes the trend.
+7. Create a simple inventory with purchase date, storage zone, and any intended comparison date. Do not promise yourself that every cigar must age longer; sample deliberately and let taste decide.
+8. Keep a clean backup container ready. If readings move out of range, verify the instrument, room, seal, humidity source, and power before changing several variables at once.
+
+Use the [seasoning lab](/seasoning-lab) to plan a wood-conditioning check, the [humidor finder](/) to compare a storage format with your room and collection, and the [electric wineador guide](/guides/electric-wineador-masterclass-heating-cooling) for powered-cabinet setup. The [tupperdor guide](/guides/science-of-airtight-tupperdors) covers gasket inspection and optional cedar in more detail.`
+      },
+      {
+        id: 'reasons-to-choose-differently',
+        title: '8. Reasons to choose a different option',
+        contentMarkdown: `Choose a [desktop humidor](/guides/best-desktop-humidors) instead when presentation and a daily rotation matter more than separating a long-term batch. Choose a [large-capacity humidor](/guides/best-large-capacity-humidors) after comparing more 250–300-cigar layouts. Choose a [small-space humidor](/guides/best-humidors-for-small-spaces) when the operating envelope is the main constraint.
+
+None of today's three picks is ideal for every factory-box collection. The Sistema is too small for many boxes; the Woodronic emphasizes drawers; and the KingChii's headline count does not establish a box layout. Measure the longest, widest, and tallest boxes you intend to keep and compare those dimensions with usable internal clearances before buying.
+
+Avoid long-term storage in a hot garage, vehicle, shed, direct sun, or any location the product manual excludes. An insulated or powered enclosure can reduce some fluctuations, but it cannot turn an unsuitable installation into a dependable system. If you cannot verify product identity, fit, or the exact Amazon destination, wait rather than buying from a keyword fallback.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'Do cigars always improve with long-term aging?',
+        answer: 'No. Results depend on blend, construction, packaging, starting condition, storage history, and personal taste. A stable enclosure can preserve chosen conditions; it cannot guarantee that every cigar becomes better.'
+      },
+      {
+        question: 'What RH is best for long-term cigar storage?',
+        answer: 'There is no single setting that suits every cigar and preference. Many owners choose a point in the mid-to-upper 60s, but the more important practices are checking the instrument, avoiding large swings, watching cigar condition, and changing one variable at a time.'
+      },
+      {
+        question: 'Does the KingChii 33 L control humidity automatically?',
+        answer: 'No. The current listing includes a hygrometer and temperature control, but it does not describe active humidity control. A separate humidity source and checked sensor are still required.'
+      },
+      {
+        question: 'Can the Woodronic cabinet cool a warm room?',
+        answer: 'No. It is a passive wood cabinet. Its internal temperature follows the room, so use it only where the measured room conditions are already suitable.'
+      },
+      {
+        question: 'How many cigars fit in the Sistema 7 L container?',
+        answer: 'Sistema makes no cigar-count claim. Working capacity depends on cigar length, ring gauge, arrangement, and the space taken by the humidity source, gauge, and any tray. Measure the usable interior instead of inventing a count from liters.'
+      },
+      {
+        question: 'Should a long-term collection be opened on a schedule?',
+        answer: 'Open it for inventory, sampling, inspection, or maintenance—not to satisfy an oxygen ritual. Unnecessary openings disturb conditions. A written access and inspection routine is more useful than “burping” the enclosure by habit.'
+      },
+      {
+        question: 'What is the safest backup if a cabinet fails?',
+        answer: 'A clean, odor-free gasketed container with a compatible humidity source and checked hygrometer is a practical temporary enclosure. Size it before an emergency and keep the parts accessible.'
+      }
+    ],
+    relatedBlueprintIds: ['blueprint-tupperdor-7l', 'blueprint-cabinet-conversion'],
+    sources: [
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Humidity fixed points of binary saturated aqueous solutions', publisher: 'National Bureau of Standards (NIST)', url: 'https://nvlpubs.nist.gov/nistpubs/jres/81a/jresv81an1p89_a1b.pdf', sourceType: 'Government / technical research' },
+      { label: 'Water-vapor and oxygen permeability testing of polypropylene packaging', publisher: 'Food Packaging and Shelf Life, 2023', url: 'https://doi.org/10.1016/j.fpsl.2023.101121', sourceType: 'Peer-reviewed research' },
+      { label: 'Wood Handbook: moisture relations and dimensional change', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr282.pdf', sourceType: 'Government / technical reference' },
+      { label: 'Sistema 7 L Rectangle specifications and care', publisher: 'Sistema', url: 'https://www.sistemaplastics.com/7l-rectangle', sourceType: 'Manufacturer instructions' },
+      { label: 'KingChii 33 L specifications', publisher: 'KingChii', url: 'https://www.kingchii.com/products/kingchii-33l-electric-cigar-humidor', sourceType: 'Manufacturer instructions' }
+    ]
+  },
+  {
     id: 'best-humidors-small-spaces',
     slug: 'best-humidors-for-small-spaces',
     title: 'Best Humidors for Small Spaces: Three Footprints Compared',
