@@ -166,7 +166,7 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
       <div className="p-5 rounded-xl bg-[#140d0a] border border-stone-800 space-y-2">
         <span className="text-[11px] font-bold uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
           <BookOpen className="w-3.5 h-3.5" />
-          In This Technical Guide:
+          In This Guide:
         </span>
         <ul className="space-y-1.5 text-xs text-stone-300">
           {guide.sections.map((sec) => (
@@ -216,7 +216,7 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
                 <table className="w-full min-w-[620px] text-left text-xs sm:text-sm">
                   <caption className="sr-only">{guide.title} product comparison</caption>
                   <thead className="bg-amber-950/50 text-amber-200">
-                    <tr><th scope="col" className="p-3">Product</th><th scope="col" className="p-3">Best fit</th><th scope="col" className="p-3">Capacity / operating basis</th><th scope="col" className="p-3">Main tradeoff</th></tr>
+                    <tr><th scope="col" className="p-3">Product</th><th scope="col" className="p-3">Best for</th><th scope="col" className="p-3">What you get</th><th scope="col" className="p-3">Think twice if</th></tr>
                   </thead>
                   <tbody>
                     {guide.comparisonRows.map(row => {
@@ -225,6 +225,11 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
                       return (
                         <tr key={row.productId} className="border-t border-stone-800 align-top">
                           <th scope="row" className="p-3 font-semibold text-amber-100">
+                            {row.recommendationLabel && (
+                              <span className="mb-2 block text-[10px] font-extrabold uppercase tracking-wide text-amber-400">
+                                {row.recommendationLabel}
+                              </span>
+                            )}
                             <button onClick={() => onSelectProduct(product.slug || product.id)} className="text-left hover:text-amber-300 hover:underline">
                               {product.name}
                             </button>

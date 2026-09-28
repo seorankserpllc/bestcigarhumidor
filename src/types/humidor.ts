@@ -119,6 +119,8 @@ export interface AmazonProduct {
   faqs?: ProductFAQ[];
   diyAlternativeBlueprintId?: string;
   relatedGuideSlugs?: string[];
+  finderPriority?: number;
+  premiumPick?: boolean;
 }
 
 export interface GuideCallout {
@@ -138,6 +140,7 @@ export type GuideVisual = 'wineador' | 'glass-top' | 'tupperdor' | 'altitude' | 
 
 export interface GuideComparisonRow {
   productId: string;
+  recommendationLabel?: string;
   fit: string;
   capacity: string;
   tradeoff: string;

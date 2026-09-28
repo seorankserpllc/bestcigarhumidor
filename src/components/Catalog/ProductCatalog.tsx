@@ -6,6 +6,21 @@ import {
   Search, ShoppingBag, ExternalLink, Zap, Check
 } from 'lucide-react';
 
+const PRICE_TIER_ORDER: Record<string, number> = {
+  '$': 1,
+  '$$': 2,
+  '$$$': 3,
+  '$$$$': 4,
+  '$$$$$': 5,
+  budget: 1,
+  mid: 2,
+  premium: 3,
+  luxury: 4,
+};
+
+const productPriceOrder = (product: (typeof AMAZON_PRODUCTS)[number]) =>
+  product.price > 0 ? product.price : (PRICE_TIER_ORDER[product.priceBracket || ''] ?? 0) * 100;
+
 interface ProductCatalogProps {
   initialCategory?: string;
   onSelectProduct: (productId: string) => void;
@@ -40,7 +55,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
         return false;
       }
       // Price filter
-      if (p.price > maxPrice) {
+      if (productPriceOrder(p) > maxPrice) {
         return false;
       }
       // Search query
@@ -53,9 +68,9 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
       }
       return true;
     }).sort((a, b) => {
-      if (sortBy === 'recommended') return (b.scorecard?.valueScore ?? b.sealRating) - (a.scorecard?.valueScore ?? a.sealRating);
-      if (sortBy === 'price-asc') return a.price - b.price;
-      if (sortBy === 'price-desc') return b.price - a.price;
+      if (sortBy === 'recommended') return (b.finderPriority ?? 0) - (a.finderPriority ?? 0);
+      if (sortBy === 'price-asc') return productPriceOrder(a) - productPriceOrder(b);
+      if (sortBy === 'price-desc') return productPriceOrder(b) - productPriceOrder(a);
       if (sortBy === 'capacity') return b.capacitySticks - a.capacitySticks;
       return 0;
     });
@@ -73,7 +88,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
           The Aficionado Cigar Storage & Accessories Catalog
         </h1>
         <p className="text-sm text-stone-300 leading-relaxed">
-          Selections are based on category fit, listing accuracy, marketplace feedback strength, useful capacity, and value. Product availability was checked September 14, 2026.
+          Selections are based on buyer fit, useful capacity, clear manufacturer specifications, and exact Amazon product pages. Featured availability was checked September 28, 2026.
         </p>
       </div>
 
@@ -85,7 +100,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
             <Search className="w-4 h-4 text-stone-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              placeholder="Search by brand (Klaro, Needone, Boveda, Govee, Xikar)..."
+              placeholder="Search by brand (Klaro, NewAir, Whynter, Boveda, Govee)..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full bg-[#120b08] border border-stone-800 rounded-xl pl-10 pr-4 py-2.5 text-sm text-stone-100 placeholder-stone-500 focus:outline-none focus:border-amber-500"
@@ -155,9 +170,9 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
                     {prod.capacitySticks} Sticks
                   </div>
                 )}
-                {prod.sealRating >= 9.5 && (
-                  <div className="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-emerald-950/90 text-emerald-300 text-xs font-bold border border-emerald-700/60">
-                    Seal: {prod.sealRating}/10
+                {prod.premiumPick && (
+                  <div className="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-amber-950/90 text-amber-200 text-xs font-bold border border-amber-700/60">
+                    Premium brand pick
                   </div>
                 )}
               </div>
@@ -168,7 +183,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
                   <span className="font-semibold text-amber-500 uppercase tracking-wider text-[10px]">
                     {prod.brand}
                   </span>
-                  <span className="text-[10px] text-stone-500 uppercase tracking-wide">Selection checked Sep 2026</span>
+                  <span className="text-[10px] text-stone-500 uppercase tracking-wide">Selection checked Sep 28, 2026</span>
                 </div>
 
                 <h3 className="font-serif text-base font-bold text-amber-100 line-clamp-2">

@@ -50,7 +50,7 @@ export const CIGAR_GUIDES: CigarGuide[] = [
 
 We reviewed the current search results before writing. Many competing pages publish one universal RH or temperature rule, treat maker capacity as measured capacity, claim thicker cedar produces better aging, or describe a passive insulated box as if it actively cools. Others report hands-on seal or climate tests without enough detail to evaluate them. This guide does not copy those rankings. It separates enclosure, humidity source, room temperature, access pattern, organization, and contingency planning.
 
-On September 27, 2026, we rendered and checked the exact Amazon.com pages for the Sistema KLIP IT Large 7 L container B00284AG5U, Woodronic four-drawer 250-count cabinet B0CXXNHCP4, and KingChii 33 L four-layer cabinet B0B93HN22D. We confirmed the displayed product identity, selected size or capacity variant, ASIN, current listed components, and a live purchase option. Sistema and KingChii showed in stock; Woodronic showed only three left.
+On September 27, 2026, we rendered and checked the exact Amazon.com pages for the Sistema KLIP IT Large 7 L container, Woodronic four-drawer 250-count cabinet, and KingChii 33 L four-layer cabinet. We confirmed the displayed product identity, selected size or capacity variant, current listed components, and a live purchase option. Sistema and KingChii showed in stock; Woodronic showed only three left.
 
 We have not owned, filled, leak-tested, calibrated, or operated these products. Capacity, dimensions, components, temperature functions, noise, and storage-layer descriptions are current manufacturer or listing information, not independent performance results. No pick is objectively best for every collection.
 
@@ -81,7 +81,7 @@ Use the table as a decision aid, not a laboratory ranking. First decide whether 
       {
         id: 'sistema-container',
         title: '4. Sistema 7 L: small sealed storage with few moving parts',
-        contentMarkdown: `The [Sistema KLIP IT Large 7 L container](/products/sistema-236oz-7l-airtight-container-tupperdor-core-review), ASIN B00284AG5U, is a food-storage container rather than a turnkey humidor. The current Amazon page shows the 7 L single-container variant in stock. Sistema identifies style 1870 at 355 by 235 by 120 mm, approximately 14 by 9.3 by 4.7 inches, with locking clips and a flexible seal.
+        contentMarkdown: `The [Sistema KLIP IT Large 7 L container](/products/sistema-236oz-7l-airtight-container-tupperdor-core-review), is a food-storage container rather than a turnkey humidor. The current Amazon page shows the 7 L single-container variant in stock. Sistema identifies style 1870 at 355 by 235 by 120 mm, approximately 14 by 9.3 by 4.7 inches, with locking clips and a flexible seal.
 
 **Choose it if** you want a small aging batch, a backup enclosure, or a separate group that can remain closed most of the time. Its shallow shape makes visual inventory simple, and there is no dry wood mass that must be conditioned before use.
 
@@ -92,7 +92,7 @@ Wash and dry the container and removable seal according to Sistema's instruction
       {
         id: 'woodronic-cabinet',
         title: '5. Woodronic four-drawer cabinet: organized passive storage',
-        contentMarkdown: `The [Woodronic four-drawer cabinet](/products/woodronic-3-drawer-spanish-cedar-cabinet-review), ASIN B0CXXNHCP4, is the furniture-style passive option. Its rendered page showed the selected 250-count variant with a live buy box and only three units left. The current listing describes four Spanish-cedar-lined cigar drawers, a separate accessory drawer, LED lighting, a digital hygrometer, two gel humidifiers with solution, a keyed glass-front door, and wiring for an optional electric humidifier. That optional device is not included.
+        contentMarkdown: `The [Woodronic four-drawer cabinet](/products/woodronic-3-drawer-spanish-cedar-cabinet-review), is the furniture-style passive option. Its rendered page showed the selected 250-count variant with a live buy box and only three units left. The current listing describes four Spanish-cedar-lined cigar drawers, a separate accessory drawer, LED lighting, a digital hygrometer, two gel humidifiers with solution, a keyed glass-front door, and wiring for an optional electric humidifier. That optional device is not included.
 
 The listing gives a 200–250-cigar range and a maximum vertical length of seven inches. Treat both as maker information, not a standardized fit test. The catalog dimensions are 13.03 by 9.13 by 25.98 inches; add door swing, drawer pull-out distance, hand space, and access to the cable before choosing a location.
 
@@ -103,13 +103,13 @@ Wood exchanges moisture with surrounding air, so the drawers need controlled con
       {
         id: 'kingchii-cabinet',
         title: '6. KingChii 33 L: temperature control with separate humidity work',
-        contentMarkdown: `The [KingChii 33 L electric humidor](/products/kingchii-33l-electric-cigar-humidor-review), ASIN B0B93HN22D, is the powered-temperature choice. The rendered Amazon page confirmed the black 33 L, four-layer, 250-capacity listing with Spanish cedar storage and a built-in hygrometer, and it showed in stock.
+        contentMarkdown: `The [KingChii 33 L electric humidor](/products/kingchii-33l-electric-cigar-humidor-review), is the powered-temperature choice. The rendered Amazon page confirmed the black 33 L, four-layer, 250-capacity listing with Spanish cedar storage and a built-in hygrometer, and it showed in stock.
 
 **Choose it if** several days of room measurements show that heating or cooling would materially reduce temperature excursions, you have a suitable outlet and ventilation, and the four-layer layout fits the collection. **Choose a passive option** when the room is already stable and you prefer fewer powered components.
 
 This is not automatic humidity control. The cabinet still needs a compatible humidity source, an independently checked sensor, and observation after the cigar load changes. The maker's capacity is not our measured working capacity, especially for larger cigars or intact boxes.
 
-There is a specification conflict worth preserving. Amazon's current main bullet for this ASIN says 64–72°F and no more than 40 dB. KingChii's current 33 L page says heating and cooling from 54–74°F and no more than 38 dB. We do not resolve that conflict by guessing. Confirm the received manual, ambient limits, clearances, and warranty before relying on either range. Plan a passive backup in case the unit is unplugged, serviced, or fails.`
+There is a specification conflict worth preserving. Amazon's current main bullet for this product says 64–72°F and no more than 40 dB. KingChii's current 33 L page says heating and cooling from 54–74°F and no more than 38 dB. We do not resolve that conflict by guessing. Confirm the received manual, ambient limits, clearances, and warranty before relying on either range. Plan a passive backup in case the unit is unplugged, serviced, or fails.`
       },
       {
         id: 'commissioning-checklist',
@@ -216,7 +216,7 @@ Avoid long-term storage in a hot garage, vehicle, shed, direct sun, or any locat
         title: '1. What “best for a small space” means here',
         contentMarkdown: `A small-space humidor is not simply the box with the lowest advertised cigar count. It must fit the **whole operating space**: the footprint, height, lid or door path, ventilation clearance, cable route, and the room temperature it cannot change. A shallow container can occupy more shelf width than a vertical jar. A narrow electric cabinet can be 20 inches deep before clearance is added.
 
-We rendered the exact Amazon.com product pages on September 26, 2026 and confirmed the displayed title, selected size or variant, ASIN, listed dimensions or capacity basis, included components, and an in-stock buying option for the XIFEI clear acrylic jar B07H244RDZ, Sistema KLIP IT Large 7 L container B00284AG5U, and KingChii 16 L two-layer cabinet B0BQJ5H5YT.
+We rendered the exact Amazon.com product pages on September 26, 2026 and confirmed the displayed title, selected size or variant, listed dimensions or capacity basis, included components, and an in-stock buying option for the XIFEI clear acrylic jar, Sistema KLIP IT Large 7 L container, and KingChii 16 L two-layer cabinet.
 
 Current search results often publish long “small humidor” lists without a consistent definition of small. Some repeat changing prices and ratings, call seals perfect without independent testing, or link a product name to an unrelated Amazon item. Several also treat a travel case or 100-plus-cigar cabinet as apartment-ready without measuring access, ventilation, or the collection's actual cigar sizes. This guide instead compares three layouts that solve different space constraints.
 
@@ -247,7 +247,7 @@ The three capacity statements are not equivalent. XIFEI gives an approximate cig
       {
         id: 'xifei-jar',
         title: '4. XIFEI acrylic jar: smallest shelf footprint',
-        contentMarkdown: `The [XIFEI acrylic humidor jar](/products/xifei-acrylic-humidor-jar-review), ASIN B07H244RDZ, is the narrowest option here. The current rendered listing identifies the clear variant at 7.28 inches high and 5 inches in diameter, with a claim of about 15–20 cigars depending on size. It lists a clasp, rubber gasket, external hygrometer, cedar bottom lining, and a rectangular humidifier placed inside the jar.
+        contentMarkdown: `The [XIFEI acrylic humidor jar](/products/xifei-acrylic-humidor-jar-review), is the narrowest option here. The current rendered listing identifies the clear variant at 7.28 inches high and 5 inches in diameter, with a claim of about 15–20 cigars depending on size. It lists a clasp, rubber gasket, external hygrometer, cedar bottom lining, and a rectangular humidifier placed inside the jar.
 
 **Choose it if** you keep a small rotation and want visibility in a five-inch-wide footprint. The vertical shape can use an awkward corner of a bookshelf more efficiently than a wide desktop box.
 
@@ -258,7 +258,7 @@ The jar is passive. It cannot cool sunlight, a warm kitchen shelf, or a room wit
       {
         id: 'sistema-container',
         title: '5. Sistema 7 L: shallow DIY storage with no cigar-count promise',
-        contentMarkdown: `The [Sistema KLIP IT Large 7 L container](/products/sistema-236oz-7l-airtight-container-tupperdor-core-review), ASIN B00284AG5U, is the low-profile utility option. The current Amazon title identifies one clear-and-blue 7 L container. Sistema lists style 1870 at 14 inches long, 9.3 inches wide, and 4.7 inches high, with locking clips and a flexible lid seal.
+        contentMarkdown: `The [Sistema KLIP IT Large 7 L container](/products/sistema-236oz-7l-airtight-container-tupperdor-core-review), is the low-profile utility option. The current Amazon title identifies one clear-and-blue 7 L container. Sistema lists style 1870 at 14 inches long, 9.3 inches wide, and 4.7 inches high, with locking clips and a flexible lid seal.
 
 This is a food-storage container, **not** a complete cigar humidor. The verified listing includes no cigar humidity source, hygrometer, cedar tray, or cigar-capacity claim. That omission is useful information: buyers can choose their own checked sensor and appropriately sized humidity method, but the total cost and occupied space are greater than the empty container suggests.
 
@@ -269,13 +269,13 @@ Before buying trays, compare their outside dimensions with the container's **usa
       {
         id: 'kingchii-cabinet',
         title: '6. KingChii 16 L: narrow face with temperature control',
-        contentMarkdown: `The [KingChii 16 L electric humidor](/products/kingchii-16l-electric-cigar-humidor-review), ASIN B0BQJ5H5YT, is the powered option. The rendered Amazon title confirms the 16 L, two-layer, 100-capacity variant with Spanish cedar storage and a hygrometer. Both the current listing and KingChii give exterior dimensions of 20 by 9.8 by 14.1 inches.
+        contentMarkdown: `The [KingChii 16 L electric humidor](/products/kingchii-16l-electric-cigar-humidor-review), is the powered option. The rendered Amazon title confirms the 16 L, two-layer, 100-capacity variant with Spanish cedar storage and a hygrometer. Both the current listing and KingChii give exterior dimensions of 20 by 9.8 by 14.1 inches.
 
 The narrow 9.8-inch face can fit spaces that reject a wide cabinet, but the 20-inch depth is substantial. Add the door path, plug, cable bend, and ventilation required by the received manual. It is a freestanding appliance, not a tightly enclosed built-in.
 
 **Choose it if** your measured room makes heating or cooling useful, you have a stable ventilated surface near an outlet, and the collection needs more room than a jar. **Choose a passive container** when the room is already suitable and you want less cost, noise, equipment, and maintenance.
 
-KingChii currently lists heating and cooling and a 54–74°F range on its product page, while the main Amazon feature bullet for this exact ASIN says 64–74°F. The guide does not resolve that conflict by guessing; confirm the range and ambient limits in the manual supplied with the unit. The cabinet does not list active humidity control. Its fan and built-in hygrometer do not replace a compatible humidity source or an independently checked sensor.`
+KingChii currently lists heating and cooling and a 54–74°F range on its product page, while the main Amazon feature bullet for this exact product says 64–74°F. The guide does not resolve that conflict by guessing; confirm the range and ambient limits in the manual supplied with the unit. The cabinet does not list active humidity control. Its fan and built-in hygrometer do not replace a compatible humidity source or an independently checked sensor.`
       },
       {
         id: 'selection-criteria',
@@ -296,7 +296,7 @@ KingChii currently lists heating and cooling and a 54–74°F range on its produ
         id: 'setup',
         title: '8. Set up a compact humidor without losing the space advantage',
         contentMarkdown: `1. Tape the exterior footprint in the intended location and add opening, hand, cable, plug, and ventilation space.
-2. Confirm the delivered title, variant, and ASIN. XIFEI should show B07H244RDZ and the clear jar; Sistema should show B00284AG5U and the 7 L single container; KingChii should show B0BQJ5H5YT and the 16 L two-layer variant.
+2. Confirm the delivered title and size. Check that you received the clear XIFEI jar, the single 7 L Sistema container, or the two-layer 16 L KingChii you ordered.
 3. Inspect for shipping damage, strong odor, a damaged gasket or seal, loose hardware, or a door that does not close evenly. Return a damaged product rather than trying to hide a physical fault with more humidification.
 4. Clean only as the maker directs. Sistema says to remove packaging, wash the container and flexible seal, and dry them before reassembly. Follow the current instructions supplied with the XIFEI and KingChii; keep free liquid away from cigars and electronics.
 5. Add one compatible humidity method sized for the enclosure plan. Do not let a pack, reservoir, tray, or sensor crush cigars or block the KingChii's circulation path.
@@ -413,7 +413,7 @@ For a format-level recommendation based on collection size, room, and priorities
       {
         id: 'what-these-picks-mean',
         title: '1. What these humidifier picks mean',
-        contentMarkdown: `This is a fit comparison, not a claim that one humidifier is best for every cigar owner. We rendered each exact Amazon.com listing on September 25, 2026 and confirmed the displayed product title, selected size or model, ASIN, listed contents, and an in-stock buying option for Boveda 69% Size 60 twelve-count B00CPPG21Y, Boveda 65% Size 320 single B01MR6PUXF, and Cigar Oasis Plus 4.0 B00K1XBX5C.
+        contentMarkdown: `This is a fit comparison, not a claim that one humidifier is best for every cigar owner. We rendered each exact Amazon.com listing on September 25, 2026 and confirmed the displayed product title, selected size or model, listed contents, and an in-stock buying option for Boveda 69% Size 60 twelve-count, Boveda 65% Size 320 single, and Cigar Oasis Plus 4.0.
 
 Current search results often rank foam, gel, beads, packs, and electronic units in one long list, then repeat a universal “ideal” RH or treat a product's stated set point as measured performance. This guide instead starts with the enclosure: its rated capacity, internal volume, seal, layout, room temperature, and the work you are willing to maintain. It also separates passive moisture buffering from fan-driven distribution and from temperature control.
 
@@ -431,7 +431,7 @@ Do not compare the headline cigar counts as if they were measured with the same 
       {
         id: 'boveda-size-60',
         title: '3. Boveda 69% Size 60 twelve-count: flexible passive packs',
-        contentMarkdown: `The [Boveda 69% Size 60 twelve-count](/products/boveda-69-rh-size-60-12-pack-review), ASIN B00CPPG21Y, is the most flexible choice here. The rendered listing identifies twelve individually wrapped Size 60 packs at 69% RH. Boveda says to use one Size 60 for every 25 cigars the enclosure is designed to hold, so the carton can supply one maker-rated 300-count total capacity or be divided among several smaller humidors.
+        contentMarkdown: `The [Boveda 69% Size 60 twelve-count](/products/boveda-69-rh-size-60-12-pack-review), is the most flexible choice here. The rendered listing identifies twelve individually wrapped Size 60 packs at 69% RH. Boveda says to use one Size 60 for every 25 cigars the enclosure is designed to hold, so the carton can supply one maker-rated 300-count total capacity or be divided among several smaller humidors.
 
 **Choose it if** you have small or medium storage, want no cable or reservoir, and have already decided that 69% suits the enclosure and your preference. **Choose the Size 320 if** one large passive pack would reduce clutter and 65% is the intended target. **Choose active control if** a large cabinet needs fan-driven distribution.
 
@@ -440,16 +440,16 @@ The printed 69% value is a control target under the maker's specified use, not a
       {
         id: 'boveda-size-320',
         title: '4. Boveda 65% Size 320 single: one large passive pack',
-        contentMarkdown: `The [Boveda 65% Size 320](/products/boveda-320g-large-humidity-control-pack-review), ASIN B01MR6PUXF, is one large two-way pack. The current rendered Amazon title says “Single, Size 320,” and the listing says it equals five Size 60 packs and is intended for a storage box holding up to 100 total items. Boveda's current sizing help likewise says one Size 320 per 100 cigars of container capacity.
+        contentMarkdown: `The [Boveda 65% Size 320](/products/boveda-320g-large-humidity-control-pack-review), is one large two-way pack. The current rendered Amazon title says “Single, Size 320,” and the listing says it equals five Size 60 packs and is intended for a storage box holding up to 100 total items. Boveda's current sizing help likewise says one Size 320 per 100 cigars of container capacity.
 
 **Choose it if** a sealed cooler, electric cabinet, or larger box has room for one large pack and 65% is your deliberate target. **Choose Size 60 packs if** you need distributed placement, a 69% target, or smaller increments. **Choose an active unit if** a large passive cabinet needs air movement rather than only a larger moisture source.
 
-The verified ASIN includes one pack; it does **not** include the metal mounting plate shown in some manufacturer examples. That plate is a separate accessory. The Size 320 also has no fan, display, alert, or temperature control. A larger passive pack may reduce clutter, but it cannot diagnose a leaking enclosure or prove uniform RH across multiple drawers.`
+The checked product includes one pack; it does **not** include the metal mounting plate shown in some manufacturer examples. That plate is a separate accessory. The Size 320 also has no fan, display, alert, or temperature control. A larger passive pack may reduce clutter, but it cannot diagnose a leaking enclosure or prove uniform RH across multiple drawers.`
       },
       {
         id: 'cigar-oasis-plus',
         title: '5. Cigar Oasis Plus 4.0: active control for a large passive cabinet',
-        contentMarkdown: `The [Cigar Oasis Plus 4.0](/products/cigar-oasis-plus-4-electronic-humidifier-review), ASIN B00K1XBX5C, is the active option. The rendered Amazon listing identifies the Plus 4.0, an LCD display, sensor fan, refill cartridge, vapor system, and accessory kit, with a 300–1,000-cigar claim. Cigar Oasis specifies 4–10 cubic feet, a thin power ribbon, an adjustable set point, a backlit temperature/RH display, optional Wi-Fi service, and a pre-treated cartridge refilled with distilled water.
+        contentMarkdown: `The [Cigar Oasis Plus 4.0](/products/cigar-oasis-plus-4-electronic-humidifier-review), is the active option. The rendered Amazon listing identifies the Plus 4.0, an LCD display, sensor fan, refill cartridge, vapor system, and accessory kit, with a 300–1,000-cigar claim. Cigar Oasis specifies 4–10 cubic feet, a thin power ribbon, an adjustable set point, a backlit temperature/RH display, optional Wi-Fi service, and a pre-treated cartridge refilled with distilled water.
 
 **Choose it if** you have a passive cabinet in that volume range, can route power without damaging the seal, and want the unit's fan to distribute humidified air. **Choose packs if** the enclosure is smaller, airtight, or does not need active circulation. The maker specifically says the Plus 4.0 is not suggested for climate-controlled wineadors, so an owner of an [electric cigar humidor](/guides/best-electric-cigar-humidors) should follow that cabinet's humidity instructions rather than assuming a large active humidifier is compatible.
 
@@ -474,7 +474,7 @@ This is not set-and-forget temperature control. The unit adds moisture and circu
         id: 'setup-and-monitoring',
         title: '7. Set up the system without mixing instructions',
         contentMarkdown: `1. Measure the usable enclosure volume and confirm its stated cigar capacity. Note drawers, full boxes, vents, and the space the humidifier will occupy.
-2. Confirm the delivered model and ASIN. For B00CPPG21Y, verify 69%, Size 60, and twelve packs. For B01MR6PUXF, verify 65%, Size 320, and one pack. For B00K1XBX5C, verify Plus 4.0 and the listed cartridge and accessory kit.
+2. Confirm the delivered model and pack size. For the small packs, check for 69% RH, Size 60, and twelve packs. For the large pack, check for 65% RH, Size 320, and one pack. For the powered unit, check for the Plus 4.0 cartridge and accessory kit.
 3. Prepare or season the empty enclosure according to its own instructions. A humidity-control product should not be used to hide an unverified leak, wet wood, or incompatible cabinet design.
 4. For Boveda, remove any clear outer overwrap but do not cut the brown pack. Use enough packs for the enclosure's rated capacity. Boveda says not to mix RH levels or combine its packs with another humidity product in the same enclosure.
 5. For the Plus 4.0, follow the current manual and maker instructions for cartridge preparation, distilled-water refilling, placement, cable routing, clearance, set point, and optional app. Do not leave loose water where it can contact cigars, wood, or electronics.
@@ -503,8 +503,8 @@ If readings remain unstable after correct sizing, stop adding devices. Verify th
         answer: 'Boveda says not to mix different RH levels or combine its packs with another humidification product in the same enclosure. Choose one target and follow the maker’s sizing instructions.'
       },
       {
-        question: 'Does ASIN B01MR6PUXF include a mounting plate?',
-        answer: 'No. The verified Amazon listing is one 65% Size 320 pack. A metal mounting plate appears in separate manufacturer examples but is not included with this ASIN.'
+        question: 'Does the large humidity pack include a mounting plate?',
+        answer: 'No. The checked Amazon listing includes one 65% Size 320 pack. A metal mounting plate appears in separate maker examples, but it is not included with this product.'
       },
       {
         question: 'Does an electronic humidor humidifier control temperature?',
@@ -597,7 +597,7 @@ If readings remain unstable after correct sizing, stop adding devices. Verify th
       {
         id: 'what-these-picks-mean',
         title: '1. What these hygrometer picks mean',
-        contentMarkdown: `This is a comparison of three monitoring approaches, not a laboratory ranking. We rendered each exact Amazon.com page on September 24, 2026 and confirmed the displayed product title, model, ASIN, selected one-item or one-pack offer where applicable, included components, and a current in-stock buying option for Govee H5075 B07Y36FWTT, Govee H5179 B0872ZWV8X, and Cigar Oasis Caliber V B00JXOKQVW.
+        contentMarkdown: `This is a comparison of three monitoring approaches, not a laboratory ranking. We rendered each exact Amazon.com page on September 24, 2026 and confirmed the displayed product title, model, selected one-item or one-pack offer where applicable, included components, and a current in-stock buying option for Govee H5075, Govee H5179, and Cigar Oasis Caliber V.
 
 We have not owned, calibrated, aged, battery-tested, or compared these three units in the same chamber. Accuracy, refresh rate, wireless range, battery life, alert behavior, and data-retention figures are manufacturer specifications. They are not independent performance results. A hygrometer reports conditions; it does not add or remove moisture and does not cool a hot humidor.
 
@@ -613,21 +613,21 @@ None of those choices proves one sensor is more accurate than another. Govee and
       {
         id: 'govee-h5075',
         title: '3. Govee H5075: local Bluetooth history plus an LCD',
-        contentMarkdown: `The [Govee H5075 Bluetooth hygrometer](/products/govee-bluetooth-digital-hygrometer-h5075-review), ASIN B07Y36FWTT, combines a large LCD with Bluetooth app access. The rendered one-pack Amazon listing names the H5075, includes the digital unit, two batteries, and a manual, and lists temperature and humidity, max/min values, preset app alerts, graph history, and CSV export. Govee specifies ±3% RH and a Bluetooth range measured in open, unobstructed conditions; its own current page shows both 196 feet in marketing copy and 164 feet in the FAQ, so this guide does not turn either figure into a real-home guarantee.
+        contentMarkdown: `The [Govee H5075 Bluetooth hygrometer](/products/govee-bluetooth-digital-hygrometer-h5075-review), combines a large LCD with Bluetooth app access. The rendered one-pack Amazon listing names the H5075, includes the digital unit, two batteries, and a manual, and lists temperature and humidity, max/min values, preset app alerts, graph history, and CSV export. Govee specifies ±3% RH and a Bluetooth range measured in open, unobstructed conditions; its own current page shows both 196 feet in marketing copy and 164 feet in the FAQ, so this guide does not turn either figure into a real-home guarantee.
 
 **Choose it if** the humidor is usually within Bluetooth reach and you want both an on-device glance and phone history. **Choose the H5179 if** you need readings while away from home. **Choose the Caliber V if** an app adds complexity you do not want. Bluetooth alerts are not equivalent to internet alerts: once the phone is out of range or disconnected, the H5075 cannot notify that phone through Wi-Fi.`
       },
       {
         id: 'govee-h5179',
         title: '4. Govee H5179: screenless Wi-Fi monitoring',
-        contentMarkdown: `The [Govee H5179 Wi-Fi hygrometer](/products/govee-wifi-thermometer-hygrometer-h5179-review), ASIN B0872ZWV8X, is the remote-monitoring choice. The rendered Amazon one-item listing identifies Wi-Fi and Bluetooth, app alerts, historical data and export, one sensor, one lanyard loop, and one manual. Govee's current specifications add three AA batteries, ±3% RH, and 2.4 GHz Wi-Fi only. The device has no front display, so readings depend on the app.
+        contentMarkdown: `The [Govee H5179 Wi-Fi hygrometer](/products/govee-wifi-thermometer-hygrometer-h5179-review), is the remote-monitoring choice. The rendered Amazon one-item listing identifies Wi-Fi and Bluetooth, app alerts, historical data and export, one sensor, one lanyard loop, and one manual. Govee's current specifications add three AA batteries, ±3% RH, and 2.4 GHz Wi-Fi only. The device has no front display, so readings depend on the app.
 
 **Choose it if** you travel, keep the humidor in another building area, or want to see a trend before opening the enclosure. **Choose the H5075 if** local Bluetooth and an LCD are enough. **Choose the Caliber V if** you want the fewest connectivity dependencies. Wi-Fi does not make the humidor self-correcting: an alert still requires a working sensor, batteries, network, internet service, app delivery, and a person able to respond.`
       },
       {
         id: 'caliber-v',
         title: '5. Cigar Oasis Caliber V: slim display without an app',
-        contentMarkdown: `The [Cigar Oasis Caliber V](/products/oasis-caliber-v-digital-hygrometer-review), ASIN B00JXOKQVW, is the purpose-built cigar option. The current black Amazon listing identifies a digital temperature and humidity display, magnetic mount, included battery, and user calibration. Cigar Oasis specifies a slim e-ink display, ±3% RH, a 20–90% RH measuring range, Fahrenheit/Celsius selection, and three-day high, low, and average values.
+        contentMarkdown: `The [Cigar Oasis Caliber V](/products/oasis-caliber-v-digital-hygrometer-review), is the purpose-built cigar option. The current black Amazon listing identifies a digital temperature and humidity display, magnetic mount, included battery, and user calibration. Cigar Oasis specifies a slim e-ink display, ±3% RH, a 20–90% RH measuring range, Fahrenheit/Celsius selection, and three-day high, low, and average values.
 
 **Choose it if** a readable internal gauge and no-app operation matter more than remote history. It can be especially sensible behind a glass lid, where the display can be checked without opening the box. **Choose a Govee if** graphs, exports, or alerts matter. The Caliber V's maker says it arrives pre-calibrated, but that is not independent verification and does not remove the need to check a new or aging instrument against a suitable reference.`
       },
@@ -649,7 +649,7 @@ None of those choices proves one sensor is more accurate than another. Govee and
         title: '7. Verify and place the sensor without chasing noise',
         contentMarkdown: `Tobacco exchanges moisture with surrounding air, and peer-reviewed sorption research shows that equilibrium moisture changes with relative humidity. That makes the trend inside the enclosure useful—but only when the sensor and its placement are understood.
 
-1. Confirm the delivered model and ASIN before discarding the packaging. Install the specified battery and follow the exact maker setup instructions.
+1. Confirm the delivered model and size before discarding the packaging. Install the specified battery and follow the exact maker setup instructions.
 2. Let the new sensor stabilize in one location. Do not compare one device immediately after moving it from a different temperature or humidity environment.
 3. Check it against a suitable humidity reference whose instructions define the sealed volume, time, and expected value. NIST's laboratory method is far more controlled than a household check, so record the reference method and its limitations.
 4. Apply a calibration offset only when the reading difference is stable, repeatable, and within the product's adjustment range. Do not force several changing readings to agree by repeatedly editing offsets.
@@ -765,9 +765,9 @@ Choose a purpose-built calibrated instrument or professional calibration service
       {
         id: 'what-these-picks-mean',
         title: '1. What these acrylic picks mean',
-        contentMarkdown: `This guide compares three different ways to use clear acrylic storage: a compact gasketed box, an upright jar, and a larger layered display humidor. We rendered and checked each exact Amazon.com product page on September 23, 2026. We confirmed the displayed brand, product title, selected size, ASIN, stated capacity, included components, and a current purchasing option for TISFA small B09LM167T7, Prestige AJ25 B00J21X9IS, and Case Elegance Felix Pro B0CHTZWV9T.
+        contentMarkdown: `This guide compares three different ways to use clear acrylic storage: a compact gasketed box, an upright jar, and a larger layered display humidor. We rendered and checked each exact Amazon.com product page on September 23, 2026. We confirmed the displayed brand, product title, selected size, stated capacity, included components, and a current purchasing option for TISFA small, Prestige AJ25, and Case Elegance Felix Pro.
 
-We have not owned, seal-tested, drop-tested, load-tested, or measured humidity performance for these units. Capacity and construction details are current listing or manufacturer information, not independent results. A fourth candidate—the standard Felix at ASIN B0CHV7DWKD—was excluded because its rendered Amazon page resolved to the Felix Pro variant instead of preserving an exact product match.
+We have not owned, seal-tested, drop-tested, load-tested, or measured humidity performance for these units. Capacity and construction details are current listing or manufacturer information, not independent results. A fourth candidate—the standard Felix—was left out because its Amazon page opened the Felix Pro instead of the exact product we expected.
 
 **Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, star ratings, review counts, badges, or claims of hands-on ownership.`
       },
@@ -781,21 +781,21 @@ Treat every count as a fit estimate. Ring gauge, length, tubes, cellophane, the 
       {
         id: 'tisfa-small',
         title: '3. TISFA small: compact rectangular storage',
-        contentMarkdown: `The [TISFA small acrylic humidor](/products/tisfa-small-acrylic-cigar-humidor-review), ASIN B09LM167T7, is the smallest and lowest-capacity choice here. The current small variant has a clear acrylic body, clasp, rubber gasket, cedar at the bottom, an adjustable hygrometer, and a humidifier. Its listing says about 15–20 cigars depending on ring gauge.
+        contentMarkdown: `The [TISFA small acrylic humidor](/products/tisfa-small-acrylic-cigar-humidor-review), is the smallest and lowest-capacity choice here. The current small variant has a clear acrylic body, clasp, rubber gasket, cedar at the bottom, an adjustable hygrometer, and a humidifier. Its listing says about 15–20 cigars depending on ring gauge.
 
 **Choose it if** you keep a small daily rotation and want cigars to lie horizontally in a compact box. **Choose the Prestige jar if** your longest cigars fit its upright layout better or you do not need an included gauge. **Choose the Felix Pro if** you need trays and substantially more working room. The listing's sealing and humidity statements are manufacturer claims; inspect the gasket and check the gauge against a trusted reference before relying on either.`
       },
       {
         id: 'prestige-aj25',
         title: '4. Prestige AJ25: simple upright jar',
-        contentMarkdown: `The [Prestige Import Group AJ25](/products/prestige-aj25-acrylic-humidor-review), ASIN B00J21X9IS, is a 9-inch-tall, 5.25-inch-diameter acrylic jar. The current listing identifies a clasp, integrated rubber gasket, Spanish cedar lining at the bottom, and a removable round humidifier that can attach under the lid or sit at the base. It claims space for 25 cigars up to 8 inches long. Cigars and a hygrometer are not listed as included.
+        contentMarkdown: `The [Prestige Import Group AJ25](/products/prestige-aj25-acrylic-humidor-review), is a 9-inch-tall, 5.25-inch-diameter acrylic jar. The current listing identifies a clasp, integrated rubber gasket, Spanish cedar lining at the bottom, and a removable round humidifier that can attach under the lid or sit at the base. It claims space for 25 cigars up to 8 inches long. Cigars and a hygrometer are not listed as included.
 
 **Choose it if** an upright jar suits your furniture and you want a simple enclosure for a small collection. **Choose the TISFA if** a flat rectangular layout and included gauge are more useful. **Choose the Felix Pro if** you often rotate cigars from the bottom or want separated layers. The 25-count figure is not our measured fit; thick cigars and space around the humidifier will reduce it.`
       },
       {
         id: 'felix-pro',
         title: '5. Felix Pro: layered acrylic display storage',
-        contentMarkdown: `The [Case Elegance Felix Pro](/products/klaro-felix-pro-acrylic-humidor-review), ASIN B0CHTZWV9T, is the large organized option. Amazon currently identifies the 50–60-cigar Felix Pro with two acrylic storage trays and a Spanish cedar tray. Case Elegance lists a 12.3 × 8.8 × 5.9-inch body, digital hygrometer, black ashwood base, acrylic divider and shelves, solid Spanish cedar base tray, and starter humidity pack.
+        contentMarkdown: `The [Case Elegance Felix Pro](/products/klaro-felix-pro-acrylic-humidor-review), is the large organized option. Amazon currently identifies the 50–60-cigar Felix Pro with two acrylic storage trays and a Spanish cedar tray. Case Elegance lists a 12.3 × 8.8 × 5.9-inch body, digital hygrometer, black ashwood base, acrylic divider and shelves, solid Spanish cedar base tray, and starter humidity pack.
 
 Capacity depends heavily on cigar dimensions. The maker lists 20–25 Toro 60s, 35–40 Toro 54s, 38–45 Toro 52s, 50–60 Churchill 47s, and 70–90 Robusto 50s. Those are maker estimates, not our load test. **Choose it if** layered organization and a display footprint justify the extra size. **Choose a smaller jar or box if** most of that space would remain empty or your shelf cannot provide full lid clearance.`
       },
@@ -817,7 +817,7 @@ Capacity depends heavily on cigar dimensions. The maker lists 20–25 Toro 60s, 
         title: '7. Set up the enclosure without guessing',
         contentMarkdown: `Tobacco exchanges moisture with the surrounding air. Peer-reviewed sorption research found different equilibrium moisture contents as relative humidity changed, so the meaningful signal is a stable trend inside the loaded enclosure—not a single reading immediately after setup.
 
-1. Confirm the delivered ASIN and variant before discarding the packaging. Inspect the acrylic, joints, lid, clasp or hinge, gasket, hygrometer opening, trays, and cedar for shipping damage.
+1. Confirm the delivered product and size before discarding the packaging. Inspect the acrylic, joints, lid, clasp or hinge, gasket, hygrometer opening, trays, and cedar for shipping damage.
 2. Air out packaging odors. Clean and dry the enclosure only as its maker directs; abrasive or incompatible cleaners can damage clear surfaces.
 3. Acrylic does not need the same conditioning as a full wood box. Stabilize any cedar insert or tray according to the product instructions without soaking the acrylic enclosure or leaving liquid where it can contact cigars.
 4. Check the hygrometer against a trusted reference. Add one humidity method in the specified amount, close the empty unit, and wait for a stable trend.
@@ -852,7 +852,7 @@ None of these acrylic models is a substitute for temperature control. If the int
       },
       {
         question: 'Why was the standard Felix not included?',
-        answer: 'During this review, the standard Felix ASIN did not preserve an exact match on the rendered Amazon page and resolved to the Felix Pro variant. We omitted it rather than risk sending readers to the wrong product.'
+        answer: 'During this review, the standard Felix link opened the Felix Pro instead. We left it out rather than risk sending readers to the wrong product.'
       }
     ],
     sources: [
@@ -879,129 +879,215 @@ None of these acrylic models is a substitute for temperature control. If the int
   {
     id: 'best-large-capacity-humidors',
     slug: 'best-large-capacity-humidors',
-    title: 'Best Large-Capacity Humidors: Three 250–300 Cigar Options',
-    subtitle: 'Compare two passive drawer cabinets with one temperature-controlled 33L cabinet by real placement needs, humidity work, and capacity caveats.',
+    title: 'Best Large-Capacity Humidors: 3 Easy Picks for 250–300 Cigars',
+    subtitle: 'Choose the right large humidor for your room, cigar collection, and budget without getting lost in technical details.',
     category: 'selection',
     categoryLabel: 'Large Collections',
-    readTimeMinutes: 10,
+    readTimeMinutes: 9,
     ...editorialByline,
     publishedDate: '2026-09-22',
-    reviewedDate: '2026-09-22',
+    reviewedDate: '2026-09-28',
     heroVisual: 'cedar',
-    excerpt: 'Three verified large-capacity humidors compared by cabinet format, maker-listed capacity, temperature control, included humidity equipment, and setup tradeoffs.',
+    excerpt: 'Three large humidors compared by room fit, storage style, total cost, and the work needed to keep cigars safe.',
     featuredProductIds: ['woodronic-3drawer', 'kingchii-33l', 'marvero-300-cabinet'],
     comparisonRows: [
       {
         productId: 'woodronic-3drawer',
-        fit: 'Organized loose cigars in a tall passive display cabinet',
-        capacity: 'Listing claim: 200–250 cigars across four cedar-lined drawers',
-        tradeoff: 'No heating or cooling; optional electric humidifier is not included'
+        recommendationLabel: 'Best for most stable rooms',
+        fit: 'A large loose-cigar collection in a room that already stays cool and steady',
+        capacity: 'Four cedar-lined cigar drawers, a separate accessory drawer, lights, a lock, and a claimed 200–250-cigar capacity',
+        tradeoff: 'It cannot heat or cool the cabinet, and the optional electric humidifier costs extra'
       },
       {
         productId: 'kingchii-33l',
-        fit: 'Large collection that also needs active temperature control',
-        capacity: 'Maker/listing claim: 250 cigars in four 33L storage layers',
-        tradeoff: 'Humidity source is separate; current temperature-range texts disagree'
+        recommendationLabel: 'Best for hot or cold rooms',
+        fit: 'A room where heating or cooling would help protect a large collection',
+        capacity: 'A 33-liter cabinet with four cedar storage levels, temperature control, and a claimed 250-cigar capacity',
+        tradeoff: 'It still needs a separate humidity source, and the listed temperature range is not the same on every product page'
       },
       {
         productId: 'marvero-300-cabinet',
-        fit: 'Maximum drawer organization in a temperature-stable room',
-        capacity: 'Maker/listing claim: up to 300 cigars across five cedar drawers',
-        tradeoff: 'Passive cabinet; headline count is not an independent fit measurement'
+        recommendationLabel: 'Best drawer storage',
+        fit: 'A large loose-cigar collection that needs five easy-to-reach drawers',
+        capacity: 'Five movable cedar drawers, double glass doors, humidity tools, and a claimed 300-cigar capacity',
+        tradeoff: 'It cannot heat or cool, and the 300-cigar claim may be too high for thick cigars or full boxes'
       }
     ],
-    useBrandedProductArt: true,
+    useBrandedProductArt: false,
     relatedBlueprintIds: ['blueprint-coolidor-marine'],
     sections: [
       {
-        id: 'what-large-capacity-means',
-        title: '1. What “large capacity” means in this guide',
-        contentMarkdown: `This guide is for collections that have outgrown a typical desktop box but do not yet need a floor-standing commercial cabinet. The three picks occupy the 250–300-cigar range **claimed by their makers or current listings**. Those numbers are not standardized tests. Thick ring gauges, tubes, dividers, humidity equipment, and space for air movement all reduce usable capacity.
+        id: 'quick-answer',
+        title: '1. The quick answer: which one should you buy?',
+        contentMarkdown: `**Pick the Woodronic for most temperature-stable rooms.** It gives you four cigar drawers, a lock, lights, and a separate accessory drawer. It is our easiest all-around choice for loose cigars when the room already stays at a safe temperature.
 
-We verified each exact Amazon.com product page on September 22, 2026: the Woodronic four-drawer cabinet at ASIN B0CXXNHCP4, the KingChii 33L four-layer cabinet at ASIN B0B93HN22D, and the Marvero walnut five-drawer cabinet at ASIN B0CRB2P122. We checked the displayed brand, current title, size or capacity variant, included components, ASIN, and purchase availability. We have not owned, load-tested, seal-tested, or measured any of them.
+**Pick the KingChii when the room gets too warm or too cold.** It can heat and cool within the maker's stated range. It does not control humidity, so you still need humidity packs or another safe humidity source.
 
-Current search results often mix passive wood cabinets, electric coolers, and furniture humidors as if their headline counts make them interchangeable. They are not. The deciding question is whether your room already provides a suitable temperature, followed by how you store cigars and how much setup work you will accept.
+**Pick the Marvero when drawer space matters most.** Its five movable drawers make a large group of loose cigars easier to sort.
 
-**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, star ratings, review counts, badges, or claims of hands-on use.`
+**Skip all three if most of your cigars stay in factory boxes.** Drawer cabinets may waste space around boxes. A larger box-style cabinet or a [well-built coolidor](/build-vs-buy) may fit better.
+
+**Simple budget rule:** Check today's prices with the buttons on this page. Add the cost of humidity packs, a trusted second gauge, and any needed shelves or humidifier. Pay more for the KingChii only when heating or cooling solves a real problem in your room.`
       },
       {
         id: 'comparison',
-        title: '2. Compare format, capacity basis, and main tradeoff',
-        contentMarkdown: `Treat the comparison as a format decision, not a ranking of independently tested performance. The Woodronic and Marvero are passive cabinets: their internal temperature follows the room. The KingChii adds powered temperature control, but its hygrometer measures humidity rather than creating it. All three need commissioning and observation before valuable cigars are loaded.
+        title: '2. Compare the three humidors',
+        contentMarkdown: `These are three different tools. The Woodronic and Marvero follow the temperature of the room. The KingChii can change the temperature, but it does not add or remove moisture by itself.
 
-For a collection of 200 cigars, buying exactly a “200 count” cabinet leaves little allowance for larger vitolas, future purchases, humidity equipment, or less-dense organization. A larger maker claim can provide working room, but it should never be read as a promise that your exact assortment will fit.`
+The cigar counts come from the makers or product pages. They are not a promise. Thick cigars, tubes, full boxes, humidity packs, and open space between cigars can lower the real number. If you own about 200 cigars, a cabinet marked for 250–300 gives you more useful room to grow.`
       },
       {
         id: 'woodronic-250',
-        title: '3. Woodronic four-drawer cabinet: tall passive organization',
-        contentMarkdown: `The current [Woodronic cabinet review](/products/woodronic-3-drawer-spanish-cedar-cabinet-review) now resolves to the four-drawer LED model, not the older three-drawer version previously described in our catalog. Amazon lists four cedar-lined cigar drawers, a separate accessory drawer, a digital hygrometer, two gel humidifiers with solution, LED lighting, a keyed glass-front door, and wiring for an optional electric humidifier. The electric humidifier itself is not included. The listed exterior is 13.03 × 9.13 × 25.98 inches.
+        title: '3. Woodronic four-drawer cabinet: best for most stable rooms',
+        contentMarkdown: `The [Woodronic cabinet review](/products/woodronic-3-drawer-spanish-cedar-cabinet-review) covers the current four-drawer model. It has four cedar-lined cigar drawers, a separate accessory drawer, a digital humidity gauge, two gel humidifiers, lights, a lock, and wiring for an optional electric humidifier. That electric humidifier is not included.
 
-**Choose it if** you want a tall footprint, four separate cigar drawers, visible organization, and a lock in a room whose temperature is already controlled. **Choose something else if** the room becomes too hot or cold, you need to store many intact factory boxes, or you do not want to commission several cedar drawers. The 200–250-cigar statement is the listing's claim; we did not measure drawer clearances or count cigars inside it.`
+The Amazon and Woodronic pages list slightly different outside measurements. Both show a cabinet close to 26 inches tall. Measure your space and check the newest measurements before buying.
+
+**Pros**
+
+- Four drawers make loose cigars easy to sort.
+- The glass door and lights make the collection easy to see.
+- The lock and accessory drawer are useful in a shared room.
+- It can accept an optional electric humidifier.
+
+**Cons**
+
+- It does not heat or cool.
+- The electric humidifier costs extra.
+- The 200–250-cigar claim will change with cigar size and spacing.
+- It may not use space well for full cigar boxes.
+
+**Buy it if:** Your room already stays at a good temperature and you want an organized display cabinet.
+
+**Skip it if:** Your room gets hot or cold, or most of your collection stays in factory boxes.`
       },
       {
         id: 'kingchii-33l',
-        title: '4. KingChii 33L: temperature control, separate humidity work',
-        contentMarkdown: `The [KingChii 33L review](/products/kingchii-33l-electric-cigar-humidor-review) is the active-temperature option. The current Amazon title identifies the four-layer, 250-capacity variant and shows Spanish cedar storage layers plus a hygrometer. Amazon's current feature text lists a 64–72°F control range and noise at or below 40 dB. KingChii's own page for the 33L model instead advertises heating and cooling from 54–74°F and noise at or below 38 dB.
+        title: '4. KingChii 33L: best for a room that needs temperature control',
+        contentMarkdown: `The [KingChii 33L review](/products/kingchii-33l-electric-cigar-humidor-review) covers the four-level cabinet that claims room for up to 250 cigars. It has cedar storage, a fan, heating and cooling, and a built-in temperature and humidity display.
 
-That discrepancy is a reason to confirm the current manual and controls for the unit you receive, not a reason to silently choose the more favorable specification. Both ranges are manufacturer information; we did not test temperature performance. The cabinet does not provide automatic humidity control, so plan a separate humidity source and verify the hygrometer against a trusted reference.
+The current Amazon page and KingChii page do not show the same temperature and noise numbers. Amazon lists 64–72°F and up to 40 dB. KingChii lists 54–74°F and up to 38 dB. We will not guess which numbers your unit will meet. Check the manual that comes with it.
 
-**Choose it if** your intended room makes temperature control materially useful and a 33L cabinet suits your mix of loose cigars. **Choose a passive cabinet if** the room is already stable and drawer organization or furniture styling matters more. For a closer comparison of powered models, use the [best electric cigar humidors guide](/guides/best-electric-cigar-humidors).`
+**Pros**
+
+- It can heat and cool.
+- Four storage levels help sort loose cigars.
+- Its narrow shape can fit where a wide cabinet cannot.
+- A fan helps move air inside the cabinet.
+
+**Cons**
+
+- It does not control humidity by itself.
+- It needs power and open space around its vents.
+- Product pages do not agree on the temperature and noise range.
+- The 250-cigar claim will be lower with thick cigars or boxes.
+
+**Buy it if:** Your room is often warmer or colder than you want and you have a safe place with power and airflow.
+
+**Skip it if:** Your room is already stable or you want a box that works without electricity. For more powered choices, see our [best electric cigar humidors](/guides/best-electric-cigar-humidors).`
       },
       {
         id: 'marvero-300',
-        title: '5. Marvero 300: five drawers in a passive cabinet',
-        contentMarkdown: `The [Marvero 300 review](/products/marvero-300-count-walnut-cigar-cabinet-review) links to the walnut 300-count listing, model Marvero-Cigar-12. The current page lists five movable cedar drawers, a double glass door, a digital thermo-hygrometer, two humidifiers, and two humidity packs. Its exterior is listed at 12.2 × 10.24 × 17.72 inches.
+        title: '5. Marvero 300: best for five-drawer storage',
+        contentMarkdown: `The [Marvero 300 review](/products/marvero-300-count-walnut-cigar-cabinet-review) covers the walnut-finish model with five movable cedar drawers. It also lists double glass doors, a digital temperature and humidity gauge, two humidifiers, and two humidity packs.
 
-**Choose it if** you want five layers of loose-cigar organization, a furniture-style walnut cabinet, and the intended room stays within a suitable temperature range. **Choose the Woodronic if** its taller four-drawer format, lock, LED, and accessory drawer are more useful. **Choose the KingChii if** temperature control is the deciding requirement. The 300-cigar figure is a maker/listing maximum, not our measured working capacity, and five drawers do not automatically make it a good fit for intact cigar boxes.`
+Marvero claims space for up to 300 cigars. Treat that as a top number for a tight layout, not the number every owner will fit. Thick cigars and full boxes take more room.
+
+**Pros**
+
+- Five drawers give you the most sorting space of these three picks.
+- The shorter cabinet may fit furniture that cannot hold the tall Woodronic.
+- Double glass doors make the collection easy to view.
+- Basic humidity supplies are included.
+
+**Cons**
+
+- It does not heat or cool.
+- The 300-cigar claim may be too high for your cigar sizes.
+- Included humidity tools still need to be checked.
+- Drawers may be a poor fit for full cigar boxes.
+
+**Buy it if:** You have a stable room and want five easy-to-reach drawers for loose cigars.
+
+**Skip it if:** Temperature control, box storage, or the lowest total cost matters more than the extra drawer.`
       },
       {
-        id: 'selection-criteria',
-        title: '6. Use these criteria before buying a large humidor',
-        contentMarkdown: `**Separate loose-cigar count from box storage.** A cabinet optimized for rows of singles can waste space around factory boxes. Measure your longest box, tallest tube, and widest cigar before using any headline count. If most of the collection stays boxed, compare a purpose-built cabinet with the [coolidor blueprint](/build-vs-buy) rather than assuming drawers are the best layout.
+        id: 'buying-checklist',
+        title: '6. Five things to check before you buy',
+        contentMarkdown: `**1. Count how you store cigars.** Loose cigars fit drawers better than full boxes. Measure your longest cigar and your biggest box.
 
-**Decide whether the room or the cabinet controls temperature.** The two passive cabinets cannot correct a hot room. The KingChii can adjust temperature within maker-specified limits, but its performance still depends on ventilation and ambient conditions. Powered control is not permission to place a cabinet in direct sun, beside a heater, or in an unconditioned space outside its instructions.
+**2. Check the room.** The Woodronic and Marvero cannot fix a hot or cold room. The KingChii can help with temperature, but it still needs humidity supplies.
 
-**Plan humidity by volume and layout.** Multiple drawers create separated zones and can slow mixing. Do not assume one display near the door represents every drawer. During setup, compare readings at more than one height with instruments checked against the same reference.
+**3. Measure the whole space.** Leave room to open the door, pull out drawers, reach the back, and run a power cord. The KingChii also needs room around its vents.
 
-**Allow service clearance.** Measure the full footprint, door swing, drawer pull-out distance, cable route, and ventilation space. The Woodronic is nearly 26 inches tall; the KingChii is about 24 inches tall and needs power and ventilation; the Marvero is shorter but wider than a small desktop humidor.
+**4. Compare the full cost.** Include humidity packs or a humidifier, a second checked gauge, power use, and replacement supplies. The lowest shelf price may not be the lowest total cost.
 
-**Budget for commissioning, not just the box.** Cedar, sensors, humidity sources, and a large cigar load take time to reach equilibrium. A high headline capacity does not make setup automatic.`
+**5. Check the return and warranty rules.** Look at the current Amazon return window and the maker's warranty before you order. Keep the box until you know the glass, doors, drawers, display, and power parts work.`
       },
       {
-        id: 'setup-and-verification',
-        title: '7. Commission the cabinet before loading the collection',
-        contentMarkdown: `Tobacco exchanges moisture with surrounding air. Peer-reviewed sorption research found that equilibrium tobacco moisture changes with relative humidity, so a stable cabinet trend matters more than one reassuring reading on setup day.
+        id: 'setup-and-check',
+        title: '7. Set it up before you add your best cigars',
+        contentMarkdown: `1. Open the box and check for broken glass, bent doors, stuck drawers, bad smells, or missing parts.
+2. Put the cabinet in its final place, away from sun, heaters, and air vents.
+3. Follow the setup steps that came with the exact model. Do not wipe cedar with water unless the maker tells you to.
+4. Compare the built-in humidity gauge with a trusted second gauge.
+5. Run the empty cabinet until the readings stay steady. Check the top and bottom of a tall cabinet.
+6. Add cigars in small groups. Do not block fans or press cigars against wet humidity supplies.
 
-1. Inspect the delivered model, ASIN paperwork, glass, door alignment, drawers, finish, hygrometer opening, power parts, and included humidity equipment before discarding packaging.
-2. Place the cabinet where it will remain. Provide the clearance required by the maker and keep it away from sun, vents, and heat sources.
-3. Follow the current maker's setup instructions for the exact model. Do not invent a liquid-wiping routine or add unlisted chemicals to cedar.
-4. Check the included hygrometer against a trusted reference. NIST humidity work emphasizes known reference conditions and measurement uncertainty; a digital display is not self-validating.
-5. Run the empty cabinet until readings are stable. For a tall passive cabinet, compare top and bottom. For the KingChii, verify temperature and humidity separately because the machine controls only temperature.
-6. Add cigars in stages without blocking vents, crowding humidity sources, or forcing drawers. Record the response after each load change.
+A steady pattern matters more than one good reading. The [seasoning lab](/seasoning-lab) can help you plan setup, and the [humidor finder](/) can check whether this type of cabinet fits your room and collection.`
+      },
+      {
+        id: 'final-choice',
+        title: '8. Our final buying advice',
+        contentMarkdown: `For most buyers with a stable room, start with the **Woodronic**. It has the best mix of storage, display, and daily use.
 
-The [seasoning lab](/seasoning-lab) can help plan the stabilization period, and the [humidor finder](/) can check whether a cabinet format fits your room and collection. If your collection is still below roughly 100 cigars, the [best desktop humidor guide](/guides/best-desktop-humidors) may be a more practical starting point.`
+Choose the **KingChii** only when temperature control is worth the extra cost, power use, and setup.
+
+Choose the **Marvero** when five drawers are more useful than a tall locked cabinet.
+
+If you mainly store full boxes, have fewer than about 100 cigars, or are shopping on a tight budget, one of these large drawer cabinets may be the wrong buy. Use the [desktop humidor guide](/guides/best-desktop-humidors) or compare a coolidor before spending more.`
       }
     ],
     faqs: [
       {
         question: 'What size humidor should I buy for 200 cigars?',
-        answer: 'Do not match 200 cigars to a 200-count label automatically. Measure the actual vitolas, tubes, and boxes; allow room for humidity equipment and circulation; and leave growth space. A maker-rated 250–300-cigar cabinet may be a more workable starting point, but the label is still not an independent fit test.'
+        answer: 'Do not buy a box marked for exactly 200 cigars. Larger cigars, humidity supplies, and room to grow take space. A maker-rated 250–300-cigar cabinet is a safer place to start, but measure your cigars and boxes first.'
       },
       {
-        question: 'Does a large passive cabinet control temperature?',
-        answer: 'No. The Woodronic and Marvero follow room temperature. Keep either in a stable indoor location. The KingChii adds powered temperature control, but its limits and ambient requirements still need to be followed.'
+        question: 'Which large humidor is best for a hot room?',
+        answer: 'Of these three, the KingChii is the only one that can cool. It still has room limits and needs airflow around the cabinet. Do not place it in direct sun, a hot garage, or another space outside the maker’s rules.'
       },
       {
-        question: 'Does the KingChii 33L control humidity automatically?',
-        answer: 'No. Its current listing includes a hygrometer and air circulation, while humidity requires a separate source. Monitor humidity independently and do not confuse a humidity display with active humidity regulation.'
+        question: 'Which one is best on a tight budget?',
+        answer: 'Check the current Woodronic and Marvero prices first because Amazon prices change. Add the cost of humidity supplies and a second gauge. If you mostly store boxes, a good coolidor may cost less and use space better.'
       },
       {
-        question: 'Is the Woodronic or Marvero better for factory boxes?',
-        answer: 'Neither listing publishes a verified factory-box layout. Both emphasize drawers and loose-cigar capacity. Measure the exact boxes and internal clearances before buying; a coolidor or cabinet designed around box storage may use space more efficiently.'
+        question: 'Does the KingChii 33L control humidity?',
+        answer: 'No. It can control temperature, but you must add a safe humidity source and watch the humidity level. The display measures humidity; it does not create it.'
       },
       {
-        question: 'How many hygrometers does a large cabinet need?',
-        answer: 'Start with the built-in display plus at least one checked reference during commissioning. In a tall multi-drawer cabinet, temporary sensors at different heights can reveal whether one reading represents the whole interior. Add permanent sensors only if the observed differences justify them.'
+        question: 'Are the Woodronic or Marvero good for full cigar boxes?',
+        answer: 'They are made around drawers and loose-cigar counts. Some small boxes may fit, but neither maker gives a trusted box-by-box layout. Measure your boxes and the open drawer space before buying.'
+      },
+      {
+        question: 'How many cigars will really fit?',
+        answer: 'There is no one answer. Long or thick cigars take more room than small cigars. Tubes, boxes, dividers, and humidity supplies also take space. Use the maker count as a top estimate, not a promise.'
+      },
+      {
+        question: 'How many humidity gauges do I need?',
+        answer: 'Use the built-in display and one trusted second gauge during setup. In a tall cabinet, move the second gauge between the top and bottom to see if the whole cabinet stays close.'
+      },
+      {
+        question: 'What happens if the KingChii loses power?',
+        answer: 'It stops heating, cooling, and moving air. Keep the door closed, watch the room temperature, and have a clean backup container ready if the outage lasts or the room becomes unsafe.'
+      },
+      {
+        question: 'How long should I wait before adding cigars?',
+        answer: 'Wait until the empty cabinet gives steady readings at the top and bottom. The time can change with the cabinet, room, cedar, and humidity source. Do not use a fixed number of hours as a promise.'
+      },
+      {
+        question: 'Should I buy a 300-cigar or 500-cigar humidor?',
+        answer: 'Choose 500 only if you expect real growth, store many full boxes, or already need the extra room. A mostly empty cabinet costs more and can take more work to manage. Buy for your current collection plus reasonable growth.'
       }
     ],
     sources: [
@@ -1024,15 +1110,21 @@ The [seasoning lab](/seasoning-lab) can help plan the stabilization period, and 
         sourceType: 'Government / technical reference'
       },
       {
-        label: '33L cabinet specifications and operating claims',
+        label: 'Four-drawer cabinet size, parts, and capacity',
+        publisher: 'Woodronic',
+        url: 'https://woodronic.shop/products/250-cigar-led-humidor-cabinet',
+        sourceType: 'Manufacturer instructions'
+      },
+      {
+        label: '33L cabinet size, temperature range, and noise claims',
         publisher: 'KingChii',
         url: 'https://www.kingchii.com/products/kingchii-33l-electric-cigar-humidor',
         sourceType: 'Manufacturer instructions'
       },
       {
-        label: '300-count walnut cabinet specifications and included components',
+        label: 'Five-drawer cabinet size, parts, and capacity',
         publisher: 'Marvero',
-        url: 'https://marverostore.com/collections/frontpage/products/mega-humidor',
+        url: 'https://marverostore.com/products/mega-humidor',
         sourceType: 'Manufacturer instructions'
       }
     ]
@@ -1077,7 +1169,7 @@ The [seasoning lab](/seasoning-lab) can help plan the stabilization period, and 
       {
         id: 'what-these-picks-mean',
         title: '1. What these desktop picks mean',
-        contentMarkdown: `This guide compares three genuinely different desktop choices: a clear acrylic jar for a small collection, a medium wood-and-glass box, and a large cedar-lined display humidor. We verified each exact Amazon listing on September 21, 2026, including the ASIN, selected variant, stated capacity, and included components. We have not owned, seal-tested, weighed, or laboratory-tested these units, so product performance and capacity statements remain maker or listing claims.
+        contentMarkdown: `This guide compares three genuinely different desktop choices: a clear acrylic jar for a small collection, a medium wood-and-glass box, and a large cedar-lined display humidor. We verified each exact Amazon listing on September 21, 2026, including the exact model, selected variant, stated capacity, and included components. We have not owned, seal-tested, weighed, or laboratory-tested these units, so product performance and capacity statements remain maker or listing claims.
 
 The most useful desktop humidor is the one that fits your actual cigars, room, and maintenance habits. None of these passive containers heats or cools the air. If the room experiences damaging temperature swings, a different location or a suitable temperature-controlled cabinet matters more than buying the largest box.
 
@@ -1100,14 +1192,14 @@ The acrylic option has almost no unfinished wood to condition, while the Renzo a
       {
         id: 'renzo',
         title: '4. Renzo: medium cedar desktop',
-        contentMarkdown: `The current [Klaro Renzo review](/products/klaro-renzo-glass-top-humidor-review) links to the brown Renzo, ASIN B07GXSVH1H. Amazon identifies it as the CASE ELEGANCE glass-top Renzo. The listing includes two Hydro Channels, a gel packet, regular and dry-climate solution bottles, and a digital hygrometer; accessories shown in the drawer are not included. The listed exterior is about 9 × 8.5 × 5.4 inches.
+        contentMarkdown: `The current [Klaro Renzo review](/products/klaro-renzo-glass-top-humidor-review) links to the brown Renzo. Amazon identifies it as the CASE ELEGANCE glass-top Renzo. The listing includes two Hydro Channels, a gel packet, regular and dry-climate solution bottles, and a digital hygrometer; accessories shown in the drawer are not included. The listed exterior is about 9 × 8.5 × 5.4 inches.
 
 Capacity changes by cigar size. Amazon currently says roughly 30–35 average 52-ring-gauge cigars, while the maker's more detailed table lists 28–30 Toro 52s and larger counts for slimmer cigars. **Choose it if** that medium working range suits your collection and you want a display box with an accessory drawer. **Choose the acrylic jar if** you want less conditioning work, or the Octodor if you need substantially more loose-cigar space. Follow the current maker instructions for the exact Hydro Channel setup rather than improvising with extra liquid.`
       },
       {
         id: 'octodor',
         title: '5. Octodor: larger desktop display',
-        contentMarkdown: `The [Klaro Octodor review](/products/klaro-octodor-large-glass-top-humidor-review) links to the black 50–100-cigar variant, ASIN B082P929XD. The current listing and maker describe a glass top, digital hygrometer, recessed Hydro System, removable cedar tray and divider, full cedar lining, and a felt-lined accessory drawer. Case Elegance lists the exterior at 13.75 × 9.5 × 8.6 inches.
+        contentMarkdown: `The [Klaro Octodor review](/products/klaro-octodor-large-glass-top-humidor-review) links to the black 50–100-cigar variant. The current listing and maker describe a glass top, digital hygrometer, recessed Hydro System, removable cedar tray and divider, full cedar lining, and a felt-lined accessory drawer. Case Elegance lists the exterior at 13.75 × 9.5 × 8.6 inches.
 
 **Choose it if** you have a larger loose-cigar collection, enough furniture depth, and a reason to separate cigars between the tray and lower space. **Choose the Renzo if** the larger footprint and added cedar are unnecessary. The 100-cigar figure is a maximum maker claim, not our measured fit. Large ring gauges and a less tightly packed arrangement will lower the count. The box is passive: it cannot cool a sunny room or heat a cold one.`
       },
@@ -1852,6 +1944,8 @@ Judge by the **actual stabilized reading and smoking result**. Overcorrecting ca
 - Prefer a gasketed enclosure if a wood box cannot hold a stable reading.
 - Minimize unnecessary opening during very dry weather.
 - Track trends with a calibrated hygrometer rather than reacting to each short fluctuation.
+
+If you also want to compare the room against outdoor conditions, review the [sensor sets and placement limits in this home weather-station guide](https://weatherstationguide.online/guides/best-home-weather-stations). A household station can provide broader climate context, but it does not replace the calibrated hygrometer inside the humidor.
 
 This approach works in Denver, Santa Fe, and any heated or arid home because it addresses the conditions the cigars actually experience.`
       }

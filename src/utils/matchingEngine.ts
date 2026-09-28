@@ -3,6 +3,27 @@ import { AMAZON_PRODUCTS } from '../data/products';
 import { DIY_BLUEPRINTS } from '../data/blueprints';
 import { calculateClimateAdjustment } from './climateCalculator';
 
+const PRICE_TIER_MINIMUM: Record<string, number> = {
+  '$': 0,
+  '$$': 75,
+  '$$$': 175,
+  '$$$$': 400,
+  '$$$$$': 1000,
+  budget: 0,
+  mid: 75,
+  premium: 175,
+  luxury: 400,
+};
+
+function estimatedProductCost(product: AmazonProduct): number {
+  if (product.price > 0) return product.price;
+  return PRICE_TIER_MINIMUM[product.priceBracket || ''] ?? 0;
+}
+
+function capacityDistance(product: AmazonProduct, targetCapacity: number): number {
+  const difference = product.capacitySticks - targetCapacity;
+  return difference >= 0 ? difference : Math.abs(difference) * 2;
+}
 export function runHumidorRecommendationEngine(answers: QuizAnswers): RecommendationResult {
   const scores: Record<HumidorCategory, number> = {
     tupperdor: 50,
@@ -172,20 +193,22 @@ export function runHumidorRecommendationEngine(answers: QuizAnswers): Recommenda
     answers.hasHVAC
   );
 
-  // Ready-made products: prioritize budget fit, usable capacity, and editorial fit scores.
+  // Ready-made products: fit the shopper's budget and collection before brand prestige.
   const recommendedBuyProducts = AMAZON_PRODUCTS.filter(
     p => p.category === primaryArchetype || (primaryArchetype === 'tupperdor' && p.category === 'acrylic')
   ).sort((a, b) => {
-    const aBudgetFit = a.price <= answers.budgetMax ? 1 : 0;
-    const bBudgetFit = b.price <= answers.budgetMax ? 1 : 0;
+    const aBudgetFit = estimatedProductCost(a) <= answers.budgetMax ? 1 : 0;
+    const bBudgetFit = estimatedProductCost(b) <= answers.budgetMax ? 1 : 0;
     if (aBudgetFit !== bBudgetFit) return bBudgetFit - aBudgetFit;
+
     const aCapacityFit = a.capacitySticks >= targetCapacity ? 1 : 0;
     const bCapacityFit = b.capacitySticks >= targetCapacity ? 1 : 0;
     if (aCapacityFit !== bCapacityFit) return bCapacityFit - aCapacityFit;
-    const aEditorialScore = a.scorecard?.valueScore ?? a.sealRating;
-    const bEditorialScore = b.scorecard?.valueScore ?? b.sealRating;
-    if (aEditorialScore !== bEditorialScore) return bEditorialScore - aEditorialScore;
-    return b.sealRating - a.sealRating;
+
+    const capacityDifference = capacityDistance(a, targetCapacity) - capacityDistance(b, targetCapacity);
+    if (capacityDifference !== 0) return capacityDifference;
+
+    return (b.finderPriority ?? 0) - (a.finderPriority ?? 0);
   }).slice(0, 3);
 
   if (recommendedBuyProducts.length === 0) {
@@ -230,7 +253,7 @@ export function runHumidorRecommendationEngine(answers: QuizAnswers): Recommenda
   essentialAccessories.push(cutter);
 
   // Build vs Buy Verdict
-  const buyAvgCost = recommendedBuyProducts[0]?.price || 150;
+  const buyAvgCost = recommendedBuyProducts[0] ? estimatedProductCost(recommendedBuyProducts[0]) : 150;
   const buildAvgCost = recommendedDIYBlueprint?.estimatedCost || 55;
   const costDiff = Math.max(0, buyAvgCost - buildAvgCost);
 
