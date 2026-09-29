@@ -8,6 +8,176 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-cigar-cutters',
+    slug: 'best-cigar-cutters',
+    title: 'Best Cigar Cutters: Straight, V-Cut, and Punch Compared',
+    subtitle: 'Choose a cutter by the opening you want, the cigar shapes you smoke, and the tool you will actually carry—not by a changing price or popularity badge.',
+    category: 'selection',
+    categoryLabel: 'Cutter Buying Guide',
+    readTimeMinutes: 12,
+    ...editorialByline,
+    publishedDate: '2026-09-29',
+    reviewedDate: '2026-09-29',
+    heroVisual: 'cutter',
+    excerpt: 'Three current Amazon cigar cutters compared by cut geometry, shape compatibility, published specifications, portability, and reasons to choose another tool.',
+    featuredProductIds: ['alaska-bear-double-guillotine', 'colibri-v-cut', 'screwpop-cigar-punch-4'],
+    comparisonRows: [
+      {
+        productId: 'alaska-bear-double-guillotine',
+        recommendationLabel: 'Best first cutter',
+        fit: 'A conventional straight cut for beginners, mixed cigar shapes, or a simple backup tool',
+        capacity: 'Double blades, 0.892-inch listed opening, up to 60 ring gauge claim, black pouch',
+        tradeoff: 'No published maker service program found; the opening must comfortably fit your usual cigars'
+      },
+      {
+        productId: 'colibri-v-cut',
+        recommendationLabel: 'Best dedicated V-cut',
+        fit: 'Smokers who already prefer a centered deep V channel on medium and large cigars',
+        capacity: 'Spring-loaded stainless blade, 60+ ring-gauge maker claim, gift box, two-year warranty',
+        tradeoff: 'Fixed deep notch is less adjustable than trimming a straight cut in small steps'
+      },
+      {
+        productId: 'screwpop-cigar-punch-4',
+        recommendationLabel: 'Best clip-on punch',
+        fit: 'A compact punch for straight-sided cigars with broad rounded caps',
+        capacity: 'Telescoping stainless punch, aluminum body, twin-prong nubber, clip, bottle opener',
+        tradeoff: 'No published punch diameter; not a fit for torpedoes, belicosos, or every draw preference'
+      }
+    ],
+    useBrandedProductArt: true,
+    sections: [
+      {
+        id: 'what-these-picks-mean',
+        title: '1. What these cutter picks mean',
+        contentMarkdown: `There is no cutter that is objectively best for every cigar. A straight cutter removes a disc from the cap, a V-cutter makes a wedge-shaped channel, and a punch removes a small circular plug. Each changes the size and shape of the opening. The cigar's construction, head shape, moisture condition, and your draw preference still matter.
+
+We reviewed the current search results before writing. The better competing guides explain cutter types and show quick comparison tables. Many also publish changing prices, star ratings, review counts, or broad claims that one cut produces more flavor. Some describe hands-on testing without enough detail to evaluate it. This guide takes a narrower path: one current product for each common cut, exact Amazon identity checks, maker-versus-listing attribution, and explicit reasons to skip every pick.
+
+On September 29, 2026, we rendered the exact Amazon.com pages for the Alaska Bear stainless steel double-blade cutter, the black-and-rose-gold Colibri Original Deep V cutter, and the black Screwpop Telescoping Cigar Punch 4.0. Each page displayed the ASIN used here and an in-stock buying option. We also checked the current Colibri and Screwpop maker pages for product-specific specifications. The Colibri SV-Cut ASIN we investigated returned a page-not-found result, and the Colibri S-Cut variants we checked were unavailable, so neither appears in this guide.
+
+We have not owned, cut cigars with, disassembled, sharpened, or durability-tested these tools. Blade performance, long-term alignment, finish wear, warranty service, and fit with a particular cigar remain untested. Listing and maker specifications are identified as such.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, badges, star ratings, review counts, or popularity claims.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Compare the opening, cigar shape, and main limitation',
+        contentMarkdown: `Use the table as a cut-format decision aid, not a performance ranking. If you are unsure, a double-blade straight cutter is the broadest starting point because you can take a conservative first cut and trim a little more. A V-cutter makes a repeatable channel but gives you less control over notch geometry. A punch is small and tidy but depends on a broad, rounded cap.
+
+Ring-gauge claims describe the tool opening or the maker's intended fit; they do not guarantee a clean result on every cigar at that size. The cap must sit squarely, the head must enter without being forced, and the blade must complete its motion without crushing the wrapper. A pointed torpedo or belicoso asks for a different approach from a round parejo head.
+
+None of these tools stores or restores a cigar. If the wrapper is brittle, swollen, cracked, or visibly damaged, address storage condition before blaming the cutter. Use the [humidor finder](/) to review the storage format and room conditions, and browse the [product catalog](/catalog) for the exact linked product records.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '3. Five criteria that matter before brand or finish',
+        contentMarkdown: `**1. Start with the cigar shapes you actually smoke.** A straight cutter is adaptable to rounded and pointed heads. A V-cut can work on many rounded heads and some torpedoes, but the fixed chamber controls the notch. A punch needs a broad rounded surface and should not be forced into a pointed head.
+
+**2. Decide how much control you want over the opening.** A straight cut can begin shallow and be widened with a second small trim. A V-cut and a punch create a more predetermined opening. Neither is automatically better; choose the draw tendency you prefer and the amount of adjustment you want.
+
+**3. Compare the real aperture with your largest cigar.** Do not buy from a ring-gauge headline alone. Check the listed opening, leave room to center the head, and never force a cigar through a cutter that is too small. Alaska Bear lists a 0.892-inch opening and a 60-ring claim. Colibri lists its V-Cut for 60+ ring gauges. Screwpop does not publish a punch diameter on its current maker page.
+
+**4. Portability changes what you will carry.** The Alaska Bear is a thin handheld cutter with a pouch. The Colibri is a thicker spring-loaded tool. The Screwpop clips to a keyring or bag. A larger tabletop cutter may be easier to locate at home but is a poor travel tool.
+
+**5. Look for service information, not imagined durability.** Colibri publishes a two-year mechanism warranty with exclusions and a service process. We did not find an equivalent maker service page for Alaska Bear or Screwpop during this review. A warranty is not proof of longevity, but its scope and requirements are useful buying facts.`
+      },
+      {
+        id: 'alaska-bear-straight',
+        title: '4. Alaska Bear double guillotine: the straightforward first cutter',
+        contentMarkdown: `The [Alaska Bear stainless steel double-blade cutter](/products/alaska-bear-double-guillotine-cigar-cutter-review) is the simplest all-rounder here. The rendered Amazon page matched ASIN B00JUERWT4, described brushed stainless steel, a 0.892-inch opening, two blades, and an included black gift pouch, and showed the item in stock. The listing claims fit through 60 ring gauge and calls the blades self-sharpening; those are seller-listing claims, not our measurements or durability findings.
+
+**Choose it if** this is your first cutter, you rotate among several cigar shapes, or you want an uncomplicated backup. A straight cut lets you remove a small amount, test the unlit draw, and take another conservative trim if needed.
+
+**Choose something else if** you already know you prefer the smaller opening of a punch, want a deep V channel, need a wider published aperture, or value a documented maker repair program. The metal body and double-blade layout do not by themselves prove edge quality, alignment, or service life.
+
+Before using it, confirm both blades move freely, meet evenly, and show no chips, burrs, or side play. The cigar should enter without scraping the cap against the opening. If the head does not fit comfortably, use a larger cutter rather than squeezing or cutting at an angle.`
+      },
+      {
+        id: 'colibri-v-cut',
+        title: '5. Colibri Original Deep V: for a deliberate V-cut preference',
+        contentMarkdown: `The [Colibri Original Deep V cigar cutter](/products/colibri-deep-v-cut-cigar-cutter-review) is the dedicated V option. The rendered Amazon record matched ASIN B00MBNJ1A4, identified the current color as black and rose gold, listed a spring-loaded stainless steel blade and gift box, and showed the item in stock. Colibri's current maker page describes a deep V, a 60+ ring-gauge fit, a rubberized finish, and a two-year warranty. The Amazon page also lists the gift box and two-year warranty.
+
+**Choose it if** you have already tried V-cuts and prefer the centered wedge-shaped channel they create. Colibri states that its geometry can penetrate up to 7 mm into the cap. Treat that as a maker design specification, not proof that the same depth is right for every cigar.
+
+**Choose the Alaska Bear instead** if you want to adjust the opening with shallow straight trims or need the most familiar first-cutter format. **Choose the Screwpop** if compact clip-on carry matters more than a dedicated V mechanism.
+
+The V chamber centers the cigar for you, but it also limits your control over notch shape and depth. Do not force a slim, damaged, or unusually pointed head into the chamber. Colibri's warranty covers qualifying mechanism defects under normal use but excludes finish wear, misuse, tampering, neglect, and unapproved repair; keep the receipt and read the current terms rather than assuming every problem is covered.`
+      },
+      {
+        id: 'screwpop-punch',
+        title: '6. Screwpop Punch 4.0: compact carry with a fixed opening',
+        contentMarkdown: `The [Screwpop Telescoping Cigar Punch 4.0](/products/screwpop-cigar-punch-4-review) is the pocket-oriented choice. The rendered Amazon page matched ASIN B0141KENXE, the black 4.0 model, and an in-stock buying option. The listing and maker page describe a telescoping stainless steel punch, lightweight aluminum body, clip, bottle opener, and twin-prong nubber.
+
+**Choose it if** you want a small tool clipped to a bag or keyring and usually smoke straight-sided cigars with broad rounded caps. A punch leaves most of the cap perimeter intact and avoids a loose cut-off disc.
+
+**Choose another tool if** you smoke torpedoes or belicosos, prefer a wide open draw, or want a published cutting diameter. Screwpop's current maker page does not state the punch diameter. Its maker page lists 0.5 by 0.875 by 2.75 inches and 0.80 ounce, while Amazon's product details list 0.5 by 0.75 by 3.25 inches and 0.63 ounce. We preserve that discrepancy instead of selecting the more convenient numbers.
+
+Deploy the telescoping punch as the maker describes, center it on a suitable rounded cap, turn it gently, and withdraw the plug. Stop if the cap begins to split or the tool binds. The twin prongs and bottle opener are secondary functions; they do not make the punch a substitute for a straight cutter on every cigar.`
+      },
+      {
+        id: 'cutting-checklist',
+        title: '7. Use any cutter conservatively',
+        contentMarkdown: `1. Inspect the cigar before cutting. Find the cap and shoulder and look for cracks, loosened wrapper, or an already damaged head.
+2. Inspect the cutter. The blade should be clean, unobstructed, and able to complete its intended motion. Keep fingers outside the cutting path.
+3. Remove less than you think you need. With a straight cutter, stay above the shoulder and make one decisive motion. With a V or punch, center the cap without forcing it into the chamber.
+4. Check the unlit draw. If it is tight, first confirm the opening is clear. A second small straight trim may help; repeatedly digging at the cap may make the problem worse.
+5. Do not use the tool as a general utility blade. Cutting paper, plastic, wire, or packaging can damage or contaminate the cutting edge.
+6. Remove loose tobacco after use and follow the maker's care instructions. Do not disassemble, sharpen, oil, or solvent-clean a mechanism unless the maker specifically allows it.
+7. Close or retract the blade before storage. Keep the tool where children cannot access it and where keys or pocket contents cannot enter the blade path.
+
+For trips, read the [current U.S. flying guide](/guides/travelers-cigar-handbook-tsa-torch-pressure). TSA currently says cigar cutters are generally permitted in carry-on and checked bags but recommends checked baggage; officers retain discretion, and sharp items in checked bags should be sheathed or securely wrapped. Recheck TSA and airline guidance before departure.`
+      },
+      {
+        id: 'reasons-to-choose-differently',
+        title: '8. Reasons to choose a different cutter',
+        contentMarkdown: `Choose a larger double guillotine if your usual cigar does not fit comfortably inside the Alaska Bear opening. Choose a shallow or adjustable straight cut if the Colibri's fixed deep V is more cut than you want. Choose a straight or V cutter if the Screwpop's unpublished punch diameter or round-cap requirement does not match your cigars.
+
+A tabletop cutter can make sense for a fixed lounge or patio where portability does not matter and several people use the same tool. Cigar scissors can provide very direct visibility around a pointed head, but they require steady alignment and safe storage. A multi-tool may reduce pocket clutter, but each cutting function still needs its own fit and condition check.
+
+Avoid choosing from finish, gift packaging, or a review-count badge alone. The useful question is whether the exact cutter creates the opening you want on the cigars you actually smoke, fits those cigars without force, and has care or service terms you can accept. If an ASIN redirects to a different variant or lacks a live offer, wait for a verifiable listing rather than using a keyword fallback.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'What type of cigar cutter is best for a beginner?',
+        answer: 'A double-blade straight cutter is the broadest starting point. It works with many rounded and pointed shapes and lets you begin with a shallow cut, test the draw, and trim a little more if needed.'
+      },
+      {
+        question: 'Is a V-cut better than a straight cut?',
+        answer: 'Neither is universally better. A straight cut opens more of the cigar head and is easy to adjust in small steps. A V-cut makes a narrower channel and leaves more of the cap perimeter intact. The cigar and your draw preference decide which feels better.'
+      },
+      {
+        question: 'Can I use a cigar punch on a torpedo or belicoso?',
+        answer: 'A punch needs a broad rounded cap, so it is a poor fit for a pointed torpedo or belicoso. Use a suitable straight cutter or scissors and take a conservative first cut instead.'
+      },
+      {
+        question: 'Does a 60-ring claim mean every 60-ring cigar will fit?',
+        answer: 'No. The cigar still needs enough clearance to enter and sit squarely, and shapes vary. Compare the actual opening with your cigar and never force the head through a tight aperture.'
+      },
+      {
+        question: 'Does a more expensive cutter make a cigar taste better?',
+        answer: 'Price does not prove a better smoking result. A clean opening and suitable draw matter; cigar construction, condition, and personal preference matter too. This guide does not claim that any product improves flavor.'
+      },
+      {
+        question: 'Can I sharpen a cigar cutter myself?',
+        answer: 'Do not assume a cutter is user-serviceable. Check the maker instructions and warranty first. Disassembly or unauthorized repair can damage alignment and may void coverage; replacement or maker service is often the safer choice.'
+      },
+      {
+        question: 'Can cigar cutters go in carry-on luggage in the United States?',
+        answer: 'TSA currently says cigar cutters are generally permitted in carry-on and checked bags but recommends checked baggage. Screening officers retain discretion. Recheck TSA and your airline before travel, and secure sharp items in checked luggage.'
+      }
+    ],
+    sources: [
+      { label: 'Alaska Bear double-blade cutter listing — ASIN B00JUERWT4', publisher: 'Amazon.com, rendered September 29, 2026', url: 'https://www.amazon.com/dp/B00JUERWT4?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Colibri Original V-Cut listing — ASIN B00MBNJ1A4', publisher: 'Amazon.com, rendered September 29, 2026', url: 'https://www.amazon.com/dp/B00MBNJ1A4?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Screwpop Cigar Punch 4.0 listing — ASIN B0141KENXE', publisher: 'Amazon.com, rendered September 29, 2026', url: 'https://www.amazon.com/dp/B0141KENXE?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Original V-Cut specifications and dimensions', publisher: 'Colibri', url: 'https://colibri.com/products/v-cut', sourceType: 'Manufacturer instructions' },
+      { label: 'Two-year product warranty terms', publisher: 'Colibri', url: 'https://colibri.com/pages/warranty-1', sourceType: 'Manufacturer instructions' },
+      { label: 'Cigar Punch 4.0 specifications and operating notes', publisher: 'Screwpop Tools', url: 'https://screwpoptool.com/screwpop-cigar-punch-4', sourceType: 'Manufacturer instructions' },
+      { label: 'What Can I Bring: cigar cutters', publisher: 'Transportation Security Administration', url: 'https://www.tsa.gov/travel/security-screening/whatcanibring/all-list?pubDate=20250608', sourceType: 'Government / regulation' }
+    ]
+  },
+  {
     id: 'best-humidors-long-term-storage',
     slug: 'best-humidors-for-long-term-storage',
     title: 'Best Humidors for Long-Term Storage: Three Systems Compared',

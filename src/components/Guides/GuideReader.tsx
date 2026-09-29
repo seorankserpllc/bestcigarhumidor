@@ -320,7 +320,12 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
               }`}>
                 {source.sourceType}
               </span>
-              <a href={source.url} target="_blank" rel="noopener noreferrer" className="text-stone-300 hover:text-amber-300 transition-colors underline decoration-stone-700 underline-offset-4">
+              <a
+                href={source.url}
+                target="_blank"
+                rel={source.url.includes('amazon.com/dp/') ? 'noopener noreferrer sponsored' : 'noopener noreferrer'}
+                className="text-stone-300 hover:text-amber-300 transition-colors underline decoration-stone-700 underline-offset-4"
+              >
                 {source.label} <span className="text-stone-500">— {source.publisher}</span>
               </a>
             </li>

@@ -10,6 +10,9 @@ import {
   Mountain,
   Plane,
   Radio,
+  Circle,
+  ChevronDown,
+  Scissors,
   Snowflake,
   Thermometer,
   TreePine,
@@ -33,6 +36,7 @@ const visualConfig = {
   humidifier: { number: '08', label: 'HUMIDITY CONTROL', primary: Droplets, secondary: Gauge, tertiary: Fan },
   compact: { number: '09', label: 'SMALL-SPACE STORAGE', primary: Box, secondary: Gauge, tertiary: Thermometer },
   'long-term': { number: '10', label: 'LONG-TERM STORAGE', primary: LockKeyhole, secondary: Gauge, tertiary: Thermometer },
+  cutter: { number: '11', label: 'CUTTER BUYING GUIDE', primary: Scissors, secondary: ChevronDown, tertiary: Circle },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;

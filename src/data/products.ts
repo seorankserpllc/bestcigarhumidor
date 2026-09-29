@@ -964,39 +964,100 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
 
   // ================= CUTTERS, LIGHTERS & ACCESSORIES =================
   {
+    id: 'alaska-bear-double-guillotine',
+    slug: 'alaska-bear-double-guillotine-cigar-cutter-review',
+    name: 'Alaska Bear Stainless Steel Double-Blade Cigar Cutter',
+    brand: 'Alaska Bear',
+    category: 'accessory',
+    subCategory: 'cutter',
+    price: 0,
+    priceBracket: 'budget',
+    priceTierFormatted: 'Budget cutter',
+    capacitySticks: 0,
+    asin: 'B00JUERWT4',
+    amazonSearchQuery: 'Alaska Bear Stainless Steel Guillotine Double Cut Cigar Cutter B00JUERWT4',
+    description: 'A compact double-blade straight cutter whose current listing specifies brushed stainless steel, a 0.892-inch opening, and an included black gift pouch.',
+    highlights: ['Double-blade straight cut', '0.892-inch listed opening', 'Brushed stainless steel', 'Black gift pouch included'],
+    pros: ['Simple straight-cut format', 'Listing claims compatibility through 60 ring gauge', 'Protective pouch is included'],
+    cons: ['No published maker service program was found', 'A straight cutter removes more of the cap than a punch'],
+    bestFor: 'A first cutter or backup tool for smokers who want a conventional straight cut.',
+    sealRating: 0,
+    dimensions: '3.62 x 1.5 x 0.12 in (current listing)',
+    material: 'Brushed stainless steel (current listing)',
+    whoShouldBuy: [
+      'Beginners who want one simple cutter for common parejo and figurado shapes.',
+      'Owners who want a compact backup cutter with a storage pouch.'
+    ],
+    whoShouldAvoid: [
+      'Smokers who specifically prefer the smaller opening of a punch or the channel made by a V-cut.',
+      'Anyone whose usual cigar does not fit comfortably inside the listed 0.892-inch opening.'
+    ],
+    failureModesToWatch: ['Blade play or visible damage on arrival', 'Cap crushing or tearing instead of a clean cut', 'Residue that prevents the blades from closing freely'],
+    relatedGuideSlugs: ['best-cigar-cutters']
+  },
+  {
     id: 'colibri-v-cut',
     slug: 'colibri-deep-v-cut-cigar-cutter-review',
-    name: 'Colibri Deep V-Cut Heavy-Duty Cigar Cutter',
+    name: 'Colibri Original Deep V Cigar Cutter',
     brand: 'Colibri',
     category: 'accessory',
     subCategory: 'cutter',
-    price: 0, // internal budget ref
+    price: 0,
     priceBracket: '$$',
-    priceTierFormatted: '$$ (Moderate: $40–$65)',
+    priceTierFormatted: 'Mid-tier cutter',
     capacitySticks: 0,
     asin: 'B00MBNJ1A4',
-    amazonSearchQuery: 'Colibri V-Cut Cigar Cutter Deep Wedge Stainless Steel Blade',
-    imageUrl: 'https://m.media-amazon.com/images/I/61-qcz4ym4L._AC_SL1200_.jpg',
-    description: 'The undisputed favorite cutter among cigar sommeliers. Contoured spring-loaded release cuts a deep, clean wedge up to 60 ring gauge without cracking delicate wrapper leaf.',
-    highlights: ['Engineered Deep Wedge V-Cut', 'Cuts up to 60+ Ring Gauge', 'Surgical 440 Stainless Steel Blade', 'Ergonomic Rubberized Grip Finish'],
-    pros: ['Provides effortless draw without destroying cigar cap', 'Works on figurados, torpedos, and robustos', 'Heavy, indestructible tactile feel in hand'],
-    cons: ['Premium price tag compared to plastic cutters'],
-    bestFor: 'Every cigar smoker seeking the cleanest, most consistent draw possible.',
-    sealRating: 10.0,
-    scorecard: {
-      sealIntegrity: 10.0,
-      thermalStability: 10.0,
-      humidityRetention: 10.0,
-      craftsmanship: 9.9,
-      valueScore: 9.6,
-    },
+    amazonSearchQuery: 'Colibri Original Deep V Cigar Cutter Black Rose Gold B00MBNJ1A4',
+    description: 'A spring-loaded deep V-cutter; the current Amazon record identifies the exact B00MBNJ1A4 variant as black and rose gold and includes a gift box.',
+    highlights: ['Deep V-cut', 'Spring-loaded stainless steel blade', '60+ ring-gauge maker claim', 'Gift box and two-year maker warranty'],
+    pros: ['Leaves more of the cap perimeter intact than a straight cut', 'Maker lists the design for 60+ ring gauges and torpedo shapes', 'Published two-year Colibri warranty'],
+    cons: ['The fixed cutting chamber determines notch depth and position', 'A deep V is not the most forgiving choice for every small or fragile cap'],
+    bestFor: 'Smokers who already know they prefer a centered V-shaped channel, especially on medium and large ring gauges.',
+    sealRating: 0,
+    dimensions: '2.88 x 1.63 x 0.50 in (maker specification)',
+    material: 'Stainless steel blade with rubberized body finish (maker specification)',
     whoShouldBuy: [
-      'Anyone who loves large ring gauge or torpedo cigars and hates loose tobacco flakes on their tongue.'
+      'Smokers who deliberately want a deep V rather than a fully open straight cut.',
+      'Owners who value a published maker warranty and a spring-loaded mechanism.'
     ],
     whoShouldAvoid: [
-      'Smokers who exclusively prefer punch cuts.'
+      'Beginners who have not yet tried a straight cut and want the broadest shape compatibility.',
+      'Smokers who mainly use slim cigars and want to control cut depth in small steps.'
     ],
-    relatedGuideSlugs: ['travelers-cigar-handbook-tsa-torch-pressure']
+    failureModesToWatch: ['Blade no longer opens or closes freely', 'A notch that crushes or tears rather than cuts', 'Finish wear, which Colibri excludes from its mechanism warranty'],
+    relatedGuideSlugs: ['best-cigar-cutters', 'travelers-cigar-handbook-tsa-torch-pressure']
+  },
+  {
+    id: 'screwpop-cigar-punch-4',
+    slug: 'screwpop-cigar-punch-4-review',
+    name: 'Screwpop Telescoping Cigar Punch 4.0',
+    brand: 'Screwpop',
+    category: 'accessory',
+    subCategory: 'cutter',
+    price: 0,
+    priceBracket: 'budget',
+    priceTierFormatted: 'Budget punch',
+    capacitySticks: 0,
+    asin: 'B0141KENXE',
+    amazonSearchQuery: 'Screwpop Telescoping Cigar Punch 4.0 B0141KENXE',
+    description: 'A clip-on telescoping punch with a stainless steel cutting tube, twin-prong nubber, and bottle opener in a lightweight aluminum body.',
+    highlights: ['Telescoping punch', 'Aluminum body and stainless steel cutting tube', 'Twin-prong nubber', 'Clip and bottle opener'],
+    pros: ['Compact clip-on format', 'Leaves most of the cap intact', 'Punch retracts into the body'],
+    cons: ['Maker does not publish the punch diameter', 'Not suitable for pointed cigar heads', 'Fixed opening can feel restrictive on some cigars'],
+    bestFor: 'A portable backup or everyday punch for straight-sided cigars with rounded caps.',
+    sealRating: 0,
+    dimensions: 'Maker lists 0.5 x 0.875 x 2.75 in; Amazon lists 0.5 x 0.75 x 3.25 in',
+    material: 'Aluminum body and stainless steel insert, gate, and rivets (maker specification)',
+    whoShouldBuy: [
+      'Smokers who prefer a small circular opening and want a tool that clips to a bag or keyring.',
+      'Owners seeking a compact secondary cutter rather than a universal first cutter.'
+    ],
+    whoShouldAvoid: [
+      'Torpedo and belicoso smokers, because a punch needs a broad rounded cap.',
+      'Anyone who wants the most open possible draw or a published punch diameter.'
+    ],
+    failureModesToWatch: ['Telescoping action that binds', 'A cutting edge that tears instead of removing a plug', 'Loose clip, gate, or threaded sections'],
+    relatedGuideSlugs: ['best-cigar-cutters', 'best-travel-humidors', 'travelers-cigar-handbook-tsa-torch-pressure']
   },
   {
     id: 'mrs-brog-triple-torch',
