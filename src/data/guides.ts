@@ -8,6 +8,190 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-cigar-lighters',
+    slug: 'best-cigar-lighters',
+    title: 'Best Cigar Lighters: Single, Double, and Triple Jet Compared',
+    subtitle: 'Choose a torch by flame width, control, fuel visibility, service terms, and where you will use it—not by a changing price, badge, or jet-count superlative.',
+    category: 'selection',
+    categoryLabel: 'Lighter Buying Guide',
+    readTimeMinutes: 13,
+    ...editorialByline,
+    publishedDate: '2026-09-30',
+    reviewedDate: '2026-09-30',
+    heroVisual: 'lighter',
+    excerpt: 'Three current Amazon cigar lighters compared by single-, double-, and triple-jet layout, refill setup, flame control, published service terms, and U.S. flight restrictions.',
+    featuredProductIds: ['colibri-evo-single-jet', 'xikar-elx-double-jet', 'mrs-brog-triple-torch'],
+    comparisonRows: [
+      {
+        productId: 'colibri-evo-single-jet',
+        recommendationLabel: 'Best for precise control',
+        fit: 'A deliberate single jet for smaller lighting zones, touch-ups, and buyers who value documented care and warranty terms',
+        capacity: 'Angled single jet, full-view fuel tank, oversized adjuster, black-and-blue grip, gift box',
+        tradeoff: 'More passes across a broad cigar foot; only 12 units shown in stock during verification'
+      },
+      {
+        productId: 'xikar-elx-double-jet',
+        recommendationLabel: 'Best two-jet tool',
+        fit: 'A middle-width torch for buyers who also want a built-in 9mm punch and a published maker warranty',
+        capacity: 'Double jet, fuel window, flame adjuster, protective lid, 9mm punch, black variant',
+        tradeoff: 'Active Amazon offers did not ship to the selected Argentina location during verification'
+      },
+      {
+        productId: 'mrs-brog-triple-torch',
+        recommendationLabel: 'Best lower-cost triple jet',
+        fit: 'A broad-flame, all-in-one option for buyers who prefer three jets and an integrated punch',
+        capacity: 'Three adjustable jets, automatic safety cover, built-in punch, black-and-gold body; butane excluded',
+        tradeoff: 'Less pinpoint control; no current maker warranty or published fuel-capacity document found'
+      }
+    ],
+    useBrandedProductArt: true,
+    sections: [
+      {
+        id: 'what-these-picks-mean',
+        title: '1. What these lighter picks mean',
+        contentMarkdown: `No lighter is objectively best for every cigar or setting. A single jet concentrates heat in a small area. Two jets broaden the working area. Three jets broaden it again. More jets can reduce the number of passes across a large foot, but they also reduce pinpoint control and make fuel-window visibility and refill habits more important. The right choice depends on the cigar sizes you actually smoke, where you light them, and whether you want an integrated punch.
+
+We reviewed the current search results before writing. The stronger competing guides explain torch versus soft flame and compare jet counts. Many also publish changing prices, star ratings, review counts, unsupported durability conclusions, or hands-on claims without a reproducible method. One current result incorrectly summarized U.S. flight rules for torch lighters. This guide instead verifies three exact live listings, labels manufacturer and seller claims, includes failure checks and reasons to buy something else, and uses the FAA's current rule rather than repeating travel folklore.
+
+On September 30, 2026, we rendered the exact Amazon.com pages for the black-and-blue Colibri EVO single jet (B076HTHGFN), black XIKAR ELX double jet with 9mm punch (B01N64QDQ1), and black-and-gold Mrs. Brog triple jet with punch (B01HMTWTD2). The ASIN, brand, model or variant, fuel type, and listed components matched the records in this guide. Colibri showed 12 units in stock, and Mrs. Brog showed an in-stock offer sold by Amazon and Mr. Brog. XIKAR had active buying options, but Amazon said those offers could not ship to the selected Argentina delivery location. Availability varies by address and can change.
+
+We have not owned, lit cigars with, wind-tested, altitude-tested, refilled repeatedly, disassembled, or durability-tested these lighters. Flame coverage, fuel life, ignition consistency, finish wear, leak resistance, and warranty service remain untested. Published specifications are identified as listing or maker information.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, badges, star ratings, review counts, or popularity claims.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Compare flame width, included tools, and the main limitation',
+        contentMarkdown: `Use the table as a flame-layout decision aid, not a performance ranking. A single jet gives you the smallest working zone and the easiest visual control around the foot. A double jet is the middle path. A triple jet covers more area, but that is not automatically better: a broad, intense flame can make it easier to apply more heat than intended if you hold it too close or stop moving.
+
+The jet-count guidance here follows the geometry described by current maker materials. XIKAR says one jet suits precise work and smaller cigars, while multiple jets create a broader flame for larger cigar feet. Those are manufacturer explanations, not our measured heat maps or fuel-consumption results. "Wind resistant" and altitude-test figures are also maker claims; neither means a lighter will ignite in every temperature, wind, pressure, or fuel condition.
+
+All three lighters are refillable but arrive without butane. None stores or restores a cigar. If a cigar is brittle, swollen, cracked, or burning poorly because of condition, a hotter or wider flame does not solve the storage problem. Use the [humidor finder](/) to assess the enclosure and room, browse the [product catalog](/catalog) for the exact lighter records, and see the [cutter guide](/guides/best-cigar-cutters) if the opening tool is the real buying decision.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '3. Six criteria that matter before finish or jet count',
+        contentMarkdown: `**1. Match the flame to your usual cigar foot.** A narrow jet rewards slow rotation and small corrections. A broader flame can cover a larger foot in fewer passes. Buy for the cigars you smoke most often, not the largest ring gauge you might buy once.
+
+**2. Decide how much heat control you want.** The lighter should let you keep the visible flame away from the tobacco while rotating the cigar through the heat. A wider flame is not permission to park the jets against the wrapper. If you prefer a slow indoor ritual, a refillable butane soft flame may suit you better than any torch.
+
+**3. Look for fuel visibility and an accessible adjuster.** Colibri and XIKAR publish fuel-window and flame-adjustment features. The Mrs. Brog listing publishes an adjustable flame but no fuel capacity. A window helps you see the tank level; it does not prove how many cigars one fill will light.
+
+**4. Treat included punches as separate tools.** The XIKAR ELX specifies a 9mm fold-out punch. Mrs. Brog lists a built-in punch but does not publish its diameter. A punch still needs a broad rounded cap and is a poor match for torpedoes or belicosos. Read the [cut-format comparison](/guides/best-cigar-cutters) before paying extra for a function you will not use.
+
+**5. Compare service documents.** Colibri publishes a two-year warranty and current care instructions. XIKAR lists a limited lifetime warranty. We did not find equivalent current maker warranty terms for the Mrs. Brog model. A warranty is not evidence that a lighter will last; it tells you what remedy may exist if a qualifying problem appears.
+
+**6. Check the exact listing and delivery address.** Lighter variants share parent pages, colors change, and shipping restrictions vary. The XIKAR ELX page matched the black B01N64QDQ1 variant and showed active offers, but not delivery to the selected Argentina address. Do not substitute a different color or ASIN without checking its title, seller, parts, and offer.`
+      },
+      {
+        id: 'colibri-evo',
+        title: '4. Colibri EVO: one angled jet for deliberate control',
+        contentMarkdown: `The [Colibri EVO single-jet lighter](/products/colibri-evo-single-jet-lighter-review) is the precision-oriented pick. Its rendered Amazon page matched ASIN B076HTHGFN and the black-and-blue variant, with an angled single jet, Pachmayr-style grip, refillable butane tank, and adjustable flame. The page showed 12 units in stock. Colibri's current EVO page matches the black-and-blue option and lists a full-view fuel tank, oversized fuel wheel, single-action ignition, gift box, 2.88 by 1.38 by 0.75-inch dimensions, altitude testing to 12,000 feet, and a two-year warranty.
+
+**Choose it if** you want a narrow working area for rotating the cigar through the heat and making small corrections. The visible tank and large adjuster are useful buying features because they expose fuel level and flame setting without promising any particular runtime.
+
+**Choose the XIKAR instead** if you want two jets and a defined 9mm punch. **Choose the Mrs. Brog instead** if you deliberately want three jets and accept thinner maker documentation.
+
+Colibri calls the EVO wind resistant and altitude tested. We did not verify those claims, and neither is a guarantee under every wind, fuel, or temperature condition. The single jet will also take more passes across a broad cigar foot. That can be a benefit if you want control and a drawback if you want the quickest possible light.`
+      },
+      {
+        id: 'xikar-elx',
+        title: '5. XIKAR ELX: the two-jet middle path with a 9mm punch',
+        contentMarkdown: `The [XIKAR ELX double-jet lighter](/products/xikar-elx-double-jet-lighter-review) is the middle-width option. The rendered Amazon page matched ASIN B01N64QDQ1, the black finish, two jets, a fuel window, flame adjuster, protective lid, and fold-out 9mm punch. XIKAR's current maker page lists the same core features, altitude testing to 14,000 feet, and a limited lifetime warranty.
+
+**Choose it if** one jet feels too narrow for your usual cigar foot but a triple jet seems broader than you need. The defined punch diameter is also more useful than an unnamed built-in punch if 9mm is the opening you prefer.
+
+**Choose the Colibri instead** if precise single-jet work and a smaller feature set matter more. **Choose the Mrs. Brog instead** if your priority is three jets at a lower product tier rather than published maker service terms.
+
+Amazon's page had active offers during verification but said they could not ship to the selected Argentina delivery location. That is a material buying limitation, not evidence that the product is discontinued. Check your own address before relying on the button. XIKAR's wind-resistance, altitude, and warranty statements are maker information, not our performance or service findings.`
+      },
+      {
+        id: 'mrs-brog',
+        title: '6. Mrs. Brog triple jet: broad flame and a punch with less documentation',
+        contentMarkdown: `The [Mrs. Brog triple-flame lighter](/products/mrs-brog-triple-flame-torch-lighter-review) is the broadest and least documented pick. The rendered Amazon page matched ASIN B01HMTWTD2, the black-and-gold model, three adjustable jets, automatic safety cover, built-in punch, and 3.11 by 1.22 by 0.91-inch listed dimensions. It showed an in-stock offer, shipped by Amazon and sold by Mr. Brog. Butane is not included.
+
+**Choose it if** you intentionally want three jets and a built-in punch in one lower-cost tool. The listing gives you a clear account of the flame count, cover, punch, color, and refill requirement.
+
+**Choose something else if** you want a published punch diameter, fuel capacity, altitude-test protocol, or current maker warranty page. We did not find those documents for this exact model. The triple-jet layout also gives you less pinpoint control than the Colibri's single jet.
+
+Do not turn the absence of maker documentation into a durability conclusion in either direction. Inspect the received lighter, read its included instructions, and stop using it if the cover binds, one jet fails to ignite consistently, the flame remains on after release, or you smell or hear escaping fuel.`
+      },
+      {
+        id: 'setup-and-use',
+        title: '7. Fill and use a torch without improvising',
+        contentMarkdown: `1. Read the exact model instructions before filling. Confirm the approved fuel, fill-valve position, flame-adjuster direction, and required wait time. All three listings say butane is not included.
+2. Refill only in a well-ventilated area away from smoking, open flame, sparks, hot surfaces, and your face. Colibri's current care instructions say to keep the cover closed, avoid activating the ignition during filling, invert the lighter, fill through the valve, and wait two minutes before ignition.
+3. Do not copy a generic purge or refill routine when the received manual says something different. Adapter nozzles, valve designs, and service rules vary.
+4. Check for hissing or fuel odor before ignition. Colibri says not to ignite if hissing is heard. CPSC warns that escaped fuel vapor can ignite when it reaches a spark or flame.
+5. Begin at a conservative flame setting. Hold the visible flame away from the tobacco, rotate the cigar, and move the heat rather than dwelling on one spot. Follow the maker's distance and lighting instructions.
+6. Release the ignition and confirm the flame extinguishes. If it stays lit, flares unexpectedly, leaks, or has a damaged valve or cover, stop using it and follow the seller or maker remedy.
+7. Let the lighter cool before pocketing or storing it. Keep the lighter and refill can away from children, vehicles in hot sun, and ignition sources; follow the warnings printed on both products.
+
+This is a general safety checklist, not a substitute for the received manual. We deliberately excluded Jobon candidates after finding a December 2025 CPSC warning covering certain Jobon butane torch lighters that lacked required child-resistant mechanisms. A marketplace listing is not, by itself, proof of compliance or safety.`
+      },
+      {
+        id: 'travel-and-storage',
+        title: '8. A travel-size torch is not an airline-approved torch',
+        contentMarkdown: `The FAA's PackSafe page, updated April 13, 2026, says torch lighters—also called blue-flame or jet-flame lighters—are not allowed in the cabin or in checked baggage under current U.S. rules. Spare butane is also restricted. That applies even when the lighter is pocket-size, empty according to the seller, or packaged with a travel humidor.
+
+Do not rely on a competitor article, old forum answer, or product description for flight rules. Recheck the [FAA PackSafe lighter page](https://www.faa.gov/hazmat/packsafe/lighters), TSA guidance, your airline, and rules at every jurisdiction on the itinerary immediately before travel. Our [flying-with-cigars guide](/guides/travelers-cigar-handbook-tsa-torch-pressure) separates lighter rules from cigar protection and cutter screening.
+
+At home, store the lighter and refill can according to their labels and maker instructions in a cool, well-ventilated location away from heat, sparks, flames, and children. A humidor is for cigars, not pressurized fuel. Do not put the lighter or refill can inside the cigar enclosure, where leakage would be hard to notice and the product instructions do not call for storage.`
+      },
+      {
+        id: 'reasons-to-choose-differently',
+        title: '9. Reasons to choose a different lighter',
+        contentMarkdown: `Choose a refillable butane soft flame if you light indoors, prefer a slower and broader visible flame, or do not want a concentrated torch. Choose a tabletop lighter if a large tank and stable base matter more than pocket carry. Choose a different single-jet model if the Colibri's limited stock or two-year warranty is not acceptable. Choose another double jet if the current XIKAR offers do not ship to your address. Choose a maker-documented triple jet if the Mrs. Brog model's unpublished fuel capacity and warranty are deal-breakers.
+
+Do not buy more jets simply because a list ranks them higher. Jet count changes the working area; it does not establish ignition reliability, leak resistance, fuel life, warranty service, or safety. Finish and gift packaging matter only after the exact listing, valve, controls, fuel window, instructions, and service terms fit your needs.
+
+If any ASIN redirects to a different color, flame layout, bundle, or model, do not use a keyword fallback. Verify the new variant first or wait. The direct buttons in this guide point only to the three ASINs rendered on September 30, 2026.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'How many jets should a cigar lighter have?',
+        answer: 'One jet offers the narrowest working area and the most deliberate control. Two jets are a middle path. Three jets cover a broader area but demand more care around the wrapper. Match the flame layout to your usual cigar foot and lighting style rather than assuming more is better.'
+      },
+      {
+        question: 'Can I take a torch cigar lighter on a U.S. passenger flight?',
+        answer: 'The FAA PackSafe page updated April 13, 2026 says torch, blue-flame, and jet-flame lighters are not allowed in the cabin or checked baggage under current U.S. rules. Recheck FAA, TSA, airline, and destination rules immediately before travel.'
+      },
+      {
+        question: 'Do refillable cigar lighters arrive with butane?',
+        answer: 'These three listings say they ship without butane. Read the received instructions and buy only the fuel and nozzle type the maker specifies. Never test ignition while filling.'
+      },
+      {
+        question: 'Does wind resistant mean windproof?',
+        answer: 'No. Wind resistance is a maker claim about intended use, not a guarantee in every gust, temperature, altitude, fuel condition, or flame setting. Shield the lighting area safely and stop if conditions make control difficult.'
+      },
+      {
+        question: 'Should the torch flame touch the cigar?',
+        answer: 'Follow the maker instructions, but the usual controlled approach is to keep the visible flame away from the tobacco and rotate the cigar through the heat. Do not park a concentrated torch against the wrapper.'
+      },
+      {
+        question: 'What should I do if a lighter hisses or smells like fuel?',
+        answer: 'Do not ignite it. Move away from flames, sparks, heat, and smoking; ventilate the area; and follow the maker or seller instructions for service or safe handling. Escaping butane vapor can ignite.'
+      },
+      {
+        question: 'Does a longer warranty prove a lighter is more durable?',
+        answer: 'No. A warranty describes a possible remedy and its exclusions; it is not independent evidence of service life, leak resistance, ignition consistency, or finish durability. Keep the receipt and read the current terms.'
+      }
+    ],
+    sources: [
+      { label: 'Colibri EVO black-and-blue single-jet listing — ASIN B076HTHGFN', publisher: 'Amazon.com, rendered September 30, 2026', url: 'https://www.amazon.com/dp/B076HTHGFN?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'XIKAR ELX black double-jet listing — ASIN B01N64QDQ1', publisher: 'Amazon.com, rendered September 30, 2026', url: 'https://www.amazon.com/dp/B01N64QDQ1?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Mrs. Brog black-and-gold triple-jet listing — ASIN B01HMTWTD2', publisher: 'Amazon.com, rendered September 30, 2026', url: 'https://www.amazon.com/dp/B01HMTWTD2?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'EVO specifications, dimensions, included gift box, and two-year warranty', publisher: 'Colibri', url: 'https://colibri.com/products/evo', sourceType: 'Manufacturer instructions' },
+      { label: 'Lighter refill, ignition, and care instructions', publisher: 'Colibri', url: 'https://colibri.com/pages/how-to-lighters', sourceType: 'Manufacturer instructions' },
+      { label: 'ELX double-jet, 9mm punch, altitude, and warranty specifications', publisher: 'XIKAR', url: 'https://xikar.com/products/xi-550-xikar%C2%AE-elx-double-jet-cigar-lighter', sourceType: 'Manufacturer instructions' },
+      { label: 'Choosing single, dual, and multiple jet layouts', publisher: 'XIKAR', url: 'https://xikar.com/blogs/news/playing-with-fire-choosing-the-best-cigar-lighter-for-your-stogies', sourceType: 'Manufacturer instructions' },
+      { label: 'PackSafe rules for torch, butane, and battery-powered lighters', publisher: 'Federal Aviation Administration, updated April 13, 2026', url: 'https://www.faa.gov/hazmat/packsafe/lighters', sourceType: 'Government / regulation' },
+      { label: 'Fuel-container and escaped-vapor fire safety', publisher: 'U.S. Consumer Product Safety Commission', url: 'https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Fuel-Container-Gasoline-and-Other-Liquid-Fuel-Safety', sourceType: 'Government / technical reference' },
+      { label: 'Jobon torch lighter safety warning 26-130', publisher: 'U.S. Consumer Product Safety Commission, December 4, 2025', url: 'https://www.cpsc.gov/Warnings/2026/CPSC-Warns-Consumers-to-Immediately-Stop-Using-Jobon-Torch-Lighters-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards-Violates-Mandatory-Standard-for-Multipurpose-Lighters', sourceType: 'Government / technical reference' }
+    ]
+  },
+  {
     id: 'best-cigar-cutters',
     slug: 'best-cigar-cutters',
     title: 'Best Cigar Cutters: Straight, V-Cut, and Punch Compared',

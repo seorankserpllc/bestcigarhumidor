@@ -3,6 +3,7 @@ import {
   Box,
   Droplets,
   Fan,
+  Flame,
   Gauge,
   GlassWater,
   Leaf,
@@ -16,6 +17,7 @@ import {
   Snowflake,
   Thermometer,
   TreePine,
+  Wind,
 } from 'lucide-react';
 import type { GuideVisual } from '../../types/humidor';
 
@@ -37,6 +39,7 @@ const visualConfig = {
   compact: { number: '09', label: 'SMALL-SPACE STORAGE', primary: Box, secondary: Gauge, tertiary: Thermometer },
   'long-term': { number: '10', label: 'LONG-TERM STORAGE', primary: LockKeyhole, secondary: Gauge, tertiary: Thermometer },
   cutter: { number: '11', label: 'CUTTER BUYING GUIDE', primary: Scissors, secondary: ChevronDown, tertiary: Circle },
+  lighter: { number: '12', label: 'LIGHTER BUYING GUIDE', primary: Flame, secondary: Wind, tertiary: Gauge },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;
