@@ -8,6 +8,181 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-glass-top-humidors',
+    slug: 'best-glass-top-humidors',
+    title: 'Best Glass-Top Humidors: Three Display Boxes Compared',
+    subtitle: 'Compare a compact Renzo, tray-based Octodor, and latching Military humidor by working capacity, layout, included humidity system, footprint, and the reasons to choose a different enclosure.',
+    category: 'selection',
+    categoryLabel: 'Glass-Top Buying Guide',
+    readTimeMinutes: 13,
+    ...editorialByline,
+    publishedDate: '2026-10-01',
+    reviewedDate: '2026-10-01',
+    heroVisual: 'glass-top',
+    excerpt: 'Three current glass-top humidors compared by size-specific capacity claims, tray access, lid hardware, included humidity components, setup work, and room-temperature limits.',
+    featuredProductIds: ['klaro-renzo', 'klaro-octodor', 'klaro-military'],
+    comparisonRows: [
+      {
+        productId: 'klaro-renzo',
+        recommendationLabel: 'Best compact display box',
+        fit: 'A small-to-medium loose-cigar collection that wants a front hygrometer, glass display, and the smallest footprint of these three',
+        capacity: 'Maker table: 28–30 Toro 52s, 26–30 Toro 54s, or 18 Toro 60s; 8.5 × 9 × 5.4 inches',
+        tradeoff: 'Two Hydro Channels use main-compartment room; no tray separates an upper and lower layer'
+      },
+      {
+        productId: 'klaro-octodor',
+        recommendationLabel: 'Best tray-based layout',
+        fit: 'A larger loose-cigar collection that wants a removable upper tray, movable divider, recessed humidity system, and black display finish',
+        capacity: 'Maker/listing range: 50–100 cigars; 13.75 × 9.5 × 8.6 inches',
+        tradeoff: '100 is a maker maximum, and the live Amazon offer did not ship to the selected Argentina address'
+      },
+      {
+        productId: 'klaro-military',
+        recommendationLabel: 'Best latching design',
+        fit: 'A buyer who values side latches, handles, a sliding tray, and a foam-lined accessory drawer more than compact furniture styling',
+        capacity: 'Amazon headline: 70–100 cigars; maker table varies from 65–75 Toro 60s to 90–105 Toro 52s; 15.75 × 9.8 × 8.25 inches',
+        tradeoff: 'Largest footprint here; accessory kit is separate, and maker capacity presentations are not fully consistent'
+      }
+    ],
+    useBrandedProductArt: true,
+    relatedBlueprintIds: ['blueprint-tupperdor-7l'],
+    sections: [
+      {
+        id: 'what-these-picks-mean',
+        title: '1. What these glass-top picks mean',
+        contentMarkdown: `A glass top is a display choice, not proof of storage performance. It lets you see the collection and read an internal gauge without opening the lid, but it also adds a glass-to-frame seam that should be inspected. The enclosure, humidity source, room temperature, cigar load, and how often the lid opens still determine the result.
+
+We reviewed the current search results before writing. Stronger competing guides explain cedar lining, capacity, seasoning, and placement. Many also repeat changing prices and marketplace ratings, call a box leakproof or durable without publishing a method, present a universal “70/70” target as settled science, or describe hands-on comparisons that cannot be reproduced. Some mix old and current variants. This guide instead uses three exact live Amazon listings, separates maker claims from independent evidence, compares working layouts, and gives a reason to skip every pick.
+
+On October 1, 2026, we rendered Amazon.com product pages for the brown CASE ELEGANCE Renzo (B07GXSVH1H), black CASE ELEGANCE Octodor (B082P929XD), and matte-green CASE ELEGANCE Military (B08TVY2B46). Each page displayed the same ASIN, brand, model, finish, and main components used here. Renzo showed in stock. Military showed an active offer shipped by Amazon and sold by VendorJump. Octodor had live buying options, but Amazon said the item could not ship to the selected Argentina delivery location. Availability varies by address and can change.
+
+All three picks come from the same maker because these were the exact glass-top listings in the current catalog that we could verify against both a live marketplace page and detailed maker documentation. That makes the layout comparison clearer, but it does not establish that one brand is universally superior. We have not owned, leak-tested, capacity-tested, calibrated, seasoned, temperature-tested, or durability-tested these humidors.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, badges, star ratings, review counts, or popularity claims.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Compare working capacity, access, and the missing piece',
+        contentMarkdown: `Use the table as a layout decision aid, not a laboratory ranking. Renzo is the compact box and has the most useful size-specific maker table. Octodor adds a removable tray, divider, recessed humidity system, and substantially more height. Military is wider, adds side latches and handles, and uses a sliding tray over a lower compartment.
+
+Advertised cigar counts are not standardized. The same enclosure can fit many slim coronas and far fewer 60-ring cigars. Renzo's maker table falls from 60–68 Petite Coronas to 18 Toro 60s. Military's current table falls from 240–250 Petite Coronas to 65–75 Toro 60s even though Amazon's headline says 70–100. Octodor publishes a broad 50–100 range without the same size-specific table. Treat every number as manufacturer fit information, not an independent capacity result.
+
+None of these passive boxes heats or cools. The glass does not solve a warm room, a heater vent, or direct sun. If temperature control is the actual problem, start with the [best electric humidor guide](/guides/best-electric-cigar-humidors). If display is secondary to enclosure efficiency, compare the [airtight tupperdor guide](/guides/science-of-airtight-tupperdors) or use the [humidor finder](/).`
+      },
+      {
+        id: 'selection-criteria',
+        title: '3. Six criteria that matter before finish or headline count',
+        contentMarkdown: `**1. Size from your usual cigars.** Count the longest length and largest ring gauge you actually store. Use maker tables as planning inputs, then leave room for the supplied humidity components and for removing cigars without crushing wrappers.
+
+**2. Measure the operating envelope.** A glass-top box needs clearance above the lid and in front of its accessory drawer. Octodor is 8.6 inches high before the lid opens. Military is 15.75 inches wide and has side hardware and handles. Measure the shelf, wall, lamp, and drawer path—not only the top surface.
+
+**3. Choose access before cosmetics.** Renzo is one main cigar compartment plus a separate accessory drawer. Octodor has a lift-out tray and divider. Military's tray slides for access to the lower level. A layered design helps sorting, but every tray and humidifier also occupies volume.
+
+**4. Treat the glass perimeter as an inspection point.** Glass itself is not proof of leakage, and the presence of a seam is not proof of failure. Check the frame, glazing perimeter, hinges or latches, hygrometer opening, and lid alignment on the exact unit you receive. Our [glass-top seal guide](/guides/glass-top-humidor-truth-leaks-sealing) explains how to isolate a suspected leak before attempting a repair.
+
+**5. Read the humidity-system instructions as a system.** These models ship with different Hydro layouts and solution components. Do not mix generic pack quantities, loose liquid, gel, and maker solution without checking compatibility. A hygrometer reports conditions; it does not create them.
+
+**6. Separate room temperature from relative humidity.** Tobacco is hygroscopic: peer-reviewed sorption work shows that its equilibrium moisture changes with surrounding relative humidity. Temperature also affects readings and the storage environment. These boxes are passive, so relocate the box or choose active equipment when the room is unsuitable.`
+      },
+      {
+        id: 'renzo',
+        title: '4. Renzo: the compact glass-top choice',
+        contentMarkdown: `The [Renzo glass-top humidor](/products/klaro-renzo-glass-top-humidor-review) is the smallest and most clearly sized pick. Its rendered Amazon page matched the brown Renzo, ASIN B07GXSVH1H, and showed it in stock. The listing names a glass top, front digital hygrometer, 5 mm Spanish cedar lining, two Hydro Channels, gel packet, two solution bottles, and accessory drawer. Accessories pictured in the drawer are not included.
+
+Case Elegance lists the exterior at 8.5 by 9 by 5.4 inches and publishes a capacity table: 34–38 Robustos, 28–30 Toro 52s, 26–30 Toro 54s, and 18 Toro 60s. Those are maker claims, but they are more useful than a single “50-count” headline because they show how sharply ring gauge changes fit.
+
+**Choose it if** roughly 18–38 of your usual cigars fit the maker table and you want the smallest furniture footprint here. **Choose Octodor instead** if a removable tray and larger lower compartment matter. **Choose Military instead** if you specifically want latches, handles, and a sliding tray.
+
+The Renzo still needs maker-directed wood conditioning and instrument checking. We did not verify the maker's accuracy or moisture-retention claims. Compare the built-in gauge with a trusted reference and watch the empty-box trend before loading valuable cigars.`
+      },
+      {
+        id: 'octodor',
+        title: '5. Octodor: the removable-tray layout',
+        contentMarkdown: `The [Octodor glass-top humidor](/products/klaro-octodor-large-glass-top-humidor-review) is the black, tray-based option. Its rendered Amazon page matched ASIN B082P929XD and the 50–100-cigar, monogrammed listing. The page and current maker documentation identify a front digital hygrometer, recessed Hydro System, full cedar lining, removable cedar tray, movable divider, felt-lined accessory drawer, and 13.75 by 9.5 by 8.6-inch exterior.
+
+**Choose it if** you want a separate upper layer for ready-to-smoke cigars and a larger lower compartment without moving to an electric cabinet. The recessed humidity system avoids taking the same main-compartment position as Renzo's two channels.
+
+**Choose Renzo instead** if 28–30 Toro 52s is enough and you would rather save surface area. **Choose Military instead** if latches, handles, and sliding access matter more than Octodor's lift-out tray and piano-black finish.
+
+The maker's 100-cigar headline is not our measured working capacity. Large ring gauges, tubes, dividers, and generous spacing reduce fit. Amazon also said the live listing could not ship to the selected Argentina address, despite showing active options. Check your own address before relying on the button.`
+      },
+      {
+        id: 'military',
+        title: '6. Military: latches, handles, and sliding access',
+        contentMarkdown: `The [Military glass-top humidor](/products/klaro-military-glass-top-humidor-review) is the hardware-forward pick. Its rendered Amazon page matched ASIN B08TVY2B46, matte green finish, 70–100-cigar headline, side latches, handles, front digital hygrometer, Spanish cedar interior, recessed Hydro System, sliding tray, and foam-lined accessory drawer. It had an active offer shipped by Amazon and sold by VendorJump.
+
+Case Elegance lists the exterior at 15.75 by 9.8 by 8.25 inches. Its current size table says 90–105 Toro 52s, 85–90 Toro 54s, and 65–75 Toro 60s. The same maker page also uses 50–100 and 70–100 descriptions in different places. We have not resolved those into a tested count, so plan from your own cigars and treat the table as maker information.
+
+**Choose it if** side latches, carrying handles, sliding tray access, and the foam drawer layout justify the largest footprint here. **Choose Octodor instead** if you prefer a lift-out tray and more conventional display finish. **Choose Renzo instead** if compact placement matters most.
+
+The drawer's pre-cut insert is designed for a separately sold accessory kit. Do not assume the pictured lighter and cutter are included. The maker page also promotes a Smart Valet bundle while the exact Amazon listing centers on its digital hygrometer; confirm the received contents rather than inferring a connected accessory from shared page copy.`
+      },
+      {
+        id: 'setup-and-verification',
+        title: '7. Set up the box and verify the glass-top system',
+        contentMarkdown: `1. Inspect the delivered model before adding moisture. Confirm the ASIN and finish, then check the glass perimeter, frame joints, hinges or latches, hygrometer opening, tray, divider, drawer, and included Hydro parts against the received manual.
+2. Place the empty box on its intended level surface with full lid and drawer clearance. Keep it away from direct sun, heaters, cooking areas, and other temperature extremes.
+3. Air out packaging odors. Clean only as the maker directs and allow every surface to dry. Do not spray cleaner toward the glass seam or unfinished cedar.
+4. Follow the current instructions for that exact Hydro Channel or Hydro System. Do not pour free liquid on the cedar or copy a different model's quantities.
+5. Check the hygrometer against a trusted reference. NIST treats humidity calibration as a measurement with known conditions and uncertainty; a built-in display should not be assumed exact because it is digital.
+6. Close the empty enclosure and observe the trend until it stabilizes. If readings drift, diagnose the humidity source, sensor, room, and individual seams methodically instead of sealing every joint at once.
+7. Load cigars without forcing the lid, blocking the humidity source, or overfilling the tray. Recheck after the cigar load changes the moisture balance.
+
+The [seasoning lab](/seasoning-lab) can help structure the observation period. The [product catalog](/catalog) holds the exact verified records and the [glass-top seal guide](/guides/glass-top-humidor-truth-leaks-sealing) covers diagnosis if the trend remains unstable.`
+      },
+      {
+        id: 'reasons-to-choose-differently',
+        title: '8. Reasons to choose a different humidor',
+        contentMarkdown: `Choose a solid-lid wood humidor if display adds no value and you want fewer glazing joints to inspect. Choose an acrylic or gasketed food container if low setup work and enclosure efficiency matter more than furniture styling. Choose an electric humidor if the room needs active temperature control. Choose a cabinet if you store full boxes or need more than a large desktop layout can hold without crowding.
+
+Skip Renzo if its size-specific table is too small. Skip Octodor if the active Amazon offer does not ship to your address or if lifting the tray is inconvenient. Skip Military if the large footprint, military styling, ambiguous capacity presentation, or separately sold accessory kit is a poor fit.
+
+Do not buy a glass top because a ranked list calls it leakproof, accurate, or ideal for aging. Those conclusions require unit-specific evidence. Buy it because the verified dimensions, working layout, maker-documented components, setup requirements, and display tradeoff fit your room and collection. If any ASIN redirects to another finish, bundle, or model, verify the new variant before buying.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'Are glass-top humidors worse than solid-lid humidors?',
+        answer: 'Not automatically. A glass top adds a glazing seam that should be inspected, but actual performance depends on the complete enclosure, humidity source, sensor, room, and individual unit. A solid lid is simpler when display has no value.'
+      },
+      {
+        question: 'Does a glass top let me check humidity without opening the lid?',
+        answer: 'Only if the hygrometer display is visible through the top or mounted on the front. These three use front digital displays, so the glass is primarily for seeing the cigars rather than reading the gauge.'
+      },
+      {
+        question: 'How many Toro 52 cigars fit in the Renzo?',
+        answer: 'Case Elegance lists 28–30 Toro 52s. That is a manufacturer fit claim, not an independent test, and tubes, spacing, and humidity components can reduce usable room.'
+      },
+      {
+        question: 'Is the Octodor really a 100-cigar humidor?',
+        answer: 'The current maker and Amazon pages publish a 50–100 range. They do not provide the same size-specific table used for the Renzo, so treat 100 as a maximum maker claim and size from your own cigars.'
+      },
+      {
+        question: 'Does the Military humidor include the pictured accessory kit?',
+        answer: 'The foam insert is designed for a separately sold Gunmetal accessory kit. Do not assume a lighter or cutter is included unless the exact offer and received packing list say so.'
+      },
+      {
+        question: 'Do these glass-top humidors control temperature?',
+        answer: 'No. All three are passive humidity enclosures. The room still controls their temperature, so placement away from direct sun, heaters, and large temperature swings is essential.'
+      },
+      {
+        question: 'How do I test a glass-top humidor for a leak?',
+        answer: 'First verify the hygrometer and humidity source, then observe the closed empty box in a stable room. If drift remains, isolate the lid, glass perimeter, hygrometer opening, and other joints one at a time. Do not seal every seam blindly.'
+      }
+    ],
+    sources: [
+      { label: 'Renzo brown glass-top humidor listing — ASIN B07GXSVH1H', publisher: 'Amazon.com, rendered October 1, 2026', url: 'https://www.amazon.com/dp/B07GXSVH1H?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Octodor black glass-top humidor listing — ASIN B082P929XD', publisher: 'Amazon.com, rendered October 1, 2026', url: 'https://www.amazon.com/dp/B082P929XD?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Military matte-green glass-top humidor listing — ASIN B08TVY2B46', publisher: 'Amazon.com, rendered October 1, 2026', url: 'https://www.amazon.com/dp/B08TVY2B46?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Renzo dimensions, materials, capacity table, and included components', publisher: 'Case Elegance', url: 'https://caseelegance.com/products/glass-top-cedar-humidor-with-front-digital-hygrometer', sourceType: 'Manufacturer instructions' },
+      { label: 'Octodor dimensions, materials, tray, humidity system, and included components', publisher: 'Case Elegance', url: 'https://caseelegance.com/products/octodor-large-glass-top-humidor', sourceType: 'Manufacturer instructions' },
+      { label: 'Military dimensions, materials, capacity table, hardware, and included components', publisher: 'Case Elegance', url: 'https://caseelegance.com/products/military-glass-top-humidor-matte-green-with-front-digital-hygrometer-holds-70-100-cigars-by-klaro', sourceType: 'Manufacturer instructions' },
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Hygrometers and relative-humidity calibration', publisher: 'National Institute of Standards and Technology', url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers', sourceType: 'Government / technical reference' },
+      { label: 'Wood Handbook, Chapter 4: moisture relations and dimensional change', publisher: 'USDA Forest Products Laboratory, 2021', url: 'https://research.fs.usda.gov/treesearch/62243', sourceType: 'Government / technical reference' }
+    ]
+  },
+  {
     id: 'best-cigar-lighters',
     slug: 'best-cigar-lighters',
     title: 'Best Cigar Lighters: Single, Double, and Triple Jet Compared',

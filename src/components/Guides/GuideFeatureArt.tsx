@@ -29,7 +29,7 @@ interface GuideFeatureArtProps {
 
 const visualConfig = {
   wineador: { number: '01', label: 'CONTROLLED CLIMATE', primary: Thermometer, secondary: Snowflake, tertiary: Fan },
-  'glass-top': { number: '02', label: 'SEAL DIAGNOSTICS', primary: GlassWater, secondary: Gauge, tertiary: LockKeyhole },
+  'glass-top': { number: '02', label: 'GLASS-TOP HUMIDORS', primary: GlassWater, secondary: Gauge, tertiary: LockKeyhole },
   tupperdor: { number: '03', label: 'AIRTIGHT STORAGE', primary: Box, secondary: LockKeyhole, tertiary: Gauge },
   altitude: { number: '04', label: 'DRY-CLIMATE STORAGE', primary: Mountain, secondary: Gauge, tertiary: Thermometer },
   cedar: { number: '05', label: 'MATERIALS GUIDE', primary: TreePine, secondary: Leaf, tertiary: Gauge },

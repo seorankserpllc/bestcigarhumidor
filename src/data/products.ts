@@ -5,7 +5,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
   {
     id: 'klaro-renzo',
     slug: 'klaro-renzo-glass-top-humidor-review',
-    name: 'Klaro Renzo Glass Top Desktop Humidor with Hydro System',
+    name: 'CASE ELEGANCE Renzo Glass Top Humidor, Brown',
     brand: 'Klaro by Case Elegance',
     category: 'desktop_wood',
     price: 0, // internal budget ref
@@ -14,80 +14,60 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     capacitySticks: 40,
     asin: 'B07GXSVH1H',
     amazonSearchQuery: 'Klaro Renzo Glass Top Desktop Humidor Case Elegance',
-    imageUrl: 'https://m.media-amazon.com/images/I/71oos8oKskL._AC_SL1200_.jpg',
-    description: 'The standard-bearer for modern desktop wooden humidors. Features an innovative patent-pending Hydro System with custom peg trays and a front digital hygrometer with rubber gasket seal.',
-    highlights: ['Embedded Front Digital Hygrometer', 'Spanish Cedar Co-molded Interior', 'Accessory Storage Drawer', 'Includes Hydro Solution'],
-    pros: ['Beautiful walnut finish looks majestic on desks', 'Front-facing digital hygrometer eliminates lid-opening', 'Patent-pending Hydro Tray seals better than standard sponges'],
-    cons: ['Real-world capacity is 25-35 Churchills/Toros (40 for smaller coronas)', 'Glass top requires proper seasoning patience'],
-    bestFor: 'Daily enthusiasts wanting an elegant, modern display piece for home or executive office.',
-    sealRating: 7.8,
-    dimensions: '9" x 8.5" x 5.5"',
-    material: 'Spanish Cedar & Walnut Finish',
-    scorecard: {
-      sealIntegrity: 7.8,
-      thermalStability: 6.5,
-      humidityRetention: 8.0,
-      craftsmanship: 9.0,
-      valueScore: 8.6,
-    },
-    realWorldCapacity: {
-      coronas: 40,
-      robustos: 32,
-      torosChurchills: 26,
-      gordos: 18,
-      factoryBoxes: 0,
-      notes: 'Advertised as 50-count, but comfortably holds 25-32 standard 50-52 ring gauge cigars with the hydro tray installed.'
-    },
-    unitSpecificSeasoning: [
-      'Unbox unit and do NOT wipe the wood down with wet sponges (this will raise the cedar grain and warp the lid).',
-      'Fill the included Hydro Tray reservoir with the provided Klaro Propylene Glycol solution up to the indicator mark.',
-      'Close the lid with the digital hygrometer active and allow 10-14 days without opening.',
-      'Once the digital gauge reads above 68% RH consistently for 48 hours, load your cigars.'
-    ],
+    description: 'A brown glass-top desktop humidor with a front digital hygrometer, 5 mm Spanish cedar lining, two Hydro Channels, two solution bottles, gel packet, and a felt-lined accessory drawer.',
+    highlights: ['Front digital hygrometer', '5 mm Spanish cedar lining', 'Two Hydro Channels and two solutions', 'Felt-lined accessory drawer'],
+    pros: ['Maker publishes size-specific capacity ranges', 'Front display can be read without opening the lid', 'Current listing identifies the included humidity components'],
+    cons: ['Maker table lists only 28–30 Toro 52 cigars', 'Wood lining requires maker-directed conditioning', 'Passive box does not heat or cool'],
+    bestFor: 'A small-to-medium loose-cigar collection that values glass-top display and a compact furniture footprint.',
+    sealRating: 0,
+    dimensions: '8.5" W x 9" L x 5.4" H (maker)',
+    material: 'Wood construction, matte walnut finish, 5 mm Spanish cedar lining, glass top',
     whoShouldBuy: [
-      'Smokers with 15-30 premium cigars wanting a handsome living room or desk centerpiece.',
-      'Enthusiasts who dislike opening the lid just to check humidity.',
-      'Gift buyers looking for an all-in-one package with included accessories drawer and solution.'
+      'Buyers storing roughly 18–38 cigars, depending on ring gauge, who want a compact display box.',
+      'Owners who want the included humidity system and a front digital display.',
+      'Buyers with room to open the lid and drawer fully.'
     ],
     whoShouldAvoid: [
-      'Smokers who purchase full factory boxes of 20-25 cigars (cannot fit boxes).',
-      'Residents of arid mountain zones (Denver, 5000+ ft) who want a zero-maintenance airtight seal.'
+      'Collectors who need full-box storage or more than about 30 Toro-size cigars.',
+      'Rooms that need active heating or cooling.',
+      'Owners who prefer a sealed plastic enclosure with less wood-conditioning work.'
     ],
     failureModesToWatch: [
-      'Front hygrometer battery cover must be firmly pressed in to maintain front bezel seal.',
-      'Ensure the silicone gasket around the glass window remains undisturbed during seasonal dusting.'
+      'Inspect the glass perimeter, lid fit, hygrometer opening, and drawer on arrival.',
+      'Verify the hygrometer against a trusted reference before relying on its display.',
+      'Keep solution and gel clear of cigar wrappers and follow the received instructions.'
     ],
     faqs: [
       {
         question: "Does the glass top on the Klaro Renzo leak humidity over time?",
-        answer: "The product design uses a sealed glass perimeter, but every wood humidor exchanges some moisture with the room. In a dry climate, calibrate the hygrometer, use enough humidity packs, and watch the first two weeks of readings before trusting the setup.",
+        answer: "The maker describes a sealed glass perimeter, but we have not leak-tested this unit. Inspect the received seam and watch the verified hygrometer trend after setup rather than assuming every unit performs identically.",
         category: 'troubleshooting'
       },
       {
         question: "Is the Klaro Renzo worth it compared to an airtight tupperdor?",
-        answer: "If aesthetic presentation, an executive mahogany desk presence, and Spanish cedar aroma are your priorities, the Renzo delivers exceptional value. While a Sistema tupperdor offers 100% airtight hermetic efficiency at a lower cost, the Renzo offers an accessory storage drawer, embedded front-facing digital hygrometer, and beautiful living-space display appeal.",
+        answer: "Choose the Renzo for glass-top display, cedar lining, a front hygrometer, and an accessory drawer. Choose a gasketed container when low setup work and enclosure efficiency matter more than furniture styling.",
         category: 'buying_decision'
       },
       {
         question: "Can I use Boveda packs instead of the included Klaro Hydro System?",
-        answer: "Yes. While the included Hydro Tray works efficiently with propylene glycol solution, many collectors prefer using two 60g Boveda 69% packs placed at the bottom for completely hands-off, zero-maintenance two-way humidity regulation.",
+        answer: "Use only a humidity method compatible with the received instructions and enclosure volume. Do not combine systems or quantities casually; observe the calibrated trend after any change.",
         category: 'maintenance'
       },
       {
         question: "How many cigars can the Klaro Renzo realistically hold?",
-        answer: "Although marketed as a 50-count humidor, in real-world collector scenarios with modern 50–54 ring gauge Robustos and Toros, it comfortably fits 28 to 34 cigars without overcrowding or choking airflow around the humidification tray.",
+        answer: "The maker table lists 28–30 Toro 52s, 26–30 Toro 54s, and 18 Toro 60s. Those remain manufacturer fit claims, and tubes, spacing, and the humidity components can change usable room.",
         category: 'buying_decision'
       },
       {
         question: "Should I wipe the cedar wood down with a damp sponge during seasoning?",
-        answer: "Never wipe Spanish cedar with a damp sponge. Direct liquid water causes wood grain lifting, warping of the precision lid lip, and premature mold growth. Season exclusively by allowing the filled Hydro Tray or two 84% Boveda seasoning packs to sit closed for 14 full days.",
+        answer: "Follow the current Renzo instructions supplied by Case Elegance and keep free liquid off the wood unless those exact instructions say otherwise. Do not substitute a generic seasoning recipe for the received manual.",
         category: 'maintenance'
       },
     ],
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
     finderPriority: 82,
     premiumPick: true,
-    relatedGuideSlugs: ['glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors']
+    relatedGuideSlugs: ['best-glass-top-humidors', 'glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors']
   },
   {
     id: 'klaro-octodor',
@@ -101,72 +81,54 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     capacitySticks: 100,
     asin: 'B082P929XD',
     amazonSearchQuery: 'Klaro Octodor Large Glass Top Humidor Case Elegance',
-    imageUrl: 'https://m.media-amazon.com/images/I/818TPGJ5rsL._AC_SL1500_.jpg',
-    description: 'A heavy-duty, high-capacity flagship desktop humidor. Boasts an octagon-edged heavy construction, thick Spanish cedar lining, removable cedar tray, and deep lower reservoir.',
-    highlights: ['Fits up to 100 sticks', 'Removable Spanish Cedar Tray', 'Recessed Magnetic Hydro Channel', 'Heavy Solid Wood Lid with Gasket'],
-    pros: ['Significant weight creates a tight perimeter seal', 'Removable upper tray allows great stick separation', 'Built-in accessory drawer with velvet lining'],
-    cons: ['Needs thorough 14-day seasoning due to high cedar mass', 'Heavy footprint requires dedicated credenza space'],
-    bestFor: 'Serious collectors wanting a large, stately desktop showpiece without going full electric.',
-    sealRating: 8.4,
-    dimensions: '13.8" x 10.2" x 7.5"',
-    material: 'Spanish Cedar & Piano Finish',
-    scorecard: {
-      sealIntegrity: 8.4,
-      thermalStability: 7.2,
-      humidityRetention: 8.5,
-      craftsmanship: 9.3,
-      valueScore: 8.4,
-    },
-    realWorldCapacity: {
-      coronas: 90,
-      robustos: 75,
-      torosChurchills: 60,
-      gordos: 45,
-      factoryBoxes: 0,
-      notes: 'Upper cedar tray holds 25-30 robustos while the deep lower reservoir easily accommodates 40-50 cigars.'
-    },
-    unitSpecificSeasoning: [
-      'Place 3x Boveda 84% Seasoning packs inside (or fill both sides of the hydro tray with solution).',
-      'Keep closed for a minimum of 14 full days. The dense cedar absorbs approximately 60-80ml of water vapor before reaching equilibrium.',
-      'Do not rush this unit: loading cigars early into thirsty cedar will cause wrappers to crack.'
-    ],
+    description: 'A black octagonal glass-top humidor with full cedar lining, a front digital hygrometer, recessed Hydro System, removable cedar tray and divider, and a felt-lined accessory drawer.',
+    highlights: ['50–100 maker/listing capacity range', 'Removable cedar tray and divider', 'Recessed Hydro System', 'Felt-lined accessory drawer'],
+    pros: ['Tray separates an upper layer from lower storage', 'Recessed humidity system preserves the main layout', 'Front hygrometer is visible with the lid closed'],
+    cons: ['100-cigar headline is a maker maximum, not an independent fit test', 'Large passive box still depends on room temperature', 'Current Amazon page did not ship to the selected Argentina address'],
+    bestFor: 'A larger loose-cigar collection that needs a tray and display presentation but not active temperature control.',
+    sealRating: 0,
+    dimensions: '13.75" W x 9.5" L x 8.6" H (maker)',
+    material: 'Wood construction, glossy piano-black finish, full cedar lining, glass top',
     whoShouldBuy: [
-      'Collectors with 50-75 premium sticks who want an imposing, luxurious credenza centerpiece.',
-      'Smokers who want separate upper and lower tiers for mild vs maduro vitolas.'
+      'Collectors who want an upper tray plus a lower loose-cigar compartment.',
+      'Buyers with enough furniture depth and lid clearance for a large passive box.'
     ],
     whoShouldAvoid: [
-      'Anyone needing to store full wooden factory boxes.',
-      'Small apartment dwellers with restricted desk space.'
+      'Anyone who needs active heating or cooling.',
+      'Small desks or shelves without lid and drawer clearance.',
+      'Buyers whose delivery address has no active Amazon offer.'
     ],
     failureModesToWatch: [
-      'Ensure the upper wooden tray does not snag the bottom hygrometer cable if modifying accessories.'
+      'Inspect the glass seam, magnetic lid alignment, tray, divider, drawer, and hygrometer opening on arrival.',
+      'Confirm the received Hydro System parts before following setup instructions.',
+      'Do not treat the 100-cigar headline as a guaranteed working count.'
     ],
     faqs: [
       {
         question: "How does the Octodor differ from the smaller Renzo desktop?",
-        answer: "The Octodor features nearly double the interior cubic volume, heavy octagonal beveled corners, a removable Spanish cedar lift-out tray with slotted dividers, and a recessed magnetic hydro channel in the base that saves valuable cigar storage space.",
+        answer: "The Octodor has a substantially larger exterior, a removable cedar tray and divider, and a recessed humidity system. The Renzo is smaller and uses two Hydro Channels inside its main compartment.",
         category: 'comparison'
       },
       {
         question: "How many 52+ ring gauge cigars can the Octodor hold comfortably?",
-        answer: "Plan on roughly 60–75 standard Toros or Churchills, or up to about 90 smaller coronas. Actual capacity changes with ring gauge, airflow spacing, and how much room the humidification system uses.",
+        answer: "Case Elegance and Amazon publish a 50–100-cigar range, but do not provide the same size-specific table used for the Renzo on the current Octodor page. Treat 100 as a maker maximum and plan from your own cigar dimensions.",
         category: 'buying_decision'
       },
       {
         question: "How long does the Octodor take to season properly?",
-        answer: "Due to the thick, dense Spanish cedar lining, the Octodor requires a full 14 days of seasoning. Place 3x Boveda 84% seasoning packs inside (or fill both sides of the hydro tray with solution) and keep the lid shut. Do not rush this process: thirsty cedar will siphon essential oils from your wrappers.",
+        answer: "Follow the current Octodor instructions for the supplied Hydro System and wait for a verified stable trend before loading valuable cigars. We do not substitute a universal number of days or packs for the received manual.",
         category: 'maintenance'
       },
       {
         question: "Does the Octodor come with everything needed to start?",
-        answer: "Yes, Klaro packages the Octodor with two bottles of Propylene Glycol Hydro Solution, seasoning crystals, a pre-calibrated digital hygrometer, and a velvet-lined pull-out accessory drawer for lighters and cutters.",
+        answer: "The current Amazon and maker pages list the humidor, front digital hygrometer, recessed Hydro System, solution, removable cedar tray and divider, and felt-lined accessory drawer. Accessories pictured in the drawer are not included.",
         category: 'buying_decision'
       },
     ],
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
     finderPriority: 88,
     premiumPick: true,
-    relatedGuideSlugs: ['glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors']
+    relatedGuideSlugs: ['best-glass-top-humidors', 'glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors']
   },
   {
     id: 'klaro-military',
@@ -180,12 +142,11 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     capacitySticks: 100,
     asin: 'B08TVY2B46',
     amazonSearchQuery: 'Klaro Military Glass Top Humidor Case Elegance',
-    imageUrl: 'https://m.media-amazon.com/images/I/61yZEBhjE+L._AC_SL1500_.jpg',
-    description: 'A large desktop humidor with a front digital hygrometer, Spanish cedar interior, sliding tray, built-in humidity tray, and a foam-lined accessory drawer. The maker lists room for 70–100 cigars.',
-    highlights: ['Maker-listed 70–100 cigar capacity', 'Front digital hygrometer', 'Sliding Spanish cedar tray', 'Foam-lined accessory drawer'],
-    pros: ['More usable room than a small desktop box', 'Front display can be read without opening the lid', 'Sliding tray and lower compartment make sorting easier'],
-    cons: ['The 70–100 count is a maker claim and depends on cigar size', 'A wood humidor must be seasoned before use', 'It does not heat or cool the room air'],
-    bestFor: 'A collector who wants a premium-looking desktop humidor with room to grow and space for accessories.',
+    description: 'A matte-green glass-top humidor with side latches and handles, a front digital hygrometer, Spanish cedar interior, sliding tray, recessed Hydro System, and a foam-lined accessory drawer.',
+    highlights: ['Listing headline: 70–100 cigars', 'Side lid latches and carrying handles', 'Sliding Spanish cedar tray', 'Foam-lined accessory drawer'],
+    pros: ['Latches and handles distinguish it from the magnetic-lid models', 'Front display can be read without opening the lid', 'Sliding tray allows access to the lower compartment'],
+    cons: ['Capacity figures remain maker claims and vary sharply by ring gauge', 'Foam drawer insert is designed for a separately sold accessory kit', 'Passive box does not heat or cool'],
+    bestFor: 'A larger loose-cigar collection that values latches, handles, a sliding tray, and separate accessory storage.',
     sealRating: 0,
     dimensions: '15.75" x 9.8" x 8.25" (current listing)',
     material: 'Wood humidor with Spanish cedar interior and glass top',
@@ -197,7 +158,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
       { question: 'Who should choose this instead of the smaller Renzo?', answer: 'Choose it when you need more room, want a sliding tray, or want an accessory drawer. Choose the Renzo when a smaller footprint matters more.', category: 'comparison' }
     ],
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['best-desktop-humidors', 'best-humidors-for-beginners', 'best-humidors-for-long-term-storage']
+    relatedGuideSlugs: ['best-glass-top-humidors', 'best-desktop-humidors', 'best-humidors-for-beginners', 'best-humidors-for-long-term-storage']
   },
   {
     id: 'woodronic-3drawer',
