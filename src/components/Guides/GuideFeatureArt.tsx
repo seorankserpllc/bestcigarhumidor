@@ -40,6 +40,7 @@ const visualConfig = {
   'long-term': { number: '10', label: 'LONG-TERM STORAGE', primary: LockKeyhole, secondary: Gauge, tertiary: Thermometer },
   cutter: { number: '11', label: 'CUTTER BUYING GUIDE', primary: Scissors, secondary: ChevronDown, tertiary: Circle },
   lighter: { number: '12', label: 'LIGHTER BUYING GUIDE', primary: Flame, secondary: Wind, tertiary: Gauge },
+  coolidor: { number: '13', label: 'COOLIDOR BUYING GUIDE', primary: Box, secondary: LockKeyhole, tertiary: Droplets },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;

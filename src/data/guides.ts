@@ -8,6 +8,183 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-coolers-for-coolidor',
+    slug: 'best-coolers-for-coolidor',
+    title: 'Best Coolers for a Coolidor: 16-, 52-, and 100-Quart Models',
+    subtitle: 'Choose a dry-storage cooler by usable interior dimensions, factory-box layout, floor space, drain design, and the humidity equipment you still need.',
+    category: 'selection',
+    categoryLabel: 'Coolidor Buying Guide',
+    readTimeMinutes: 13,
+    ...editorialByline,
+    publishedDate: '2026-10-02',
+    reviewedDate: '2026-10-02',
+    heroVisual: 'coolidor',
+    excerpt: 'Three current hard coolers compared as passive coolidor cores by interior size, box-loading flexibility, drain and cleaning details, setup work, and room-temperature limits.',
+    featuredProductIds: ['coleman-chiller-16-coolidor', 'coleman-classic-52-coolidor', 'igloo-marine-ultra-100-coolidor'],
+    comparisonRows: [
+      {
+        productId: 'coleman-chiller-16-coolidor',
+        recommendationLabel: 'Best compact conversion',
+        fit: 'A measured load of smaller cigar boxes, sealed bundles, or loose cigars in trays where shelf and floor space are limited',
+        capacity: '16 qt; maker interior 12.5 × 9.7 × 8.2 in; exterior 15.5 × 12 × 10.75 in',
+        tradeoff: 'Short interior, no drain, and no cigar accessories; many factory boxes will not fit flat'
+      },
+      {
+        productId: 'coleman-classic-52-coolidor',
+        recommendationLabel: 'Best middle-size layout',
+        fit: 'Several factory boxes or a mixed box-and-tray collection that needs more layout flexibility without a 100-quart footprint',
+        capacity: '52 qt; maker interior 20.6 × 11.7 × 13.2 in; maker exterior 25.6 × 14.8 × 16.5 in',
+        tradeoff: 'Maker and Amazon exterior dimensions differ; humidity and monitoring equipment are separate'
+      },
+      {
+        productId: 'igloo-marine-ultra-100-coolidor',
+        recommendationLabel: 'Best bulk box storage',
+        fit: 'A large factory-box collection with dedicated floor space and a plan for distributed monitoring and humidity control',
+        capacity: '100 qt; maker exterior 34.37 × 16.91 × 18.79 in; internal dimensions not published on the current maker page',
+        tradeoff: 'Largest footprint, no published internal measurements, and no independent cigar-count result'
+      }
+    ],
+    useBrandedProductArt: true,
+    relatedBlueprintIds: ['blueprint-coolidor-marine', 'blueprint-tupperdor-7l'],
+    sections: [
+      {
+        id: 'what-these-picks-mean',
+        title: '1. What these coolidor picks mean',
+        contentMarkdown: `A coolidor is a hard cooler repurposed as a passive cigar-storage enclosure. It is not an electric cigar cooler. None of these three products heats, cools, creates humidity, measures relative humidity, or arrives with cigar trays. The value is dry interior volume in a closable insulated shell; the owner still has to plan the cigar layout, humidity source, sensor, room, and checks.
+
+We reviewed the current search results before writing. Useful competing guides explain the basic conversion and emphasize cleaning, a humidity source, and a hygrometer. Common gaps are mixing passive coolers with powered cigar cabinets, calling an unmeasured lid airtight, converting quarts into precise cigar counts, treating insulation as active temperature control, prescribing one RH target for everyone, and repeating changing prices or marketplace ratings. Several lists recommend models without checking the current variant or interior measurements. This guide instead compares exact live listings, refuses to invent cigar capacity, and gives a reason to skip every pick.
+
+On October 2, 2026, we rendered Amazon.com pages for the Ocean Blue Coleman Chiller 16-quart cooler (B09HN13FN4), Rock Grey Coleman Classic 52-quart cooler (B07XMMB6SG), and white Igloo Marine Ultra 100-quart Latitude cooler (B0BRLBMMV6). Each page displayed the same brand, size, color, ASIN, and included cooler used here, and all three showed in stock for the selected marketplace session. Availability and delivery eligibility can change by address.
+
+We have not bought, odor-tested, leak-tested, filled, humidified, temperature-logged, or capacity-tested these coolers. Ice-retention, can-count, materials, dimensions, cleaning, hinge, drain, and warranty details are current manufacturer or listing information—not independent cigar-storage results.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, badges, star ratings, review counts, or popularity claims.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Compare interior space, placement, and missing equipment',
+        contentMarkdown: `Start with the packaging you want to store, not a cigar-count headline. Measure the longest, widest, and tallest factory boxes in your collection. Add room for lifting a box out, a humidity system, at least one checked sensor, and air paths between stacks. A quart rating describes volume; it does not reveal whether a specific long box lies flat or whether a tall stack remains accessible.
+
+The 16-quart Coleman is the only compact pick and has the most useful small-format interior dimensions. The 52-quart Coleman gives substantially more box-arrangement room and publishes a 20.6 by 11.7 by 13.2-inch interior. The 100-quart Igloo offers the most nominal volume, but its current maker page does not publish internal dimensions. For that model, exterior size can confirm room placement, but the received interior must be measured before the final tray or box plan.
+
+All three are passive. Foam insulation can slow heat transfer, but it does not hold a chosen temperature indefinitely. The room eventually matters. If your storage room runs outside the range you want, use the [best electric cigar humidor guide](/guides/best-electric-cigar-humidors) rather than expecting a picnic cooler to solve it. If seven liters is enough, the [airtight tupperdor guide](/guides/science-of-airtight-tupperdors) is smaller and simpler. The [humidor finder](/) can compare those formats.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '3. Seven criteria that matter before quart count',
+        contentMarkdown: `**1. Interior dimensions.** Exterior volume is not the same as usable box space. Cooler walls taper, hinges intrude, and rounded corners change the floor. Compare every planned box against published interior dimensions, then leave removal clearance.
+
+**2. Working layout.** Decide whether the system stores sealed cigar boxes, loose cigars in trays, or both. A deep cooler can hold more volume yet make the bottom layer inconvenient. Do not stack so tightly that the humidity source or sensor is buried.
+
+**3. Dedicated dry use.** Do not add ice or free water. Clean only as the maker permits, rinse when instructions call for it, dry fully, and reject a unit with persistent odor or residue. Keep a cigar coolidor dedicated to dry storage.
+
+**4. Lid and drain inspection.** A camping listing's “leakproof” language usually concerns liquid handling, not a measured water-vapor transmission rate. Inspect the received lid, hinge, rim, and drain. Watch the closed system's trend before deciding that any joint needs modification.
+
+**5. Humidity system sizing.** The cooler does not include one. Choose a passive or active humidity product with current instructions for the enclosure volume and cigar load. Do not pour water into the liner or improvise from a can-capacity claim. Our [humidor humidifier guide](/guides/best-humidor-humidifiers) explains the main formats.
+
+**6. Measurement plan.** A digital display is not automatically accurate. NIST treats humidity calibration as a measurement with defined conditions and uncertainty. Check the sensor against a trusted reference and, in a large 100-quart layout, consider readings at more than one location before changing the humidity source.
+
+**7. Room temperature and access.** These coolers do not heat or cool. Keep the system away from direct sun, heaters, vehicles, garages, and other unstable placements. Leave space to raise the lid fully and to reach the bottom without dragging a loaded cooler.`
+      },
+      {
+        id: 'coleman-chiller-16',
+        title: '4. Coleman Chiller 16: compact and measurement-friendly',
+        contentMarkdown: `The [Coleman Chiller 16-quart cooler](/products/coleman-chiller-16-quart-coolidor-review) is the smallest verified option. Its rendered Amazon page matched ASIN B09HN13FN4, Ocean Blue color, 16-quart selection, foam insulation, bail handle, and cooler-only contents. It showed in stock.
+
+Coleman publishes a 12.5 by 9.7 by 8.2-inch interior and a 15.5 by 12 by 10.75-inch exterior for model 5877. Those dimensions are more useful than the current 25-can-without-ice listing claim because cigar boxes are rectangular and vary widely. Make a paper rectangle of the internal floor, place the actual boxes over it, and remember that the cooler tapers.
+
+**Choose it if** the measured load fits and compact placement matters more than growth. **Choose the 52-quart Coleman instead** if you want to keep several full boxes flat or add trays. **Skip it** if a long presentation box exceeds either interior floor dimension.
+
+The listing does not identify a drain, gasket, hygrometer, humidifier, divider, or cigar tray. That keeps the core simple, but every cigar-storage component is a separate decision. We did not test how the lid closes under humidity or how much working capacity remains after equipment is added.`
+      },
+      {
+        id: 'coleman-classic-52',
+        title: '5. Coleman Classic 52: the middle-size box layout',
+        contentMarkdown: `The [Coleman Classic 52-quart cooler](/products/coleman-classic-52-quart-coolidor-review) is the middle-size pick. Its rendered Amazon page matched ASIN B07XMMB6SG, the Rock Grey 52-quart selection, swing-up handles, molded cup holders, stain-resistant liner, recessed lid lip, drain, and cooler with Have-A-Seat lid. It showed in stock.
+
+Coleman's current page lists a 20.6 by 11.7 by 13.2-inch interior and 25.6 by 14.8 by 16.5-inch exterior. Amazon's rendered product table instead showed 27.87 by 15.63 by 17.99 inches. That exterior discrepancy is material if the cooler must fit a shelf or closet, so use the larger envelope for planning and confirm the delivered unit before building inserts.
+
+**Choose it if** the published interior fits several of your actual boxes and you want easier handling than a 100-quart chest. **Choose the 16-quart Chiller instead** for a deliberately small collection. **Choose the Igloo 100 instead** only when you have enough box volume and floor space to justify it.
+
+The maker's drain and stain-resistant liner help with ordinary cooler care, but they do not prove an airtight cigar enclosure. Inspect the drain closure and lid on arrival, then observe the dry, empty system with a checked sensor and the chosen humidity source before loading valuable cigars.`
+      },
+      {
+        id: 'igloo-marine-ultra-100',
+        title: '6. Igloo Marine Ultra 100: bulk volume with more planning',
+        contentMarkdown: `The [Igloo Marine Ultra 100-quart Latitude cooler](/products/igloo-marine-ultra-100-quart-coolidor-review) is the bulk-storage option. Its rendered Amazon page matched ASIN B0BRLBMMV6, white 100-quart selection, foam-insulated lid and body, THERMECOOL foam, marine-grade extended-life hinges, and cooler-only contents. It showed in stock.
+
+Igloo publishes a 34.37 by 16.91 by 18.79-inch exterior and 18.6-pound empty weight. The Amazon table showed a similar but not identical 34.2 by 17.6 by 19.5 inches. Igloo also documents a threaded drain plug, stain- and odor-resistant liner, water or mild detergent for light cleaning, diluted baking soda and water for tougher stains, thorough rinsing, and complete drying before storage. Those are maker care instructions, not a recommendation to wet cedar or cigars.
+
+**Choose it if** you store many full boxes, can dedicate floor space, and are willing to design the humidity and monitoring layout. **Choose the 52-quart Coleman instead** if easier access and published interior dimensions matter more than maximum nominal volume. **Skip it** if you would have to stack boxes so deeply that routine inspection becomes disruptive.
+
+The current maker page does not publish internal dimensions, and we did not convert its 149-can claim into a cigar count. Measure the received interior before ordering trays. The threaded drain plug is an inspection point, not proof that the enclosure has a measured vapor-tight seal.`
+      },
+      {
+        id: 'setup-and-verification',
+        title: '7. Convert the cooler without inventing certainty',
+        contentMarkdown: `1. Confirm the received brand, color, size, and ASIN before modifying anything. Check the rim, lid, hinges, handles, liner, and any drain for damage.
+2. Measure the actual interior at the base, widest point, and lid line. Mock up the cigar-box and tray arrangement while the enclosure is empty.
+3. Clean only according to the current maker instructions. Rinse when directed, then leave the cooler open until every surface is dry and packaging odor has cleared.
+4. Place the cooler in its permanent, temperature-appropriate room with full lid clearance. Do not rely on insulation to correct a warm garage or sunlit vehicle.
+5. Add a humidity system sized under its own current instructions. Keep liquid away from cigars and do not pour water into the liner.
+6. Check the hygrometer against a trusted reference. Position it where it represents the cigar load rather than touching the humidity source.
+7. Close the empty system and observe the trend. For a large or densely stacked layout, compare more than one location before assuming the reading is uniform.
+8. Load boxes without crushing them, blocking equipment, or making the bottom inaccessible. Recheck after the tobacco and packaging change the moisture balance.
+
+Use the [coolidor blueprint](/blueprints) for a parts workflow, the [seasoning lab](/seasoning-lab) to structure observations, and the [cigar hygrometer guide](/guides/best-cigar-hygrometers) to choose a monitoring style. Plastic itself is not seasoned like unfinished wood; any cedar boxes or trays added to the cooler still change the moisture load and need time to equilibrate.`
+      },
+      {
+        id: 'reasons-to-choose-differently',
+        title: '8. Reasons to choose a different storage format',
+        contentMarkdown: `Choose a gasketed food container when you need a smaller passive enclosure with no drain and less empty volume. Choose a desktop humidor when furniture appearance and daily top access matter more than bulk capacity. Choose an electric humidor when the room needs active temperature control. Choose a large passive cabinet when drawer access and presentation justify more setup work and floor space.
+
+Skip the 16-quart Coleman if your boxes do not fit its 12.5 by 9.7-inch internal floor. Skip the 52-quart Coleman if the conflicting exterior dimensions make placement uncertain or if you need a maker-published gasket specification. Skip the 100-quart Igloo if unpublished interior dimensions, deep stacking, or the floor footprint complicate routine access.
+
+Do not buy any cooler because a ranked list calls it airtight, perfectly stable, or a precise cigar-count solution. Buy only after the verified variant, actual interior geometry, room temperature, humidity equipment, monitoring plan, and access pattern fit your collection. If an Amazon ASIN redirects to another color or size, verify the new variant rather than assuming this comparison still applies.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'Does a coolidor actively keep cigars cool?',
+        answer: 'No. A passive hard cooler has insulation but no thermostat, heater, or refrigeration. The storage room still determines the long-term temperature. Choose an electric cigar humidor if active control is required.'
+      },
+      {
+        question: 'How many cigars fit in a 52-quart cooler?',
+        answer: 'There is no reliable universal count. Factory-box dimensions, loose-cigar size, trays, humidity equipment, spacing, and access all change working capacity. Measure the actual load against Coleman’s 20.6 × 11.7 × 13.2-inch published interior.'
+      },
+      {
+        question: 'Does a plastic coolidor need seasoning?',
+        answer: 'The plastic shell is not seasoned like unfinished wood. Clean and dry the cooler, then stabilize the complete system with its humidity source and checked sensor. Added cedar boxes or trays still exchange moisture and need time to equilibrate.'
+      },
+      {
+        question: 'Can I add water or ice to a coolidor?',
+        answer: 'Not for cigar storage. Keep the enclosure dry and use a humidity product designed for the intended enclosure volume. Free liquid can contact packaging or cigars and makes control harder.'
+      },
+      {
+        question: 'Should I seal the drain plug permanently?',
+        answer: 'Not by default. Inspect the delivered drain, close it as designed, and observe the system with a checked sensor first. Permanent modification can complicate cleaning, returns, or warranty service and is unnecessary without evidence of a problem.'
+      },
+      {
+        question: 'Do I need Spanish cedar in a coolidor?',
+        answer: 'No. The cooler can hold factory cigar boxes or separate trays without lining every wall. Cedar can add organization and moisture-buffering material, but it consumes space and is not a substitute for a humidity source.'
+      },
+      {
+        question: 'Is the 100-quart Igloo automatically the best value?',
+        answer: 'No. It offers the most nominal volume here, but it needs the most floor space, has no current maker-published internal dimensions, and can create deep stacks. A smaller unit may be easier to measure, monitor, and access.'
+      }
+    ],
+    sources: [
+      { label: 'Coleman Chiller 16-quart Ocean Blue listing — ASIN B09HN13FN4', publisher: 'Amazon.com, rendered October 2, 2026', url: 'https://www.amazon.com/dp/B09HN13FN4?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Coleman Classic 52-quart Rock Grey listing — ASIN B07XMMB6SG', publisher: 'Amazon.com, rendered October 2, 2026', url: 'https://www.amazon.com/dp/B07XMMB6SG?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Igloo Marine Ultra 100-quart white listing — ASIN B0BRLBMMV6', publisher: 'Amazon.com, rendered October 2, 2026', url: 'https://www.amazon.com/dp/B0BRLBMMV6?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Chiller 16-quart dimensions, materials, care features, and warranty', publisher: 'Coleman', url: 'https://www.coleman.com/coolers-drinkware/coolers/hard-coolers/chiller-16-quart-portable-cooler/SAP_2160841.html', sourceType: 'Manufacturer instructions' },
+      { label: 'Classic 52-quart interior and exterior dimensions, features, drain, and warranty', publisher: 'Coleman', url: 'https://www.coleman.com/coolers-drinkware/coolers/hard-coolers/classic-series-52-quart-hard-cooler/SAP_3000006572.html', sourceType: 'Manufacturer instructions' },
+      { label: 'Marine Ultra 100-quart dimensions, drain, liner, cleaning, and warranty', publisher: 'Igloo', url: 'https://www.igloocoolers.com/products/marine-ultra-100-qt-cooler', sourceType: 'Manufacturer instructions' },
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Hygrometers and relative-humidity calibration', publisher: 'National Institute of Standards and Technology', url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers', sourceType: 'Government / technical reference' }
+    ]
+  },
+  {
     id: 'best-glass-top-humidors',
     slug: 'best-glass-top-humidors',
     title: 'Best Glass-Top Humidors: Three Display Boxes Compared',
