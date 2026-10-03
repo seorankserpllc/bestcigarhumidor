@@ -41,6 +41,7 @@ const visualConfig = {
   cutter: { number: '11', label: 'CUTTER BUYING GUIDE', primary: Scissors, secondary: ChevronDown, tertiary: Circle },
   lighter: { number: '12', label: 'LIGHTER BUYING GUIDE', primary: Flame, secondary: Wind, tertiary: Gauge },
   coolidor: { number: '13', label: 'COOLIDOR BUYING GUIDE', primary: Box, secondary: LockKeyhole, tertiary: Droplets },
+  ashtray: { number: '14', label: 'ASHTRAY BUYING GUIDE', primary: Circle, secondary: Flame, tertiary: Wind },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;

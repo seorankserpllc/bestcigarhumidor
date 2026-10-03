@@ -8,6 +8,186 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-cigar-ashtrays',
+    slug: 'best-cigar-ashtrays',
+    title: 'Best Cigar Ashtrays: Compact, Flexible, and Deep-Bowl Picks',
+    subtitle: 'Choose an ashtray by cigar-rest count, bowl geometry, footprint, material, cleaning access, and safe placement—not changing marketplace scores.',
+    category: 'selection',
+    categoryLabel: 'Cigar Ashtray Buying Guide',
+    readTimeMinutes: 12,
+    ...editorialByline,
+    publishedDate: '2026-10-03',
+    reviewedDate: '2026-10-03',
+    heroVisual: 'ashtray',
+    excerpt: 'Three current cigar ashtrays compared for solo desks, breakage-conscious tables, and shared sessions, with exact live listings and practical fire-safety limits.',
+    featuredProductIds: ['roygra-single-ceramic-ashtray', 'useamie-silicone-four-rest-ashtray', 'stinky-original-stainless-ashtray'],
+    comparisonRows: [
+      {
+        productId: 'roygra-single-ceramic-ashtray',
+        recommendationLabel: 'Best compact single rest',
+        fit: 'One smoker using a small desk or side table who wants a dedicated cigar groove and a padded ceramic base',
+        capacity: 'One rest; Amazon table lists 4.8 × 2.8 × 1 in, while a listing bullet says 4.8 × 2.6 × 1 in',
+        tradeoff: 'Shallow bowl, ceramic chip risk, and no room for a second cigar'
+      },
+      {
+        productId: 'useamie-silicone-four-rest-ashtray',
+        recommendationLabel: 'Best flexible four-rest tray',
+        fit: 'A breakage-conscious tabletop where four rests and a soft base matter more than bowl depth',
+        capacity: 'Four rests; current listing gives a 6 × 6 × 1.5-in square footprint',
+        tradeoff: 'Shallow profile and no independent heat, weather, or large-ring-gauge testing'
+      },
+      {
+        productId: 'stinky-original-stainless-ashtray',
+        recommendationLabel: 'Best deep shared bowl',
+        fit: 'A shared table that benefits from four elevated stirrups and more vertical room for ash',
+        capacity: 'Four stirrups; listing describes an 8-in diameter and 3-in bowl depth',
+        tradeoff: 'Largest footprint, open top, and maker “windproof” language is not an independent wind result'
+      }
+    ],
+    useBrandedProductArt: true,
+    sections: [
+      {
+        id: 'what-these-picks-mean',
+        title: '1. What these ashtray picks mean',
+        contentMarkdown: `The right cigar ashtray is not the one with the highest changing star score. It is the one that gives your cigar a stable rest, catches ash in the place you actually smoke, fits the table, and can be emptied without putting hot material near something combustible. A solo desk, a breakage-prone patio table, and a four-person gathering call for different shapes.
+
+We reviewed the current search results before writing. Better competing articles explain that cigar rests and a larger bowl matter, but the results commonly mix decorative trays with working ashtrays, repeat live prices and ratings, call open bowls “windproof” without a defined test, and present unverifiable hands-on claims. Several lists recommend many near-identical products without confirming the exact current variant. This guide instead compares three distinct layouts, labels listing claims as listing claims, and gives a reason to choose something else for every pick.
+
+On October 3, 2026, we rendered the Amazon.com product pages for the black roygra single-rest ceramic tray (B07MQYTBB6), the matte-black USEAMIE four-rest silicone tray (B0B59GKM55), and the polished Original Stinky stainless-steel four-stirrup tray (B007P3FFKU). Each page displayed the same brand, format, color or finish, included quantity, and ASIN used here. All three showed active in-stock buying options for the selected session. Availability and delivery eligibility can change by address.
+
+We did not buy, drop, heat-cycle, wind-test, stain-test, wash, weigh, or fit-test these ashtrays. Material, dimensions, rest count, included quantity, weather language, heat language, and cleaning directions are current maker or marketplace information—not independent performance results.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, badges, star ratings, review counts, or popularity claims.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Compare the rest, bowl, and tabletop footprint',
+        contentMarkdown: `Start with the number of lit cigars that may be resting at once. One properly shaped rest is enough for a personal desk. Four rests make sense for guests, but only when the table also has room for the larger bowl and each cigar can point inward without crossing another.
+
+The [roygra single-rest ceramic ashtray](/products/roygra-single-ceramic-cigar-ashtray-review) is the smallest and most deliberate solo layout. The [USEAMIE silicone four-rest ashtray](/products/useamie-silicone-four-rest-cigar-ashtray-review) puts four wide channels in a six-inch square, flexible body. The [Original Stinky stainless-steel ashtray](/products/stinky-original-stainless-steel-cigar-ashtray-review) uses four raised stirrups around a much deeper open bowl.
+
+Depth deserves more weight than decorative finish. The U.S. Fire Administration advises deep, sturdy ashtrays, and its detailed smoking-fire report explains why: depth helps keep lit material inside, sturdiness reduces overturning, and the ashtray belongs on a sturdy surface that is hard to ignite. A product name, material label, or “outdoor” claim does not override those placement rules.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '3. Seven criteria that matter more than décor',
+        contentMarkdown: `**1. Rest count and spacing.** Count simultaneous cigars, not people invited. A four-rest tray helps only if each channel supports the intended cigar without its lit end hanging beyond the bowl or colliding with another cigar.
+
+**2. Bowl depth.** A shallow tray is compact but gives falling ash less enclosure. USFA guidance favors deep, sturdy ashtrays. We treat depth as a practical safety and cleanup factor, not proof that any tray is windproof.
+
+**3. Tip resistance.** Use a flat, stable, hard-to-ignite surface. A wide base can reduce tipping risk, but we did not measure center of gravity or conduct bump tests on these products.
+
+**4. Material limits.** Ceramic can chip if dropped. Silicone can flex and avoids ceramic breakage, but this listing's heat and weather language has not been independently verified here. Stainless steel avoids ceramic chips but can still arrive bent, rock on a table, or have unfinished edges.
+
+**5. Cleaning access.** An open, simple bowl is easier to inspect than a narrow cavity. Follow the current product instructions, let contents cool, and keep water away from still-burning material unless you are intentionally extinguishing it in a safe container.
+
+**6. Indoor smoke exposure.** An ashtray manages ash; it does not make indoor smoking safe. CDC says there is no safe level of secondhand-smoke exposure and identifies cigars as a source. Protect other people by following smoke-free rules and smoking outside where permitted.
+
+**7. Disposal routine.** Never walk away from a lit cigar. USFA says smoking materials should be fully out before disposal and recommends water or sand; CPSC likewise advises letting ashtray contents cool before disposal. Do not empty warm ash into paper, mulch, a plastic wastebasket, or other combustible material.`
+      },
+      {
+        id: 'roygra-single-rest',
+        title: '4. roygra single-rest ceramic: the compact personal option',
+        contentMarkdown: `The [roygra single-rest ceramic ashtray](/products/roygra-single-ceramic-cigar-ashtray-review) is the most space-efficient pick. Its rendered Amazon page matched ASIN B07MQYTBB6, the black ceramic one-rest tray, a bottom pad, and one ashtray packaged in a gift box. The page showed an in-stock offer shipped by Amazon and sold by RoygraDirect.
+
+The Amazon product table lists 4.8 by 2.8 by 1 inch. A listing bullet instead says 4.8 by 2.6 by 1 inch. That two-tenths-inch width discrepancy will not change the basic use case, but it is a reason to measure the received tray before assigning it a fitted storage spot. The one-inch height also makes this the shallowest format here.
+
+**Choose it if** one cigar rest and a tiny footprint are the priorities. **Choose USEAMIE instead** if you want four rests and a body that cannot chip like ceramic. **Choose the Stinky instead** if bowl depth and shared use matter more than desk space.
+
+Inspect the ceramic for cracks or chips and make sure the base pad lies flat. The listing calls the ceramic waterproof and heat-resistant, but we did not test either claim. A padded base can protect a tabletop from scratches; it does not substitute for a sturdy, hard-to-ignite placement surface.`
+      },
+      {
+        id: 'useamie-silicone',
+        title: '5. USEAMIE silicone: four rests without ceramic',
+        contentMarkdown: `The [USEAMIE four-rest silicone ashtray](/products/useamie-silicone-four-rest-cigar-ashtray-review) is the flexible option. Its rendered Amazon page matched ASIN B0B59GKM55, one matte-black silicone tray, four wide rests, and a listed size of 6 by 6 by 1.5 inches. It showed an in-stock offer shipped by Amazon and sold by Filion direct.
+
+The listing says the rests accommodate cigars above 60 ring gauge and describes the tray as weatherproof, high-temperature resistant, scratch-preventing, and washable with water or soapy water. Those are seller claims, not measurements we reproduced. Before relying on a wide-ring claim, set an unlit cigar in the received channel and confirm that it sits securely with its foot over the bowl.
+
+**Choose it if** ceramic breakage is the problem you most want to avoid and four rests fit your routine. **Choose roygra instead** for the smallest solo footprint. **Choose the Stinky instead** when a three-inch listed bowl depth matters more than flexibility.
+
+The tray's flexible body does not make it fireproof, self-extinguishing, or safe to leave unattended. Its 1.5-inch height is only half the Stinky listing's bowl depth. Place it flat, keep it away from combustible materials, and fully extinguish smoking material before disposal.`
+      },
+      {
+        id: 'stinky-original',
+        title: '6. Original Stinky: the deep shared metal bowl',
+        contentMarkdown: `The [Original Stinky stainless-steel ashtray](/products/stinky-original-stainless-steel-cigar-ashtray-review) is the largest and deepest pick. Its rendered Amazon page matched ASIN B007P3FFKU, the polished stainless-steel Original model, four raised stirrups, an eight-inch listed diameter, a three-inch listed bowl depth, and one ashtray. It showed an in-stock offer shipped by Amazon and sold by Cigar Warehouse.
+
+The listing separately shows an 8 by 4 by 4-inch product-dimension table, which does not cleanly match the round eight-inch-diameter and three-inch-depth description. Plan around the eight-inch diameter plus cigar overhang, then confirm the received footprint before placing it on a narrow side table.
+
+**Choose it if** four people may rest cigars and you want the deepest listed bowl here. **Choose USEAMIE instead** if a flexible, smaller square is more practical. **Choose roygra instead** if one smoker wants the smallest possible tray.
+
+Stinky describes this open bowl as windproof, heat-resistant, durable, and easy to clean. We treat those as maker/listing claims and did not conduct wind, heat, corrosion, or cleaning tests. The open top has no lid, and no ashtray eliminates the need to watch a lit cigar.`
+      },
+      {
+        id: 'setup-and-use',
+        title: '7. Set up and use the ashtray conservatively',
+        contentMarkdown: `1. Confirm the received brand, material, rest count, color or finish, and ASIN before use. Return a tray that is cracked, bent, sharp, unstable, or different from the verified variant.
+2. Put the empty tray on the actual table. Check that the base sits flat and that cigar overhang will not reach paper, fabric, plants, railings, or people.
+3. Test every rest with an unlit cigar. The barrel should sit securely and the foot should remain over the bowl. Do not force a cigar into a narrow ceramic or silicone channel.
+4. Follow all local smoke-free and fire rules. CDC's health guidance remains relevant outdoors when smoke can reach other people, doors, windows, or air intakes.
+5. Keep the ashtray attended while any cigar is lit. Do not rely on “windproof,” “heat-resistant,” or material labels as a reason to walk away.
+6. Put the cigar out completely. USFA recommends water or sand for smoking-material disposal; use a safe method suited to the setting and product rather than flooding a material without checking its instructions.
+7. Let contents cool before emptying. Keep ash and ends out of paper bags, dry landscaping, mulch, upholstery, and ordinary trash until fully extinguished.
+8. Clean only after the tray is cool. Inspect again for cracks, warping, loose pads, bent stirrups, sharp edges, or a base that no longer sits flat.`
+      },
+      {
+        id: 'reasons-to-choose-differently',
+        title: '8. Reasons to choose a different ashtray',
+        contentMarkdown: `Choose a covered outdoor receptacle instead of any of these open trays if the site is exposed to frequent wind, rain, public traffic, or long gaps between maintenance. Choose a commercial smoking receptacle when a workplace, hospitality area, condominium, or public space is subject to local fire-code or facilities requirements. A household tabletop tray is not automatically approved for those settings.
+
+Skip roygra if more than one cigar needs a rest or a one-inch profile feels too shallow. Skip USEAMIE if you want a rigid, deep bowl or independently documented heat performance. Skip the Stinky if an eight-inch bowl plus cigar overhang consumes too much table space or an open top is unsuitable.
+
+No ashtray makes smoking safe for bystanders. If the only available location exposes other people to smoke, violates a smoke-free rule, sits near medical oxygen, or puts embers near combustible material, the correct choice is not a different tray—it is not to smoke there.`
+      },
+      {
+        id: 'final-decision',
+        title: '9. The shortest honest recommendation',
+        contentMarkdown: `Buy the roygra only for a compact one-cigar station. Buy the USEAMIE when four rests and a flexible body matter more than bowl depth. Buy the Original Stinky when a shared table and the deepest listed bowl here justify the largest footprint.
+
+Then treat the product as one part of a safety routine: stable placement, continuous attention, complete extinguishment, cooling before disposal, and protection of other people from smoke. Pair it with the [cigar lighter guide](/guides/best-cigar-lighters) for fuel and ignition safety, the [cigar cutter guide](/guides/best-cigar-cutters) for cut-style tradeoffs, or the [travel humidor guide](/guides/best-travel-humidors) when the cigar itself also needs protected transport.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'What size ashtray is best for one cigar?',
+        answer: 'A one-rest tray can be enough when the groove fits the cigar, the foot stays over the bowl, and the base is stable. The compact roygra is listed at 4.8 × 2.8 × 1 inches in Amazon’s product table, but its shallow bowl is the tradeoff.'
+      },
+      {
+        question: 'Is a silicone cigar ashtray fireproof?',
+        answer: 'Do not assume so. The USEAMIE listing makes heat and weather claims, but we did not independently test them, and the page does not establish a fireproof rating. Keep every lit cigar attended and fully extinguish smoking material before disposal.'
+      },
+      {
+        question: 'Does a deep ashtray make smoking safe indoors?',
+        answer: 'No. A deeper bowl can help contain ash, but it does not remove secondhand smoke. CDC says there is no safe level of secondhand-smoke exposure, including smoke from cigars.'
+      },
+      {
+        question: 'How many cigar rests do I need?',
+        answer: 'Use the maximum number of lit cigars that may be resting at once. A solo desk needs one; a shared table may need four. Also check spacing so lit ends remain over the bowl and cigars do not cross.'
+      },
+      {
+        question: 'Can I empty cigar ash directly into the trash?',
+        answer: 'Only after every ember and cigar end is fully out and the contents are cool. USFA recommends making smoking materials fully safe with water or sand before disposal; CPSC also advises cooling the contents first.'
+      },
+      {
+        question: 'Is the Stinky ashtray really windproof?',
+        answer: 'The current maker/listing uses that word and gives a three-inch bowl depth, but we did not conduct a wind test. Treat it as an open bowl, keep it attended, and use a more sheltered or purpose-built receptacle in exposed conditions.'
+      },
+      {
+        question: 'Can these ashtrays be used at a business or public venue?',
+        answer: 'Do not assume a household Amazon listing satisfies local fire code, smoke-free law, insurance, or facilities policy. Ask the authority or facility responsible for that location and use an approved commercial receptacle when required.'
+      }
+    ],
+    sources: [
+      { label: 'roygra single-rest black ceramic cigar ashtray — ASIN B07MQYTBB6', publisher: 'Amazon.com, rendered October 3, 2026', url: 'https://www.amazon.com/dp/B07MQYTBB6?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'USEAMIE matte-black four-rest silicone cigar ashtray — ASIN B0B59GKM55', publisher: 'Amazon.com, rendered October 3, 2026', url: 'https://www.amazon.com/dp/B0B59GKM55?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Original Stinky polished stainless-steel four-stirrup ashtray — ASIN B007P3FFKU', publisher: 'Amazon.com, rendered October 3, 2026', url: 'https://www.amazon.com/dp/B007P3FFKU?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Smoking fire safety: wide-base ashtrays, complete extinguishment, and outdoor preference', publisher: 'U.S. Fire Administration / FEMA', url: 'https://www.usfa.fema.gov/prevention/home-fires/at-risk-audiences/smoking/', sourceType: 'Government / technical reference' },
+      { label: 'Behavioral Mitigation of Smoking Fires: depth, sturdiness, placement, and disposal evidence', publisher: 'U.S. Fire Administration / FEMA', url: 'https://www.usfa.fema.gov/downloads/pdf/publications/fa-302-508.pdf', sourceType: 'Government / technical research' },
+      { label: 'Home safety checklist: keep ashtrays from combustibles and cool contents before disposal', publisher: 'U.S. Consumer Product Safety Commission', url: 'https://www.cpsc.gov/s3fs-public/701.pdf', sourceType: 'Government / technical reference' },
+      { label: 'About secondhand smoke: cigars are a source and no exposure level is safe', publisher: 'Centers for Disease Control and Prevention', url: 'https://www.cdc.gov/tobacco/secondhand-smoke/', sourceType: 'Government / technical reference' }
+    ]
+  },
+  {
     id: 'best-coolers-for-coolidor',
     slug: 'best-coolers-for-coolidor',
     title: 'Best Coolers for a Coolidor: 16-, 52-, and 100-Quart Models',
