@@ -716,47 +716,31 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     subCategory: 'cedar_tray',
     price: 0, // internal budget ref
     priceBracket: '$',
-    priceTierFormatted: '$ (Budget: Under $25)',
-    capacitySticks: 40,
-    asin: 'B079V3KYT7',
-    amazonSearchQuery: 'Mantello Spanish Cedar Cigar Tray with Adjustable Divider',
-    imageUrl: 'https://m.media-amazon.com/images/I/71oy2F3b3bL._AC_SL1500_.jpg',
-    description: 'Genuine solid kiln-dried Spanish cedar (Cedrela odorata) slatted tray with movable divider. Engineered to fit inside 7L containers or wineador shelves for air circulation.',
-    highlights: ['100% Authentic Kiln-Dried Spanish Cedar', 'Slatted Base for 360° Air Flow', 'Movable Partition Divider', 'Repels Tobacco Beetles & Promotes Aroma'],
-    pros: ['Provides the true cedar scent and aging chemistry to any plastic or cooler humidor', 'Slats allow humidity to circulate freely underneath sticks', 'Perfect dimensions for Sistema 7L or Igloo coolers'],
-    cons: ['Needs initial 14-day seasoning with Boveda 84% before loading cigars'],
-    bestFor: 'Adding authentic cedar aging to DIY Tupperdors and Coolidors.',
-    sealRating: 8.0,
+    priceTierFormatted: '$ (Two-tray set)',
+    capacitySticks: 0,
+    asin: 'B0DP5MH61B',
+    amazonSearchQuery: 'Mantello Spanish Cedar Cigar Trays 2 Pack B0DP5MH61B',
+    description: 'Two 12.5 × 7.5 × 2.25-inch cigar trays, each with an adjustable divider. The current listing describes Spanish-cedar sides and a cedar-veneered MDF base; it does not establish an exact cigar capacity.',
+    highlights: ['Two trays', 'One adjustable divider per tray', '12.5 × 7.5 × 2.25 inches each', 'Cedar-veneered MDF base disclosed by listing'],
+    pros: ['Organizes loose cigars in a sufficiently large measured enclosure', 'Removable dividers allow two sections per tray', 'Open tray layout leaves the contents visible'],
+    cons: ['Two trays stack to 4.5 inches before lid and cigar clearance', 'Not entirely solid Spanish cedar', 'No verified cigar-count capacity'],
+    bestFor: 'Optional loose-cigar organization in a container whose usable interior has been measured first.',
+    sealRating: 0,
     dimensions: '12.5" x 7.5" x 2.25"',
-    scorecard: {
-      sealIntegrity: 8.0,
-      thermalStability: 7.5,
-      humidityRetention: 8.5,
-      craftsmanship: 9.0,
-      valueScore: 9.6,
-    },
-    realWorldCapacity: {
-      coronas: 45,
-      robustos: 35,
-      torosChurchills: 28,
-      gordos: 20,
-      factoryBoxes: 0,
-      notes: 'Slatted base allows water vapor to circulate 360 degrees around cigar wrappers.'
-    },
     unitSpecificSeasoning: [
-      'Season inside an airtight bag with one Boveda 84% pack for 10-14 days before loading cigars.'
+      'Inspect the received trays, place them in the empty monitored enclosure, and allow the complete system to stabilize without directly wetting the wood.'
     ],
     whoShouldBuy: [
-      'Anyone building a Tupperdor, Coolidor, or lining a wine cooler.'
+      'Owners who have measured enough interior clearance and want removable dividers for loose cigars.'
     ],
     whoShouldAvoid: [
-      'Those who already own fully lined wooden humidors.'
+      'Owners of shallow containers, factory-box collections, or anyone expecting an entirely solid-cedar product.'
     ],
     failureModesToWatch: [
-      'Do not wet directly with water; seasoning with vapor prevents warp.'
+      'Do not force a lid closed over stacked trays or allow tray edges to press into cigars, humidity packs, a sensor, or the gasket.'
     ],
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['spanish-cedar-biology-guide', 'science-of-airtight-tupperdors']
+    relatedGuideSlugs: ['best-tupperdor-accessories', 'spanish-cedar-biology-guide', 'science-of-airtight-tupperdors']
   },
   {
     id: 'igloo-marine-cooler-54',
@@ -864,7 +848,6 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     capacitySticks: 0,
     asin: 'B07Y36FWTT',
     amazonSearchQuery: 'Govee Bluetooth Hygrometer Thermometer H5075 with LCD Screen',
-    imageUrl: 'https://m.media-amazon.com/images/I/61Vm0Qx+NEL._AC_SL1200_.jpg',
     description: 'A Bluetooth temperature and humidity monitor with an LCD display, app history, alerts while connected, and CSV export. Govee specifies ±3% RH accuracy; that is a maker specification, not our test result.',
     highlights: ['LCD temperature and humidity display', 'Bluetooth app connection', 'Preset app alerts while connected', 'Historical data and CSV export'],
     pros: ['Read the display without opening a glass-top humidor', 'Review local trends in the Govee Home app', 'Uses replaceable AAA batteries'],
@@ -880,7 +863,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     whoShouldAvoid: [
       'Owners who need alerts while away from Bluetooth range.'
     ],
-    relatedGuideSlugs: ['best-cigar-hygrometers', 'high-altitude-cigar-preservation', 'science-of-airtight-tupperdors']
+    relatedGuideSlugs: ['best-tupperdor-accessories', 'best-cigar-hygrometers', 'high-altitude-cigar-preservation', 'science-of-airtight-tupperdors']
   },
   {
     id: 'govee-wifi-hygrometer',
@@ -977,14 +960,13 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     capacitySticks: 300,
     asin: 'B00CPPG21Y',
     amazonSearchQuery: 'Boveda 69 Size 60 12 Count B00CPPG21Y',
-    imageUrl: 'https://m.media-amazon.com/images/I/81FH8PnY7mL._AC_SL1200_.jpg',
     description: 'The verified 12-count carton of individually wrapped Size 60 packs, labeled for two-way humidity control at 69% RH.',
     highlights: ['69% RH target', 'Twelve individually wrapped Size 60 packs', 'Maker sizes one pack per 25-count capacity', 'No reservoir or power'],
     pros: ['Simple passive setup', 'Enough packs for several small enclosures or up to a maker-rated 300-count total capacity', 'No refilling'],
     cons: ['Replacement is an ongoing consumable cost', 'Pack count follows enclosure capacity rather than current inventory', 'Does not control temperature'],
     bestFor: 'Small and medium airtight or well-sealed humidors where 69% is the chosen target.',
     sealRating: 0,
-    relatedGuideSlugs: ['glass-top-humidor-truth-leaks-sealing', 'best-humidor-humidifiers']
+    relatedGuideSlugs: ['best-tupperdor-accessories', 'glass-top-humidor-truth-leaks-sealing', 'best-humidor-humidifiers']
   },
   {
     id: 'boveda-72-brick',

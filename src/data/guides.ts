@@ -8,6 +8,191 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-tupperdor-accessories',
+    slug: 'best-tupperdor-accessories',
+    title: 'Best Tupperdor Accessories: Humidity, Monitoring, and Cedar',
+    subtitle: 'Build the useful three-part kit: a correctly sized humidity source, a local trend monitor, and an optional tray that actually fits. Nothing here cools the container or proves its seal.',
+    category: 'selection',
+    categoryLabel: 'Tupperdor Accessory Guide',
+    readTimeMinutes: 13,
+    ...editorialByline,
+    publishedDate: '2026-10-04',
+    reviewedDate: '2026-10-04',
+    heroVisual: 'accessory',
+    excerpt: 'Three verified tupperdor accessories compared by job, fit, setup, and limitations—with cedar treated as optional and every Amazon destination checked against the exact live variant.',
+    featuredProductIds: ['boveda-69-brick', 'govee-bluetooth-hygrometer', 'spanish-cedar-tray-mantello'],
+    relatedBlueprintIds: ['blueprint-tupperdor-7l'],
+    comparisonRows: [
+      {
+        productId: 'boveda-69-brick',
+        recommendationLabel: 'Humidity source for multiple setups',
+        fit: 'Owners who deliberately choose 69% RH and can use a twelve-pack across several containers or replacement cycles',
+        capacity: 'Twelve individually wrapped Size 60 packs; maker sizing is one pack per 25 cigars of enclosure capacity',
+        tradeoff: 'Bulk quantity, recurring replacement, one fixed RH target, and no temperature control'
+      },
+      {
+        productId: 'govee-bluetooth-hygrometer',
+        recommendationLabel: 'Local trend monitor',
+        fit: 'A nearby tupperdor where an LCD, Bluetooth history, and app alerts while in range are useful',
+        capacity: 'One black H5075, two included batteries, LCD, Bluetooth app connection, and maker-specified ±3% RH accuracy',
+        tradeoff: 'Not Wi-Fi, not a humidity controller, and the current listing publishes inconsistent dimensions'
+      },
+      {
+        productId: 'spanish-cedar-tray-mantello',
+        recommendationLabel: 'Optional two-tray organizer',
+        fit: 'A larger measured container where dividers and loose-cigar organization justify giving up interior volume',
+        capacity: 'Two 12.5 × 7.5 × 2.25-in trays, each with one adjustable divider',
+        tradeoff: 'Two trays stack to 4.5 in before clearance; listing discloses a cedar-veneered MDF base'
+      }
+    ],
+    useBrandedProductArt: true,
+    sections: [
+      {
+        id: 'what-this-kit-means',
+        title: '1. What “best tupperdor accessories” means here',
+        contentMarkdown: `A tupperdor needs an enclosure, a chosen humidity method, and a way to notice drift. Cedar can organize loose cigars and add wood surface, but it is optional. A sensor can report temperature and relative humidity, but it cannot change either one. A humidity pack can exchange moisture, but it cannot cool a warm room or repair a damaged gasket.
+
+We reviewed the current search results before writing. Better competing guides identify packs, a digital hygrometer, and cedar trays, but they commonly repeat changing prices and ratings, present maker accuracy or capacity figures as proven results, describe cedar as essential, and recommend two stacked trays without comparing their combined height with the container's actual interior. Several also call food containers airtight without a test or imply that a pack rating guarantees the same reading in every setup.
+
+This guide takes the narrower, more useful approach: one verified product for each distinct job, a fit check before purchase, current variant details, and explicit reasons to skip an accessory. It is not a lab test or a claim that these three products outperform every alternative.
+
+On October 4, 2026, we rendered the exact Amazon.com pages for Boveda 69% Size 60 twelve-count (B00CPPG21Y), the black one-pack Govee H5075 (B07Y36FWTT), and the Mantello two-tray package (B0DP5MH61B). Each page displayed the same brand, variant, quantity, and ASIN used here, and each showed an in-stock buying option for the selected session. Availability and delivery eligibility can change by address.
+
+The former Mantello catalog ASIN B079V3KYT7 now redirects to B0DP5MH61B. We use the live destination, not the stale identifier. The current listing also says the tray bottom is cedar-veneered medium-density fiberboard, so we do not describe the entire tray as solid Spanish cedar.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, badges, star ratings, review counts, popularity claims, or invented test results.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Compare three different jobs—not three substitutes',
+        contentMarkdown: `The [Boveda 69% Size 60 twelve-count](/products/boveda-69-rh-size-60-12-pack-review) is the moisture source. The [Govee H5075](/products/govee-bluetooth-digital-hygrometer-h5075-review) is the monitor. The [Mantello two-tray set](/products/mantello-spanish-cedar-cigar-tray-review) is optional organization. Buying more of one does not replace either of the other jobs.
+
+Start with the humidity target and enclosure capacity. Add a monitor if trend visibility is worth the occupied space and app dependency. Add cedar only after measuring the narrowest usable length, width, and height with the lid closed. The tray should not push the lid, gasket, latches, sensor, packs, or cigars out of position.
+
+The peer-reviewed tobacco sorption study in the sources supports the basic point that tobacco moisture content changes with surrounding relative humidity. It does not establish one universal RH target for every cigar or prove that any retail pack, sensor, container, or tray performs exactly as advertised.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '3. Six checks before buying the kit',
+        contentMarkdown: `**1. Choose an RH target deliberately.** A 69% pack is one option, not a universal rule. If your established preference is 65%, buying a 69% carton because it appears in a list is the wrong decision.
+
+**2. Size from enclosure capacity, then verify.** Boveda tells buyers to use one Size 60 for every 25 cigars the enclosure is designed to hold. That is manufacturer guidance, not our measured formula. Follow the current instructions, then watch a calibrated gauge and the cigars rather than assuming the printed target must equal every reading.
+
+**3. Separate measurement from control.** The H5075 reports conditions and stores local history. It does not add or remove moisture. NIST treats hygrometer calibration and uncertainty as a measurement problem; agreement between two inexpensive sensors is not the same as traceable accuracy.
+
+**4. Measure the inside.** Product pages often give exterior container dimensions. The Mantello listing gives 2.25 inches per tray, so two trays need 4.5 inches before clearance for cigar crowns, packs, the sensor, lid geometry, and tolerances.
+
+**5. Treat wood as material, not magic.** USDA's Wood Handbook documents that wood exchanges moisture and changes dimension with moisture content. That supports leaving clearance and avoiding improvised soaking. It does not prove that adding this tray will hold a precise RH or prevent insects, mold, or aroma transfer.
+
+**6. Measure room temperature.** A plastic box, cedar tray, pack, and H5075 are all passive with respect to heat. If the room is too warm or cold for the storage plan, use the [electric humidor guide](/guides/best-electric-cigar-humidors) instead of expecting accessories to correct it.`
+      },
+      {
+        id: 'boveda-69',
+        title: '4. Boveda 69% Size 60 twelve-count: the bulk humidity source',
+        contentMarkdown: `The rendered Amazon page matched ASIN B00CPPG21Y, twelve individually wrapped Size 60 packs, a 69% RH label, and an in-stock offer. Boveda's current instructions say to remove the clear outer wrap, leave the brown packet sealed, use one Size 60 for every 25 cigars of container capacity, avoid mixing RH levels or other humidification products, and replace packs on its stated schedule. Those are manufacturer instructions, not independent proof of a result in your container.
+
+**Choose it if** you maintain multiple containers or will use a bulk carton through replacement cycles. **Choose a smaller package instead** if one compact tupperdor needs only one or two packs; individually wrapped extras reduce the bulk-carton storage problem, but twelve may still be unnecessary. **Choose a different RH** if your established storage plan calls for one.
+
+The carton does not include a container, hygrometer, tray, holder, or temperature control. A pack that hardens unusually fast can indicate frequent opening, dry room air, excessive unused volume, a poor closure, or another moisture load. Investigate the system rather than automatically adding a stronger target.`
+      },
+      {
+        id: 'govee-h5075',
+        title: '5. Govee H5075: local display and Bluetooth history',
+        contentMarkdown: `The rendered Amazon page matched ASIN B07Y36FWTT, the black one-pack H5075, two included batteries, and a manual. The selected listing showed an in-stock offer sold by Govee US and shipped by Amazon. It lists an LCD, Bluetooth app connection, preset alerts while connected, history, and CSV export.
+
+Govee specifies ±3% RH accuracy and two-second updates. Its current official page publishes both 196 feet in marketing copy and 164 feet in the FAQ for open, unobstructed Bluetooth range. We treat both as maker information, not a range guarantee through a plastic box, wall, cabinet, or floor.
+
+The Amazon page also conflicts on physical dimensions: the top table shows 2.5 inches wide by 3.1 inches high, while its comparison chart shows 3.94 by 2.76 by 1.18 inches. Confirm the received unit before designing a fitted slot.
+
+**Choose it if** you want a readable local display plus nearby-phone history. **Choose the site's** [Wi-Fi hygrometer option](/products/govee-wifi-thermometer-hygrometer-h5179-review) if alerts away from Bluetooth range matter more than an on-device display. **Choose a smaller display-only gauge** if the H5075 consumes too much interior space.
+
+Check the H5075 against a trusted humidity reference before using an app offset. A number on a screen is evidence only after the reference method, stabilization time, and uncertainty are understood.`
+      },
+      {
+        id: 'mantello-trays',
+        title: '6. Mantello two-tray set: optional organization with a fit warning',
+        contentMarkdown: `The rendered Amazon page for the old catalog link redirected to ASIN B0DP5MH61B. The live title identifies two Mantello trays, each 12.5 by 7.5 by 2.25 inches, with one adjustable divider per tray. The page showed an in-stock offer sold by MIDDLEBROOK and shipped by Amazon.
+
+The listing's description says the sides are Spanish cedar and the base is cedar-veneered medium-density fiberboard. That construction matters: do not buy it under the assumption that every panel is solid Spanish cedar. We also found no current maker capacity standard for these trays, so we do not publish a cigar count.
+
+**Choose the set if** the measured container is large enough, you store loose cigars, and removable organization is worth the lost volume. **Use one tray** if two would crowd the lid area. **Skip the set** for factory-box storage, a shallow container, or a layout where packs and the sensor already fit cleanly without it.
+
+Two trays total 4.5 inches in nominal height before any clearance. The popular Sistema 7 L page gives about 4.7 inches as the container's exterior height, not guaranteed internal stacking room. That is too little evidence to promise that both trays fit without affecting closure. Measure the received parts; never force the lid or rely on an exterior dimension.`
+      },
+      {
+        id: 'setup',
+        title: '7. Set up the empty system before loading cigars',
+        contentMarkdown: `1. Wash a new food-storage container according to its maker's directions, rinse it, dry it completely, and confirm there is no persistent odor or damage.
+2. Inspect the gasket, rim, hinges, and latches. A marketing label is not a seal test.
+3. Measure usable interior length, width, and closed-lid height at the narrowest points. Include molded corners, gasket intrusion, handles, and lid ribs.
+4. Test the layout empty. Packs need room to remain intact; the H5075 display and battery door should remain accessible; no tray should push on the lid.
+5. If using the Mantello set, inspect both trays for rough edges, loose joints, odor, damage, and variant mismatch. Do not directly wet or modify them based on generic internet rituals.
+6. Add only the chosen humidity system. Follow its current sizing and handling instructions; do not mix RH levels or humidification systems unless the manufacturer explicitly supports it.
+7. Verify the hygrometer against a defensible reference, then record any justified offset. Let the empty closed system settle and watch the trend rather than reacting to each short reading.
+8. Load cigars with clearance around the lid, sensor, and packs. Avoid crushing wrappers against tray edges or packing so tightly that inspection becomes impossible.
+9. Recheck after openings and seasonal room changes. The [seasoning lab](/seasoning-lab) helps structure observations, while the [tupperdor blueprint](/blueprints/blueprint-tupperdor-7l) covers the container build.`
+      },
+      {
+        id: 'when-to-buy-something-else',
+        title: '8. When to buy something else',
+        contentMarkdown: `Buy a smaller pack quantity when twelve Size 60 packs exceed the realistic replacement plan. Buy 65% rather than 69% when that is the deliberate target for a sealed container. Do not mix targets in an attempt to calculate an average.
+
+Buy a Wi-Fi monitor when alerts must reach you away from Bluetooth range and the network/app dependency is acceptable. Buy a smaller gauge when interior volume matters more than history export.
+
+Skip cedar when factory boxes already organize the collection, when the tray blocks the lid or gasket, when the material disclosure is not acceptable, or when maximizing usable volume matters most. Cedar is not required for a plastic container to enclose cigars.
+
+Choose a larger [coolidor](/guides/best-coolers-for-coolidor) or [large-capacity humidor](/guides/best-large-capacity-humidors) when the collection has outgrown the container. Choose an [electric humidor](/guides/best-electric-cigar-humidors) when room temperature is the real problem. The [humidor finder](/) compares those formats without pretending accessories can turn one into another.`
+      },
+      {
+        id: 'final-decision',
+        title: '9. The shortest honest shopping list',
+        contentMarkdown: `For a working tupperdor, buy only the humidity source that matches the chosen target and enclosure capacity. Add the Govee H5075 when a local display and Bluetooth trend history justify its footprint. Add the Mantello set only after the actual interior has been measured and the cedar-veneered MDF base is acceptable.
+
+That order matters. Moisture control is the operating component, monitoring is verification, and cedar is optional organization. None of the three controls temperature, certifies the container's seal, or replaces periodic inspection.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'What accessories does a tupperdor actually need?',
+        answer: 'It needs a chosen humidity source and benefits from a verified hygrometer. A cedar tray is optional organization. None of those accessories controls room temperature or proves the container seal.'
+      },
+      {
+        question: 'Is 69% RH always best for a tupperdor?',
+        answer: 'No. The Boveda product here is a verified 69% option, not a universal target. Choose the RH intentionally for the cigars and setup, then verify the result with a defensible measurement method.'
+      },
+      {
+        question: 'How many Boveda Size 60 packs should I use?',
+        answer: 'Boveda currently instructs buyers to use one Size 60 for every 25 cigars the enclosure is designed to hold. That is manufacturer guidance. Follow the current package instructions and monitor the actual setup.'
+      },
+      {
+        question: 'Does the Govee H5075 work over Wi-Fi?',
+        answer: 'No. The H5075 uses Bluetooth and has a local LCD. Choose a Wi-Fi model if you need readings or alerts while away from Bluetooth range.'
+      },
+      {
+        question: 'Will two Mantello trays fit a Sistema 7 L container?',
+        answer: 'Do not assume so. Each tray is listed at 2.25 inches high, for 4.5 inches combined, while the container’s roughly 4.7-inch published height is exterior. Lid geometry, tolerances, accessories, and cigar clearance still need space.'
+      },
+      {
+        question: 'Are the Mantello trays solid Spanish cedar?',
+        answer: 'The current Amazon description says the tray has Spanish-cedar sides and a cedar-veneered MDF base. We therefore do not describe the entire tray as solid Spanish cedar.'
+      },
+      {
+        question: 'Do I need to season cedar trays for a tupperdor?',
+        answer: 'Do not follow a generic wet-wipe ritual. Wood exchanges moisture and can change dimension. Inspect the product, follow any current maker instructions, place it in the empty monitored system, and allow the complete setup to stabilize before loading valuable cigars.'
+      }
+    ],
+    sources: [
+      { label: 'Boveda 69% Size 60 twelve-count listing — ASIN B00CPPG21Y', publisher: 'Amazon.com, rendered October 4, 2026', url: 'https://www.amazon.com/dp/B00CPPG21Y?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Govee H5075 black one-pack listing — ASIN B07Y36FWTT', publisher: 'Amazon.com, rendered October 4, 2026', url: 'https://www.amazon.com/dp/B07Y36FWTT?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Mantello two-tray listing — ASIN B0DP5MH61B', publisher: 'Amazon.com, rendered October 4, 2026', url: 'https://www.amazon.com/dp/B0DP5MH61B?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Hygrometers and relative-humidity calibration', publisher: 'National Institute of Standards and Technology', url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers', sourceType: 'Government / technical reference' },
+      { label: 'Wood Handbook, Chapter 4: moisture relations and dimensional change', publisher: 'USDA Forest Products Laboratory, 2021', url: 'https://research.fs.usda.gov/treesearch/62243', sourceType: 'Government / technical reference' },
+      { label: 'H5075 model, Bluetooth, accuracy, alerts, and data specifications', publisher: 'Govee', url: 'https://us.govee.com/products/govee-bluetooth-hygrometer-thermometer-h5075', sourceType: 'Manufacturer instructions' },
+      { label: 'Size 60 sizing, handling, packaging, and replacement instructions', publisher: 'Boveda', url: 'https://store.bovedainc.com/products/boveda-for-cigars-size-60', sourceType: 'Manufacturer instructions' }
+    ]
+  },
+  {
     id: 'best-cigar-ashtrays',
     slug: 'best-cigar-ashtrays',
     title: 'Best Cigar Ashtrays: Compact, Flexible, and Deep-Bowl Picks',
