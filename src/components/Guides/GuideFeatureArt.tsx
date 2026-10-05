@@ -43,6 +43,7 @@ const visualConfig = {
   coolidor: { number: '13', label: 'COOLIDOR BUYING GUIDE', primary: Box, secondary: LockKeyhole, tertiary: Droplets },
   ashtray: { number: '14', label: 'ASHTRAY BUYING GUIDE', primary: Circle, secondary: Flame, tertiary: Wind },
   accessory: { number: '15', label: 'TUPPERDOR ACCESSORIES', primary: Box, secondary: Droplets, tertiary: Gauge },
+  infused: { number: '16', label: 'INFUSED CIGAR STORAGE', primary: Leaf, secondary: LockKeyhole, tertiary: Droplets },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;

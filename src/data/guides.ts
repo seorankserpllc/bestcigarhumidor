@@ -8,6 +8,202 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-humidors-for-infused-cigars',
+    slug: 'best-humidors-for-infused-cigars',
+    title: 'Best Humidors for Infused Cigars: Three Dedicated Enclosures',
+    subtitle: 'Compare a small acrylic box, upright jar, and 7 L utility container for keeping infused cigars in their own monitored storage system.',
+    category: 'selection',
+    categoryLabel: 'Infused Cigar Storage Guide',
+    readTimeMinutes: 13,
+    ...editorialByline,
+    publishedDate: '2026-10-05',
+    reviewedDate: '2026-10-05',
+    heroVisual: 'infused',
+    excerpt: 'Three verified dedicated enclosures compared by capacity basis, included equipment, cleanup, cedar exposure, and the limits of current aroma-transfer evidence.',
+    featuredProductIds: ['tisfa-small-acrylic', 'prestige-aj25-acrylic', 'sistema-236oz'],
+    relatedBlueprintIds: ['blueprint-tupperdor-7l'],
+    comparisonRows: [
+      {
+        productId: 'tisfa-small-acrylic',
+        recommendationLabel: 'Small ready-made enclosure',
+        fit: 'A small infused rotation when an included gauge and humidifier are useful starting components',
+        capacity: 'Listing claim: about 15–20 cigars depending on ring gauge',
+        tradeoff: 'Cedar bottom, unverified included gauge and humidifier, and no active temperature control'
+      },
+      {
+        productId: 'prestige-aj25-acrylic',
+        recommendationLabel: 'Simple upright jar',
+        fit: 'Longer cigars and a compact dedicated collection where visibility matters more than tray access',
+        capacity: 'Listing claim: 25 cigars and room for cigars up to 8 inches long',
+        tradeoff: 'No hygrometer included, cedar bottom lining, and inconvenient access to the lowest cigars'
+      },
+      {
+        productId: 'sistema-236oz',
+        recommendationLabel: 'Larger low-profile DIY system',
+        fit: 'A growing infused collection when utility, separate parts, and a shallow layout matter more than presentation',
+        capacity: '7 L food container; no maker cigar-count claim or cigar accessories',
+        tradeoff: 'Requires a separately sized humidity source and checked hygrometer; exterior dimensions do not prove usable cigar fit'
+      }
+    ],
+    useBrandedProductArt: true,
+    sections: [
+      {
+        id: 'what-these-picks-mean',
+        title: '1. What “best for infused cigars” means here',
+        contentMarkdown: `The useful buying decision is not which container can add flavor. It is which dedicated enclosure fits the infused cigars you actually keep, gives you a workable humidity system and checked reading, stays in a suitable room, and can remain separate from an unflavored collection.
+
+We reviewed the current search results before writing. Better competing pages consistently advise separate storage, but many stop before comparing actual enclosures. Common gaps include treating one RH range as universal, promising inevitable or immediate flavor transfer without direct cigar-storage measurements, calling a divider or cellophane an airtight barrier, recommending temporary bags without a time or inspection limit, and omitting the humidity source, sensor, temperature, cleanup, and retrieval space from the buying decision.
+
+This guide takes a narrower approach. It compares three verified enclosures that can be dedicated to infused cigars, explains what each includes and still needs, and treats aroma separation as prudent risk management rather than a quantified laboratory result. It does not claim that these products improve infusion, aging, flavor, or cigar quality.
+
+On October 5, 2026, we rendered the exact Amazon.com pages for the TISFA small acrylic humidor (B09LM167T7), Prestige Import Group AJ25 acrylic jar (B00J21X9IS), and Sistema KLIP IT Large 7 L food container (B00284AG5U). Each page displayed the same brand, model or size, included components, and ASIN used here. All three showed an in-stock buying option for the selected Argentina session. Availability and delivery eligibility can change by address.
+
+We did not own, fill, seal-test, odor-test, humidity-test, clean, or reuse these containers. Capacity, dimensions, materials, seals, and included components are current marketplace or manufacturer information—not independent results.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, badges, star ratings, review counts, popularity claims, or invented hands-on results.`
+      },
+      {
+        id: 'why-dedicated-storage',
+        title: '2. Why a dedicated enclosure is the conservative choice',
+        contentMarkdown: `Infused and flavored cigars introduce an aroma-management question that ordinary format comparisons often ignore. A peer-reviewed tobacco study found that volatile aroma compounds and perceived aroma changed during storage of cut tobacco. That supports the limited point that stored tobacco has a changing volatile environment. It does **not** measure transfer between finished cigars, identify a safe shared-storage time, or prove that one infused cigar changes every neighboring cigar.
+
+Research in another food-aging context found that porous oak retained volatile compounds and could transfer aroma when reused. We cite that as a mechanism warning for porous wood, not as direct evidence about Spanish cedar or cigars. We found no authoritative primary study that supplies a transfer rate for finished infused cigars in a household humidor.
+
+That evidence gap is a reason to avoid false precision. A dedicated enclosure, humidity source, and sensor are a reversible way to protect an unflavored collection from an uncertain exposure. A divider inside one shared air volume is organization, not isolation. Cellophane can protect wrappers from handling, but this guide does not treat it as a certified vapor barrier.
+
+If you are comfortable letting different infused cigars share aromas, one dedicated infused-cigar enclosure may be enough. If preserving distinct infusions matters, separate those groups too. The choice depends on how much aroma mixing you accept, not on an unsupported universal rule.`
+      },
+      {
+        id: 'compare-enclosures',
+        title: '3. Compare access, included parts, and replacement cost',
+        contentMarkdown: `The [TISFA small acrylic box](/products/tisfa-small-acrylic-cigar-humidor-review) is the most turnkey option here: the listing includes a humidifier and adjustable hygrometer. The [Prestige AJ25 jar](/products/prestige-aj25-acrylic-humidor-review) has a simpler upright shape and removable humidifier but no listed hygrometer. The [Sistema 7 L container](/products/sistema-236oz-7l-airtight-container-tupperdor-core-review) is the largest utility format and includes no cigar equipment.
+
+None of those component lists proves performance. An included gauge still needs a trustworthy reference. An included humidifier still needs current instructions and observation. A flexible food-container seal is not a guarantee that the container will hold one RH forever.
+
+Replacement cost also matters for dedicated aromatic storage. Acrylic and food-storage plastic use less porous interior material than a fully cedar-lined wood box, but TISFA and Prestige both include cedar at the bottom. If odor persists after maker-approved cleaning, retiring a compact enclosure from unflavored service may be more practical than trying to prove that every volatile compound is gone. We do not promise that any material can be restored to a neutral state.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '4. Seven criteria before buying dedicated storage',
+        contentMarkdown: `**1. Define the separation boundary.** The enclosure, humidity source, sensor, tray, and any cedar should stay with the infused collection. Moving an exposed pack or tray into an unflavored humidor defeats the point of a dedicated system.
+
+**2. Count by dimensions, not headlines.** Ring gauge, length, tubes, cellophane, accessories, and retrieval space change fit. Treat 15–20 and 25 as listing estimates. Do not convert Sistema's 7 L volume into a cigar count.
+
+**3. Choose the access pattern.** A shallow box makes each cigar easier to see. A jar saves surface width but makes the bottom harder to reach. A 7 L rectangle gives layout flexibility but occupies more shelf area.
+
+**4. Inventory the missing parts.** TISFA lists a hygrometer and humidifier. Prestige lists a humidifier but no gauge. Sistema includes neither. Use the [hygrometer guide](/guides/best-cigar-hygrometers) and [humidifier guide](/guides/best-humidor-humidifiers) to choose compatible parts without assuming the most powerful option is best.
+
+**5. Pick RH deliberately.** The peer-reviewed tobacco sorption research supports the principle that tobacco moisture changes with surrounding RH. It does not establish one setting for all infused cigars. Follow current instructions for the exact cigars and humidity product, then watch a checked sensor and cigar condition rather than copying a competitor's universal 70–72% claim.
+
+**6. Measure room temperature.** All three enclosures are passive. They cannot cool a hot shelf, heat a cold room, or correct direct sun. Move the storage location or evaluate a suitable [electric humidor](/guides/best-electric-cigar-humidors) when temperature—not humidity—is the limiting condition.
+
+**7. Plan for uncertain reuse.** Buy a format you are willing to keep dedicated. Porous cedar deserves special caution, and a persistent odor after approved cleaning is a reason not to move the enclosure back to an unflavored collection.`
+      },
+      {
+        id: 'tisfa-small',
+        title: '5. TISFA small: compact box with starter components',
+        contentMarkdown: `The rendered Amazon page matched ASIN B09LM167T7, the small TISFA clear acrylic model, and a listing claim of about 15–20 cigars depending on ring gauge. The page lists a clasp, rubber gasket, cedar at the bottom, adjustable hygrometer, and humidifier. It showed an in-stock offer shipped by Amazon and sold by TISFA.
+
+Those components make TISFA the shortest initial parts list, not a tested performance winner. The seller describes the seal, humidity retention, and humidifier in absolute language; we did not reproduce those results. Check the received clasp and gasket, compare the gauge with a trusted humidity reference, and follow the humidifier's instructions before loading cigars.
+
+**Choose it if** a small, shallow collection and visible gauge suit your routine. **Choose Prestige instead** if long cigars and a narrow upright footprint matter more. **Choose Sistema instead** if 15–20 is already too small or you want to select every humidity component yourself.
+
+The cedar bottom remains part of the dedicated aromatic environment. Do not assume that wiping the acrylic proves the cedar or humidifier is neutral for later unflavored use.`
+      },
+      {
+        id: 'prestige-aj25',
+        title: '6. Prestige AJ25: upright jar for longer cigars',
+        contentMarkdown: `The rendered Amazon page matched ASIN B00J21X9IS, model AJ25, one acrylic jar, clasp closure, integrated rubber gasket, Spanish cedar lining at the bottom, and a removable round black humidifier. The listing claims a 25-cigar capacity and room for cigars up to eight inches long. It does not list an included hygrometer. The page showed an in-stock offer shipped by Amazon and sold by Premier Cigar Humidors.
+
+The nine-inch-high by 5.25-inch-diameter listing dimensions make this the narrowest upright format here. That can help on a small shelf, but every cigar above the lowest layer must be moved to retrieve the bottom. The 25 count is not an independent fit test, and the humidifier occupies some of the stated space whether it is attached under the lid or placed at the bottom.
+
+**Choose it if** vertical storage fits the space and the infused collection includes long cigars. **Choose TISFA instead** if a rectangular layout and included gauge are more useful. **Choose Sistema instead** if you want a lower, broader layout with room for separately chosen equipment.
+
+Add a checked hygrometer sized so it does not crush wrappers or block the lid. Follow the current humidifier directions; the presence of a round humidifier does not establish one correct RH for every cigar.`
+      },
+      {
+        id: 'sistema-7l',
+        title: '7. Sistema 7 L: flexible DIY storage with no cigar claims',
+        contentMarkdown: `The rendered Amazon page matched ASIN B00284AG5U and one Sistema KLIP IT Large 7 L food-storage container. The listing identifies easy-locking clips, an extended flexible seal, modular stacking, and virgin plastic. It showed an in-stock offer sold and shipped by Amazon.com. It includes no cigars, humidity source, hygrometer, tray, or cigar-capacity promise.
+
+Sistema's current maker page lists style 1870 at 14 by 9.3 by 4.7 inches and allows removal of the seal for cleaning. Those are exterior dimensions and care information, not guaranteed internal cigar clearance or proof of an “airtight” cigar environment.
+
+**Choose it if** the infused collection is growing and a shallow utility container is acceptable. **Choose TISFA instead** if you want starter humidity components in the box. **Choose Prestige instead** if a vertical display jar is easier to place.
+
+Wash and completely dry the new container and seal according to Sistema's care instructions. Check for damage and lingering odor. Add one deliberately sized humidity method and a checked gauge; the [tupperdor guide](/guides/science-of-airtight-tupperdors) and [7 L blueprint](/blueprints) cover the assembly workflow. Do not season the plastic as though it were a wood humidor.`
+      },
+      {
+        id: 'setup',
+        title: '8. Set up the dedicated system before loading cigars',
+        contentMarkdown: `1. Confirm the received brand, model or size, ASIN, and included components. Return a cracked acrylic body, damaged gasket, warped lid, broken clasp, strong unexplained material odor, or wrong variant.
+2. Clean only as the maker permits. Fully dry the enclosure, removable seal, and accessories. Do not improvise with fragrance, solvent, ozone, or direct soaking of cedar.
+3. Label the enclosure and its loose components for infused-cigars-only use. Keep the humidity source, sensor, and cedar with that system.
+4. Add a checked hygrometer. NIST's calibration work illustrates why a displayed RH is a measurement with uncertainty; agreement between two inexpensive gauges is not proof that either is correct.
+5. Choose one humidity method and follow its current sizing and handling instructions. Do not mix products or RH targets unless their makers explicitly allow it.
+6. Run the closed empty system and observe the trend. A stable display does not prove the whole enclosure is uniform, but it can reveal a failed closure, exhausted source, or sensor problem before valuable cigars go in.
+7. Load cigars without forcing the lid or pressing wrappers against a humidifier. Keep enough room to retrieve a cigar without crushing or repeatedly unloading the container.
+8. Recheck the trend after loading. Change one variable at a time. The [seasoning lab](/seasoning-lab) can structure observations even when the enclosure itself does not require full wood-box seasoning.`
+      },
+      {
+        id: 'when-to-buy-something-else',
+        title: '9. When another option is better',
+        contentMarkdown: `Choose a smaller temporary bag only for a short, observed bridge when you have one or two cigars and no dedicated enclosure yet. A bag is not automatically puncture-proof, heat-protective, reusable forever, or equivalent to a rigid monitored container.
+
+Choose a larger [acrylic humidor](/guides/best-acrylic-humidors) or a dedicated coolidor when the infused collection has already outgrown seven liters. Choose a temperature-controlled cabinet only when the measured room requires it and the exact cabinet can remain dedicated; powered cooling does not remove the aroma-separation question.
+
+Avoid an expensive fully cedar-lined box if you are unwilling to keep it dedicated after aromatic exposure. Avoid all three picks if you need active temperature control, factory-box storage, or independently measured seal and odor-transfer performance. Those capabilities are not established by these listings.`
+      },
+      {
+        id: 'final-decision',
+        title: '10. The shortest honest recommendation',
+        contentMarkdown: `Buy the TISFA small when 15–20 is a plausible listing range and you want a gauge and humidifier included. Buy the Prestige AJ25 when long cigars and a narrow upright footprint matter, accepting that you must add a gauge. Buy the Sistema 7 L when utility, growth room, and separately chosen components matter more than presentation.
+
+Whichever format you choose, dedicate the entire system, verify the reading, keep room temperature within your storage plan, and treat every capacity and seal statement as something to check on the received unit. The [product catalog](/catalog) holds the exact records, the [humidor finder](/) compares permanent formats, and the [airtight-storage guide](/guides/science-of-airtight-tupperdors) explains the DIY route in more detail.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'Should infused cigars be stored separately from regular cigars?',
+        answer: 'A dedicated enclosure is the conservative choice because finished cigars share one air volume and porous components may retain volatile compounds. Direct household-humidor transfer rates are not well established, so this is risk management rather than a claim that contamination is immediate or inevitable.'
+      },
+      {
+        question: 'Can different infused cigars share one humidor?',
+        answer: 'They can if you accept possible aroma mixing within that infused-only collection. If preserving distinct coffee, spirit, sweet, or botanical profiles matters, use separate dedicated enclosures rather than dividers in one shared air volume.'
+      },
+      {
+        question: 'Does cellophane isolate an infused cigar?',
+        answer: 'Do not treat ordinary cigar cellophane as a certified airtight or vapor-proof barrier. It can reduce handling damage, but this guide found no primary evidence that it prevents aroma exchange well enough to justify shared storage with an unflavored collection.'
+      },
+      {
+        question: 'Do acrylic and plastic humidors need seasoning?',
+        answer: 'The enclosure itself does not need the full conditioning process used for an unfinished wood humidor. Clean and dry it as directed, then stabilize the humidity system. Any cedar insert still adds a moisture load and should be handled according to its current instructions.'
+      },
+      {
+        question: 'What RH should I use for infused cigars?',
+        answer: 'There is no universal value established by the sources used here. Follow current instructions for the exact cigars and humidity product, verify the hygrometer, and observe the cigars and trend rather than copying a blanket 70–72% recommendation.'
+      },
+      {
+        question: 'Will these humidors protect infused cigars from heat?',
+        answer: 'No. TISFA, Prestige AJ25, and Sistema 7 L are passive enclosures. They manage only the enclosed air and humidity equipment; the room still controls temperature.'
+      },
+      {
+        question: 'Can I reuse an infused-cigar humidor for regular cigars?',
+        answer: 'Do not assume cleaning proves neutrality, especially when cedar or another porous part retains odor. Follow maker-approved cleaning, replace exposed loose components when appropriate, and keep the enclosure dedicated if any aroma persists or uncertainty matters to you.'
+      }
+    ],
+    sources: [
+      { label: 'TISFA small acrylic humidor listing — ASIN B09LM167T7', publisher: 'Amazon.com, rendered October 5, 2026', url: 'https://www.amazon.com/dp/B09LM167T7?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Prestige Import Group AJ25 acrylic jar listing — ASIN B00J21X9IS', publisher: 'Amazon.com, rendered October 5, 2026', url: 'https://www.amazon.com/dp/B00J21X9IS?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Sistema KLIP IT Large 7 L listing — ASIN B00284AG5U', publisher: 'Amazon.com, rendered October 5, 2026', url: 'https://www.amazon.com/dp/B00284AG5U?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Aroma characteristics of stored tobacco cut leaves', publisher: 'Journal of Agricultural and Food Chemistry, 2004', url: 'https://pubmed.ncbi.nlm.nih.gov/15612776/', sourceType: 'Peer-reviewed research' },
+      { label: 'Wine uptake and volatile-compound retention in oak wood', publisher: 'Food Research International, 2019', url: 'https://doi.org/10.1016/j.foodres.2018.08.025', sourceType: 'Peer-reviewed research' },
+      { label: 'Hygrometers and relative-humidity calibration', publisher: 'National Institute of Standards and Technology', url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers', sourceType: 'Government / technical reference' },
+      { label: 'Wood Handbook: structure, moisture relations, and material properties', publisher: 'USDA Forest Products Laboratory', url: 'https://research.fs.usda.gov/fpl/wood-handbook', sourceType: 'Government / technical reference' },
+      { label: '7 L Rectangle dimensions, seal, and care instructions', publisher: 'Sistema', url: 'https://www.sistemaplastics.com/7l-rectangle', sourceType: 'Manufacturer instructions' }
+    ]
+  },
+  {
     id: 'best-tupperdor-accessories',
     slug: 'best-tupperdor-accessories',
     title: 'Best Tupperdor Accessories: Humidity, Monitoring, and Cedar',

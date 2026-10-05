@@ -499,7 +499,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     sealRating: 0,
     material: 'Clear acrylic with a rubber gasket and cedar at the bottom (listing information)',
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-acrylic-humidors']
+    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-acrylic-humidors', 'best-humidors-for-infused-cigars']
   },
   {
     id: 'klaro-felix-pro-acrylic',
@@ -546,7 +546,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     dimensions: '9" high x 5.25" diameter (listing)',
     material: 'Acrylic with Spanish cedar bottom lining',
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-humidors-for-beginners', 'best-acrylic-humidors']
+    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-humidors-for-beginners', 'best-acrylic-humidors', 'best-humidors-for-infused-cigars']
   },
   {
     id: 'xifei-acrylic-jar',
@@ -705,7 +705,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
       'Inspect the removable flexible seal after cleaning and confirm every clip closes evenly.'
     ],
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'high-altitude-cigar-preservation', 'best-humidors-for-beginners', 'best-humidors-for-small-spaces', 'best-humidors-for-long-term-storage']
+    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'high-altitude-cigar-preservation', 'best-humidors-for-beginners', 'best-humidors-for-small-spaces', 'best-humidors-for-long-term-storage', 'best-humidors-for-infused-cigars']
   },
   {
     id: 'spanish-cedar-tray-mantello',
