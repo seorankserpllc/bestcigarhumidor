@@ -136,7 +136,7 @@ export interface GuideSection {
   callout?: GuideCallout;
 }
 
-export type GuideVisual = 'wineador' | 'glass-top' | 'tupperdor' | 'altitude' | 'cedar' | 'travel' | 'hygrometer' | 'humidifier' | 'compact' | 'long-term' | 'cutter' | 'lighter' | 'coolidor' | 'ashtray' | 'accessory' | 'infused';
+export type GuideVisual = 'wineador' | 'glass-top' | 'tupperdor' | 'altitude' | 'cedar' | 'travel' | 'hygrometer' | 'humidifier' | 'compact' | 'long-term' | 'cutter' | 'lighter' | 'coolidor' | 'ashtray' | 'accessory' | 'infused' | 'solid-lid';
 
 export interface GuideComparisonRow {
   productId: string;

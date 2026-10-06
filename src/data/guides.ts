@@ -8,6 +8,201 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-solid-lid-humidors',
+    slug: 'best-solid-lid-humidors',
+    title: 'Best Solid-Lid Humidors: Compact, Medium, and Large Wooden Boxes',
+    subtitle: 'Compare three verified opaque-lid desktop humidors by realistic capacity range, included equipment, tray access, setup work, and the claims you still need to verify.',
+    category: 'selection',
+    categoryLabel: 'Solid-Lid Humidor Guide',
+    readTimeMinutes: 14,
+    ...editorialByline,
+    publishedDate: '2026-10-06',
+    reviewedDate: '2026-10-06',
+    heroVisual: 'solid-lid',
+    excerpt: 'Three current solid-lid wooden humidors compared without assuming that an opaque lid guarantees a perfect seal or that headline cigar counts are standardized.',
+    featuredProductIds: ['woodronic-wa5022-solid-lid', 'prestige-chalet-black-solid-lid', 'quality-importers-deauville-solid-lid'],
+    relatedBlueprintIds: ['blueprint-tupperdor-7l'],
+    comparisonRows: [
+      {
+        productId: 'woodronic-wa5022-solid-lid',
+        recommendationLabel: 'Compact clasped box',
+        fit: 'A small loose-cigar rotation where the narrow footprint and positive clasp matter',
+        capacity: 'Amazon page conflicts between 10 and 20 cigars; humidifier and dropper included, no gauge listed',
+        tradeoff: 'Tight vertical space, no tray or hygrometer, and no independent seal result'
+      },
+      {
+        productId: 'prestige-chalet-black-solid-lid',
+        recommendationLabel: 'Medium starter system',
+        fit: 'A traditional desktop collection that needs a divider, gauge, and humidifier in the box',
+        capacity: 'Listing says 20–50; maker catalog says 25–50; 10.5 × 8.75 × 4.25-inch exterior',
+        tradeoff: 'Broad count range, unverified included instruments, and no lift-out tray'
+      },
+      {
+        productId: 'quality-importers-deauville-solid-lid',
+        recommendationLabel: 'Larger tray layout',
+        fit: 'A larger loose-cigar collection that benefits from a lift-out tray and divided lower compartment',
+        capacity: 'Current maker catalog says 55–95 while Amazon says 100–150; gauge and humidifier included',
+        tradeoff: 'Conflicting count and height claims, larger conditioning load, and no temperature control'
+      }
+    ],
+    useBrandedProductArt: true,
+    sections: [
+      {
+        id: 'what-these-picks-mean',
+        title: '1. What “best solid-lid humidor” means here',
+        contentMarkdown: `A solid lid is useful when you want an understated wooden box, do not need to see the cigars while it is closed, and prefer to remove the glass-panel joint from the design. It is not proof of an airtight seal, stable humidity, premium wood, or better craftsmanship.
+
+We reviewed the current search results before choosing these products. The better comparison articles explain visibility, light exposure, and aesthetics. Common gaps remain: treating every opaque lid as better sealed, repeating universal humidity targets, copying headline cigar counts as if ring gauge did not matter, comparing no exact products, and omitting included gauges, humidifiers, tray clearance, lid swing, room temperature, and conflicting specifications.
+
+This guide makes a narrower buying decision. It compares three opaque-lid wood boxes at meaningfully different sizes and tells you what each current listing includes, what it omits, and where the published specifications disagree. We do not rank finish, seal, humidity stability, or durability from photographs or marketplace feedback.
+
+On October 6, 2026, we rendered the exact Amazon.com pages for the Woodronic WA-5022 (B07PPQMR12), black Prestige Import Group Chalet CHLT/BK (B004JH0X20), and Quality Importers Deauville HUM-100TY (B0055QM9W6). Each page displayed the same brand, model or variant, components, and ASIN used here. All three pages showed an active Add to Cart or Buy Now path for the selected Argentina session; availability and delivery eligibility can change by address.
+
+We did not buy, season, fill, seal-test, humidity-test, temperature-test, or durability-test these boxes. Capacity, dimensions, materials, included components, warranties, and seal language are current maker or marketplace information—not independent results.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, badges, star ratings, review counts, popularity claims, or invented hands-on results.`
+      },
+      {
+        id: 'solid-versus-glass',
+        title: '2. What an opaque lid changes—and what it does not',
+        contentMarkdown: `An opaque lid blocks the direct view of the cigars and removes a transparent panel from the lid. That can simplify placement when the box would otherwise tempt you to display it near a window, but the entire humidor still belongs away from direct sun, heaters, vents, and large temperature swings.
+
+The useful construction question is not “glass or wood?” by itself. It is whether the received lid is flat, the mating surfaces meet evenly, the hinges hold alignment, any lock or clasp closes normally, and the conditioned enclosure maintains a credible trend. A poorly aligned solid lid can perform worse than a carefully built glass top. None of the three manufacturers publishes independent water-vapor transmission or whole-box leakage data for these exact products.
+
+Wood adds another variable. The USDA Wood Handbook explains that wood exchanges moisture with surrounding air and changes dimension with moisture content. That supports slow, maker-directed conditioning and clearance checks; it does not prove that Spanish cedar alone regulates a box to one target RH or repairs a bad lid fit.
+
+Choose a [glass-top humidor](/guides/best-glass-top-humidors) if viewing the collection without opening the lid is worth the extra glazing joint and placement care. Choose solid-lid when opacity, a traditional furniture look, and a simpler lid are higher priorities. Judge either format by the received unit, not the category label.`
+      },
+      {
+        id: 'comparison',
+        title: '3. Compare capacity basis, included parts, and access',
+        contentMarkdown: `The [Woodronic WA-5022](/products/woodronic-wa5022-solid-lid-humidor-review) is the compact clasped box and includes a humidifier but no listed gauge. The [Prestige Chalet](/products/prestige-chalet-black-solid-lid-humidor-review) is the middle option with an external hygrometer, humidifier, and divider. The [Quality Importers Deauville](/products/quality-importers-deauville-solid-lid-humidor-review) adds the largest body, lift-out tray, lower dividers, lock, side handles, gauge, and rectangular humidifier.
+
+These are not three lab-tested performance winners. They are three different storage layouts with current, exact buying destinations. Read the capacity column as a planning range, not a promise.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '4. Seven criteria before buying a solid-lid box',
+        contentMarkdown: `**1. Plan from the cigars, not the model name.** Count the actual lengths and ring gauges you store. Tubes, cellophane, dividers, a tray, gauge, and humidifier all consume room. Leave retrieval space instead of filling every visible gap.
+
+**2. Reconcile conflicting claims.** Woodronic's current page uses both 10-cigar and 20-cigar language. The Deauville's current maker catalog says 55–95 while Amazon says 100–150. Use the lower documented range until the received interior proves otherwise.
+
+**3. Measure the operating envelope.** Exterior dimensions do not include the full lid swing, fingers around a clasp, side-handle clearance, or the room needed to remove a tray. Measure the shelf or desk with the box open.
+
+**4. Inventory the humidity system.** All three list a humidifier. Chalet and Deauville list a hygrometer; Woodronic does not. Included does not mean accurate, correctly sized, clean, or ready to use. The [humidifier guide](/guides/best-humidor-humidifiers) and [hygrometer guide](/guides/best-cigar-hygrometers) explain the separate decisions.
+
+**5. Inspect the closure instead of trusting “airtight.”** Check a new box for lid twist, hinge movement, debris, an uneven seam, damaged clasp or lock, and accessories that interfere with closure. Watch the stabilized humidity trend after conditioning. A paper strip can reveal a large local gap; it is not a certified pressure or vapor test.
+
+**6. Keep temperature responsibility with the room.** These are passive boxes. They cannot cool a warm office, heat a cold room, or protect against direct solar heating. Measure the room first and choose an [electric humidor](/guides/best-electric-cigar-humidors) only when active temperature control is actually needed.
+
+**7. Decide whether wood care is worth it.** Wood interiors need gradual conditioning and observation. If low setup work and enclosure efficiency matter more than furniture finish, compare the [7 L tupperdor route](/guides/science-of-airtight-tupperdors).`
+      },
+      {
+        id: 'woodronic-wa5022',
+        title: '5. Woodronic WA-5022: compact clasped storage',
+        contentMarkdown: `The rendered Amazon page matched ASIN B07PPQMR12, model WA-5022, a walnut-finish solid-lid box with Spanish cedar lining, front clasp, humidifier, and dropper. The page listed 8.6 by 5.7 by 2.7 inches and showed an offer sold by Woodronic and shipped by Amazon.
+
+Capacity is the important warning. The title says 20 cigars, a bullet says 10–20, and Woodronic's comparison module says up to 10. We therefore treat it as a compact box whose fit must be measured—not a dependable 20-cigar purchase. The exterior height is only 2.7 inches before accounting for the lid, base, lining, and mounted humidifier.
+
+**Choose it if** a small loose-cigar rotation and positive clasp suit your desk or luggage. **Choose Chalet instead** if an included gauge and more vertical room matter. **Choose Deauville instead** if you need a tray and divided lower compartment.
+
+Woodronic calls the closure airtight and makes preservation claims; we did not reproduce those as results. Add a small checked gauge, confirm that the humidifier cannot touch wrappers, and reject a unit whose clasp pulls a visibly twisted lid into place rather than closing an aligned box.`
+      },
+      {
+        id: 'prestige-chalet',
+        title: '6. Prestige Chalet: the balanced middle size',
+        contentMarkdown: `The rendered Amazon page matched ASIN B004JH0X20, the black CHLT/BK Chalet—not the CHLTG/BK glass-top variant. The page and current Prestige catalog identify an opaque black box with Spanish cedar lining, internal locking hinges, adjustable divider, external hygrometer, humidifier, felt bottom, and 10.5 by 8.75 by 4.25-inch exterior. Amazon showed an active offer sold by Premier Cigar Humidors and shipped by Amazon.
+
+Amazon says 20–50 cigars; Prestige's catalog says 25–50. That broad range is more honest than one exact number, but it still depends on cigar size and component placement. The externally readable gauge does not require opening the lid for a glance, although its reading still needs verification against a trusted reference.
+
+**Choose it if** you want the most conventional starter system here: a medium box, divider, gauge, and humidifier. **Choose Woodronic instead** if footprint matters more than included monitoring. **Choose Deauville instead** if you need tray access and a larger lower compartment.
+
+Inspect the black finish, hinge stops, divider fit, and lid seam when it arrives. A lock is not a humidity feature, and the presence of both a hygrometer and humidifier does not establish calibration or one correct RH for every cigar.`
+      },
+      {
+        id: 'quality-importers-deauville',
+        title: '7. Quality Importers Deauville: larger tray-based layout',
+        contentMarkdown: `The rendered Amazon page matched ASIN B0055QM9W6 and model HUM-100TY: high-gloss maple finish, tobacco-leaf inlay, opaque lid, Spanish cedar interior, lift-out tray, lower dividers, glass hygrometer, rectangular humidifier, lock, side handles, and maintenance instructions. The page showed an active offer sold by Cigar Warehouse and shipped by Amazon.
+
+The current claims disagree materially. Amazon says 100–150 cigars and lists 13.5 by 9.5 by 6.5 inches. Quality Importers' Spring 2025 catalog lists the same HUM-100TY at 55–95 cigars and 13.5 by 9.5 by 6.25 inches. Use 55–95 as the safer planning range and measure the received unit; neither number is an independent capacity test.
+
+**Choose it if** a removable upper tray and divided lower storage justify the larger footprint. **Choose Chalet instead** if one open level is easier to manage. **Choose Woodronic instead** if you store only a small rotation.
+
+The seller's SureSeal language is a manufacturer feature name, not independent proof of leakage performance. Verify lid alignment, confirm that handles and lock do not loosen, compare the glass hygrometer with a trusted reference, and make sure the top-mounted accessories remain secure and clear of the cigars.`
+      },
+      {
+        id: 'setup',
+        title: '8. Commission the empty box before valuable cigars go in',
+        contentMarkdown: `1. Match the received brand, model, color, ASIN, dimensions, tray, dividers, gauge, humidifier, and hardware to the order. Return the wrong variant or a visibly damaged box.
+2. Let shipping temperature equalize while the box is empty and closed. Inspect for finish odor, loose hardware, cracks, lifted lining, lid twist, and an uneven seam.
+3. Read the exact received instructions. Do not substitute a competitor's seasoning method. Keep standing water and wet cloths off finished wood unless the maker explicitly directs otherwise.
+4. Verify the hygrometer or add a checked one. NIST's fixed-humidity research illustrates that humidity references have known values and uncertainty; agreement between two unverified displays is not proof.
+5. Condition the cedar gradually with a compatible method. The [seasoning lab](/seasoning-lab) can help log time, room conditions, and readings without declaring a one-day universal schedule.
+6. Run the empty closed box until the trend is credible. Check more than one position in the Deauville because the tray divides the volume. A stable display does not prove perfect uniformity or zero leakage.
+7. Load conservatively. Keep wrappers clear of the humidifier, sensor, hinges, and tray edges. Do not compress cigars to reach the largest headline count.
+8. Recheck after loading and after room-season changes. Change one variable at a time so a low or high reading has a diagnosable cause.`
+      },
+      {
+        id: 'when-to-buy-something-else',
+        title: '9. Reasons to choose a different humidor',
+        contentMarkdown: `Choose a glass top if the collection is part of the display and the box can stay away from direct sun. Choose acrylic or a gasketed food container if easy inspection and low wood-conditioning work matter more than furniture finish.
+
+Choose an electric cabinet if measured room temperature routinely falls outside the cigar maker's storage plan. Do not buy a passive wooden box and expect extra humidifier capacity to solve heat.
+
+Choose a [travel humidor](/guides/best-travel-humidors) for impact protection and packing. Woodronic markets the WA-5022 for travel, but a decorative wood box is not automatically waterproof, crushproof, pressure-equalizing, or airline-compliant.
+
+Avoid all three if you need independently measured leakage, humidity uniformity, temperature performance, working cigar capacity, or long-term durability. Those results are not available for these exact units in the sources reviewed.`
+      },
+      {
+        id: 'final-decision',
+        title: '10. The shortest honest recommendation',
+        contentMarkdown: `Buy the Woodronic only after treating 10–20 as a disputed listing range and adding a checked hygrometer. Buy the Chalet when a medium one-level layout with a gauge, humidifier, and divider is the useful compromise. Buy the Deauville when the tray and larger divided compartment matter enough to accept the 55–95 versus 100–150 capacity conflict.
+
+No solid lid earns a performance award from opacity alone. Measure the cigars and operating space, inspect the received closure, verify the gauge, condition the wood gradually, and keep the room within the storage plan. The [product catalog](/catalog) contains the exact records, the [humidor finder](/) compares other formats, and the [glass-top guide](/guides/best-glass-top-humidors) covers the alternative design.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'Does a solid lid seal better than a glass top?',
+        answer: 'Not automatically. A solid lid removes one glazing joint, but whole-box performance still depends on lid flatness, hinge alignment, mating surfaces, hardware, and the received unit. Inspect and monitor the box rather than treating opacity as a seal test.'
+      },
+      {
+        question: 'Can sunlight reach cigars through a solid lid?',
+        answer: 'An opaque closed lid blocks the direct view and direct light path through the top. The box can still heat in sun or near a hot window, so every passive humidor belongs in a stable, shaded room.'
+      },
+      {
+        question: 'How many cigars fit the Woodronic WA-5022?',
+        answer: 'The current Amazon page conflicts: the title says 20, a bullet says 10–20, and a manufacturer comparison module says up to 10. Treat it as a small measured-fit box rather than relying on 20.'
+      },
+      {
+        question: 'Is the black Prestige Chalet the glass-top version?',
+        answer: 'The verified ASIN B004JH0X20 is model CHLT/BK, the opaque black Chalet. Prestige identifies the glass-top black model separately as CHLTG/BK.'
+      },
+      {
+        question: 'Does the Deauville hold 150 cigars?',
+        answer: 'Amazon currently says 100–150, while Quality Importers\' current catalog says 55–95 for model HUM-100TY. Plan from the lower maker range and the dimensions of your actual cigars; neither figure is an independent fit test.'
+      },
+      {
+        question: 'Do these wooden humidors need seasoning?',
+        answer: 'Their cedar interiors need gradual conditioning according to the exact received instructions. Do not improvise with soaking or a universal schedule; verify the gauge and observe the empty enclosure before loading.'
+      },
+      {
+        question: 'Do any of these humidors control temperature?',
+        answer: 'No. All three are passive wooden boxes. They need a suitable room and cannot cool, heat, or correct direct sun and strong seasonal temperature swings.'
+      }
+    ],
+    sources: [
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Wood Handbook: moisture relations and dimensional change', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr282.pdf', sourceType: 'Government / technical reference' },
+      { label: 'Humidity fixed points of binary saturated aqueous solutions', publisher: 'National Bureau of Standards (NIST)', url: 'https://nvlpubs.nist.gov/nistpubs/jres/81a/jresv81an1p89_a1b.pdf', sourceType: 'Government / technical research' },
+      { label: 'Woodronic WA-5022 solid-lid humidor, ASIN B07PPQMR12', publisher: 'Amazon.com rendered product page', url: 'https://www.amazon.com/dp/B07PPQMR12?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Prestige Chalet black CHLT/BK, ASIN B004JH0X20', publisher: 'Amazon.com rendered product page', url: 'https://www.amazon.com/dp/B004JH0X20?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Prestige Import Group catalog: Chalet model specifications', publisher: 'Prestige Import Group', url: 'https://www.prestigeimportgroup.com/catalog/prestigecatalog.pdf', sourceType: 'Manufacturer instructions' },
+      { label: 'Quality Importers Deauville HUM-100TY, ASIN B0055QM9W6', publisher: 'Amazon.com rendered product page', url: 'https://www.amazon.com/dp/B0055QM9W6?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Spring 2025 catalog: Deauville HUM-100TY specifications', publisher: 'Quality Importers', url: 'https://www.qualityimporters.com/site/assets/QI/Catalogs/QI%20Catalog%20Spring%202025_SM.pdf', sourceType: 'Manufacturer instructions' }
+    ]
+  },
+  {
     id: 'best-humidors-for-infused-cigars',
     slug: 'best-humidors-for-infused-cigars',
     title: 'Best Humidors for Infused Cigars: Three Dedicated Enclosures',

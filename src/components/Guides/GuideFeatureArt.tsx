@@ -44,6 +44,7 @@ const visualConfig = {
   ashtray: { number: '14', label: 'ASHTRAY BUYING GUIDE', primary: Circle, secondary: Flame, tertiary: Wind },
   accessory: { number: '15', label: 'TUPPERDOR ACCESSORIES', primary: Box, secondary: Droplets, tertiary: Gauge },
   infused: { number: '16', label: 'INFUSED CIGAR STORAGE', primary: Leaf, secondary: LockKeyhole, tertiary: Droplets },
+  'solid-lid': { number: '17', label: 'SOLID-LID HUMIDORS', primary: Box, secondary: LockKeyhole, tertiary: Gauge },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;
