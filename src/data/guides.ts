@@ -8,6 +8,205 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-humidors-for-apartments',
+    slug: 'best-humidors-for-apartments',
+    title: 'Best Humidors for Apartments: Four Space-Smart Formats Compared',
+    subtitle: 'Compare a low-profile DIY container, compact acrylic box, traditional wood humidor, and small electric cabinet by footprint, setup, noise, and room-temperature limits.',
+    category: 'selection',
+    categoryLabel: 'Apartment Humidor Guide',
+    readTimeMinutes: 14,
+    ...editorialByline,
+    publishedDate: '2026-10-08',
+    reviewedDate: '2026-10-08',
+    heroVisual: 'wineador',
+    excerpt: 'Four current storage options for apartment owners compared by real footprint, working capacity, setup burden, visibility, power, and temperature responsibility.',
+    featuredProductIds: ['sistema-236oz', 'tisfa-small-acrylic', 'prestige-chalet-black-solid-lid', 'kingchii-16l'],
+    relatedBlueprintIds: ['blueprint-converted-wineador', 'blueprint-tupperdor-7l'],
+    comparisonRows: [
+      {
+        productId: 'sistema-236oz',
+        recommendationLabel: 'Low-profile utility pick',
+        fit: 'A renter who values shallow, stackable storage over furniture styling',
+        capacity: '7 L / 236 oz food container; no maker cigar count or cigar accessories',
+        tradeoff: 'Requires a separately sized humidity source and checked hygrometer'
+      },
+      {
+        productId: 'tisfa-small-acrylic',
+        recommendationLabel: 'Compact visible storage',
+        fit: 'A small daily rotation that should remain visible without opening the lid',
+        capacity: 'Listing claim about 15–20 cigars; clasp, gasket, cedar bottom, gauge, and humidifier',
+        tradeoff: 'Passive temperature, listing-only capacity, and an included gauge that still needs checking'
+      },
+      {
+        productId: 'prestige-chalet-black-solid-lid',
+        recommendationLabel: 'Traditional desktop box',
+        fit: 'A renter who wants an opaque furniture-style box in a temperature-stable room',
+        capacity: 'Maker/listing range about 25–50; divider, external gauge, humidifier, felt base',
+        tradeoff: 'Wood needs conditioning, accessories need verification, and the box cannot correct room heat'
+      },
+      {
+        productId: 'kingchii-16l',
+        recommendationLabel: 'Compact temperature control',
+        fit: 'An apartment whose measured room temperature needs heating or cooling',
+        capacity: 'Maker/listing claim up to 100; two cedar layers, fan, gauge, and separate humidity method',
+        tradeoff: 'Powered, deeper than its narrow face, needs ventilation, and does not control humidity automatically'
+      }
+    ],
+    useBrandedProductArt: true,
+    sections: [
+      {
+        id: 'why-apartments-are-different',
+        title: '1. Apartment storage is a space-and-room problem first',
+        contentMarkdown: `The best apartment humidor is not automatically the smallest box. It has to fit the shelf, leave room to open, work with the apartment's real temperature, and avoid creating a maintenance chore in a shared living space. A low-profile sealed container, clear acrylic box, traditional wood humidor, and compact electric cabinet solve different versions of that problem.
+
+We reviewed the current search results before choosing these formats. Competing articles often cover compact dimensions and headline cigar counts well. Common omissions are full door or lid clearance, cord and ventilation space, the difference between passive humidity storage and temperature control, the accessories displaced by cigars, and the fact that a humidor does nothing to make indoor smoking safe or lease-compliant.
+
+On October 8, 2026, we rendered the exact Amazon.com pages for Sistema B00284AG5U, TISFA B09LM167T7, Prestige Import Group B004JH0X20, and KingChii B0BQJ5H5YT. Brand, variant, size or capacity language, included components, and ASIN matched the catalog records used here. Sistema, TISFA, and KingChii showed in stock. The Chalet had an active buy box shipped by Amazon and sold by Premier Cigar Humidors. Availability and delivery eligibility can change by address.
+
+We did not own, fill, season, sound-test, or measure these products. Capacity, dimensions, temperature ranges, component lists, and other product facts are maker or marketplace information unless a source says otherwise.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, badges, star ratings, review counts, popularity claims, or invented hands-on results.`
+      },
+      {
+        id: 'shortlist',
+        title: '2. The shortest useful shortlist',
+        contentMarkdown: `Choose the [Sistema 7 L container](/products/sistema-236oz-7l-airtight-container-tupperdor-core-review) when utility, shallow height, and stackability matter more than appearance. It is a food container, not a turnkey humidor, so add a correctly sized humidity source and checked hygrometer.
+
+Choose the [TISFA small acrylic humidor](/products/tisfa-small-acrylic-cigar-humidor-review) for a compact visible rotation. Choose the [Prestige Chalet](/products/prestige-chalet-black-solid-lid-humidor-review) when an opaque wood box and divider belong on the desk and the room temperature is already suitable.
+
+Choose the [KingChii 16 L](/products/kingchii-16l-electric-cigar-humidor-review) only when measured apartment temperature—not just humidity—is the problem. Its narrow face is useful, but the roughly 19–20-inch published depth, door swing, rear clearance, outlet, fan, and manual humidity method make it the least space-simple option here.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '3. Seven apartment criteria that headline capacity misses',
+        contentMarkdown: `**1. Measure the whole operating envelope.** Record shelf width, depth, and height, then add lid or door swing, fingers, cords, ventilation, and removal space. KingChii is only 9.8 inches wide on the maker page but 20 inches deep before clearance; Amazon's current table instead lists 10.2 × 18.7 × 19.5 inches, so verify the received unit before choosing furniture.
+
+**2. Inventory real cigars and accessories.** Long cigars, large ring gauges, tubes, boxes, dividers, gauges, and humidity sources consume the advertised volume. Product counts are not a shared test standard.
+
+**3. Measure room temperature.** Sistema, TISFA, and Prestige are passive. They cannot cool a sunny shelf, warm a cold room, or cancel seasonal swings. KingChii is the only temperature-controlled option here, and humidity still remains separate.
+
+**4. Decide whether visibility helps.** Clear acrylic makes the contents easy to check without opening. An opaque wood box hides the collection from casual view. A utility container can be tucked away. None is a security device.
+
+**5. Count maintenance, not just purchase parts.** Wood needs conditioning; a DIY container needs separately chosen accessories; included gauges need checking; electric storage adds cleaning, power, ventilation, and another failure mode.
+
+**6. Protect the rental surface.** Use a stable, level shelf and follow the product's care instructions. Keep free water away from furniture and electronics. A felt base reduces abrasion but does not make a wet humidifier spill-proof.
+
+**7. Read the lease and building rules.** Storage is different from smoking. A sealed humidor does not remove secondhand smoke, make ventilation protective, or override a smokefree policy.`
+      },
+      {
+        id: 'humidity-science-and-shared-air',
+        title: '4. Preserve cigars without confusing storage with air quality',
+        contentMarkdown: `Relative humidity depends on temperature as well as the amount of water vapor in the air. A cabinet can show a changing RH value while it cools or heats even if no water has been added or removed. That is one reason to let the empty system stabilize before changing the humidity source.
+
+Tobacco is hygroscopic. Peer-reviewed sorption work shows that its equilibrium moisture changes with surrounding relative humidity and that different tobacco types do not follow one identical curve. This supports steady monitoring and cautious adjustment; it does not establish one universal household cigar set point.
+
+Wood adds another moisture reservoir. The USDA Wood Handbook explains that wood exchanges moisture with surrounding air and changes dimension with moisture content. Cedar shelves can buffer changes after equilibration, but they do not create a target RH, repair a poor door closure, or replace a humidifier.
+
+For gauge checks, NIST's fixed-humidity research documents reference values, temperature effects, equilibrium, and uncertainty. A casual salt container is not a magic 75% truth under every procedure. Use a documented method and give it time.
+
+The apartment-specific safety point is separate: the CDC says secondhand smoke can move between units and that ventilation or air cleaning cannot fully eliminate exposure. Store cigars where appropriate, but smoke only where the lease, building policy, and applicable law allow—and away from other residents. A humidor contains unlit cigars; it is not an air-cleaning device.`
+      },
+      {
+        id: 'sistema-7l',
+        title: '5. Sistema 7 L: shallow utility storage',
+        contentMarkdown: `The rendered Amazon page matched ASIN B00284AG5U, the 236-ounce / 7 L Sistema KLIP IT container. Sistema lists a rectangular clip-lid food container with a flexible seal. It is not marketed as a humidor and includes no cigar count, cedar, hygrometer, or humidity source.
+
+Its useful apartment feature is the listed 14 × 9.3 × 4.7-inch shape. That low height can suit a deep shelf or closet better than an upright jar or electric cabinet, but measure the 14-inch length and the lid-opening space. Do not publish your own cigar count from liters; lay out the actual cigars and reserve room for monitoring and humidification.
+
+**Choose it if** discreet, stackable utility matters and you are willing to assemble a simple system. **Choose TISFA instead** if you want included accessories and visibility. **Choose Prestige instead** if a traditional wood box belongs in the room. The [tupperdor guide](/guides/science-of-airtight-tupperdors) explains setup in depth.`
+      },
+      {
+        id: 'tisfa-small-acrylic',
+        title: '6. TISFA small acrylic: compact and visible',
+        contentMarkdown: `The rendered Amazon page matched ASIN B09LM167T7 and the small clear acrylic variant. The listing describes a clasp, rubber gasket, cedar at the bottom, adjustable hygrometer, humidifier, and space for about 15–20 cigars depending on ring gauge. That count is marketplace language, not our fit test.
+
+Clear walls let you see the contents and front gauge without opening the lid. That can reduce unnecessary openings, but it also means the collection is visible and light reaches the cigars. Keep it away from windows and direct sun. Acrylic does not need whole-box wood seasoning, while the cedar piece and humidity source still need the exact instructions.
+
+**Choose it if** the collection is a small daily rotation and quick visual checks matter. **Choose Sistema instead** for a lower, more discreet utility box. **Choose Prestige instead** for opaque furniture styling and more divided space. The [acrylic guide](/guides/best-acrylic-humidors) compares more clear formats.`
+      },
+      {
+        id: 'prestige-chalet',
+        title: '7. Prestige Chalet: a traditional opaque desktop box',
+        contentMarkdown: `The rendered Amazon page matched ASIN B004JH0X20, the black Prestige Import Group Chalet. Current listing and maker information identify an opaque Spanish-cedar-lined box with an adjustable divider, external hygrometer, humidifier, felt bottom, and internal locking hinges. Published capacity spans roughly 20–50 or 25–50 cigars, so measure rather than planning around the upper number.
+
+The listed 10.5 × 8.75 × 4.25-inch exterior is easier to place than a powered cabinet, and the felt base suits a finished desk. It still needs enough height to open the lid, and unfinished interior wood must be conditioned by the maker's instructions before cigars are loaded. The included gauge and humidifier are components, not proof of accuracy or a stable result.
+
+**Choose it if** you want a traditional box that hides the collection and the apartment temperature is already suitable. **Choose TISFA instead** for visibility and less wood conditioning. **Choose KingChii instead** only when measured temperature calls for active correction.`
+      },
+      {
+        id: 'kingchii-16l',
+        title: '8. KingChii 16 L: narrow temperature control with a deep footprint',
+        contentMarkdown: `The rendered Amazon page matched ASIN B0BQJ5H5YT, model XJG-16C, the black 16 L two-layer variant. It lists Spanish cedar storage, circulation fan, built-in hygrometer, double-layer glass, touch controls, and a maker-claimed capacity of up to 100 cigars. The exact page showed an offer sold by KingChii and shipped by Amazon during verification.
+
+The maker lists a 20 × 9.8 × 14.1-inch cabinet and heating plus cooling from 54–74°F. Amazon's current table instead lists 10.2 × 18.7 × 19.5 inches, while its main bullet says 64–74°F and its noise claim also differs. Confirm the received manual and measure the actual cabinet rather than resolving those conflicts by assumption. Humidity remains manual; a fan and display do not create moisture control.
+
+Apartment fit is not just the narrow 9.8-inch face. Plan for the 20-inch depth, door swing, ventilation, cord bend, stable support, outlet, fan sound, and heat rejected into the room. Do not place it in a closed cabinet unless the manual allows that exact clearance.
+
+**Choose it if** logged room temperatures justify active heating or cooling. **Skip it** when a passive container solves the actual problem. The [electric humidor guide](/guides/best-electric-cigar-humidors) and [wineador setup guide](/guides/electric-wineador-masterclass-heating-cooling) cover powered storage in more detail.`
+      },
+      {
+        id: 'setup',
+        title: '9. Set up the chosen format without risking cigars or furniture',
+        contentMarkdown: `1. Match the received brand, variant, ASIN, size, components, and manual to the order. Inspect clips, gasket, hinges, lid or door alignment, glass, cedar, controls, cord, and shipping damage.
+2. Choose a level location away from direct sun, radiators, HVAC discharge, cooking steam, plumbing leaks, and children's or pets' reach. Confirm the furniture and shelf can support the loaded product.
+3. Clean only as directed. Condition wood only by the exact maker instructions. Keep free water away from cigars, rental furniture, floors, outlets, and electronics.
+4. Check the hygrometer using a documented procedure. Run the empty enclosure with its selected humidity method and observe the trend before loading valuable cigars.
+5. Add cigars gradually and leave room for retrieval, the sensor, humidity source, and—inside KingChii—airflow. Recheck after every large load change.
+6. If readings drift, verify the gauge, closure, humidity source, room temperature, and placement before changing several things at once. Never compensate for a hot room by blindly adding moisture.
+
+The [humidity calculator](/tools) helps estimate pack needs, while the [hygrometer guide](/guides/best-cigar-hygrometers) and [humidifier guide](/guides/best-humidor-humidifiers) cover the accessories separately.`
+      },
+      {
+        id: 'final-decision',
+        title: '10. The shortest honest recommendation',
+        contentMarkdown: `Choose Sistema for shallow, discreet utility; TISFA for a small visible rotation; Prestige Chalet for a traditional opaque desktop box; or KingChii only when the room's measured temperature needs active correction.
+
+No format is objectively best for every apartment. Measure the shelf and the room, inventory the actual cigars, include accessory and opening space, and decide how much maintenance is acceptable. Then verify the received product empty. The [humidor finder](/) compares formats, the [product catalog](/catalog) holds the exact records, and the [small-space guide](/guides/best-humidors-for-small-spaces) offers another capacity-first comparison.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'What type of humidor takes up the least apartment space?',
+        answer: 'It depends on the shelf. Sistema is only 4.7 inches high but 14 inches long. TISFA is a compact rectangular box. KingChii has a narrow face but is 20 inches deep before ventilation and cord clearance. Measure the complete operating envelope.'
+      },
+      {
+        question: 'Will an airtight container make cigars smell-proof?',
+        answer: 'Do not buy on that assumption. A closed container can limit routine exchange, but this guide does not claim any product is independently smell-proof. Storage also does nothing to control smoke produced when a cigar is lit.'
+      },
+      {
+        question: 'Can I smoke indoors if the cigars stay in a humidor?',
+        answer: 'The humidor does not change secondhand-smoke exposure or building rules. Follow the lease, property policy, and applicable law. CDC guidance says smoke can move between apartment units and ventilation cannot fully eliminate exposure.'
+      },
+      {
+        question: 'Do I need an electric humidor in a warm apartment?',
+        answer: 'Log the intended location first. Passive storage cannot correct room heat. If temperature is outside the storage plan, choose a cabinet whose exact manual documents the required function, ambient range, ventilation, and electrical compatibility.'
+      },
+      {
+        question: 'Does a clear acrylic humidor need seasoning?',
+        answer: 'The acrylic shell does not need whole-box wood seasoning, but any cedar insert and humidity source still require the exact instructions. Run the assembled system empty and verify the gauge before loading cigars.'
+      },
+      {
+        question: 'Should I trust an included hygrometer?',
+        answer: 'Use it for trends only after comparison with a documented reference. Placement, temperature, equilibration time, and procedure affect readings; an included gauge is not proof of accuracy.'
+      },
+      {
+        question: 'Are advertised cigar counts realistic?',
+        answer: 'They are planning claims, not a common test standard. Large ring gauges, long cigars, tubes, boxes, dividers, gauges, humidity sources, and airflow space reduce working capacity.'
+      }
+    ],
+    sources: [
+      { label: 'Sistema KLIP IT 7 L container — ASIN B00284AG5U', publisher: 'Amazon.com, rendered October 8, 2026', url: 'https://www.amazon.com/dp/B00284AG5U?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'TISFA small acrylic humidor — ASIN B09LM167T7', publisher: 'Amazon.com, rendered October 8, 2026', url: 'https://www.amazon.com/dp/B09LM167T7?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Prestige Import Group Chalet black humidor — ASIN B004JH0X20', publisher: 'Amazon.com, rendered October 8, 2026', url: 'https://www.amazon.com/dp/B004JH0X20?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'KingChii 16 L two-layer electric humidor — ASIN B0BQJ5H5YT', publisher: 'Amazon.com, rendered October 8, 2026', url: 'https://www.amazon.com/dp/B0BQJ5H5YT?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'KingChii 16 L temperature, dimensions, capacity, and warranty information', publisher: 'KingChii', url: 'https://www.kingchii.com/products/16l-electric-humidity-control-cabinet', sourceType: 'Manufacturer instructions' },
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Wood Handbook: moisture relations and dimensional change', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr282.pdf', sourceType: 'Government / technical reference' },
+      { label: 'Humidity fixed points of binary saturated aqueous solutions', publisher: 'National Bureau of Standards (NIST)', url: 'https://nvlpubs.nist.gov/nistpubs/jres/081/1/V81.N01.A06.pdf', sourceType: 'Government / technical research' },
+      { label: 'Smokefree policies and multi-unit housing', publisher: 'Centers for Disease Control and Prevention', url: 'https://www.cdc.gov/tobacco/secondhand-smoke/policy.html', sourceType: 'Government / technical reference' }
+    ]
+  },
+  {
     id: 'best-solid-lid-humidors',
     slug: 'best-solid-lid-humidors',
     title: 'Best Solid-Lid Humidors: Compact, Medium, and Large Wooden Boxes',
