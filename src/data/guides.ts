@@ -68,7 +68,7 @@ We did not own, fill, season, sound-test, or measure these products. Capacity, d
 **Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, badges, star ratings, review counts, popularity claims, or invented hands-on results.`
       },
       {
-        id: 'shortlist',
+        id: 'comparison',
         title: '2. The shortest useful shortlist',
         contentMarkdown: `Choose the [Sistema 7 L container](/products/sistema-236oz-7l-airtight-container-tupperdor-core-review) when utility, shallow height, and stackability matter more than appearance. It is a food container, not a turnkey humidor, so add a correctly sized humidity source and checked hygrometer.
 
