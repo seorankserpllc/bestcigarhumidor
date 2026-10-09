@@ -124,7 +124,9 @@ The rendered title says 50–100 cigars. Current Amazon and Case Elegance inform
 
 Case Elegance says “up to 100” but does not publish a cigar-size table comparable to Felix Pro's. Treat the upper number as a maker maximum, not a working target. For someone who owns about 50 cigars today, the larger box offers useful organization and growth room; for someone who will stay under 30, it adds wood conditioning, footprint, and humidity workload without a clear benefit.
 
-**Choose it if** a 50-cigar collection is likely to grow and a tray-based wood box fits the room. **Choose Felix Pro instead** for clear acrylic and better-documented size-specific capacity. **Choose a [large-capacity cabinet](/guides/best-large-capacity-humidors)** if factory boxes or a rapid move beyond 100 cigars are already expected.`
+**Choose it if** a 50-cigar collection is likely to grow and a tray-based wood box fits the room. **Choose Felix Pro instead** for clear acrylic and better-documented size-specific capacity.
+
+If factory boxes or a rapid move beyond 100 cigars are already expected, compare the options in our [large-capacity humidor guide](/guides/best-large-capacity-humidors).`
       },
       {
         id: 'setup',
