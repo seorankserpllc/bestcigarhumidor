@@ -234,6 +234,38 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
 
   // ================= DESKTOP HUMIDORS =================
   {
+    id: 'bald-eagle-30-50-walnut-latch',
+    slug: 'bald-eagle-30-50-walnut-latch-humidor-review',
+    name: 'Bald Eagle 30–50 Cigar Humidor, Walnut Latch',
+    brand: 'Bald Eagle',
+    category: 'desktop_wood',
+    price: 0,
+    priceBracket: '$',
+    priceTierFormatted: '$ (Compact wood box)',
+    capacitySticks: 40,
+    asin: 'B0CJJ3H3JH',
+    amazonSearchQuery: 'Bald Eagle 30 50 Cigar Humidor Walnut Latch B0CJJ3H3JH',
+    description: 'The current 30–50-cigar, walnut-latch variant is a shallow glass-top wooden box with cedar at the lid opening, a mechanical hygrometer, and a small humidifier.',
+    highlights: ['Selected 30–50-cigar size', 'Selected walnut-latch style', 'Mechanical hygrometer and humidifier', '10.3 × 8.7 × 2.6-inch listed exterior'],
+    pros: ['Shallow footprint for a smaller loose-cigar rotation', 'Positive front latch', 'Current listing clearly exposes the selected size and style'],
+    cons: ['The 30–50 figure is a listing claim with no cigar-size table', 'Only 2.6 inches of exterior height leaves limited working depth', 'Mechanical gauge and humidifier performance are not independently verified'],
+    bestFor: 'A compact loose-cigar collection closer to the lower end of the listing range, after measuring cigar diameter and accessory clearance.',
+    sealRating: 0,
+    dimensions: '10.3 × 8.7 × 2.6 in (current Amazon listing)',
+    material: 'Walnut-finish wooden box with glass top and listing-described cedar at the lid opening',
+    whoShouldBuy: [
+      'Owners whose measured collection fits one shallow layer with room for the supplied humidifier.',
+      'Buyers who want a compact traditional box with a front latch.'
+    ],
+    whoShouldAvoid: [
+      'Anyone who already owns 50 thick or long cigars and needs dependable headroom.',
+      'Rooms that need active heating or cooling.'
+    ],
+    failureModesToWatch: ['Confirm the delivered 30–50 size and walnut-latch variant', 'Inspect the glass seam, latch, hinges, and cedar contact surfaces', 'Check the mechanical hygrometer against a documented reference before relying on it'],
+    diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
+    relatedGuideSlugs: ['best-50-count-humidors', 'best-glass-top-humidors', 'best-desktop-humidors']
+  },
+  {
     id: 'klaro-renzo',
     slug: 'klaro-renzo-glass-top-humidor-review',
     name: 'CASE ELEGANCE Renzo Glass Top Humidor, Brown',
@@ -310,12 +342,12 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     priceBracket: '$$$',
     priceTierFormatted: '$$$ (Mid-Tier: $150–$250)',
     capacitySticks: 100,
-    asin: 'B082P929XD',
-    amazonSearchQuery: 'Klaro Octodor Large Glass Top Humidor Case Elegance',
+    asin: 'B07Y5GK92B',
+    amazonSearchQuery: 'CASE ELEGANCE Octodor Humidor Black B07Y5GK92B',
     description: 'A black octagonal glass-top humidor with full cedar lining, a front digital hygrometer, recessed Hydro System, removable cedar tray and divider, and a felt-lined accessory drawer.',
     highlights: ['50–100 maker/listing capacity range', 'Removable cedar tray and divider', 'Recessed Hydro System', 'Felt-lined accessory drawer'],
     pros: ['Tray separates an upper layer from lower storage', 'Recessed humidity system preserves the main layout', 'Front hygrometer is visible with the lid closed'],
-    cons: ['100-cigar headline is a maker maximum, not an independent fit test', 'Large passive box still depends on room temperature', 'Current Amazon page did not ship to the selected Argentina address'],
+    cons: ['100-cigar headline is a maker maximum, not an independent fit test', 'Large passive box still depends on room temperature', 'Maker does not publish a cigar-size capacity table for this model'],
     bestFor: 'A larger loose-cigar collection that needs a tray and display presentation but not active temperature control.',
     sealRating: 0,
     dimensions: '13.75" W x 9.5" L x 8.6" H (maker)',
@@ -359,7 +391,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
     finderPriority: 88,
     premiumPick: true,
-    relatedGuideSlugs: ['best-glass-top-humidors', 'glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors']
+    relatedGuideSlugs: ['best-50-count-humidors', 'best-glass-top-humidors', 'glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors']
   },
   {
     id: 'klaro-military',
@@ -593,13 +625,13 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     description: 'A large acrylic display humidor with two acrylic storage trays, a solid Spanish cedar base tray, a digital hygrometer and a black ashwood base. Capacity varies sharply by cigar dimensions.',
     highlights: ['Two acrylic storage trays', 'Solid Spanish cedar base tray', 'Digital hygrometer', 'Maker dimensions: 12.3 × 8.8 × 5.9 inches'],
     pros: ['Layered layout separates different cigars', 'Maker publishes capacity estimates by cigar size', 'Large clear display format'],
-    cons: ['Uses more desk or shelf space than a jar', 'Maker estimates range from 20–25 Toro 60s to 70–90 Robusto 50s', 'Passive enclosure does not heat or cool'],
+    cons: ['Uses more desk or shelf space than a jar', 'Maker estimates range from 20–25 Toro 60s to 70–90 Robusto 50s', 'Amazon currently shows dimensions that conflict with the maker page'],
     bestFor: 'A larger loose-cigar collection that benefits from trays and size-specific capacity planning.',
     sealRating: 0,
-    dimensions: '12.3" x 8.8" x 5.9" (maker-listed)',
+    dimensions: 'Maker: 12.3 × 8.8 × 5.9 in; Amazon table currently shows 15.75 × 9.8 × 8.25 in',
     material: 'Acrylic body and trays with a solid Spanish cedar base tray (maker information)',
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'spanish-cedar-biology-guide', 'best-acrylic-humidors']
+    relatedGuideSlugs: ['best-50-count-humidors', 'science-of-airtight-tupperdors', 'spanish-cedar-biology-guide', 'best-acrylic-humidors']
   },
   {
     id: 'prestige-aj25-acrylic',

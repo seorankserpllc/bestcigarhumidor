@@ -45,6 +45,7 @@ const visualConfig = {
   accessory: { number: '15', label: 'TUPPERDOR ACCESSORIES', primary: Box, secondary: Droplets, tertiary: Gauge },
   infused: { number: '16', label: 'INFUSED CIGAR STORAGE', primary: Leaf, secondary: LockKeyhole, tertiary: Droplets },
   'solid-lid': { number: '17', label: 'SOLID-LID HUMIDORS', primary: Box, secondary: LockKeyhole, tertiary: Gauge },
+  capacity: { number: '18', label: '50-CIGAR CAPACITY', primary: Box, secondary: Gauge, tertiary: TreePine },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;

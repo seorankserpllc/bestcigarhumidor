@@ -8,6 +8,192 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-50-count-humidors',
+    slug: 'best-50-count-humidors',
+    title: 'Best 50-Count Humidors: Three Capacity Plans Compared',
+    subtitle: 'Compare a compact 30–50 box, a size-documented acrylic humidor, and a larger tray-based wood box without treating “50 count” as a standard measurement.',
+    category: 'selection',
+    categoryLabel: '50-Count Humidor Guide',
+    readTimeMinutes: 14,
+    ...editorialByline,
+    publishedDate: '2026-10-09',
+    reviewedDate: '2026-10-09',
+    heroVisual: 'capacity',
+    excerpt: 'Three current Amazon humidors compared for a roughly 50-cigar collection, with cigar-size math, accessory displacement, headroom, and setup tradeoffs made explicit.',
+    featuredProductIds: ['bald-eagle-30-50-walnut-latch', 'klaro-felix-pro-acrylic', 'klaro-octodor'],
+    relatedBlueprintIds: ['blueprint-tupperdor-7l'],
+    useBrandedProductArt: true,
+    comparisonRows: [
+      {
+        productId: 'bald-eagle-30-50-walnut-latch',
+        recommendationLabel: 'Compact lower-count plan',
+        fit: 'A collection nearer 30 than 50, stored in one shallow loose-cigar layer',
+        capacity: 'Amazon claim: 30–50; no cigar-size table; exterior is only 2.6 in high',
+        tradeoff: 'Smallest footprint, but the upper count has the least supporting detail'
+      },
+      {
+        productId: 'klaro-felix-pro-acrylic',
+        recommendationLabel: 'Best documented fit',
+        fit: 'Mixed loose cigars when clear trays and size-specific planning matter',
+        capacity: 'Maker: 50–60 Churchill 47; 38–45 Toro 50/52; 20–25 Toro 60',
+        tradeoff: 'Useful capacity table, but Amazon and maker dimensions currently conflict'
+      },
+      {
+        productId: 'klaro-octodor',
+        recommendationLabel: 'Growth-ready wood box',
+        fit: 'About 50 cigars now with room for growth, a tray, and traditional cedar setup',
+        capacity: 'Amazon title: 50–100; maker says up to 100 without a size-specific table',
+        tradeoff: 'Largest footprint and most conditioning work; capacity remains unmeasured'
+      }
+    ],
+    sections: [
+      {
+        id: 'what-50-count-means',
+        title: '1. “50 count” is a shopping label, not a test standard',
+        contentMarkdown: `A 50-cigar humidor does not promise room for any 50 cigars. Length, ring gauge, tubes, cellophane, dividers, trays, gauges, and the humidity source all change the working fit. A box that accepts 50 narrow Churchills may hold far fewer 60-ring-gauge Toros. A shallow box can also reach its headline count only by packing cigars too tightly for easy retrieval.
+
+This guide compares **three capacity plans**, not three laboratory winners: a compact listing that claims 30–50 cigars, an acrylic model whose maker publishes counts by cigar format, and a larger wood humidor that gives a 50-cigar collection more headroom. We rendered each exact Amazon.com page on October 9, 2026 and confirmed the brand, displayed title, selected variant where applicable, active child ASIN, listed components, and an in-stock buying option.
+
+We did not buy or test these products. We did not measure their seals, capacity, humidity retention, gauge accuracy, materials, or durability. Listing and manufacturer statements are identified as claims, and changing prices, ratings, review counts, and marketplace badges are intentionally omitted.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you buy through a product link, at no extra cost to you. The links go directly to the exact verified Amazon product pages.`
+      },
+      {
+        id: 'search-gap',
+        title: '2. What current roundups explain—and what they leave out',
+        contentMarkdown: `Current desktop-humidor roundups do a useful job of separating small jars, traditional boxes, and larger cabinets. They also remind buyers to consider the seal, cedar, gauge, and included humidity method.
+
+The weak point is capacity. Several current articles repeat “30–50,” “50,” or “up to 100” as if the figures were comparable, mix changing prices into the ranking, or recommend a different Bald Eagle variant from the one now selected on Amazon. They rarely show what happens when the collection contains thick Toros, when a tray or humidifier takes space, or when a buyer starts with 50 and adds another box next month.
+
+Our decision rule is narrower: identify the exact live product, separate the maker's count from measured fact, compare the physical layout, and show when the nominal 50-count option is actually too small. That makes this guide useful even if the marketplace headline changes later.`
+      },
+      {
+        id: 'comparison',
+        title: '3. Compare the footprint, count basis, and missing evidence',
+        contentMarkdown: `Start by counting the cigars you expect to store over the next year, then group them by approximate length and ring gauge. Record any tubes and decide whether you need separate layers or blend dividers. A full current collection of 50 should not be planned against an unexplained “up to 50” ceiling.
+
+The comparison table uses only current listing or maker information. **Capacity basis** matters more than the largest number: Felix Pro is the only pick here with a maker-published cigar-size table. Bald Eagle gives one broad range. Octodor gives more physical headroom but no equivalent size table. None of those numbers is our measured result.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '4. Seven checks before buying around the 50-cigar mark',
+        contentMarkdown: `**1. Plan from the largest common cigar.** Fifty Robustos, Churchills, and 60-ring-gauge Toros occupy very different volumes. Use the biggest format you regularly keep, not the smallest cigar that makes the headline work.
+
+**2. Leave retrieval space.** A mathematically full box can be frustrating to use and easy to damage. You should be able to remove a cigar without pinching neighboring wrappers.
+
+**3. Count the equipment.** A puck, channel, tray, divider, and sensor either consume storage room or require a dedicated recess. Confirm where every part sits before treating exterior volume as cigar volume.
+
+**4. Measure the operating envelope.** Add lid height, drawer travel, hand access, and room around the box. Direct sun and heater or air-conditioning discharge are poor placements even when the humidor physically fits.
+
+**5. Separate humidity from temperature.** These three products are passive. They cannot cool a warm room or heat a cold one. Measure the intended room rather than assuming a humidor controls both variables.
+
+**6. Treat gauges as instruments.** NIST calibration work illustrates that humidity measurements depend on a known reference, temperature, equilibrium, and uncertainty. An included display or dial is useful only after it has been checked by a documented procedure.
+
+**7. Budget for growth honestly.** If 50 is today's inventory rather than the planned ceiling, a 30–50 box is already undersized. Choose headroom now or keep overflow in a separate monitored enclosure.`
+      },
+      {
+        id: 'bald-eagle',
+        title: '5. Bald Eagle walnut latch: compact only when 50 is the ceiling',
+        contentMarkdown: `The [Bald Eagle 30–50 walnut-latch humidor](/products/bald-eagle-30-50-walnut-latch-humidor-review) rendered as ASIN B0CJJ3H3JH. Amazon showed the **30–50 Cigars** size and **Walnut (Latch)** style selected, with an in-stock offer sold by Bald Eagle Cigar Store U.S. and shipped by Amazon.
+
+The listing describes a glass-top wooden box with cedar at the lid opening, a front latch, mechanical hygrometer, and small humidifier. Its listed exterior is 10.3 × 8.7 × 2.6 inches. That shallow height is the central tradeoff: it is easy to place, but the exterior dimension leaves limited internal depth after the lid, base, and hardware are considered. Amazon provides no count-by-cigar-size table.
+
+The listing tells buyers to add distilled water to the humidifier. Treat that as seller instruction, not independent proof of control. Keep liquid away from wrappers and wood surfaces unless the received directions clearly require it, and check the gauge before loading cigars.
+
+**Choose it if** the collection is nearer the lower end of the range and one shallow layer fits the actual cigars. **Choose Felix Pro instead** when size-specific capacity evidence and layered organization matter. **Choose Octodor instead** when 50 is the starting inventory rather than the ceiling.`
+      },
+      {
+        id: 'felix-pro',
+        title: '6. Felix Pro: the most useful capacity table',
+        contentMarkdown: `The [Case Elegance Felix Pro](/products/klaro-felix-pro-acrylic-humidor-review) rendered as ASIN B0CHTZWV9T with the **PRO** size selected. The title states 50–60 cigars and the page showed an in-stock offer. The listing identifies two acrylic trays, a solid Spanish cedar base tray, a digital hygrometer, and a black ashwood base.
+
+Case Elegance publishes the most useful capacity evidence in this group: 50–60 Churchill 47s, 70–90 Robusto 50s, 38–45 Toro 50 or 52s, 35–40 Toro 54s, and 20–25 Toro 60s. These remain maker estimates, but they show why “50 count” is incomplete. If the collection is mostly common Toro 52s, this is closer to a 38–45-cigar product by the maker's own table.
+
+There is a specification conflict. Case Elegance lists SKU KL-HUM-ACR-PRO at 12.3 × 8.8 × 5.9 inches. Amazon's current product-information table shows 15.75 × 9.8 × 8.25 inches—the dimensions associated elsewhere with a different humidor. We do not choose between them by guesswork. Use the maker's SKU-specific figure for preliminary planning, then confirm the delivered item before choosing permanent furniture.
+
+The current rendered title, bullets, and maker specification identify no complete humidity source among the core components, so plan and size one separately according to the received instructions. The acrylic shell does not need whole-box wood seasoning, but the cedar base and assembled system still need clean setup and an observed empty run.
+
+**Choose it if** clear multi-level storage and cigar-size planning are more important than traditional wood-box styling. **Choose Octodor instead** for more growth room and an included recessed humidity system. **Choose Bald Eagle instead** only when the collection is smaller and shallow placement is the priority.`
+      },
+      {
+        id: 'octodor',
+        title: '7. Octodor: room to grow, with a child-ASIN correction',
+        contentMarkdown: `The [Case Elegance Octodor](/products/klaro-octodor-large-glass-top-humidor-review) is the growth-ready option. Opening the old catalog URL resolved to the current black product page, whose product-information table and final page URL identify active child ASIN **B07Y5GK92B**. We updated the catalog and buying link to that exact child rather than keeping the stale B082P929XD entry URL.
+
+The rendered title says 50–100 cigars. Current Amazon and Case Elegance information identify a front digital hygrometer, magnetic lid, full cedar lining, removable cedar tray, movable divider, recessed Hydro System, two solution bottles, gel solution, and a felt-lined accessory drawer. The exterior is 13.75 × 9.5 × 8.6 inches. Accessories shown in the drawer are not included.
+
+Case Elegance says “up to 100” but does not publish a cigar-size table comparable to Felix Pro's. Treat the upper number as a maker maximum, not a working target. For someone who owns about 50 cigars today, the larger box offers useful organization and growth room; for someone who will stay under 30, it adds wood conditioning, footprint, and humidity workload without a clear benefit.
+
+**Choose it if** a 50-cigar collection is likely to grow and a tray-based wood box fits the room. **Choose Felix Pro instead** for clear acrylic and better-documented size-specific capacity. **Choose a [large-capacity cabinet](/guides/best-large-capacity-humidors)** if factory boxes or a rapid move beyond 100 cigars are already expected.`
+      },
+      {
+        id: 'setup',
+        title: '8. Commission the empty humidor before valuable cigars go in',
+        contentMarkdown: `Tobacco exchanges moisture with surrounding air; peer-reviewed tobacco sorption research measured that relationship across a broad RH range. Wood also exchanges moisture and changes dimension as surrounding conditions change, as the USDA Wood Handbook explains. Those facts support gradual setup and observation—not a universal number of days or an unverified dial reading.
+
+1. Confirm the delivered brand, size, style, model, ASIN, components, and manual against the order. Photograph any shipping damage before setup.
+2. Measure the inside layout with the trays, divider, gauge, and humidity source installed. Compare it with the real cigars, including tubes and unusually large ring gauges.
+3. Clean only as the exact maker directs. Condition wood with the received instructions; do not improvise by soaking or wiping it unless those instructions explicitly call for that method.
+4. Check the hygrometer with a documented reference procedure. Record the offset instead of assuming a digital display or analog dial is accurate.
+5. Run the closed enclosure empty with one compatible humidity method. Observe the trend before loading valuable cigars.
+6. Add cigars gradually, leave retrieval room, and recheck after the load changes. Keep the humidor away from direct sun, heaters, vents, and warm electronics.
+7. If RH drifts, verify the instrument, closure, humidity source, room temperature, and load before changing several variables at once.
+
+The [humidity calculator](/tools) can help estimate pack needs. The [hygrometer guide](/guides/best-cigar-hygrometers), [humidifier guide](/guides/best-humidor-humidifiers), and [Spanish cedar guide](/guides/spanish-cedar-biology-guide) explain those parts separately.`
+      },
+      {
+        id: 'final-decision',
+        title: '9. The shortest honest recommendation',
+        contentMarkdown: `Choose the Bald Eagle only when the actual collection is comfortably below 50 and the shallow footprint is the point. Choose Felix Pro when you want layered acrylic storage and the clearest available cigar-size table. Choose Octodor when you own about 50 now, expect growth, and accept the larger wood-conditioning job.
+
+If you already have 50 thick Toros, none of the headline numbers should be trusted without a layout check. Felix Pro's own table stops at 38–45 Toro 50/52s, Bald Eagle provides no size table, and Octodor publishes only a broad maximum. Buy for the real cigars plus the equipment and retrieval space—not the marketing ceiling.
+
+The [humidor finder](/) compares these formats against room conditions and growth, the [product catalog](/catalog) contains the exact records, and the [desktop guide](/guides/best-desktop-humidors) covers a wider range of sizes.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'Will a 50-count humidor hold 50 large cigars?',
+        answer: 'Not necessarily. The Felix Pro maker table falls from 50–60 Churchill 47s to 20–25 Toro 60s. Bald Eagle and Octodor do not publish comparable size tables. Plan from your largest common length and ring gauge.'
+      },
+      {
+        question: 'Which pick has the most believable capacity information?',
+        answer: 'Felix Pro has the most useful documentation because Case Elegance publishes estimates by cigar format and ring gauge. They are still manufacturer estimates, not our measured counts.'
+      },
+      {
+        question: 'Why is Octodor included when its title says up to 100 cigars?',
+        answer: 'A current collection of about 50 often needs room for accessories, retrieval, and growth. Octodor is the headroom option, not a claim that a half-empty large box is automatically better.'
+      },
+      {
+        question: 'Does an acrylic humidor need seasoning?',
+        answer: 'The acrylic shell does not need whole-box wood seasoning. The cedar base, humidity source, and complete assembled system still need the exact maker setup and an empty monitored run.'
+      },
+      {
+        question: 'Do these humidors control temperature?',
+        answer: 'No. All three are passive. The room determines temperature, so measure the intended location and move it or choose a suitable electric cabinet when temperature is the limiting condition.'
+      },
+      {
+        question: 'Why does the Octodor buying link use a different ASIN than the old catalog entry?',
+        answer: 'The old B082P929XD URL resolved during this run to the black Octodor page whose product table and final URL identify active child ASIN B07Y5GK92B. The guide links directly to that verified child.'
+      },
+      {
+        question: 'Should I trust the Felix Pro dimensions on Amazon?',
+        answer: 'Confirm before committing furniture. Amazon currently shows 15.75 × 9.8 × 8.25 inches, while Case Elegance lists SKU KL-HUM-ACR-PRO at 12.3 × 8.8 × 5.9 inches. This guide discloses rather than guesses through the conflict.'
+      }
+    ],
+    sources: [
+      { label: 'Bald Eagle 30–50 walnut-latch humidor — ASIN B0CJJ3H3JH', publisher: 'Amazon.com, rendered October 9, 2026', url: 'https://www.amazon.com/dp/B0CJJ3H3JH?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Case Elegance Felix Pro — ASIN B0CHTZWV9T', publisher: 'Amazon.com, rendered October 9, 2026', url: 'https://www.amazon.com/dp/B0CHTZWV9T?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Case Elegance Octodor black — active child ASIN B07Y5GK92B', publisher: 'Amazon.com, rendered October 9, 2026', url: 'https://www.amazon.com/dp/B07Y5GK92B?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Felix Pro dimensions, materials, and cigar-size capacity table', publisher: 'Case Elegance', url: 'https://caseelegance.com/products/felix-pro-tupperdor-airtight-acrylic-humidor', sourceType: 'Manufacturer instructions' },
+      { label: 'Octodor dimensions, layout, and included Hydro System', publisher: 'Case Elegance', url: 'https://caseelegance.com/collections/humidors/products/octodor-large-glass-top-humidor', sourceType: 'Manufacturer instructions' },
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Wood Handbook: moisture relations and dimensional change', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr282.pdf', sourceType: 'Government / technical reference' },
+      { label: 'Hygrometers and relative-humidity calibration', publisher: 'National Institute of Standards and Technology', url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers', sourceType: 'Government / technical reference' },
+      { label: 'Endorsement Guides: affiliate relationships and clear disclosure', publisher: 'Federal Trade Commission', url: 'https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking', sourceType: 'Government / regulation' }
+    ]
+  },
+  {
     id: 'best-humidors-for-apartments',
     slug: 'best-humidors-for-apartments',
     title: 'Best Humidors for Apartments: Four Space-Smart Formats Compared',
@@ -1149,7 +1335,7 @@ Do not buy any cooler because a ranked list calls it airtight, perfectly stable,
     readTimeMinutes: 13,
     ...editorialByline,
     publishedDate: '2026-10-01',
-    reviewedDate: '2026-10-01',
+    reviewedDate: '2026-10-09',
     heroVisual: 'glass-top',
     excerpt: 'Three current glass-top humidors compared by size-specific capacity claims, tray access, lid hardware, included humidity components, setup work, and room-temperature limits.',
     featuredProductIds: ['klaro-renzo', 'klaro-octodor', 'klaro-military'],
@@ -1166,7 +1352,7 @@ Do not buy any cooler because a ranked list calls it airtight, perfectly stable,
         recommendationLabel: 'Best tray-based layout',
         fit: 'A larger loose-cigar collection that wants a removable upper tray, movable divider, recessed humidity system, and black display finish',
         capacity: 'Maker/listing range: 50–100 cigars; 13.75 × 9.5 × 8.6 inches',
-        tradeoff: '100 is a maker maximum, and the live Amazon offer did not ship to the selected Argentina address'
+        tradeoff: '100 is a maker maximum, the maker provides no cigar-size table, and the box needs substantial lid clearance'
       },
       {
         productId: 'klaro-military',
@@ -1186,7 +1372,7 @@ Do not buy any cooler because a ranked list calls it airtight, perfectly stable,
 
 We reviewed the current search results before writing. Stronger competing guides explain cedar lining, capacity, seasoning, and placement. Many also repeat changing prices and marketplace ratings, call a box leakproof or durable without publishing a method, present a universal “70/70” target as settled science, or describe hands-on comparisons that cannot be reproduced. Some mix old and current variants. This guide instead uses three exact live Amazon listings, separates maker claims from independent evidence, compares working layouts, and gives a reason to skip every pick.
 
-On October 1, 2026, we rendered Amazon.com product pages for the brown CASE ELEGANCE Renzo (B07GXSVH1H), black CASE ELEGANCE Octodor (B082P929XD), and matte-green CASE ELEGANCE Military (B08TVY2B46). Each page displayed the same ASIN, brand, model, finish, and main components used here. Renzo showed in stock. Military showed an active offer shipped by Amazon and sold by VendorJump. Octodor had live buying options, but Amazon said the item could not ship to the selected Argentina delivery location. Availability varies by address and can change.
+On October 1, 2026, we rendered Amazon.com product pages for the brown CASE ELEGANCE Renzo (B07GXSVH1H) and matte-green CASE ELEGANCE Military (B08TVY2B46). On October 9, we reverified the black Octodor and found that the old B082P929XD entry URL resolves to active child ASIN B07Y5GK92B. The current page displayed the black Octodor title, dimensions, main components, and an in-stock offer for the selected U.S. location. Availability varies by address and can change.
 
 All three picks come from the same maker because these were the exact glass-top listings in the current catalog that we could verify against both a live marketplace page and detailed maker documentation. That makes the layout comparison clearer, but it does not establish that one brand is universally superior. We have not owned, leak-tested, capacity-tested, calibrated, seasoned, temperature-tested, or durability-tested these humidors.
 
@@ -1230,13 +1416,13 @@ The Renzo still needs maker-directed wood conditioning and instrument checking. 
       {
         id: 'octodor',
         title: '5. Octodor: the removable-tray layout',
-        contentMarkdown: `The [Octodor glass-top humidor](/products/klaro-octodor-large-glass-top-humidor-review) is the black, tray-based option. Its rendered Amazon page matched ASIN B082P929XD and the 50–100-cigar, monogrammed listing. The page and current maker documentation identify a front digital hygrometer, recessed Hydro System, full cedar lining, removable cedar tray, movable divider, felt-lined accessory drawer, and 13.75 by 9.5 by 8.6-inch exterior.
+        contentMarkdown: `The [Octodor glass-top humidor](/products/klaro-octodor-large-glass-top-humidor-review) is the black, tray-based option. On October 9, the old catalog URL resolved to active child ASIN B07Y5GK92B, whose rendered title says 50–100 cigars. The page and current maker documentation identify a front digital hygrometer, recessed Hydro System, full cedar lining, removable cedar tray, movable divider, felt-lined accessory drawer, and 13.75 by 9.5 by 8.6-inch exterior.
 
 **Choose it if** you want a separate upper layer for ready-to-smoke cigars and a larger lower compartment without moving to an electric cabinet. The recessed humidity system avoids taking the same main-compartment position as Renzo's two channels.
 
 **Choose Renzo instead** if 28–30 Toro 52s is enough and you would rather save surface area. **Choose Military instead** if latches, handles, and sliding access matter more than Octodor's lift-out tray and piano-black finish.
 
-The maker's 100-cigar headline is not our measured working capacity. Large ring gauges, tubes, dividers, and generous spacing reduce fit. Amazon also said the live listing could not ship to the selected Argentina address, despite showing active options. Check your own address before relying on the button.`
+The maker's 100-cigar headline is not our measured working capacity. Large ring gauges, tubes, dividers, and generous spacing reduce fit. The October 9 page showed an in-stock offer for the selected U.S. location, but delivery eligibility can change by address. Check your own address before relying on the button.`
       },
       {
         id: 'military',
@@ -1267,7 +1453,7 @@ The [seasoning lab](/seasoning-lab) can help structure the observation period. T
         title: '8. Reasons to choose a different humidor',
         contentMarkdown: `Choose a solid-lid wood humidor if display adds no value and you want fewer glazing joints to inspect. Choose an acrylic or gasketed food container if low setup work and enclosure efficiency matter more than furniture styling. Choose an electric humidor if the room needs active temperature control. Choose a cabinet if you store full boxes or need more than a large desktop layout can hold without crowding.
 
-Skip Renzo if its size-specific table is too small. Skip Octodor if the active Amazon offer does not ship to your address or if lifting the tray is inconvenient. Skip Military if the large footprint, military styling, ambiguous capacity presentation, or separately sold accessory kit is a poor fit.
+Skip Renzo if its size-specific table is too small. Skip Octodor if lifting the tray is inconvenient or the larger conditioning workload is unnecessary. Skip Military if the large footprint, military styling, ambiguous capacity presentation, or separately sold accessory kit is a poor fit.
 
 Do not buy a glass top because a ranked list calls it leakproof, accurate, or ideal for aging. Those conclusions require unit-specific evidence. Buy it because the verified dimensions, working layout, maker-documented components, setup requirements, and display tradeoff fit your room and collection. If any ASIN redirects to another finish, bundle, or model, verify the new variant before buying.`
       }
@@ -1304,7 +1490,7 @@ Do not buy a glass top because a ranked list calls it leakproof, accurate, or id
     ],
     sources: [
       { label: 'Renzo brown glass-top humidor listing — ASIN B07GXSVH1H', publisher: 'Amazon.com, rendered October 1, 2026', url: 'https://www.amazon.com/dp/B07GXSVH1H?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
-      { label: 'Octodor black glass-top humidor listing — ASIN B082P929XD', publisher: 'Amazon.com, rendered October 1, 2026', url: 'https://www.amazon.com/dp/B082P929XD?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Octodor black glass-top humidor listing — active child ASIN B07Y5GK92B', publisher: 'Amazon.com, rendered October 9, 2026', url: 'https://www.amazon.com/dp/B07Y5GK92B?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
       { label: 'Military matte-green glass-top humidor listing — ASIN B08TVY2B46', publisher: 'Amazon.com, rendered October 1, 2026', url: 'https://www.amazon.com/dp/B08TVY2B46?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
       { label: 'Renzo dimensions, materials, capacity table, and included components', publisher: 'Case Elegance', url: 'https://caseelegance.com/products/glass-top-cedar-humidor-with-front-digital-hygrometer', sourceType: 'Manufacturer instructions' },
       { label: 'Octodor dimensions, materials, tray, humidity system, and included components', publisher: 'Case Elegance', url: 'https://caseelegance.com/products/octodor-large-glass-top-humidor', sourceType: 'Manufacturer instructions' },
