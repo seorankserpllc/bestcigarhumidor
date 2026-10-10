@@ -232,6 +232,54 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     relatedGuideSlugs: ['best-solid-lid-humidors', 'best-large-capacity-humidors', 'best-humidor-humidifiers', 'spanish-cedar-biology-guide']
   },
 
+  // ================= LOCKING DESKTOP HUMIDORS =================
+  {
+    id: 'xifei-combination-lock-20-30',
+    slug: 'xifei-combination-lock-humidor-review',
+    name: 'XIFEI Combination-Lock Cigar Humidor, Walnut',
+    brand: 'XIFEI',
+    category: 'desktop_wood',
+    price: 0,
+    capacitySticks: 25,
+    asin: 'B0DZ6F759S',
+    amazonSearchQuery: 'XIFEI combination lock cigar humidor walnut B0DZ6F759S',
+    description: 'A walnut-color glass-top desktop humidor with a user-set combination lock, digital hygrometer, gel humidifier, removable divider, and lower accessory drawer. Amazon lists room for 20–30 cigars depending on size.',
+    highlights: ['User-set combination lock', 'Digital hygrometer and gel humidifier', 'Removable divider and accessory drawer', 'Amazon claim: 20–30 cigars depending on size'],
+    pros: ['No loose key to manage', 'Smallest listed capacity in the locking guide', 'Current Amazon page showed the exact walnut ASIN in stock'],
+    cons: ['Amazon publishes package dimensions rather than clear product dimensions', 'The lock has no listed child-resistance or burglary-resistance certification', 'Humidity range and cedar-performance statements are seller claims, not independent results'],
+    bestFor: 'A compact loose-cigar rotation when a remembered combination is more useful than a keyed latch.',
+    sealRating: 0,
+    dimensions: 'Amazon package: 10.87 × 10.04 × 5.51 inches; product dimensions not clearly published',
+    material: 'Listing-described natural cedar wood with a glass top and walnut color',
+    whoShouldBuy: ['Adults who want a compact combination latch and can verify the delivered dimensions', 'Owners whose actual cigar sizes fit comfortably below the listing ceiling'],
+    whoShouldAvoid: ['Anyone who needs independently certified child-resistant or burglary-resistant storage', 'Buyers who need verified exterior dimensions before ordering'],
+    failureModesToWatch: ['Reset and test the combination while the box is empty', 'Confirm the divider, drawer, gauge, and humidifier are present', 'Inspect lid alignment before conditioning the wood'],
+    relatedGuideSlugs: ['best-locking-humidors', 'best-desktop-humidors', 'best-glass-top-humidors', 'best-cigar-hygrometers']
+  },
+  {
+    id: 'flauno-locking-70',
+    slug: 'flauno-locking-70-cigar-humidor-review',
+    name: 'Flauno Locking 70-Cigar Humidor',
+    brand: 'Flauno',
+    category: 'desktop_wood',
+    price: 0,
+    capacitySticks: 70,
+    asin: 'B0D4M5CLSK',
+    amazonSearchQuery: 'Flauno cigar humidor lock 70 cigars B0D4M5CLSK',
+    description: 'A keyed glass-top desktop humidor with a slotted shelf, Spanish-cedar listing language, digital hygrometer, humidifier, divider, and accessory drawer. The seller publishes counts by four cigar formats.',
+    highlights: ['Golden lock with keys', 'Digital hygrometer and humidifier', 'Slotted shelf, divider, and accessory drawer', 'Seller counts: 70 Corona, 60 Robusto, 45 Churchill, or 40 Toro'],
+    pros: ['Most useful cigar-format capacity table of the three locking picks', 'Mid-size desktop footprint', 'Current Amazon page showed the exact ASIN in stock'],
+    cons: ['Gauge accuracy, humidity distribution, and cedar effects are unverified seller claims', 'A key must be stored away from the box to control access', 'The listed 70-cigar maximum applies only to the seller\'s Corona plan'],
+    bestFor: 'A medium loose-cigar collection that benefits from published format-specific counts and a keyed latch.',
+    sealRating: 0,
+    dimensions: '9.8 × 9.8 × 6.9 inches (current Amazon listing)',
+    material: 'Walnut-finish glass-top box with listing-described Spanish cedar',
+    whoShouldBuy: ['Owners who want a keyed desktop box and can plan from the seller\'s cigar-format table', 'Collections nearer 40 Toros or 45 Churchills than 70 mixed large cigars'],
+    whoShouldAvoid: ['Anyone who cannot keep both keys outside the access path', 'Buyers who need certified security or active temperature control'],
+    failureModesToWatch: ['Test both keys before loading cigars', 'Verify the digital gauge against a documented reference', 'Check that the shelf and humidifier leave retrieval space for the intended cigars'],
+    relatedGuideSlugs: ['best-locking-humidors', 'best-50-count-humidors', 'best-desktop-humidors', 'best-humidor-humidifiers']
+  },
+
   // ================= DESKTOP HUMIDORS =================
   {
     id: 'bald-eagle-30-50-walnut-latch',
@@ -445,7 +493,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     dimensions: '13.03" x 9.13" x 25.98" (listing)',
     material: 'Wood cabinet with cedar-lined drawers and glass front',
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['spanish-cedar-biology-guide', 'glass-top-humidor-truth-leaks-sealing', 'best-large-capacity-humidors', 'best-humidors-for-long-term-storage']
+    relatedGuideSlugs: ['spanish-cedar-biology-guide', 'glass-top-humidor-truth-leaks-sealing', 'best-large-capacity-humidors', 'best-humidors-for-long-term-storage', 'best-locking-humidors']
   },
 
   // ================= ELECTRIC / WINEADORS =================

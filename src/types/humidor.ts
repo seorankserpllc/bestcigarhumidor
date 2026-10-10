@@ -136,7 +136,7 @@ export interface GuideSection {
   callout?: GuideCallout;
 }
 
-export type GuideVisual = 'wineador' | 'glass-top' | 'tupperdor' | 'altitude' | 'cedar' | 'travel' | 'hygrometer' | 'humidifier' | 'compact' | 'long-term' | 'cutter' | 'lighter' | 'coolidor' | 'ashtray' | 'accessory' | 'infused' | 'solid-lid' | 'capacity';
+export type GuideVisual = 'wineador' | 'glass-top' | 'tupperdor' | 'altitude' | 'cedar' | 'travel' | 'hygrometer' | 'humidifier' | 'compact' | 'long-term' | 'cutter' | 'lighter' | 'coolidor' | 'ashtray' | 'accessory' | 'infused' | 'solid-lid' | 'capacity' | 'locking';
 
 export interface GuideComparisonRow {
   productId: string;
@@ -150,7 +150,7 @@ export interface GuideSource {
   label: string;
   url: string;
   publisher: string;
-  sourceType: 'Peer-reviewed research' | 'Government / extension' | 'Government / technical reference' | 'Government / technical research' | 'Government / regulation' | 'Botanical authority' | 'Manufacturer instructions' | 'Current marketplace listing';
+  sourceType: 'Peer-reviewed research' | 'Government / extension' | 'Government / technical reference' | 'Government / technical research' | 'Government / regulation' | 'Botanical authority' | 'Poison-control authority' | 'Manufacturer instructions' | 'Current marketplace listing';
 }
 
 export interface CigarGuide {

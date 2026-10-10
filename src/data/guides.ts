@@ -8,6 +8,203 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-locking-humidors',
+    slug: 'best-locking-humidors',
+    title: 'Best Locking Humidors: Combination, Keyed Box, and Cabinet Compared',
+    subtitle: 'Compare three current locking humidors by access method, realistic capacity, included equipment, setup work, and the limits of an ordinary humidor lock.',
+    category: 'selection',
+    categoryLabel: 'Locking Humidor Guide',
+    readTimeMinutes: 15,
+    ...editorialByline,
+    publishedDate: '2026-10-10',
+    reviewedDate: '2026-10-10',
+    heroVisual: 'locking',
+    excerpt: 'Three exact Amazon locking humidors compared without treating a latch as proof of child resistance, burglary protection, a good seal, or stable humidity.',
+    featuredProductIds: ['xifei-combination-lock-20-30', 'flauno-locking-70', 'woodronic-3drawer'],
+    relatedBlueprintIds: ['blueprint-tupperdor-7l'],
+    useBrandedProductArt: true,
+    comparisonRows: [
+      {
+        productId: 'xifei-combination-lock-20-30',
+        recommendationLabel: 'Compact combination option',
+        fit: 'A small loose-cigar rotation when remembering a code is easier than managing a key',
+        capacity: 'Amazon claim: 20–30 cigars depending on size; no cigar-format table',
+        tradeoff: 'No loose key, but no clear product dimensions or certified security rating'
+      },
+      {
+        productId: 'flauno-locking-70',
+        recommendationLabel: 'Best documented desktop fit',
+        fit: 'A medium collection that needs a keyed latch and format-specific capacity planning',
+        capacity: 'Seller: 70 Corona, 60 Robusto, 45 Churchill, or 40 Toro',
+        tradeoff: 'Useful capacity table, but humidity and gauge performance remain seller claims'
+      },
+      {
+        productId: 'woodronic-3drawer',
+        recommendationLabel: 'Large drawer cabinet',
+        fit: 'A large loose-cigar collection in a temperature-stable room with vertical space',
+        capacity: 'Amazon claim: 200–250 cigars across four drawers; maximum vertical length 7 in',
+        tradeoff: 'Largest organization plan; no heating or cooling and the optional electric humidifier is not included'
+      }
+    ],
+    sections: [
+      {
+        id: 'what-a-lock-does',
+        title: '1. Buy the lock for access control—not climate control',
+        contentMarkdown: `A lock can discourage casual opening and make unauthorized access less convenient. It does **not** prove the humidor is child-resistant, burglary-resistant, fire-resistant, airtight, or stable at a chosen relative humidity. None of the three current Amazon listings in this guide identifies an independent security certification or a child-resistant standard for the lock.
+
+That distinction matters. A keyed or combination latch closes one access path; humidity performance still depends on the enclosure, the room, the humidity source, the cigar load, and a trustworthy measurement. A lock also creates an operational question: where will the keys or combination be kept, and can the owner still open the box quickly without leaving the lock defeated?
+
+We rendered the exact Amazon.com pages on October 10, 2026. We confirmed the displayed brand and title, current ASIN, selected variant when shown, listed capacity and components, and an active buying option. We did not buy, own, or test these products. We did not test their locks, seals, keys, combinations, humidity, gauges, capacity, temperature, materials, durability, or resistance to forced entry.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product link, at no extra cost to you. Each buying button goes directly to the exact Amazon product page verified for this guide. We do not reproduce Amazon prices, ratings, review counts, badges, or popularity claims.`
+      },
+      {
+        id: 'search-gap',
+        title: '2. What current roundups cover—and what they often blur',
+        contentMarkdown: `Current desktop- and cabinet-humidor roundups do a useful job of identifying lockable products. The better pages distinguish combination locks from keys and compare capacity, drawers, gauges, and humidifiers.
+
+The weak point is what the word **secure** is allowed to imply. Several current pages treat the presence of a lock as proof that the humidor protects a valuable collection or is suitable around children. Some also imply that a locking door must seal more tightly, repeat changing prices and marketplace ratings, or turn seller statements about gauge accuracy and humidity distribution into tested conclusions.
+
+This guide uses a narrower decision rule. First choose the required access method. Then size the enclosure from real cigar formats and installed equipment. Finally, judge humidity and temperature as separate jobs. If the actual requirement is certified security, fire protection, or robust child-resistant storage, an ordinary consumer humidor with an unverified latch is not evidence that requirement has been met.`
+      },
+      {
+        id: 'comparison',
+        title: '3. Compare access method, capacity basis, and missing evidence',
+        contentMarkdown: `The three products form a useful progression rather than a universal ranking. XIFEI uses a combination and targets a small collection. Flauno uses keys and publishes the clearest cigar-format count. Woodronic uses a keyed glass-front door and separates a much larger collection across four drawers.
+
+Read **capacity basis** before the headline number. Flauno says the same box changes from 70 Coronas to 40 Toros. XIFEI gives a 20–30 range without a size table. Woodronic gives a 200–250 range plus a seven-inch maximum vertical length, but no comparable count by ring gauge. None is our measured capacity.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '4. Eight checks before choosing a locking humidor',
+        contentMarkdown: `**1. Define the access problem.** A combination avoids a loose key but can be forgotten or shared. A key is simple, but access control fails when it stays in the lock, in the drawer below it, or on the same visible surface.
+
+**2. Do not convert “lock” into a certification.** Ask the maker for the exact standard or test if certified child resistance or burglary resistance is required. These listings provide no such evidence.
+
+**3. Separate the latch from the seal.** A lock can pull parts together, but it does not prove uniform contact, low leakage, or good humidity retention. Inspect the delivered lid or door, hinges, gasket if present, and alignment before conditioning the enclosure.
+
+**4. Plan from the real cigars.** Ring gauge, length, tubes, cellophane, dividers, shelves, humidifiers, and sensors all change working capacity. A 70-Corona layout is not a 70-Toro layout.
+
+**5. Keep temperature responsibility with the room.** All three picks are passive. Woodronic's LED and USB wiring do not heat or cool the air. Measure the room and use an appropriate [electric humidor](/guides/best-electric-cigar-humidors) only when temperature control is actually needed.
+
+**6. Treat the included gauge as an instrument to check.** NIST calibration practice illustrates that humidity readings depend on a known reference, temperature, equilibrium, and stated uncertainty. “Digital” or “pre-calibrated” in a listing is not our accuracy result.
+
+**7. Inventory every included part.** Confirm the exact lock hardware, all keys, divider, shelf or drawers, hygrometer, humidifier, solution, cables, and manual. Do not assume accessories pictured inside a drawer are included.
+
+**8. Plan safe placement and recovery.** Keep the unit away from direct sun, heaters, vents, and unstable edges. Store backup keys or the combination where an authorized adult can retrieve them but the person being excluded cannot.`
+      },
+      {
+        id: 'xifei',
+        title: '5. XIFEI: compact access control without a loose key',
+        contentMarkdown: `The [XIFEI combination-lock humidor](/products/xifei-combination-lock-humidor-review) rendered as ASIN **B0DZ6F759S** with the **Walnut** color shown in the title. Amazon showed it in stock, sold by XIFEI and shipped by Amazon.
+
+The listing identifies a user-set combination lock, glass top, digital hygrometer, gel humidifier, removable divider, and lower accessory drawer. It claims room for 20–30 cigars depending on size. The seller also describes natural cedar wood and a 65%–75% humidity range; those are seller statements, not our material identification or performance measurement.
+
+The specification gap is physical size. Amazon currently publishes a **package** size of 10.87 × 10.04 × 5.51 inches, not a clearly labeled product exterior. Do not reserve a tight shelf opening from the package number. Confirm the delivered box and allow room for the lid and drawer.
+
+**Choose it if** a compact collection and a remembered code fit the actual access plan. **Choose Flauno instead** when cigar-format capacity evidence matters. **Choose a separate certified storage solution instead** when the real need is proven child resistance or burglary protection.`
+      },
+      {
+        id: 'flauno',
+        title: '6. Flauno: the clearest desktop capacity table',
+        contentMarkdown: `The [Flauno locking humidor](/products/flauno-locking-70-cigar-humidor-review) rendered as ASIN **B0D4M5CLSK** with an in-stock offer sold by Flauno and shipped by Amazon. The listing identifies a golden lock with keys, glass top, slotted shelf, digital hygrometer, humidifier, divider, accessory drawer, and a 9.8 × 9.8 × 6.9-inch exterior.
+
+Flauno publishes the most useful capacity information in this group: 70 Coronas, 60 Robustos, 45 Churchills, or 40 Toros. The numbers remain seller estimates, but the change across formats is exactly why a single headline count is insufficient. A mixed collection with thick Toros should be planned much closer to the lower figure.
+
+The listing calls the hygrometer accurate, describes the shelf as improving circulation, and attributes moisture and aroma effects to Spanish cedar. This guide does not turn those descriptions into test results. Verify the gauge, check the received materials and fit, and observe the complete empty system before adding valuable cigars.
+
+**Choose it if** you want a keyed desktop box and the published cigar-format table fits the collection. **Choose XIFEI instead** when a combination matters more than the larger layout. **Choose Woodronic instead** only when four drawers and cabinet-scale growth are justified.`
+      },
+      {
+        id: 'woodronic',
+        title: '7. Woodronic: keyed four-drawer organization, not an appliance',
+        contentMarkdown: `The [Woodronic four-drawer cabinet](/products/woodronic-3-drawer-spanish-cedar-cabinet-review) rendered as ASIN **B0CXXNHCP4**. Amazon showed the current four-drawer LED model with an active buying option, sold by Woodronic and shipped by Amazon.
+
+The listing identifies a keyed glass-front door, magnetic closure, two keys, four cedar-lined cigar drawers, a separate accessory drawer, adjustable LED lighting, built-in digital hygrometer, two crystal-gel humidifiers, PG solution, and two USB cables. It describes a 13.03 × 9.13 × 25.98-inch cabinet, 200–250-cigar capacity, and a maximum vertical cigar length of seven inches. Accessories shown inside the drawer are not included.
+
+Despite the wiring and LED, this is a passive cabinet. Amazon says it is ready for an optional electric humidifier, but that humidifier is **not included**. It does not provide active heating or cooling. The listing's “airtight,” pre-calibrated, and 65%–72% RH language remains seller information rather than an independent result.
+
+**Choose it if** a large loose-cigar collection needs separated drawers and the room is already temperature-stable. **Choose Flauno instead** when a desktop footprint is enough. If boxes, active temperature control, or more than 250 cigars are the real requirement, compare the [large-capacity guide](/guides/best-large-capacity-humidors) and [electric guide](/guides/best-electric-cigar-humidors) before committing.`
+      },
+      {
+        id: 'safety',
+        title: '8. A lock can support safer storage, but it is not the whole plan',
+        contentMarkdown: `Cigars contain nicotine. A CDC investigation of tobacco ingestion in young children states that most childhood nicotine poisonings in its cited evidence resulted from ingestion of cigarettes or cigars, and it identified accessibility as a risk factor. Current FDA rules also prohibit retail sale of tobacco products, including cigars, to anyone under 21 in the United States.
+
+Those facts support adult-controlled, inaccessible storage; they do not certify any humidor in this guide. If children or another vulnerable person may reach the unit, use layered controls: place it out of reach, keep keys or combinations controlled, do not leave the door unlocked, and consider a separate storage enclosure designed and certified for the actual safety requirement. Keep cutters, torch lighters, matches, and refill fuel under appropriate separate control rather than assuming an accessory drawer makes them safe.
+
+If tobacco ingestion is suspected in the United States, contact Poison Control at **1-800-222-1222** and follow professional instructions. This safety note is not a product-performance claim and is not medical advice.`
+      },
+      {
+        id: 'setup',
+        title: '9. Commission the lock and humidity system while the humidor is empty',
+        contentMarkdown: `Tobacco exchanges moisture with surrounding air, as peer-reviewed sorption research demonstrates. Wood also exchanges moisture and changes dimension with ambient conditions, as the USDA Wood Handbook explains. Those facts support gradual setup and observation; they do not prove a particular box will hold a chosen RH.
+
+1. Match the delivered brand, ASIN, finish, lock type, keys or reset instructions, dimensions, and components to the order.
+2. Test the empty lock repeatedly. Set the combination or identify both keys before anything valuable goes inside. Never test an unknown combination with the lid closed.
+3. Inspect lid or door alignment, hinges, glass, drawer travel, wiring, and hardware. Stop if damage prevents safe closure.
+4. Clean and condition the enclosure only as the exact received instructions direct. Do not soak or improvise a wet wipe on unfinished wood.
+5. Check the hygrometer against a documented reference procedure, record any stable offset, and place it where cigars will not block it.
+6. Install one compatible humidity method without crowding cigars or allowing liquid contact. Woodronic's optional electric humidifier is a separate purchase, not an included component.
+7. Run the closed system empty in its permanent room. Observe both temperature and RH trends before loading cigars.
+8. Add cigars gradually, leave retrieval room, and recheck after the load changes. Lock only after confirming nothing obstructs the lid, door, drawer, or keyway.
+
+The [humidity calculator](/tools), [hygrometer guide](/guides/best-cigar-hygrometers), [humidifier guide](/guides/best-humidor-humidifiers), and [Spanish cedar guide](/guides/spanish-cedar-biology-guide) cover those separate decisions.`
+      },
+      {
+        id: 'final-decision',
+        title: '10. The shortest honest recommendation',
+        contentMarkdown: `Choose XIFEI when the collection is small, a combination is preferable to a key, and you can verify the product dimensions after delivery. Choose Flauno when a keyed desktop box fits the room and its 40-Toro to 70-Corona capacity table matches the actual cigars. Choose Woodronic when the collection is genuinely cabinet-scale, four drawers are useful, and the room—not the cabinet—already manages temperature.
+
+Choose none of them solely because the word “lock” appears in a title. None of these listings supplies independent evidence of child resistance, burglary resistance, fire protection, seal performance, or humidity stability. A lock is one access feature inside a larger storage and safety plan.
+
+The [humidor finder](/) can compare storage formats against room conditions and collection growth, and the [product catalog](/catalog) contains the exact records used here.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'Is a locking humidor childproof?',
+        answer: 'Not on the evidence available here. None of the three current listings identifies an independent child-resistant certification. Treat the lock as an access deterrent and use additional inaccessible or certified storage when child safety is the requirement.'
+      },
+      {
+        question: 'Does locking a humidor improve its seal?',
+        answer: 'A latch can pull surfaces together, but the presence of a lock does not prove low leakage, uniform contact, or stable humidity. Inspect the received enclosure and observe it with a checked hygrometer.'
+      },
+      {
+        question: 'Is a combination lock better than a key?',
+        answer: 'It removes the loose-key problem but adds code management. Choose the method that authorized adults can use reliably without leaving the lock defeated or sharing access accidentally.'
+      },
+      {
+        question: 'Will the Flauno really hold 70 cigars?',
+        answer: 'The seller says 70 Coronas, but only 40 Toros, 45 Churchills, or 60 Robustos. Those are seller estimates rather than our measured counts, so plan from the formats you actually own.'
+      },
+      {
+        question: 'Does the Woodronic cabinet control temperature?',
+        answer: 'No. It has LED lighting and USB wiring for an optional humidifier, but it is a passive cabinet without active heating or cooling. The room remains responsible for temperature.'
+      },
+      {
+        question: 'Are the included hygrometers already accurate?',
+        answer: 'Do not assume so. Digital and pre-calibrated are listing descriptions, not independent accuracy results. Check the received instrument using a documented reference procedure and observe a stable trend.'
+      },
+      {
+        question: 'What should I do with the spare keys?',
+        answer: 'Test both while the humidor is empty, then store the spare where an authorized adult can retrieve it but the person being excluded cannot. Do not leave a key in the lock or in the adjacent accessory drawer.'
+      }
+    ],
+    sources: [
+      { label: 'XIFEI combination-lock humidor, Walnut — ASIN B0DZ6F759S', publisher: 'Amazon.com, rendered October 10, 2026', url: 'https://www.amazon.com/dp/B0DZ6F759S?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Flauno locking 70-cigar humidor — ASIN B0D4M5CLSK', publisher: 'Amazon.com, rendered October 10, 2026', url: 'https://www.amazon.com/dp/B0D4M5CLSK?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Woodronic four-drawer LED cabinet with lock — ASIN B0CXXNHCP4', publisher: 'Amazon.com, rendered October 10, 2026', url: 'https://www.amazon.com/dp/B0CXXNHCP4?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Ingestion of cigarettes and cigarette butts by children — Rhode Island, 1994–1996', publisher: 'Centers for Disease Control and Prevention, MMWR', url: 'https://www.cdc.gov/mmwr/preview/mmwrhtml/00046181.htm', sourceType: 'Government / technical research' },
+      { label: 'What to do when a child swallows cigarette or cigar tobacco', publisher: 'Poison Control, National Capital Poison Center', url: 'https://www.poison.org/articles/my-child-ate-a-cigarette', sourceType: 'Poison-control authority' },
+      { label: 'Federal tobacco-sales rules, including the age-21 requirement for cigars', publisher: 'U.S. Food and Drug Administration', url: 'https://www.fda.gov/tobacco-products/retail-sales-tobacco-products/selling-tobacco-products-retail-stores', sourceType: 'Government / regulation' },
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Wood Handbook: moisture relations and dimensional change', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr282.pdf', sourceType: 'Government / technical reference' },
+      { label: 'Hygrometers and relative-humidity calibration', publisher: 'National Institute of Standards and Technology', url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers', sourceType: 'Government / technical reference' },
+      { label: 'Endorsement Guides: affiliate relationships and clear disclosure', publisher: 'Federal Trade Commission', url: 'https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking', sourceType: 'Government / regulation' }
+    ]
+  },
+  {
     id: 'best-50-count-humidors',
     slug: 'best-50-count-humidors',
     title: 'Best 50-Count Humidors: Three Capacity Plans Compared',
