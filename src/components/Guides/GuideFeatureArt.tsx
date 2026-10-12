@@ -48,6 +48,7 @@ const visualConfig = {
   capacity: { number: '18', label: '50-CIGAR CAPACITY', primary: Box, secondary: Gauge, tertiary: TreePine },
   locking: { number: '19', label: 'LOCKING HUMIDORS', primary: LockKeyhole, secondary: Box, tertiary: Gauge },
   'box-storage': { number: '20', label: 'FACTORY-BOX STORAGE', primary: Box, secondary: TreePine, tertiary: Thermometer },
+  'hundred-capacity': { number: '21', label: '100-CIGAR CAPACITY', primary: Box, secondary: Gauge, tertiary: Thermometer },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;

@@ -229,7 +229,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     whoShouldBuy: ['Buyers who need a tray plus divided lower storage', 'Owners who can plan around the current maker\'s more conservative 55–95 capacity range'],
     whoShouldAvoid: ['Anyone who needs independently verified 100–150-cigar capacity', 'Rooms that need active temperature control or buyers who want a compact footprint'],
     failureModesToWatch: ['Confirm the received dimensions, tray, dividers, and model number', 'Check that the top-mounted accessories remain secure and clear of cigars', 'Verify the gauge and observe the empty conditioned box before loading'],
-    relatedGuideSlugs: ['best-solid-lid-humidors', 'best-large-capacity-humidors', 'best-humidor-humidifiers', 'spanish-cedar-biology-guide']
+    relatedGuideSlugs: ['best-solid-lid-humidors', 'best-large-capacity-humidors', 'best-humidor-humidifiers', 'spanish-cedar-biology-guide', 'best-100-count-humidors']
   },
 
   // ================= LOCKING DESKTOP HUMIDORS =================
@@ -439,7 +439,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
     finderPriority: 88,
     premiumPick: true,
-    relatedGuideSlugs: ['best-50-count-humidors', 'best-glass-top-humidors', 'glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors']
+    relatedGuideSlugs: ['best-50-count-humidors', 'best-glass-top-humidors', 'glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors', 'best-100-count-humidors']
   },
   {
     id: 'klaro-military',
@@ -632,7 +632,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     material: 'Electric cabinet with double-layer glass door and Spanish cedar shelves/drawer',
     electricFeatures: { heating: true, cooling: true, tempRange: '54–74°F maker page; 64–74°F current Amazon bullet', activeHumidity: false },
     diyAlternativeBlueprintId: 'blueprint-converted-wineador',
-    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors', 'best-humidors-for-small-spaces']
+    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors', 'best-humidors-for-small-spaces', 'best-100-count-humidors']
   },
 
   // ================= ACRYLIC & AIRTIGHT =================

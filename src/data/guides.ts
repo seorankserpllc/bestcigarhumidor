@@ -8,6 +8,201 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-100-count-humidors',
+    slug: 'best-100-count-humidors',
+    title: 'Best 100-Count Humidors: Three Systems Compared',
+    subtitle: 'Compare a traditional solid-lid box, a glass-top tray humidor, and a temperature-controlled cabinet without treating “100 count” as a standard measurement.',
+    category: 'selection',
+    categoryLabel: '100-Count Humidor Guide',
+    readTimeMinutes: 16,
+    ...editorialByline,
+    publishedDate: '2026-10-12',
+    reviewedDate: '2026-10-12',
+    heroVisual: 'hundred-capacity',
+    excerpt: 'Three exact Amazon humidors in the 100-cigar shopping tier compared by capacity basis, included equipment, temperature responsibility, and setup work.',
+    featuredProductIds: ['quality-importers-deauville-solid-lid', 'klaro-octodor', 'kingchii-16l'],
+    relatedBlueprintIds: ['blueprint-tupperdor-7l', 'blueprint-converted-wineador'],
+    useBrandedProductArt: true,
+    comparisonRows: [
+      {
+        productId: 'quality-importers-deauville-solid-lid',
+        recommendationLabel: 'Traditional solid lid',
+        fit: 'A loose-cigar collection that values an opaque inlaid lid, lift-out tray, divided lower compartment, key lock, and passive operation',
+        capacity: 'Current Amazon title says 100–150; Quality Importers’ Spring 2025 catalog says 55–95, so 100 is not a dependable working count',
+        tradeoff: 'Analog gauge, maker/listing capacity conflict, no active temperature control, and more conditioning work than a small box'
+      },
+      {
+        productId: 'klaro-octodor',
+        recommendationLabel: 'Glass-top organization',
+        fit: 'A display-oriented loose-cigar collection that benefits from a removable cedar tray, recessed humidity system, front digital gauge, and accessory drawer',
+        capacity: 'Amazon headline says 50–100, its comparison table says 80–100, and the maker says up to 100 without a cigar-size capacity table',
+        tradeoff: 'The upper figure remains a maker maximum; the glass top, tray, drawer, and passive format do not solve a hot or cold room'
+      },
+      {
+        productId: 'kingchii-16l',
+        recommendationLabel: 'Temperature-control path',
+        fit: 'A growing loose-cigar collection in a measured room that needs powered heating and cooling and has ventilated space near an outlet',
+        capacity: 'Selected Amazon variant and maker page say 16 L and up to 100 cigars; neither gives a cigar-size packing table or verified working count',
+        tradeoff: 'Humidity is still separate, and current Amazon and maker dimensions, temperature range, and noise specifications conflict'
+      }
+    ],
+    sections: [
+      {
+        id: 'what-100-count-means',
+        title: '1. “100 count” is a shopping tier—not a measured promise',
+        contentMarkdown: `A 100-count humidor can mean a deep desktop box, a tray-and-drawer display piece, or a powered cabinet. Those products do not use one published capacity standard. Cigar length and ring gauge, trays, dividers, humidity equipment, spacing, and the maker’s chosen packing arrangement all change the usable count.
+
+This guide therefore does not promise that any pick holds 100 of your cigars. The Deauville’s current official catalog is more conservative than its Amazon title. Octodor uses overlapping 50–100, 80–100, and “up to 100” maker language. KingChii calls the selected 16 L model a 100-capacity variant without publishing a size-specific packing table.
+
+We rendered the exact Amazon.com pages on October 12, 2026. We confirmed each brand, title, ASIN, selected model or variant, listed components, and active buying option. We did not buy, own, or test these products. We did not measure their capacity, usable interior, seal, humidity, temperature, gauge accuracy, noise, energy use, finish, or durability.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product link, at no extra cost to you. Every buying button goes directly to the exact Amazon page verified for this guide. We do not reproduce Amazon prices, ratings, review counts, badges, or popularity claims.`
+      },
+      {
+        id: 'search-gap',
+        title: '2. What current 100-cigar roundups leave unresolved',
+        contentMarkdown: `Current search results cover finish, Spanish cedar, locks, gauges, and headline capacity well. Several also encourage buyers to leave growth room. The recurring weakness is that the count is often turned into a fact without naming the cigar size, tray layout, humidity-equipment displacement, or exact current variant.
+
+Some roundups mix a 75–100 passive box, a 100–120 desktop cabinet, and a 250-cigar electric appliance in one ranking while giving little help on temperature responsibility. Others publish changing prices and marketplace scores, or repeat universal “real capacity” percentages without a product-specific packing method.
+
+This comparison keeps four decisions separate: the capacity basis, the enclosure layout, the humidity system, and temperature control. It also preserves current conflicts instead of choosing whichever figure makes a product look roomier.`
+      },
+      {
+        id: 'comparison',
+        title: '3. Compare the storage system behind the headline',
+        contentMarkdown: `Deauville is the traditional opaque-lid option, with a lift-out tray, lower dividers, lock, glass hygrometer, and rectangular humidifier. Octodor is the display-and-organization option, with a glass top, removable tray, recessed Hydro System, front digital hygrometer, and accessory drawer. KingChii is the only powered appliance here; it heats and cools within a stated range but still depends on a separately chosen humidity method.
+
+None is best for every 100-cigar shopper. Start with the number and sizes of cigars you actually keep, then reserve space for the supplied or chosen humidity equipment. Choose powered temperature control only when room logs show a problem that a passive box cannot address.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '4. Eight checks before buying at the 100-cigar tier',
+        contentMarkdown: `**1. Inventory by size, not only count.** Record the length and ring gauge range of the cigars you actually store. Tubes and unusually shaped cigars need their own space plan.
+
+**2. Treat the headline as a ceiling.** Ask what cigar size and packing layout produced it. If no table exists, do not convert “up to 100” into a guaranteed working count.
+
+**3. Subtract the interior hardware.** Trays, dividers, a recessed humidity system, shelves, sensors, and safe clearance all consume room.
+
+**4. Choose access before appearance.** A lift-out tray organizes layers but must be removed to reach the bottom. A cabinet opens from the front but needs door clearance and vertical shelf spacing.
+
+**5. Separate humidity from temperature.** Deauville and Octodor are passive boxes. KingChii controls temperature, but its current listing uses packs or distilled-water humidity methods rather than automatic RH control.
+
+**6. Measure the operating envelope.** Include lid swing, side handles, the Octodor drawer, KingChii door and ventilation clearance, outlet access, and the furniture surface—not just the product footprint.
+
+**7. Check the gauge.** Included analog and digital displays are not self-validating. Compare the instrument with a documented reference method and observe trends before loading valuable cigars.
+
+**8. Verify the delivered unit.** Match ASIN, model, color, volume, dimensions, shelves, tray, humidification parts, and manual while the return window is open.`
+      },
+      {
+        id: 'deauville',
+        title: '5. Deauville: traditional furniture styling with the widest count conflict',
+        contentMarkdown: `The [Quality Importers Deauville HUM-100TY](/products/quality-importers-deauville-solid-lid-humidor-review) rendered as ASIN **B0055QM9W6**. Amazon displayed the exact maple-finish, tobacco-leaf-inlay model with Add to Cart and Buy Now options. The page lists a glass hygrometer, rectangular humidifier, Spanish cedar lining, lift-out tray, bottom dividers, lock, side handles, and maintenance instructions.
+
+Capacity needs a conspicuous caveat. Amazon’s title and manufacturer-enhanced content say 100–150 cigars, while Quality Importers’ Spring 2025 catalog identifies **HUM-100TY-BOV** as 55–95 cigars. Amazon publishes 13.5 × 9.5 × 6.5 inches; the maker catalog and enhanced content show 13.5 × 9.5 × 6.25 inches. Those are current seller and manufacturer statements, not our measurements.
+
+Plan from the lower 55–95 maker range until your cigar sizes and delivered interior prove otherwise. Choose Deauville when an opaque lid, classic finish, lift-out tray, key lock, and passive operation matter. Choose Octodor for a front digital display and recessed humidity system. Choose KingChii only when temperature logs justify an appliance.
+
+This is a large wood box, so allow setup time and keep free water off the cedar unless the received instructions explicitly direct otherwise. The [solid-lid guide](/guides/best-solid-lid-humidors) and [Spanish cedar guide](/guides/spanish-cedar-biology-guide) explain the format and material limits.`
+      },
+      {
+        id: 'octodor',
+        title: '6. Octodor: the clearest organization package, not a verified 100-cigar fit',
+        contentMarkdown: `The [Klaro by Case Elegance Octodor](/products/klaro-octodor-large-glass-top-humidor-review) rendered as ASIN **B07Y5GK92B** with **Black** selected and an in-stock offer. Amazon showed the exact 13.75 × 9.5 × 8.6-inch model with a removable cedar tray and divider, recessed Hydro System, front digital hygrometer, magnetic lid, glass top, two solution bottles, and felt-lined accessory drawer. Accessories pictured in the drawer are not included.
+
+The current Amazon headline says 50–100 cigars, while its maker comparison table says 80–100. Case Elegance says “up to 100” and does not publish the cigar-size table it provides for some smaller models. Treat 100 as an upper maker claim, not a working count for mixed thick cigars.
+
+Octodor is the most organized passive box here and the only one with a front digital display and separate accessory drawer. It also needs enough depth for that drawer and enough space above for the lid. The glass top does not independently prove a good or bad seal; inspect the delivered lid, glass seam, hinges, and alignment.
+
+Choose it when display, tray access, and the supplied humidity system outweigh maximum space efficiency. Choose Deauville for an opaque traditional lid and more conservative official capacity range. Choose KingChii if the room—not the box—creates a verified temperature problem. See the [glass-top buying guide](/guides/best-glass-top-humidors) and [seal-checking guide](/guides/glass-top-humidor-truth-leaks-sealing) for those decisions.`
+      },
+      {
+        id: 'kingchii',
+        title: '7. KingChii 16 L: temperature control with separate humidity work',
+        contentMarkdown: `The [KingChii 16 L electric cigar humidor](/products/kingchii-16l-electric-cigar-humidor-review) rendered as ASIN **B0BQJ5H5YT** with **Black** and **16L** selected. The title identified the two-layer 100-capacity variant; the detail table showed model **XJG-16C**. Amazon showed an in-stock offer sold by KingChii, two Spanish cedar storage layers, a built-in hygrometer, double-layer glass door, touch controls, and semiconductor temperature control.
+
+Current specifications conflict. Amazon says 64–74°F, no more than 40 dB, and 10.2 × 18.7 × 19.5 inches. KingChii’s current product page says 54–74°F, no more than 38 dB, and 20 × 9.8 × 14.1 inches. We could not independently reconcile those tables. Confirm the received model, manual, exterior dimensions, clearance requirements, and operating range before choosing furniture or a target temperature.
+
+The 16 L and 100-cigar figures are maker claims without a size-specific packing table. The current Amazon comparison content describes humidity packs or distilled water for this model, not automatic humidity control. Its hygrometer observes RH; the temperature system does not create the chosen RH by itself.
+
+Choose this cabinet only when room logs justify heating or cooling, ventilation and outlet placement work, and you accept the separate humidity system. If room temperature is already suitable, a passive box avoids power, fan, and specification complexity. The [electric wineador guide](/guides/electric-wineador-masterclass-heating-cooling) and [small-space guide](/guides/best-humidors-for-small-spaces) cover setup and placement.`
+      },
+      {
+        id: 'setup',
+        title: '8. Commission the empty system before loading valuable cigars',
+        contentMarkdown: `Peer-reviewed research shows that tobacco exchanges moisture with surrounding air. The USDA Wood Handbook likewise documents how wood moisture changes with ambient conditions. Those principles support gradual conditioning and monitoring; they do not prove that any product here holds a chosen RH or protects a specific cigar collection.
+
+1. Match the delivered brand, ASIN, model, variant, dimensions, tray or shelves, humidity parts, and manual to the order.
+2. Inspect the enclosure, glass or lid seams, hinges, lock, handles, drawer, wiring, door, shelves, and gauge. Stop if damage prevents safe closure or operation.
+3. Clean and condition only as the exact instructions allow. Let every washable surface dry completely and do not improvise with free water on wood.
+4. Check the supplied hygrometer against a documented reference procedure. Add a second sensor only if it can sit safely without blocking airflow or touching cigars.
+5. Install one compatible humidity method sized for the actual enclosure. Do not mix systems or solutions casually.
+6. Place the empty unit in its permanent location. For KingChii, provide the manual’s ventilation clearances and a suitable outlet.
+7. Observe temperature and RH trends before loading. A stable display is evidence about that setup—not a laboratory test of every area inside.
+8. Load gradually, preserve access around the humidity source and sensor, and recheck after the moisture load changes.
+
+Use the [hygrometer guide](/guides/best-cigar-hygrometers), [humidifier guide](/guides/best-humidor-humidifiers), and [humidity tools](/tools) to plan the supporting system.`
+      },
+      {
+        id: 'reasons-to-skip',
+        title: '9. Reasons to choose a different capacity or format',
+        contentMarkdown: `If your current collection is well below the maker’s headline and grows slowly, a [50-count humidor](/guides/best-50-count-humidors) can use less furniture space and require less wood conditioning. If you buy factory boxes, none of these loose-cigar counts proves box fit; use the [factory-box storage guide](/guides/best-humidors-for-cigar-boxes) and measure every box.
+
+If the planned collection regularly exceeds the conservative working space here, skip the “100 count” label and compare [large-capacity humidors](/guides/best-large-capacity-humidors). Multiple smaller enclosures can isolate groups and simplify lifting, but they multiply gauges, humidity sources, and records.
+
+Do not buy powered temperature control merely because it sounds more complete. Log the room first. Conversely, do not rely on a passive box to cool a hot room. The [humidor finder](/) can compare room conditions, format, growth, and maintenance preference before you commit to a capacity tier.`
+      },
+      {
+        id: 'final-decision',
+        title: '10. The shortest honest recommendation',
+        contentMarkdown: `Choose Deauville for a traditional opaque box and tray layout, while planning from Quality Importers’ lower 55–95 range. Choose Octodor for display, a front digital gauge, recessed humidity system, removable tray, and accessory drawer, while treating 100 as a maker maximum. Choose KingChii only when measured room temperature justifies heating and cooling and you are ready to manage humidity separately.
+
+If your purchase depends on fitting exactly 100 cigars, none of these listings supplies enough independent evidence. Ask for usable interior dimensions and a size-specific packing diagram, or choose more capacity and preserve operating room around the sensor and humidity source.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'Will a 100-count humidor really hold 100 cigars?',
+        answer: 'Not necessarily. There is no common published capacity method across these products. Cigar length and ring gauge, tubes, trays, dividers, humidity equipment, spacing, and the maker’s packing layout all change the working count.'
+      },
+      {
+        question: 'Which pick has the most conservative capacity claim?',
+        answer: 'Quality Importers’ current catalog lists Deauville at 55–95 cigars, although Amazon says 100–150. That lower maker range is the most conservative explicit planning figure among the three, but it still is not an independent fit test.'
+      },
+      {
+        question: 'Does the KingChii 16 L control humidity automatically?',
+        answer: 'No automatic RH controller is described for this exact verified variant. It heats and cools, displays humidity, and uses a separately chosen humidity method such as compatible packs or distilled-water equipment.'
+      },
+      {
+        question: 'Is a glass-top humidor worse than a solid-lid humidor?',
+        answer: 'The format alone does not establish seal quality. Inspect the delivered lid, glass seam, hinges, and alignment, then observe a checked hygrometer. Keep any glass-top box away from direct sun and heat.'
+      },
+      {
+        question: 'Should I buy the electric model if my room is already stable?',
+        answer: 'Usually not for temperature control alone. A powered cabinet adds placement, ventilation, outlet, fan, and failure considerations. Use room logs to establish a heating or cooling need before paying for that complexity.'
+      },
+      {
+        question: 'Can I store factory boxes in these 100-count humidors?',
+        answer: 'Only if each measured box clears the usable interior, opening, tray or shelves, humidity source, and sensor. A loose-cigar capacity claim cannot be divided into a factory-box count.'
+      },
+      {
+        question: 'How much growth room should I leave?',
+        answer: 'There is no universal percentage. Leave enough room for your planned purchases, the humidity system, the sensor, access to lower layers, and any designed airflow without crushing cigars or blocking closures.'
+      }
+    ],
+    sources: [
+      { label: 'Quality Importers Deauville HUM-100TY — ASIN B0055QM9W6', publisher: 'Amazon.com, rendered October 12, 2026', url: 'https://www.amazon.com/dp/B0055QM9W6?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Case Elegance Octodor, black — ASIN B07Y5GK92B', publisher: 'Amazon.com, rendered October 12, 2026', url: 'https://www.amazon.com/dp/B07Y5GK92B?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'KingChii 16 L, two-layer 100-capacity variant — ASIN B0BQJ5H5YT', publisher: 'Amazon.com, rendered October 12, 2026', url: 'https://www.amazon.com/dp/B0BQJ5H5YT?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Spring 2025 catalog: Deauville capacity, dimensions, and included components', publisher: 'Quality Importers', url: 'https://www.qualityimporters.com/site/assets/QI/Catalogs/QI%20Catalog%20Spring%202025_SM.pdf', sourceType: 'Manufacturer instructions' },
+      { label: 'Octodor: dimensions, capacity, materials, and Hydro System components', publisher: 'Case Elegance', url: 'https://caseelegance.com/collections/humidors/products/octodor-large-glass-top-humidor', sourceType: 'Manufacturer instructions' },
+      { label: '16 L electric humidor: capacity, dimensions, heating, cooling, and temperature range', publisher: 'KingChii', url: 'https://www.kingchii.com/products/16l-electric-humidity-control-cabinet', sourceType: 'Manufacturer instructions' },
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Wood Handbook: Wood as an Engineering Material', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr282.pdf', sourceType: 'Government / technical reference' },
+      { label: 'Hygrometers and relative-humidity calibration', publisher: 'National Institute of Standards and Technology', url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers', sourceType: 'Government / technical reference' },
+      { label: 'Endorsement Guides: affiliate relationships and clear disclosure', publisher: 'Federal Trade Commission', url: 'https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking', sourceType: 'Government / regulation' }
+    ]
+  },
+  {
     id: 'best-humidors-for-cigar-boxes',
     slug: 'best-humidors-for-cigar-boxes',
     title: 'Best Humidors for Cigar Boxes: Three Storage Scales Compared',
