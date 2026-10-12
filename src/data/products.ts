@@ -128,7 +128,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     whoShouldBuy: ['Buyers who can fit their actual cigar boxes within the published 20.6 × 11.7 × 13.2-inch interior.'],
     whoShouldAvoid: ['Anyone who needs active temperature control or a furniture-style display enclosure.'],
     failureModesToWatch: ['Confirm the received exterior dimensions because the current maker and Amazon tables differ.', 'Inspect the drain and lid on the delivered unit before adding humidity; do not claim or assume an airtight seal.'],
-    relatedGuideSlugs: ['best-coolers-for-coolidor', 'best-humidor-humidifiers', 'science-of-airtight-tupperdors']
+    relatedGuideSlugs: ['best-coolers-for-coolidor', 'best-humidor-humidifiers', 'science-of-airtight-tupperdors', 'best-humidors-for-cigar-boxes']
   },
   {
     id: 'igloo-marine-ultra-100-coolidor',
@@ -607,7 +607,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     dimensions: '20.07" D x 9.92" W x 24" H (maker-listed)',
     electricFeatures: { heating: true, cooling: true, tempRange: '54°F–74°F (maker-listed)', activeHumidity: false },
     diyAlternativeBlueprintId: 'blueprint-converted-wineador',
-    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors', 'best-large-capacity-humidors', 'best-humidors-for-long-term-storage']
+    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors', 'best-large-capacity-humidors', 'best-humidors-for-long-term-storage', 'best-humidors-for-cigar-boxes']
   },
   {
     id: 'kingchii-16l',
@@ -862,7 +862,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
       'Inspect the removable flexible seal after cleaning and confirm every clip closes evenly.'
     ],
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'high-altitude-cigar-preservation', 'best-humidors-for-beginners', 'best-humidors-for-small-spaces', 'best-humidors-for-long-term-storage', 'best-humidors-for-infused-cigars']
+    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'high-altitude-cigar-preservation', 'best-humidors-for-beginners', 'best-humidors-for-small-spaces', 'best-humidors-for-long-term-storage', 'best-humidors-for-infused-cigars', 'best-humidors-for-cigar-boxes']
   },
   {
     id: 'spanish-cedar-tray-mantello',

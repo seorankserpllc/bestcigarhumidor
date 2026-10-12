@@ -8,6 +8,198 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-humidors-for-cigar-boxes',
+    slug: 'best-humidors-for-cigar-boxes',
+    title: 'Best Humidors for Cigar Boxes: Three Storage Scales Compared',
+    subtitle: 'Compare a shallow 7 L container, a 52-quart coolidor core, and a temperature-controlled cabinet by usable dimensions, box layout, missing equipment, and room conditions.',
+    category: 'selection',
+    categoryLabel: 'Factory-Box Storage Guide',
+    readTimeMinutes: 16,
+    ...editorialByline,
+    publishedDate: '2026-10-12',
+    reviewedDate: '2026-10-12',
+    heroVisual: 'box-storage',
+    excerpt: 'Three exact Amazon storage systems compared for factory boxes without converting loose-cigar capacity claims into invented box counts.',
+    featuredProductIds: ['sistema-236oz', 'coleman-classic-52-coolidor', 'kingchii-33l'],
+    relatedBlueprintIds: ['blueprint-coolidor-marine'],
+    useBrandedProductArt: true,
+    comparisonRows: [
+      {
+        productId: 'sistema-236oz',
+        recommendationLabel: 'One-box trial',
+        fit: 'A small factory box only after its exterior dimensions fit the delivered container with room for the humidity source and sensor',
+        capacity: '7 L food container; maker publishes 14 × 9.3 × 4.7-inch exterior dimensions, not usable interior dimensions or a cigar-box count',
+        tradeoff: 'Not sold as a humidor and includes no cigar equipment; the buyer must build and verify the complete system'
+      },
+      {
+        productId: 'coleman-classic-52-coolidor',
+        recommendationLabel: 'Bulk passive storage',
+        fit: 'Several measured factory boxes arranged within the maker-published 20.6 × 11.7 × 13.2-inch interior envelope',
+        capacity: '52-quart cooler; Coleman claims up to 80 cans, not cigars or factory boxes',
+        tradeoff: 'Insulation is not active cooling; wall taper, lid clearance, drain, humidity gear, and retrieval space reduce the raw envelope'
+      },
+      {
+        productId: 'kingchii-33l',
+        recommendationLabel: 'Temperature-control path',
+        fit: 'Measured boxes that physically clear the cabinet opening, shelves, door, sensor, and humidity equipment',
+        capacity: 'Amazon headline and maker page say 33 L and 250 cigars; neither publishes a verified factory-box count or usable interior dimensions',
+        tradeoff: 'Marketplace details conflict on volume, dimensions, and temperature range; this model controls temperature, not humidity automatically'
+      }
+    ],
+    sections: [
+      {
+        id: 'what-box-storage-needs',
+        title: '1. Factory boxes change the sizing problem',
+        contentMarkdown: `A factory box protects organization and provenance, but it also consumes space with hinges, walls, dividers, and an irregular exterior. A cabinet advertised for 250 loose cigars does not therefore hold five 50-count boxes. Box proportions, shelf spacing, the door opening, humidity equipment, and the need to retrieve a lower box all matter.
+
+These are three storage scales, not one universal ranking. The Sistema is a shallow food container for a possible one-box DIY setup. The Coleman is a large passive cooler that can become a coolidor. The KingChii is a powered cabinet that heats and cools within a stated range but still needs a separate humidity method. Measure the exact factory boxes before choosing any of them.
+
+We rendered the exact Amazon.com pages on October 12, 2026. We confirmed each displayed brand and title, current ASIN, named variant, listed components, and an active buying option. We did not buy, own, or test these products. We did not measure their usable interiors, box capacity, seals, temperature, humidity, gauge accuracy, noise, durability, or energy use.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product link, at no extra cost to you. Every buying button goes directly to the exact Amazon product page verified for this guide. We do not reproduce Amazon prices, ratings, review counts, badges, or popularity claims.`
+      },
+      {
+        id: 'search-gap',
+        title: '2. What current box-storage guides leave unresolved',
+        contentMarkdown: `Current search results do a useful job of separating desktop, cabinet, and cooler formats. Several also acknowledge that factory boxes need more room than loose cigars. The unresolved part is fit: roundups routinely substitute a headline loose-cigar count for a factory-box plan, or say a cabinet actively controls “humidity and temperature” when a product actually controls only temperature.
+
+Other current pages publish changing prices, scores, or broad whole-box estimates without giving usable interior dimensions. That is not enough to decide whether a wide hinged box clears a door, whether stacked boxes block a sensor, or whether the humidification method still has open space around it.
+
+This guide keeps the decisions separate: the enclosure’s measured interior, the humidity system, temperature responsibility, and access. Where a maker publishes an interior envelope, we report it as a planning boundary—not a promise that a particular box layout works. Where only exterior dimensions or a loose-cigar count exist, we say that plainly.`
+      },
+      {
+        id: 'comparison',
+        title: '3. Compare the storage job, not the headline count',
+        contentMarkdown: `Sistema is the smallest experiment and has the fewest supplied parts. Coleman provides the most documented passive interior volume here, but no cigar-specific equipment. KingChii adds powered temperature control and cedar shelves while leaving humidity control and box-fit verification to the owner.
+
+None publishes a verified factory-box count. The honest answer begins with a list of every box’s exterior width, depth, and height. Sketch the layout inside the usable enclosure, then subtract room for the sensor, humidity source, wall taper, shelves, opening clearance, and access. Do not rotate a box onto an edge unless its construction and contents can safely tolerate that orientation.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '4. Seven checks before buying storage for cigar boxes',
+        contentMarkdown: `**1. Measure every factory box.** Record exterior width, depth, and height at the widest points; do not assume two 25-count boxes share a format.
+
+**2. Find usable interior dimensions.** Exterior size and liters are poor fit tests. Door frames, rounded corners, wall taper, shelves, and hardware reduce the working envelope.
+
+**3. Mock the layout.** Draw each box to scale on paper or cardboard. Include the opening path and the hand space needed to remove a lower box without unloading everything.
+
+**4. Reserve humidity and sensor space.** A full enclosure with no safe place for the humidity source or checked hygrometer is already too small.
+
+**5. Separate insulation from temperature control.** A cooler slows heat transfer; it does not actively cool a hot room. The KingChii has powered heating and cooling, but that still does not make humidity automatic.
+
+**6. Plan for access and inspection.** Keep box labels visible where practical, rotate the inspection order, and leave enough clearance to check for damaged packaging or localized moisture without crushing adjacent boxes.
+
+**7. Verify the delivered variant.** Match the brand, ASIN, color or size, model, dimensions, shelves, and included parts before discarding packaging. Marketplace listings and manufacturer specifications can change or conflict.`
+      },
+      {
+        id: 'sistema',
+        title: '5. Sistema 7 L: a measured one-box experiment',
+        contentMarkdown: `The [Sistema KLIP IT Large 7 L container](/products/sistema-236oz-7l-airtight-container-tupperdor-core-review) rendered as ASIN **B00284AG5U**. Amazon showed the exact 7 L product with an active offer during verification. The listing identifies locking clips, an extended flexible seal, a rectangular stackable shape, and a plastic container. Sistema publishes 14 × 9.3 × 4.7-inch **exterior** dimensions.
+
+This is not sold as a humidor. It includes no humidity source, hygrometer, cedar, tray, dividers, or cigar-capacity promise. Sistema also does not publish usable interior dimensions on the cited page. A factory box belongs here only if its widest exterior points fit the delivered container while the lid closes freely and the humidity equipment and sensor retain safe space.
+
+Choose it for a small, low-cost fit experiment when one measured box is the job and you are comfortable building every cigar-specific layer. Choose Coleman when several boxes already exceed the shallow plan. Choose KingChii only when room measurements justify powered temperature control.
+
+Follow Sistema’s current cleaning instructions, remove all packaging, and dry every component completely. The [airtight-storage guide](/guides/science-of-airtight-tupperdors), [humidity calculator](/tools), and [tupperdor accessories guide](/guides/best-tupperdor-accessories) cover the remaining DIY decisions.`
+      },
+      {
+        id: 'coleman',
+        title: '6. Coleman Classic 52-quart: the documented bulk envelope',
+        contentMarkdown: `The [Coleman Classic 52-quart hard cooler](/products/coleman-classic-52-quart-coolidor-review) rendered as ASIN **B07XMMB6SG** with **Rock Grey** and **52qt** selected and an active offer. Amazon identifies a drain, swing-up handles, cup holders, and an 80-can claim. That can count is not a cigar-box capacity claim.
+
+Coleman’s current Rock Grey page publishes a 20.6 × 11.7 × 13.2-inch interior and a 25.6 × 14.8 × 16.5-inch exterior. Amazon instead displayed a 27.87 × 15.63 × 17.99-inch exterior and model **3000006573**, while Coleman’s page identifies **3000006572**. We could not independently resolve that discrepancy. Treat the delivered cooler—not either web table—as final.
+
+The maker-published interior is the best planning boundary among these three, but it is not a rectangular guarantee: walls can taper, the lid occupies space, and the drain, sensor, humidity source, and retrieval path reduce usable volume. Build a cardboard mock-up of the proposed box footprints before ordering, then verify the delivered interior with a tape measure.
+
+This cooler has no active refrigeration, humidification, or cigar gauge. Choose it when the room is already suitable and several boxes justify a passive bulk enclosure. The [coolidor guide](/guides/best-coolers-for-coolidor), [large-capacity guide](/guides/best-large-capacity-humidors), and project-owned [marine-cooler blueprint](/blueprints/blueprint-coolidor-marine) explain the supporting system.`
+      },
+      {
+        id: 'kingchii',
+        title: '7. KingChii 33 L: temperature control with unresolved box fit',
+        contentMarkdown: `The [KingChii 33 L electric cigar humidor](/products/kingchii-33l-electric-cigar-humidor-review) rendered as ASIN **B0B93HN22D**, titled **KingChii 33L Electric Cigar Humidors with Temperature Control System … (4 Layers 250 Capacity)**. Amazon showed an in-stock offer sold by KingChii. The listing identifies four layers, Spanish cedar frames and drawers, a built-in hygrometer, and thermoelectric heating and cooling.
+
+Specifications conflict. The Amazon headline says 33 L and the bullets state 64–72°F, while the product-detail table displayed 25 liters and 10.2 × 18.7 × 19.5 inches. KingChii’s current product page says 33 L, 250 cigars, and 54–74°F; our catalog records a maker-published 20.07 × 9.92 × 24-inch exterior. These are marketplace and manufacturer claims, not our measurements, and we could not resolve the differences.
+
+Neither cited page publishes usable interior dimensions or a factory-box count. The 250-cigar headline describes an unspecified loose-cigar arrangement and should not be divided into boxes. Buy only after the maker or seller confirms that each exact box clears the door and shelf spacing, and confirm the delivered model against the order while a return remains possible.
+
+This model controls temperature, not humidity automatically. The owner still chooses, sizes, and monitors a humidity method. Choose it only when logged room conditions show a temperature problem and the box layout has been confirmed; otherwise the passive Coleman path is simpler and roomier on documented dimensions.`
+      },
+      {
+        id: 'setup',
+        title: '8. Set up the enclosure before loading valuable boxes',
+        contentMarkdown: `Peer-reviewed tobacco research shows that tobacco exchanges moisture with surrounding air. The USDA Wood Handbook also documents how wood moisture changes with ambient conditions. Those principles support gradual setup and monitoring; they do not prove that any product here will hold a chosen relative humidity.
+
+1. Match the delivered brand, ASIN, variant, model, dimensions, shelves, and included parts to the order.
+2. Inspect the enclosure, closure, drain or gasket, shelves, door, wiring, and each factory box. Stop if damage prevents safe closure or operation.
+3. Clean or condition only as the exact instructions permit, then allow every washable surface to dry completely.
+4. Check the hygrometer using a documented reference procedure. Add a compatible sensor where none is supplied.
+5. Install one humidity method sized for the actual enclosure, away from direct wrapper contact and without blocking the KingChii’s airflow or sensor.
+6. Run the complete system empty in its permanent room. Observe temperature and RH trends long enough to catch obvious drift, placement problems, or an unstable closure.
+7. Load measured boxes gradually. Keep retrieval and inspection paths open, note the loading date, and recheck after the moisture load changes.
+
+The [hygrometer guide](/guides/best-cigar-hygrometers), [humidifier guide](/guides/best-humidor-humidifiers), and [long-term storage guide](/guides/best-humidors-for-long-term-storage) cover those supporting decisions.`
+      },
+      {
+        id: 'reasons-to-skip',
+        title: '9. When a different format is the better answer',
+        contentMarkdown: `If preserving factory packaging is not important, a desktop humidor or drawers can give loose cigars easier access in less volume. If travel protection is the primary job, use a [travel humidor](/guides/best-travel-humidors). If the room is already stable, do not pay for powered temperature control solely because “electric” sounds more complete.
+
+Multiple small containers can isolate groups and make one box easier to inspect, but they multiply gauges, humidity sources, and records. One large cooler reduces duplicate equipment but makes lower boxes harder to retrieve. An electric cabinet may address a measured temperature problem, yet its shelves and door can be a worse match for wide factory boxes than a plain cooler.
+
+Use the [humidor finder](/) to compare room conditions, format, growth, and maintenance preference. Then measure the exact boxes and confirm the current product page again before ordering.`
+      },
+      {
+        id: 'final-decision',
+        title: '10. The shortest honest recommendation',
+        contentMarkdown: `Choose the Sistema only when one measured box, plus the humidity source and sensor, fits the delivered interior. Choose the Coleman when several boxes fit its documented passive envelope and the room already provides suitable temperature. Choose the KingChii when temperature logs justify powered control and the seller confirms your exact boxes clear the cabinet.
+
+Do not turn any loose-cigar headline into a box count. The best enclosure for factory boxes is the one whose real interior, access path, humidity system, and temperature responsibility have all been verified.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'Can a full cigar box go inside a humidor?',
+        answer: 'Yes, if the intact box fits with room for the sensor, humidity source, closure, and retrieval path. Inspect the box and packaging, follow the enclosure instructions, and monitor the complete loaded system rather than assuming the factory box controls conditions.'
+      },
+      {
+        question: 'Does a 250-cigar cabinet hold five 50-count boxes?',
+        answer: 'Not necessarily. Loose-cigar counts do not account for box walls, hinges, dividers, shelf spacing, door clearance, humidity equipment, or access. Use the exterior dimensions of each exact box and the delivered usable interior.'
+      },
+      {
+        question: 'Does an insulated cooler actively cool cigars?',
+        answer: 'No. Insulation slows heat transfer but does not refrigerate a hot room. Measure the intended location; use powered temperature control only when the logged room problem and product operating range justify it.'
+      },
+      {
+        question: 'Does the KingChii 33 L control humidity automatically?',
+        answer: 'The verified listing and maker page describe temperature control and a hygrometer, not an automatic humidity-control system. The owner still supplies, sizes, and monitors a compatible humidity method.'
+      },
+      {
+        question: 'Do factory boxes eliminate the need for a humidified enclosure?',
+        answer: 'No. A factory box organizes cigars but is not evidence of a controlled long-term environment. Monitor the larger enclosure with a checked instrument and follow the cigar and enclosure instructions.'
+      },
+      {
+        question: 'How much clearance should I leave between cigar boxes?',
+        answer: 'There is no universal number. Leave enough room for the enclosure to close, for any designed airflow and sensor path, for the humidity source, and for a box to be removed without scraping or unloading the whole stack.'
+      },
+      {
+        question: 'Should I remove cigars from their factory boxes to save space?',
+        answer: 'That is an organization choice, not a requirement created by this guide. Removing boxes increases packing flexibility, while keeping them preserves labels and grouped access. Either plan still needs verified humidity, temperature, and physical fit.'
+      }
+    ],
+    sources: [
+      { label: 'Sistema KLIP IT Large 7 L food-storage container — ASIN B00284AG5U', publisher: 'Amazon.com, rendered October 12, 2026', url: 'https://www.amazon.com/dp/B00284AG5U?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Coleman Classic Series 52-quart hard cooler, Rock Grey — ASIN B07XMMB6SG', publisher: 'Amazon.com, rendered October 12, 2026', url: 'https://www.amazon.com/dp/B07XMMB6SG?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'KingChii 33 L electric cigar humidor, four-layer 250-capacity variant — ASIN B0B93HN22D', publisher: 'Amazon.com, rendered October 12, 2026', url: 'https://www.amazon.com/dp/B0B93HN22D?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'KLIP IT 7 L Rectangle: dimensions, volume, materials, and care', publisher: 'Sistema', url: 'https://www.sistemaplastics.com/uk/7l-rectangle', sourceType: 'Manufacturer instructions' },
+      { label: 'Classic Series 52-quart hard cooler, Rock Grey: dimensions and features', publisher: 'Coleman', url: 'https://www.coleman.com/coolers-drinkware/coolers/hard-coolers/classic-series-52-quart-hard-cooler/SAP_3000006572.html', sourceType: 'Manufacturer instructions' },
+      { label: '33 L electric cigar humidor: temperature range, capacity, and components', publisher: 'KingChii', url: 'https://www.kingchii.com/products/kingchii-33l-electric-cigar-humidor', sourceType: 'Manufacturer instructions' },
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Wood Handbook: Wood as an Engineering Material', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/fpl_gtr282.pdf', sourceType: 'Government / technical reference' },
+      { label: 'Hygrometers and relative-humidity calibration', publisher: 'National Institute of Standards and Technology', url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers', sourceType: 'Government / technical reference' },
+      { label: 'Endorsement Guides: affiliate relationships and clear disclosure', publisher: 'Federal Trade Commission', url: 'https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking', sourceType: 'Government / regulation' }
+    ]
+  },
+  {
     id: 'best-locking-humidors',
     slug: 'best-locking-humidors',
     title: 'Best Locking Humidors: Combination, Keyed Box, and Cabinet Compared',
