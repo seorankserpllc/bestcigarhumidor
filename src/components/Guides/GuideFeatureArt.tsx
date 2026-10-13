@@ -49,6 +49,7 @@ const visualConfig = {
   locking: { number: '19', label: 'LOCKING HUMIDORS', primary: LockKeyhole, secondary: Box, tertiary: Gauge },
   'box-storage': { number: '20', label: 'FACTORY-BOX STORAGE', primary: Box, secondary: TreePine, tertiary: Thermometer },
   'hundred-capacity': { number: '21', label: '100-CIGAR CAPACITY', primary: Box, secondary: Gauge, tertiary: Thermometer },
+  'dry-climate': { number: '22', label: 'DRY-CLIMATE HUMIDORS', primary: Droplets, secondary: Wind, tertiary: Gauge },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;

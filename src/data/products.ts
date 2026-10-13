@@ -378,7 +378,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
     finderPriority: 82,
     premiumPick: true,
-    relatedGuideSlugs: ['best-glass-top-humidors', 'glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors']
+    relatedGuideSlugs: ['best-glass-top-humidors', 'glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors', 'best-humidors-for-dry-climates']
   },
   {
     id: 'klaro-octodor',
@@ -632,7 +632,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     material: 'Electric cabinet with double-layer glass door and Spanish cedar shelves/drawer',
     electricFeatures: { heating: true, cooling: true, tempRange: '54–74°F maker page; 64–74°F current Amazon bullet', activeHumidity: false },
     diyAlternativeBlueprintId: 'blueprint-converted-wineador',
-    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors', 'best-humidors-for-small-spaces', 'best-100-count-humidors']
+    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors', 'best-humidors-for-small-spaces', 'best-100-count-humidors', 'best-humidors-for-dry-climates']
   },
 
   // ================= ACRYLIC & AIRTIGHT =================
@@ -727,7 +727,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     dimensions: '7.28" high x 5" diameter (current listing)',
     material: 'Clear acrylic with rubber gasket and cedar bottom lining',
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-desktop-humidors', 'best-acrylic-humidors', 'best-humidors-for-small-spaces']
+    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-desktop-humidors', 'best-acrylic-humidors', 'best-humidors-for-small-spaces', 'best-humidors-for-dry-climates']
   },
 
   // ================= TRAVEL HUMIDORS =================
