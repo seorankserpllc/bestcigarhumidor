@@ -378,7 +378,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
     finderPriority: 82,
     premiumPick: true,
-    relatedGuideSlugs: ['best-glass-top-humidors', 'glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors', 'best-humidors-for-dry-climates']
+    relatedGuideSlugs: ['best-glass-top-humidors', 'glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors', 'best-humidors-for-dry-climates', 'best-humidors-for-gifts']
   },
   {
     id: 'klaro-octodor',
@@ -727,7 +727,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     dimensions: '7.28" high x 5" diameter (current listing)',
     material: 'Clear acrylic with rubber gasket and cedar bottom lining',
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-desktop-humidors', 'best-acrylic-humidors', 'best-humidors-for-small-spaces', 'best-humidors-for-dry-climates']
+    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-desktop-humidors', 'best-acrylic-humidors', 'best-humidors-for-small-spaces', 'best-humidors-for-dry-climates', 'best-humidors-for-gifts']
   },
 
   // ================= TRAVEL HUMIDORS =================
@@ -766,14 +766,18 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     asin: 'B0956TGQ5G',
     amazonSearchQuery: 'Flauno Travel Cigar Humidor Case B0956TGQ5G',
     imageUrl: 'https://m.media-amazon.com/images/I/71lDNvvHBVL._AC_SL1200_.jpg',
-    description: 'A compact waterproof-style hard case with foam protection, a humidifier disc and an included cutter. It currently combines strong buyer feedback with a substantial review history.',
-    highlights: ['Five-cigar capacity', 'Crush-resistant hard shell', 'Airtight seal', 'Included cutter'],
-    pros: ['Top current search result for rugged travel humidors', 'Easy size for a day bag', 'Good value as a starter travel kit'],
-    cons: ['Only holds about five cigars', 'Accessory quality is secondary to the case itself'],
-    bestFor: 'Short trips and smokers who carry only a few cigars at a time.',
-    sealRating: 9.5,
-    scorecard: { sealIntegrity: 9.5, thermalStability: 7.2, humidityRetention: 9.4, craftsmanship: 8.2, valueScore: 9.1 },
-    relatedGuideSlugs: ['best-travel-humidors', 'travelers-cigar-handbook-tsa-torch-pressure']
+    description: 'A compact black ABS travel case with shaped foam, two clasps, an inner seal, a humidifier disc, a string handle, and an included stainless-steel cutter. The current listing claims room for five medium-ring cigars or four at 52 ring gauge.',
+    highlights: ['Five medium-ring or four 52-ring-gauge listing claim', 'Shaped foam and two clasps', 'Humidifier disc and cutter included', '8.8 x 5.2 x 2.1-inch exterior'],
+    pros: ['Compact day-trip footprint', 'Listing publishes both interior and exterior dimensions', 'Included cutter reduces the initial packing list'],
+    cons: ['Small capacity leaves little growth room', 'Humidifier disc still needs careful setup', 'Passive case cannot regulate temperature'],
+    bestFor: 'A recipient who already has home storage and normally carries four or five cigars for short trips.',
+    sealRating: 0,
+    dimensions: '8.8 x 5.2 x 2.1 inches exterior; 8.2 x 3.8 x 1.55 inches interior (current listing)',
+    material: 'Black ABS hard shell with shaped foam interior (current listing)',
+    whoShouldBuy: ['Travelers who already have permanent home storage', 'Recipients who normally carry four or five medium-size cigars'],
+    whoShouldAvoid: ['Anyone who needs a primary home humidor', 'Recipients who carry large, tubed, or more than five cigars'],
+    failureModesToWatch: ['Inspect the clasps, inner seal, foam, and disc on arrival', 'Keep free liquid away from cigars and foam', 'Never treat a passive case as protection from a hot vehicle'],
+    relatedGuideSlugs: ['best-travel-humidors', 'travelers-cigar-handbook-tsa-torch-pressure', 'best-humidors-for-gifts']
   },
   {
     id: 'cigar-caddy-40',

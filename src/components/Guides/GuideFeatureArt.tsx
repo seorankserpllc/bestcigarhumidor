@@ -5,6 +5,7 @@ import {
   Fan,
   Flame,
   Gauge,
+  Gift,
   GlassWater,
   Leaf,
   LockKeyhole,
@@ -50,6 +51,7 @@ const visualConfig = {
   'box-storage': { number: '20', label: 'FACTORY-BOX STORAGE', primary: Box, secondary: TreePine, tertiary: Thermometer },
   'hundred-capacity': { number: '21', label: '100-CIGAR CAPACITY', primary: Box, secondary: Gauge, tertiary: Thermometer },
   'dry-climate': { number: '22', label: 'DRY-CLIMATE HUMIDORS', primary: Droplets, secondary: Wind, tertiary: Gauge },
+  gift: { number: '23', label: 'HUMIDOR GIFT GUIDE', primary: Gift, secondary: Box, tertiary: Gauge },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;

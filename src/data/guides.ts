@@ -8,6 +8,174 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-humidors-for-gifts',
+    slug: 'best-humidors-for-gifts',
+    title: 'Best Humidors for Gifts: Three Recipient Types Compared',
+    subtitle: 'Choose a small clear jar, a traditional cedar desktop, or a compact travel case by the recipient\'s actual cigar routine—not by gift-box styling alone.',
+    category: 'selection',
+    categoryLabel: 'Humidor Gift Guide',
+    readTimeMinutes: 14,
+    ...editorialByline,
+    publishedDate: '2026-10-14',
+    reviewedDate: '2026-10-14',
+    heroVisual: 'gift',
+    excerpt: 'Three exact Amazon humidors compared for occasional smokers, home collectors, and travelers, with capacity, setup work, and gift-day pitfalls made clear.',
+    featuredProductIds: ['xifei-acrylic-jar', 'klaro-renzo', 'flauno-travel-5'],
+    relatedBlueprintIds: ['blueprint-tupperdor-7l'],
+    useBrandedProductArt: true,
+    comparisonRows: [
+      {
+        productId: 'xifei-acrylic-jar',
+        recommendationLabel: 'For a small home rotation',
+        fit: 'An occasional smoker who keeps roughly 15–20 loose cigars in a temperature-stable room and values simple visual checking',
+        capacity: 'Listing claims 15–20 cigars; clear one-count jar with clasp, rubber gasket, external hygrometer, cedar bottom, humidifier, and dropper',
+        tradeoff: 'Narrow vertical storage makes bottom cigars less convenient, the gauge still needs checking, and there is little growth room'
+      },
+      {
+        productId: 'klaro-renzo',
+        recommendationLabel: 'For a traditional desktop gift',
+        fit: 'A recipient building a small-to-medium home collection who wants cedar, display, a front gauge, and a furniture-style box',
+        capacity: 'Selected dark-brown Renzo; Amazon says roughly 30–35 average 52-ring cigars and lists two Hydro Channels, gel, and two solutions',
+        tradeoff: 'Requires maker-directed conditioning and ongoing care, follows room temperature, and is a poor surprise gift if the recipient already owns storage'
+      },
+      {
+        productId: 'flauno-travel-5',
+        recommendationLabel: 'For an existing owner who travels',
+        fit: 'A golfer, day-tripper, or weekend traveler who already has permanent home storage and normally carries only a few cigars',
+        capacity: 'Listing claims five medium-ring cigars or four at 52 ring gauge; includes shaped foam, humidifier disc, string handle, and cutter',
+        tradeoff: 'Not a primary home humidor, large cigars reduce fit, and neither the shell nor foam protects cigars from a hot vehicle'
+      }
+    ],
+    sections: [
+      {
+        id: 'what-best-means',
+        title: '1. The best humidor gift fits a routine you already understand',
+        contentMarkdown: `A humidor is useful only when it matches the recipient's **collection size, cigar dimensions, room, travel habits, and willingness to maintain it**. A handsome box can become a chore if it is too small, duplicates storage they already own, or requires more conditioning than they want.
+
+We reviewed current results for “best cigar humidor gifts,” beginner humidors, and travel gifts before choosing these products. The strongest competing pages organize ideas by budget or occasion, explain why presentation matters, and include accessories for different kinds of smokers. The common gaps are just as important: changing prices and ratings are repeated as if they settle quality; headline cigar counts are treated as standardized; “gift ready” is confused with ready for cigars; and little space is given to room temperature, seasoning, gauge uncertainty, or the awkward fact that an experienced owner may not need another humidor.
+
+This guide compares three **recipient types**, not three universal winners: a clear jar for a small home rotation, a traditional cedar desktop for someone deliberately building a collection, and a compact hard case for a traveler who already has home storage. We did not buy, gift, or performance-test them.
+
+On October 14, 2026, we rendered the exact Amazon.com pages for the XIFEI clear one-count jar (ASIN B07H244RDZ), CASE ELEGANCE Renzo in the selected dark-brown variant (ASIN B07GXSVH1H), and Flauno five-cigar travel case (ASIN B0956TGQ5G). Each page matched the brand, product, variant, included components, and ASIN described here and showed an active in-stock buying option.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product link, at no extra cost to you. Every buying button goes directly to the exact Amazon page verified for this guide. We do not reproduce Amazon prices, star ratings, review counts, badges, popularity claims, or invented performance results.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Compare the recipient, setup work, and exit ramp',
+        contentMarkdown: `Start with where the gift will be used. The XIFEI is a small home container with little wood to condition. The Renzo is a traditional wooden desktop system that needs deliberate setup. The Flauno is transport protection for someone whose cigars already have a permanent home.
+
+None actively cools or heats. None has a standardized independent capacity test. An included hygrometer is not proof of accuracy, and an included humidifier is not proof that the enclosure will hold the recipient's preferred condition. The table states what each current listing includes and why a buyer might choose a different format.
+
+If you cannot answer the fit questions below, a gift card to a reputable local tobacconist, a checked hygrometer, or a conversation with the recipient may be more useful than a surprise box.`
+      },
+      {
+        id: 'questions-before-buying',
+        title: '3. Ask these six questions without spoiling the surprise',
+        contentMarkdown: `**1. How many cigars are usually on hand?** Ask about a normal month, not the largest purchase ever made. Leave space for the humidity source and easy retrieval.
+
+**2. What sizes do they smoke?** “Five cigars” means something different for slim coronas, thick gordos, long Churchills, and tubes. A maker count without cigar dimensions is only a rough fit claim.
+
+**3. Do they already own home storage?** If yes, a travel case may fill a real gap. Another small desktop may just divide the collection and double the maintenance.
+
+**4. Is the room temperature suitable?** These three are passive. They follow the room and cannot correct a hot car, sunny window, cold garage, or unstable attic.
+
+**5. Will they enjoy setup?** The Renzo asks for maker-directed conditioning and observation. The acrylic jar skips wood-box seasoning but still needs cleaning, a checked gauge, and a compatible humidity method. The Flauno disc also needs careful preparation.
+
+**6. Can they return or exchange it?** Keep the ASIN, variant, packaging, instructions, and gift receipt together. Do not personalize or permanently alter the product until the recipient confirms the size and format.`
+      },
+      {
+        id: 'xifei-gift',
+        title: '4. XIFEI acrylic jar: for the occasional home smoker',
+        contentMarkdown: `The [XIFEI acrylic humidor jar](/products/xifei-acrylic-humidor-jar-review) is the lowest-complexity home-storage gift here. The rendered page showed the clear, one-count variant in stock. Its title says about 18 cigars; the bullets specify 15–20 depending on cigar size and list a 7.28-inch height, 5-inch diameter, clasp, rubber gasket, external hygrometer, cedar bottom lining, rectangular humidifier, and dropper.
+
+**Choose it if** the recipient keeps a small loose-cigar rotation, has a temperature-stable shelf, and will value seeing the contents without opening the lid. The narrow footprint is easy to place, and there is much less unfinished wood to condition than in a traditional desktop box.
+
+**Choose something else if** the collection is growing, the recipient buys factory boxes, or reaching down through a vertical stack would be annoying. The listing's seal, humidity retention, and gauge language are manufacturer claims, not independent measurements. Inspect the acrylic around the hygrometer opening, the removable gasket, and the clasp before use; keep the humidifier clear of wrappers and verify the gauge before loading valuable cigars.`
+      },
+      {
+        id: 'renzo-gift',
+        title: '5. CASE ELEGANCE Renzo: for a deliberate home collection',
+        contentMarkdown: `The [CASE ELEGANCE Renzo](/products/klaro-renzo-glass-top-humidor-review) is the traditional presentation gift. Amazon showed the exact dark-brown B07GXSVH1H variant in stock. The current page identifies the Renzo, glass top, front digital hygrometer, thick cedar, two Hydro Channels, gel packet, regular solution, winter or dry-climate solution, and accessory drawer. Accessories pictured in the drawer are not included.
+
+Amazon currently says roughly 30–35 average 52-ring-gauge cigars and 30–50 smaller robustos or coronas. Case Elegance publishes a more detailed size table on its own page. Those remain maker fit claims, but they are more useful than pretending one headline count applies to every cigar.
+
+**Choose it if** the recipient has specifically wanted a furniture-style cedar desktop, owns roughly the right number of loose cigars, and will enjoy commissioning and maintaining it. **Choose the XIFEI** if lower setup work matters more than the traditional look. **Choose no surprise humidor** if you do not know the collection size or the recipient already has a system they trust.
+
+Keep the sealed package, instructions, and gift receipt together. If you set it up before giving it, you take responsibility for cleaning, conditioning, gauge checking, and storage before the handoff. The safer default is to give it unused and include a short setup note pointing to the received manual and our [seasoning lab](/seasoning-lab).`
+      },
+      {
+        id: 'flauno-gift',
+        title: '6. Flauno five-cigar case: for the traveler who already has home storage',
+        contentMarkdown: `The [Flauno five-cigar travel humidor](/products/flauno-five-cigar-travel-humidor-review) solves a different problem. Its rendered Amazon page showed ASIN B0956TGQ5G in stock and listed a black ABS shell, two clasps, inner seal, shaped foam, humidifier disc, string handle, and stainless-steel cutter. The listing claims five medium-ring cigars or four cigars at 52 ring gauge. Published dimensions are 8.8 by 5.2 by 2.1 inches outside and 8.2 by 3.8 by 1.55 inches inside.
+
+**Choose it if** the recipient already has home storage and carries a few cigars for golf, a day trip, or a weekend. **Choose a larger travel case** for a group or thick, long, or tubed cigars. **Choose a home humidor** if this would otherwise become the collection's permanent box.
+
+The waterproof, crushproof, airtight, and humidification language comes from the current listing; we did not pressure-test, immerse, drop, or leak-test the case. Inspect the received clasps, seal, foam, disc, and cutter. Keep free liquid away from cigars and foam, and never leave the case in a hot vehicle.
+
+For U.S. flights, the included cutter or any lighter packed alongside it remains subject to current security and hazardous-material rules. FAA says torch, blue-flame, and jet-flame lighters are forbidden in the cabin and ordinary checked baggage. A travel humidor is not a DOT-approved lighter case. Recheck the [flying-with-cigars guide](/guides/travelers-cigar-handbook-tsa-torch-pressure), FAA, TSA, and the airline before every trip.`
+      },
+      {
+        id: 'gift-day-plan',
+        title: '7. Make the gift useful without pretending it is ready for cigars',
+        contentMarkdown: `A good handoff includes information, not an improvised setup. Put the product name, ASIN, variant, gift receipt, and maker instructions in one envelope. Add a note that the recipient should inspect the unit before conditioning or discarding packaging.
+
+Do not pre-fill the humidifier with an unlisted liquid, wipe wood with water, mix humidity systems, or load cigars merely for presentation. Tobacco exchanges moisture with surrounding air, and peer-reviewed sorption work shows that equilibrium changes with RH and tobacco type. NIST's humidity work is a reminder that a displayed reading is a measurement with uncertainty, not a guarantee.
+
+If you want to include a useful second item, choose a compatible humidity method only after checking the enclosure volume and maker directions, or include a compact hygrometer that the recipient can compare with a trusted reference. Avoid a random bundle of liquids, packs with different RH targets, and torch lighters for an air traveler.
+
+The [humidor finder](/) can compare the recipient's capacity, room, maintenance preference, and storage format. The [beginner humidor guide](/guides/best-humidors-for-beginners) explains first-system tradeoffs, the [travel humidor guide](/guides/best-travel-humidors) compares three carry sizes, and the [hygrometer guide](/guides/best-cigar-hygrometers) covers local, Bluetooth, and Wi-Fi monitoring.`
+      },
+      {
+        id: 'shortest-recommendation',
+        title: '8. The shortest honest recommendation',
+        contentMarkdown: `Choose the **XIFEI jar** for an occasional smoker with a small home rotation and stable room temperature. Choose the **Renzo** only when you know the recipient wants a traditional cedar desktop and the capacity fits. Choose the **Flauno** for someone who already owns home storage and regularly carries four or five cigars.
+
+If you do not know the collection size, cigar format, room, or existing equipment, do not guess. A returnable unconditioned gift—or letting the recipient choose—protects the surprise from becoming an expensive storage mismatch.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'What is the safest humidor gift when I do not know the recipient well?',
+        answer: 'Ask about collection size, cigar dimensions, existing storage, and travel habits first. If you cannot get those facts, a returnable unconditioned gift, a checked hygrometer, or letting the recipient choose is safer than guessing at a humidor.'
+      },
+      {
+        question: 'Should I season a wooden humidor before giving it?',
+        answer: 'Usually leave it unused unless you can follow the exact received instructions, protect it during the entire conditioning period, verify the gauge, and hand it over immediately. Keeping it returnable is often more valuable than presenting it preloaded.'
+      },
+      {
+        question: 'Is the XIFEI jar ready to use without seasoning?',
+        answer: 'It does not need full wood-box seasoning, but it still needs inspection, cleaning and drying as appropriate, a checked hygrometer, and a compatible humidity method. The small cedar bottom and included humidifier still require care.'
+      },
+      {
+        question: 'How many cigars fit in the Renzo?',
+        answer: 'Amazon currently says about 30–35 average 52-ring-gauge cigars and 30–50 smaller robustos or coronas. The maker publishes size-specific figures. Accessories, spacing, tubes, and cigar dimensions can reduce usable capacity.'
+      },
+      {
+        question: 'Can the Flauno travel case be the recipient\'s only humidor?',
+        answer: 'Its four-to-five-cigar format is better as transport storage for someone who already has a permanent home system. It is restrictive for a growing collection and cannot regulate temperature.'
+      },
+      {
+        question: 'Do any of these humidors control temperature?',
+        answer: 'No. All three are passive and follow the room or vehicle. Keep them away from direct sun, heaters, parked cars, and uncontrolled garages.'
+      },
+      {
+        question: 'Should I include cigars, a lighter, or humidity packs with the gift?',
+        answer: 'Only when you know the recipient\'s preferences and the storage method is compatible with the enclosure. Do not mix RH targets or add an unapproved liquid. For air travelers, recheck current FAA, TSA, and airline rules before adding any lighter or cutter.'
+      }
+    ],
+    sources: [
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Hygrometers and humidity calibration services', publisher: 'National Institute of Standards and Technology', url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers', sourceType: 'Government / technical reference' },
+      { label: 'Wood Handbook: moisture relations and dimensional change', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr282.pdf', sourceType: 'Government / technical reference' },
+      { label: 'PackSafe: lighters', publisher: 'Federal Aviation Administration', url: 'https://www.faa.gov/hazmat/packsafe/lighters', sourceType: 'Government / regulation' },
+      { label: 'Renzo dimensions, components, materials, and size-specific capacity table', publisher: 'Case Elegance', url: 'https://caseelegance.com/collections/all-products/products/glass-top-cedar-humidor-with-front-digital-hygrometer', sourceType: 'Manufacturer instructions' },
+      { label: 'XIFEI clear one-count acrylic jar — ASIN B07H244RDZ', publisher: 'Amazon.com, rendered October 14, 2026', url: 'https://www.amazon.com/dp/B07H244RDZ?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'CASE ELEGANCE Renzo, dark brown — ASIN B07GXSVH1H', publisher: 'Amazon.com, rendered October 14, 2026', url: 'https://www.amazon.com/dp/B07GXSVH1H?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Flauno five-cigar black travel case — ASIN B0956TGQ5G', publisher: 'Amazon.com, rendered October 14, 2026', url: 'https://www.amazon.com/dp/B0956TGQ5G?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' }
+    ]
+  },
+  {
     id: 'best-humidors-for-dry-climates',
     slug: 'best-humidors-for-dry-climates',
     title: 'Best Humidors for Dry Climates: Three Strategies Compared',
