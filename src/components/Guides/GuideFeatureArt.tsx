@@ -18,6 +18,7 @@ import {
   Snowflake,
   Thermometer,
   TreePine,
+  Wine,
   Wind,
 } from 'lucide-react';
 import type { GuideVisual } from '../../types/humidor';
@@ -52,6 +53,7 @@ const visualConfig = {
   'hundred-capacity': { number: '21', label: '100-CIGAR CAPACITY', primary: Box, secondary: Gauge, tertiary: Thermometer },
   'dry-climate': { number: '22', label: 'DRY-CLIMATE HUMIDORS', primary: Droplets, secondary: Wind, tertiary: Gauge },
   gift: { number: '23', label: 'HUMIDOR GIFT GUIDE', primary: Gift, secondary: Box, tertiary: Gauge },
+  'home-bar': { number: '24', label: 'HOME BAR HUMIDORS', primary: Wine, secondary: Box, tertiary: Thermometer },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;

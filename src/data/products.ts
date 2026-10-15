@@ -204,7 +204,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     whoShouldBuy: ['Buyers who want a traditional opaque desktop box with starter monitoring and humidification', 'Owners whose measured cigar load fits the maker\'s 25–50 range'],
     whoShouldAvoid: ['Collectors who need a lift-out tray', 'Rooms that require active heating or cooling'],
     failureModesToWatch: ['Inspect lid alignment and hinge stops before conditioning', 'Verify the external hygrometer against a trusted reference', 'Do not force the advertised count if cigars or accessories crowd the lid'],
-    relatedGuideSlugs: ['best-solid-lid-humidors', 'best-desktop-humidors', 'best-humidor-humidifiers', 'best-cigar-hygrometers']
+    relatedGuideSlugs: ['best-solid-lid-humidors', 'best-desktop-humidors', 'best-humidor-humidifiers', 'best-cigar-hygrometers', 'best-humidors-for-home-bars']
   },
   {
     id: 'quality-importers-deauville-solid-lid',
@@ -632,7 +632,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     material: 'Electric cabinet with double-layer glass door and Spanish cedar shelves/drawer',
     electricFeatures: { heating: true, cooling: true, tempRange: '54–74°F maker page; 64–74°F current Amazon bullet', activeHumidity: false },
     diyAlternativeBlueprintId: 'blueprint-converted-wineador',
-    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors', 'best-humidors-for-small-spaces', 'best-100-count-humidors', 'best-humidors-for-dry-climates']
+    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors', 'best-humidors-for-small-spaces', 'best-100-count-humidors', 'best-humidors-for-dry-climates', 'best-humidors-for-home-bars']
   },
 
   // ================= ACRYLIC & AIRTIGHT =================
@@ -679,7 +679,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     dimensions: 'Maker: 12.3 × 8.8 × 5.9 in; Amazon table currently shows 15.75 × 9.8 × 8.25 in',
     material: 'Acrylic body and trays with a solid Spanish cedar base tray (maker information)',
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['best-50-count-humidors', 'science-of-airtight-tupperdors', 'spanish-cedar-biology-guide', 'best-acrylic-humidors']
+    relatedGuideSlugs: ['best-50-count-humidors', 'science-of-airtight-tupperdors', 'spanish-cedar-biology-guide', 'best-acrylic-humidors', 'best-humidors-for-home-bars']
   },
   {
     id: 'prestige-aj25-acrylic',

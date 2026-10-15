@@ -8,6 +8,173 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-humidors-for-home-bars',
+    slug: 'best-humidors-for-home-bars',
+    title: 'Best Humidors for Home Bars: Three Formats Compared',
+    subtitle: 'Choose an opaque cedar desktop, a clear organized display, or a compact temperature-controlled cabinet by the room—not by bar décor alone.',
+    category: 'selection',
+    categoryLabel: 'Home Bar Buying Guide',
+    readTimeMinutes: 14,
+    ...editorialByline,
+    publishedDate: '2026-10-15',
+    reviewedDate: '2026-10-15',
+    heroVisual: 'home-bar',
+    excerpt: 'Three exact Amazon humidors compared for home bars, with surface space, capacity, temperature control, setup work, and placement limits made clear.',
+    featuredProductIds: ['prestige-chalet-black-solid-lid', 'klaro-felix-pro-acrylic', 'kingchii-16l'],
+    relatedBlueprintIds: ['blueprint-tupperdor-7l'],
+    useBrandedProductArt: true,
+    comparisonRows: [
+      {
+        productId: 'prestige-chalet-black-solid-lid',
+        recommendationLabel: 'For a compact opaque desktop',
+        fit: 'A small-to-medium loose-cigar rotation in a bar room whose measured temperature is already suitable',
+        capacity: 'Black CHLT/BK; listing says 20–50 cigars and includes cedar lining, adjustable divider, external hygrometer, humidifier, felt base, and internal locking hinges',
+        tradeoff: 'Broad capacity range, full wood-box conditioning, no active temperature control, and the included gauge and humidifier still need verification'
+      },
+      {
+        productId: 'klaro-felix-pro-acrylic',
+        recommendationLabel: 'For an organized clear display',
+        fit: 'A visible loose-cigar collection where two removable trays and size-specific capacity planning matter more than an opaque lid',
+        capacity: 'PRO variant; Amazon title says 50–60 cigars; maker lists two acrylic trays, a solid cedar base tray, digital hygrometer, and 12.3 × 8.8 × 5.9-inch exterior',
+        tradeoff: 'Clear sides demand thoughtful light placement, large cigars sharply reduce fit, and acrylic does not cool a warm bar room'
+      },
+      {
+        productId: 'kingchii-16l',
+        recommendationLabel: 'For a measured temperature problem',
+        fit: 'A larger collection in a room that genuinely needs powered heating or cooling and has a ventilated freestanding location near an outlet',
+        capacity: 'Black 16 L, two-layer, 100-capacity variant; cedar storage, built-in hygrometer, glass door, circulation, and semiconductor temperature control',
+        tradeoff: 'No automatic humidity control, needs power and ventilation, and Amazon and KingChii publish conflicting temperature, noise, and dimension figures'
+      }
+    ],
+    sections: [
+      {
+        id: 'what-best-means',
+        title: '1. The best home-bar humidor fits the room before the décor',
+        contentMarkdown: `A home bar is a social space, not automatically a good cigar-storage environment. Sun through a window, heat from beverage equipment, a sink or ice station, crowded counters, and frequent opening can matter more than whether a box matches the bottles.
+
+We reviewed current results for “best humidors for home bars,” home humidors, and desktop humidors before selecting these three formats. The strongest competing pages recognize that shoppers want something presentable and compare desktop and electric choices. Common weaknesses are changing prices, ratings, and invented performance scores; universal humidity targets; seal or accuracy claims repeated as proven facts; and little discussion of surface clearance, actual cigar dimensions, room-temperature responsibility, powered-cabinet ventilation, or spill exposure.
+
+This guide compares three different jobs: a compact opaque cedar desktop, a clear multi-level acrylic display, and a narrow powered cabinet for a measured temperature problem. We did not buy, own, or performance-test them. “Best” here means the most sensible fit among these exact current products for a defined room and collection—not an objective winner for every bar.
+
+On October 15, 2026, we rendered the exact Amazon.com pages for the Prestige Import Group Chalet in black (ASIN B004JH0X20), CASE ELEGANCE Felix Pro in the PRO size (ASIN B0CHTZWV9T), and KingChii black 16 L two-layer/100-capacity model (ASIN B0BQJ5H5YT). Each matched the brand, product, selected variant, components, and ASIN described here and showed an active in-stock buying option.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product link, at no extra cost to you. Every buying button goes directly to the exact Amazon page verified for this guide. We do not reproduce Amazon prices, star ratings, review counts, badges, popularity claims, or invented performance results.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Compare surface space, display style, and temperature function',
+        contentMarkdown: `Measure the intended location before comparing finishes. Include the product footprint, lid or door swing, room for your hand, access to the gauge and humidity source, and—only for the KingChii—the ventilation clearance required by the received manual and a safe route to an outlet.
+
+Capacity claims are not standardized. The Chalet listing gives a broad 20–50 range. The Felix maker publishes very different estimates by cigar size, from 20–25 Toro 60s to 70–90 Robusto 50s. KingChii's 100-cigar number is also a maker claim. Trays, dividers, spacing, tubes, large ring gauges, and the humidity source all consume usable space.
+
+The most important functional divide is temperature. The Chalet and Felix Pro follow the room. The KingChii lists powered heating and cooling, but its electrical system does **not** automatically regulate humidity. None of the three should be placed where splashes, direct sun, steam, or blocked ventilation are routine.`
+      },
+      {
+        id: 'measure-the-bar',
+        title: '3. Audit the bar before choosing a product',
+        contentMarkdown: `**Log temperature and RH first.** Take readings where the humidor will actually sit, with the room in normal use. NOAA defines relative humidity as a temperature-dependent ratio, so a displayed RH number without temperature context is incomplete. Check weekday and weekend conditions, HVAC cycles, sun, and heat from nearby appliances.
+
+**Map the operating envelope.** A top-opening box needs clear space above it. The Felix needs room to remove stacked trays without setting them beside wet glassware. The KingChii needs door swing, ventilation, an outlet, and a stable platform. A cabinet sold for countertop use is not permission to enclose it under a counter.
+
+**Separate storage from serving.** Keep cigars and open humidification equipment away from sinks, ice bins, mixers, food residue, smoke, cleaning sprays, and drink preparation. A humidor can live in the same room without occupying the splash zone.
+
+**Plan for the actual cigars.** Count what you normally store, note the longest and thickest formats, and leave room for monitoring and humidification. If factory boxes are central to the collection, use the [cigar-box storage guide](/guides/best-humidors-for-cigar-boxes) rather than forcing them into one of these loose-cigar layouts.`
+      },
+      {
+        id: 'prestige-chalet',
+        title: '4. Prestige Chalet: compact, opaque cedar storage',
+        contentMarkdown: `The [Prestige Import Group Chalet](/products/prestige-chalet-black-solid-lid-humidor-review) is the traditional, low-profile choice. Its rendered page showed the exact black B004JH0X20 listing in stock. The title and product details identify model CHLT/BK, and the page lists a deep-black finish, Spanish cedar interior, adjustable divider, external hygrometer, humidifier, felt bottom, internal locking hinges, and a 10.5 × 8.75 × 4.25-inch exterior. The listing gives a broad 20–50-cigar range depending on size.
+
+**Choose it if** the bar room already stays within your storage plan, the collection is modest, and an opaque furniture-style box belongs on the surface. The solid lid reduces constant visual exposure and the felt base is useful on finished furniture, but neither feature proves preservation performance.
+
+**Choose something else if** you want to see every cigar without opening the lid, need removable stacked trays, or have a room-temperature problem. The wood interior needs conditioning according to the received instructions. Wood exchanges moisture with surrounding air and changes dimension as moisture content changes, so setup and seasonal observation matter. Verify the included gauge against a trusted reference and treat the supplied humidifier as a component to manage—not a guarantee.`
+      },
+      {
+        id: 'felix-pro',
+        title: '5. CASE ELEGANCE Felix Pro: organized clear display',
+        contentMarkdown: `The [CASE ELEGANCE Felix Pro](/products/klaro-felix-pro-acrylic-humidor-review) is the display-forward option. Amazon showed ASIN B0CHTZWV9T with **PRO** selected and an in-stock offer. The current title says 50–60 cigars and the listing identifies two acrylic storage trays, a solid Spanish cedar base tray, digital hygrometer, clear acrylic body, and black ashwood base.
+
+Case Elegance lists a 12.3 × 8.8 × 5.9-inch exterior and publishes a useful size table: 50–60 Churchill 47s, 70–90 Robusto 50s, 38–45 Toro 50s or 52s, 35–40 Toro 54s, and 20–25 Toro 60s. Those remain maker estimates, but they expose how misleading one headline count can be.
+
+**Choose it if** the collection is mostly loose cigars, presentation matters, and the two tray levels help organization. **Choose the Chalet** if you prefer an opaque lid and a smaller body. **Choose the KingChii** only if measured room temperature—not display preference—justifies powered control.
+
+The listing's airtightness and hygrometer-precision language are manufacturer claims, not our measurements. Acrylic removes most wood-box conditioning work, but the cedar base and chosen humidity method still need the maker's setup process. Keep the clear body out of direct sun and leave space to lift the lid and remove trays safely.`
+      },
+      {
+        id: 'kingchii-16l',
+        title: '6. KingChii 16 L: powered temperature control with separate humidity work',
+        contentMarkdown: `The [KingChii 16 L electric cigar humidor](/products/kingchii-16l-electric-cigar-humidor-review) is for a bar room with a documented temperature problem, not merely for a larger display. Amazon rendered ASIN B0BQJ5H5YT in black, titled as the two-layer 100-capacity variant, with an in-stock offer. The listing identifies two cedar storage layers, a built-in hygrometer, double-layer glass door, circulation, and semiconductor temperature control.
+
+Current sources conflict. Amazon says 64–74°F and no more than 40 dB; KingChii says heating and cooling at 54–74°F and no more than 38 dB. The catalog also records different Amazon and maker dimensions. Confirm the received manual, model label, dimensions, ambient limits, clearance, and control range before choosing furniture or relying on a set point.
+
+**Choose it if** measurements show the room becomes warmer or colder than your plan and you can provide a ventilated freestanding location near an outlet. **Choose a passive product** if room temperature is already stable; it avoids fan noise, electricity, clearance, and another failure point.
+
+The built-in display measures humidity, but this model does not list automatic active humidity control. Use the humidity method required by the exact manual, compare the display with a checked instrument, and watch for condensation. Do not build the cabinet into millwork or place it beside a sink unless the received manual explicitly allows that installation.`
+      },
+      {
+        id: 'setup-plan',
+        title: '7. Set up the storage system before stocking the bar',
+        contentMarkdown: `Tobacco is hygroscopic. Peer-reviewed sorption research found that equilibrium moisture changes with RH and tobacco type, so the useful signal is a stable trend—not one attractive reading on opening night. NIST's calibration work likewise shows that humidity measurement is a metrology problem with uncertainty.
+
+1. Inspect the exact delivered model, finish, hinges, closure, trays, gauge, humidifier, cord, glass, and seal before discarding packaging.
+2. Read the received manual. Clean only as directed, let shipping odors dissipate, and condition cedar using the product maker's process. Do not wipe wood with water unless the exact instructions require it.
+3. Place a checked hygrometer near cigar level without blocking airflow or touching the humidity source. Compare it with any built-in display.
+4. Run the empty system until temperature and RH trends are stable. For the electric model, verify door closure, ventilation, fan operation, and any drainage guidance.
+5. Add cigars gradually and recheck after the load changes. Stop and investigate unexpected odor, visible moisture, condensation, swelling, or a persistent disagreement between instruments.
+
+Use the [seasoning lab](/seasoning-lab) for a structured setup plan, the [hygrometer guide](/guides/best-cigar-hygrometers) for local and remote monitoring, and the [humidor finder](/) if the room or collection changes.`
+      },
+      {
+        id: 'shortest-recommendation',
+        title: '8. The shortest honest recommendation',
+        contentMarkdown: `Choose the **Prestige Chalet** for a compact traditional box in a temperature-stable bar room. Choose the **Felix Pro** when clear presentation, removable trays, and size-specific capacity planning matter more than an opaque lid. Choose the **KingChii 16 L** only when room measurements justify powered heating or cooling and you have safe ventilation, power, and floor or counter space.
+
+If the proposed location is sunny, hot, wet, crowded, or inside closed cabinetry, fix the location before buying a more elaborate humidor. The storage environment and maintenance routine matter more than matching the bottle shelf.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'Can I put a humidor directly on a home-bar countertop?',
+        answer: 'Only if the surface is stable, dry, away from direct sun and heat, and outside the drink-preparation splash zone. Leave room for the lid or door, maintenance, and—on an electric cabinet—the clearances required by the received manual.'
+      },
+      {
+        question: 'Which home-bar humidor has the smallest footprint?',
+        answer: 'The Prestige Chalet has the smallest published exterior here at 10.5 by 8.75 by 4.25 inches. Its lid still needs overhead clearance, and the broad 20–50-cigar claim must be checked against your actual cigar sizes.'
+      },
+      {
+        question: 'Does the Felix Pro really hold 50–60 cigars?',
+        answer: 'Amazon uses 50–60 in the title, while Case Elegance publishes estimates by format: 20–25 Toro 60s, 35–45 several Toro sizes, 50–60 Churchill 47s, and 70–90 Robusto 50s. Trays, spacing, tubes, and accessories change usable fit.'
+      },
+      {
+        question: 'Does the KingChii 16 L control humidity automatically?',
+        answer: 'No active humidity control is listed for this exact model. It provides a hygrometer and maker-listed heating and cooling, but humidity still requires the method specified by the received manual and independent verification.'
+      },
+      {
+        question: 'Can I install the KingChii under a bar counter?',
+        answer: 'Do not assume it is a built-in appliance. Use a ventilated freestanding location and follow the received manual for clearance, ambient limits, electrical placement, and door swing. Closed cabinetry can obstruct airflow.'
+      },
+      {
+        question: 'Is a clear humidor bad for cigars?',
+        answer: 'A clear body is not automatically a preservation failure, but placement matters. Keep it out of direct sunlight and away from heat. The enclosure, humidity system, monitoring, room temperature, and maintenance routine work together.'
+      },
+      {
+        question: 'Should I load cigars as soon as the humidor arrives?',
+        answer: 'No. Inspect the exact unit, follow its cleaning and conditioning instructions, compare the gauge with a trusted reference, and observe stable empty-system temperature and RH trends before loading valuable cigars.'
+      }
+    ],
+    sources: [
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Hygrometers and relative-humidity calibration', publisher: 'National Institute of Standards and Technology', url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers', sourceType: 'Government / technical reference' },
+      { label: 'Relative humidity definition and temperature dependence', publisher: 'National Oceanic and Atmospheric Administration', url: 'https://www.noaa.gov/jetstream/appendix/weather-glossary-r', sourceType: 'Government / technical reference' },
+      { label: 'Wood Handbook: moisture relations and dimensional change', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr282.pdf', sourceType: 'Government / technical reference' },
+      { label: 'Felix Pro dimensions, components, materials, and cigar-size capacity table', publisher: 'Case Elegance', url: 'https://caseelegance.com/products/felix-pro-tupperdor-airtight-acrylic-humidor', sourceType: 'Manufacturer instructions' },
+      { label: 'KingChii 16 L capacity, dimensions, heating, cooling, and temperature range', publisher: 'KingChii', url: 'https://www.kingchii.com/products/16l-electric-humidity-control-cabinet', sourceType: 'Manufacturer instructions' },
+      { label: 'Prestige Import Group Chalet black CHLT/BK — ASIN B004JH0X20', publisher: 'Amazon.com, rendered October 15, 2026', url: 'https://www.amazon.com/dp/B004JH0X20?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'CASE ELEGANCE Felix Pro, PRO size — ASIN B0CHTZWV9T', publisher: 'Amazon.com, rendered October 15, 2026', url: 'https://www.amazon.com/dp/B0CHTZWV9T?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'KingChii 16 L, black two-layer/100-capacity variant — ASIN B0BQJ5H5YT', publisher: 'Amazon.com, rendered October 15, 2026', url: 'https://www.amazon.com/dp/B0BQJ5H5YT?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' }
+    ]
+  },
+  {
     id: 'best-humidors-for-gifts',
     slug: 'best-humidors-for-gifts',
     title: 'Best Humidors for Gifts: Three Recipient Types Compared',
