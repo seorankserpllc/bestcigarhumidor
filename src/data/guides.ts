@@ -8,6 +8,198 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-humidors-with-accessory-drawers',
+    slug: 'best-humidors-with-accessory-drawers',
+    title: 'Best Humidors With Accessory Drawers: Three Sizes Compared',
+    subtitle: 'Compare a compact desktop, a tray-based 50–100-cigar box, and a four-drawer cabinet without confusing accessory storage with climate-controlled cigar space.',
+    category: 'selection',
+    categoryLabel: 'Drawer Humidor Buying Guide',
+    readTimeMinutes: 14,
+    ...editorialByline,
+    publishedDate: '2026-10-16',
+    reviewedDate: '2026-10-16',
+    heroVisual: 'drawer',
+    excerpt: 'Three exact Amazon humidors with separate accessory drawers compared by cigar capacity, footprint, drawer function, setup work, and temperature limits.',
+    featuredProductIds: ['klaro-renzo', 'klaro-octodor', 'woodronic-3drawer'],
+    relatedBlueprintIds: ['blueprint-tupperdor-7l'],
+    useBrandedProductArt: true,
+    comparisonRows: [
+      {
+        productId: 'klaro-renzo',
+        recommendationLabel: 'For a compact desktop setup',
+        fit: 'A small loose-cigar rotation whose owner wants cutters and a lighter nearby but outside the humidified compartment',
+        capacity: 'Dark-brown Renzo; maker table ranges from 18 Toro 60s to 60–68 Petite Coronas; felt-lined accessory drawer and two Hydro Channels',
+        tradeoff: 'Only one cigar level, size-dependent capacity, wood conditioning, and no active temperature control'
+      },
+      {
+        productId: 'klaro-octodor',
+        recommendationLabel: 'For a larger desktop collection',
+        fit: 'A loose-cigar collection that benefits from a removable cedar tray plus a separate drawer for everyday tools',
+        capacity: 'Black Octodor; current listing says 50–100 cigars and includes a removable cedar tray, divider, recessed Hydro System, and felt-lined drawer',
+        tradeoff: 'No cigar-size capacity table, substantially larger footprint, glossy finish, and no active temperature control'
+      },
+      {
+        productId: 'woodronic-3drawer',
+        recommendationLabel: 'For vertical drawer organization',
+        fit: 'A large loose-cigar collection in a temperature-stable room where four cedar cigar drawers and a separate tool drawer justify the cabinet footprint',
+        capacity: 'Selected 250 Counts variant; listing says 200–250 cigars, four cedar-lined cigar drawers, one accessory drawer, two gel humidifiers, digital hygrometer, light, and keyed door',
+        tradeoff: 'Passive cabinet, electrical power is only for the light or optional humidifier, published exterior dimensions conflict, and thick cigars sharply reduce the maker count'
+      }
+    ],
+    sections: [
+      {
+        id: 'what-best-means',
+        title: '1. The best drawer humidor keeps two kinds of storage separate',
+        contentMarkdown: `An accessory drawer is useful only when the humidor itself fits the cigar collection and the room. Its job is to keep a cutter, lighter, punch, travel case, or other dry tools organized outside the cigar compartment. It does not add cigar capacity, improve the seal, regulate humidity, or cool a warm room.
+
+We reviewed current results for “best humidor with accessory drawer,” drawer humidors, desktop humidors, and cabinet humidors before choosing these three scales. The stronger competing pages identify attractive boxes and recognize that cigar size affects capacity. Common gaps are changing prices and ratings, unsupported seal or performance claims, accessory drawers counted as climate-controlled space, vague drawer dimensions, and little discussion of opening clearance, room temperature, gauge uncertainty, or the difference between a cigar tray and a tool drawer.
+
+This guide compares a compact single-level box, a larger box with a removable cigar tray, and a tall passive cabinet with four cigar drawers. We did not buy, own, or performance-test them. “Best” means the most sensible fit among these exact current products for a defined collection and room—not an objective winner.
+
+On October 16, 2026, we rendered the exact Amazon.com pages for the CASE ELEGANCE Renzo in dark brown (ASIN B07GXSVH1H), CASE ELEGANCE Octodor in black (ASIN B07Y5GK92B), and Woodronic selected 250 Counts cabinet (ASIN B0CXXNHCP4). Each page matched the brand, product, selected variant, accessories, and ASIN described here and showed an active buying offer.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product link, at no extra cost to you. Every buying button goes directly to the exact Amazon page verified for this guide. We do not reproduce Amazon prices, star ratings, review counts, badges, popularity claims, or invented performance results.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Compare cigar storage, tool storage, and room fit separately',
+        contentMarkdown: `The Renzo has one main cigar level and the smallest exterior. The Octodor adds a removable cedar cigar tray above lower storage. The Woodronic is a vertical cabinet with four ventilated cigar drawers behind its glass door and a separate accessory drawer. Those layouts are not interchangeable.
+
+The accessory drawer is not a fallback cigar compartment. The Renzo and Octodor describe felt-lined bottom drawers for tools; the Woodronic lists a distinct accessory drawer below its cedar cigar drawers. Keep cigar storage and humidification inside the enclosure the maker designed for them.
+
+All three are passive with respect to room temperature. The Woodronic uses electricity for its light and is pre-wired for an optional electric humidifier, but the verified listing does not show heating or cooling. Measure the room before buying, then measure the full operating envelope: lid swing, tool-drawer pull, cabinet-door swing, cigar-drawer removal, maintenance access, and a safe cable route where applicable.`
+      },
+      {
+        id: 'buying-checklist',
+        title: '3. Eight checks before paying for a drawer',
+        contentMarkdown: `**Count the cigars, not the accessories.** Inventory cigar length and ring gauge. A maker's headline count cannot tell you whether your actual mix fits.
+
+**Name the tools.** Check the longest travel case, widest cutter, lighter height, refill bottles, batteries, and spare humidity supplies you intend to store. A product can advertise an accessory drawer without publishing every usable internal dimension.
+
+**Confirm the drawer is separate.** A felt- or foam-lined tool drawer is not the humidified cigar compartment. Do not assume it shares the cigar chamber's RH.
+
+**Measure the operating space.** Add lid, door, and drawer movement to the exterior footprint. Leave a safe hand path so a full drawer does not collide with a wall, shelf edge, or nearby glassware.
+
+**Separate measurement from control.** A digital display reports a reading; it does not prove accuracy and does not create humidity. NIST's humidity work uses controlled conditions, references, and stated uncertainty, which is why an unchecked built-in number should be treated as an instrument reading rather than a guarantee.
+
+**Plan humidity equipment displacement.** Hydro Channels, trays, gel humidifiers, packs, sensors, and spacing consume usable cigar room even when the accessory drawer is separate.
+
+**Measure the room temperature.** None of these three heats or cools the cigar compartment. Use the [electric humidor guide](/guides/best-electric-cigar-humidors) if temperature is the actual problem.
+
+**Inspect the delivered unit.** Drawer alignment, glass, hinges, magnets, lock, cables, gauge, and included components can be checked before valuable cigars go inside.`
+      },
+      {
+        id: 'renzo',
+        title: '4. Renzo: the compact single-level choice',
+        contentMarkdown: `The [CASE ELEGANCE Renzo](/products/klaro-renzo-glass-top-humidor-review) is the smallest option here. Amazon rendered ASIN B07GXSVH1H with the **Dark brown** variant selected, an active in-stock offer, and a title identifying the Renzo glass-top humidor. The page and maker materials identify a front digital hygrometer, Spanish cedar lining, two Hydro Channels, solution bottles, gel, and a felt-lined accessory drawer.
+
+Case Elegance publishes an unusually useful size table. Its estimates run from 60–68 Petite Coronas or 46–50 Coronas down to 34–38 Robustos, 28–30 Toro 52s, 26–30 Toro 54s, and 18 Toro 60s. These are maker fit claims, not our measurements, but they show why a single “50-cigar” label is inadequate. The maker lists an 8.5 × 9 × 5.4-inch exterior.
+
+**Choose it if** you keep a modest loose-cigar rotation, want the smallest furniture footprint of these three, and need a shallow drawer for everyday tools. **Choose the Octodor** if a removable cigar tray and more headroom matter. **Choose a sealed utility container** if tool storage is less important than low setup work.
+
+The drawer does not change the Renzo's one-level cigar layout, and the passive wood box follows room temperature. Follow the received setup instructions, keep accessories out of the cigar space, and compare the built-in display with a checked instrument before relying on it.`
+      },
+      {
+        id: 'octodor',
+        title: '5. Octodor: a removable cigar tray plus a tool drawer',
+        contentMarkdown: `The [CASE ELEGANCE Octodor](/products/klaro-octodor-large-glass-top-humidor-review) is the middle scale. Amazon rendered ASIN B07Y5GK92B in black with an in-stock offer. The current title identifies the 50–100-cigar Octodor, digital hygrometer, cedar construction, humidification system, accessory drawer, octagonal body, piano-black finish, and glass top. The listing also identifies a removable cedar tray and divider, while the tool drawer is felt lined and its pictured accessories are not included.
+
+Case Elegance lists a 13.75 × 9.5 × 8.6-inch exterior and a recessed Hydro System. Unlike the Renzo, the current maker page does not publish a cigar-size capacity table for this exact model. Treat 50–100 as a broad maker range, not evidence that one hundred thick cigars will fit with the tray, divider, sensor, humidification equipment, and useful air space in place.
+
+**Choose it if** you want two cigar levels and a separate place for tools while staying in a desktop format. **Choose the Renzo** for a smaller rotation and footprint. **Choose the Woodronic** only when four cigar drawers and vertical capacity justify a cabinet.
+
+The glossy body and large lid need clear, stable furniture. The drawer does not cool or humidify the cigar compartment, and the box remains dependent on room temperature and the received humidity-system instructions.`
+      },
+      {
+        id: 'woodronic',
+        title: '6. Woodronic 250 Counts: four cigar drawers and one accessory drawer',
+        contentMarkdown: `The [Woodronic four-drawer cabinet](/products/woodronic-3-drawer-spanish-cedar-cabinet-review) is a different class of product. Amazon rendered ASIN B0CXXNHCP4 with **250 Counts** selected and an active offer. The page identifies four cedar-lined cigar drawers, a dedicated accessory drawer, digital hygrometer, two crystal-gel humidifiers with solution, LED light, glass door, keyed lock, two keys, and wiring for an optional electric humidifier that is not included.
+
+The listing says 200–250 cigars and gives a seven-inch maximum vertical length. Woodronic's current size table is more revealing: 150–200 for 48–59 ring gauge and 50–150 for 60–80 ring gauge, while much higher counts apply only to thinner formats. Those are still maker estimates, but they expose the penalty for thick cigars.
+
+Published dimensions conflict. Amazon's product details say 13.03 × 9.13 × 25.98 inches. Woodronic's page and Amazon's enhanced content say about 12.25 × 10.5 × 26 inches and list an accessory drawer around 9.25 × 7.875 × 3.75 inches. Confirm the received unit before committing built-ins or close-clearance furniture.
+
+**Choose it if** a large loose-cigar collection needs four separate cedar drawers and the room temperature is already suitable. **Choose something else** for factory boxes, active heating or cooling, a shallow shelf, or a collection too small to justify the cabinet's conditioning and monitoring workload.
+
+Power for a light or optional humidifier does not make this a temperature-controlled humidor. Leave the door, drawers, lock, wiring, and any maker-required clearance accessible.`
+      },
+      {
+        id: 'organize',
+        title: '7. Use the accessory drawer without creating a second climate problem',
+        contentMarkdown: `Keep dry tools in the accessory drawer: cutters, punches, an empty travel case, spare gauge batteries, or other items the received instructions permit. Do not store cigars there unless the maker explicitly identifies that drawer as part of the controlled cigar compartment.
+
+Avoid loose liquid, leaking gel, dirty ash tools, strongly scented material, or anything that can scratch the drawer or migrate into the humidor. Follow the lighter maker's storage instructions and keep flame tools away from heat. Do not place a leaking refill bottle beside finished wood.
+
+Organize the cigar compartment by what helps you retrieve cigars quickly—format, date, or rotation—without packing away airflow or blocking humidity equipment. The Woodronic's cedar drawers are cigar storage; its separate accessory drawer is not. The Octodor's removable cedar tray is cigar storage; its felt-lined lower drawer is not. The Renzo has one cigar level above its tool drawer.
+
+If the collection is mostly factory boxes, start with the [cigar-box storage guide](/guides/best-humidors-for-cigar-boxes). If a dedicated drawer is unnecessary, the [solid-lid guide](/guides/best-solid-lid-humidors) and [airtight tupperdor guide](/guides/science-of-airtight-tupperdors) compare simpler enclosures.`
+      },
+      {
+        id: 'setup',
+        title: '8. Commission the cigar chamber before filling the tool drawer',
+        contentMarkdown: `Tobacco is hygroscopic. Peer-reviewed sorption research found that tobacco equilibrium moisture changes with RH and tobacco type. The USDA Wood Handbook likewise describes how wood exchanges moisture with surrounding air and changes dimension. That makes setup a system process, not a reason to trust one attractive display reading.
+
+1. Confirm the exact delivered model, color or size, ASIN, and included parts before discarding packaging.
+2. Inspect glass, finish, hinges, magnetic closure, lock, cigar trays or drawers, accessory drawer, gauge, humidifiers, bottles, and cables.
+3. Clean and condition only as the received instructions direct. Do not wipe cedar with water unless the exact manual requires it.
+4. Place a checked hygrometer near cigar level without touching the humidity source or blocking drawer movement.
+5. Run the empty cigar chamber until readings form a stable trend. On the tall cabinet, compare more than one drawer height.
+6. Add cigars gradually. Recheck drawer movement, air paths, and instrument agreement after the load changes.
+7. Load only clean, dry accessories into the separate drawer. Keep the cigar chamber free of cutters, lighters, travel cases, and refill bottles.
+
+Use the [seasoning lab](/seasoning-lab) for a structured setup plan, the [hygrometer guide](/guides/best-cigar-hygrometers) for monitoring choices, and the [humidor finder](/) if the room, cigar mix, or collection size changes.`
+      },
+      {
+        id: 'recommendation',
+        title: '9. The shortest honest recommendation',
+        contentMarkdown: `Choose the **Renzo** for a compact loose-cigar rotation and a small everyday tool drawer. Choose the **Octodor** when a removable cedar cigar tray and larger desktop capacity matter. Choose the **Woodronic** for a large loose-cigar collection that genuinely benefits from four cedar cigar drawers plus a separate accessory drawer in a temperature-stable room.
+
+If you are buying mainly for the drawer, stop and price the space in inches: cigar capacity, accessory dimensions, lid or door swing, drawer pull, sensor placement, humidity equipment, and room temperature. A simpler humidor plus a separate valet tray may be the better system.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'Can I store cigars in the accessory drawer?',
+        answer: 'Not in the separate felt-lined tool drawers described for these models. Store cigars only in the cedar-lined compartment, tray, or drawers the maker identifies for cigars. The accessory drawer is for compatible dry tools.'
+      },
+      {
+        question: 'Does an accessory drawer count toward cigar capacity?',
+        answer: 'No. Treat the tool drawer as separate organization space. Capacity must be planned from the cigar chamber, actual cigar dimensions, trays, dividers, humidification equipment, sensors, and useful spacing.'
+      },
+      {
+        question: 'Which option is smallest?',
+        answer: 'The Renzo has the smallest maker-listed exterior at 8.5 by 9 by 5.4 inches. Leave additional room to open the lid and pull the bottom drawer fully.'
+      },
+      {
+        question: 'How many large-ring-gauge cigars fit?',
+        answer: 'Case Elegance lists 18 Toro 60s for the Renzo. The Octodor does not publish a current size table. Woodronic lists 50–150 cigars for 60–80 ring gauge. All are maker estimates, so plan from your exact lengths, diameters, and layout.'
+      },
+      {
+        question: 'Does the Woodronic cabinet control temperature?',
+        answer: 'No heating or cooling is listed for this exact passive cabinet. Its power supports the LED light and optional-humidifier wiring. The room still determines the cabinet temperature.'
+      },
+      {
+        question: 'Can I trust the built-in hygrometer?',
+        answer: 'Treat it as an instrument to check, not proof of conditions. Compare it with a trusted reference during empty setup and investigate persistent disagreement before loading valuable cigars.'
+      },
+      {
+        question: 'Are the cutter, lighter, and travel case included?',
+        answer: 'No such accessories were included on the verified Renzo or Octodor pages, and Woodronic states that accessories are not included. Verify the current listing contents rather than relying on staged photos.'
+      }
+    ],
+    sources: [
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Hygrometers and relative-humidity calibration', publisher: 'National Institute of Standards and Technology', url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers', sourceType: 'Government / technical reference' },
+      { label: 'Wood Handbook: moisture relations and dimensional change', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr282.pdf', sourceType: 'Government / technical reference' },
+      { label: 'Renzo dimensions, components, and cigar-size capacity table', publisher: 'Case Elegance', url: 'https://caseelegance.com/products/glass-top-cedar-humidor-with-front-digital-hygrometer', sourceType: 'Manufacturer instructions' },
+      { label: 'Octodor dimensions, components, drawer, and tray', publisher: 'Case Elegance', url: 'https://caseelegance.com/collections/humidors/products/octodor-large-glass-top-humidor', sourceType: 'Manufacturer instructions' },
+      { label: '250-cigar cabinet dimensions, drawer sizes, components, and capacity table', publisher: 'Woodronic', url: 'https://woodronic.shop/products/250-cigar-led-humidor-cabinet', sourceType: 'Manufacturer instructions' },
+      { label: 'CASE ELEGANCE Renzo, dark-brown variant — ASIN B07GXSVH1H', publisher: 'Amazon.com, rendered October 16, 2026', url: 'https://www.amazon.com/dp/B07GXSVH1H?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'CASE ELEGANCE Octodor, black variant — ASIN B07Y5GK92B', publisher: 'Amazon.com, rendered October 16, 2026', url: 'https://www.amazon.com/dp/B07Y5GK92B?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Woodronic cabinet, 250 Counts variant — ASIN B0CXXNHCP4', publisher: 'Amazon.com, rendered October 16, 2026', url: 'https://www.amazon.com/dp/B0CXXNHCP4?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' }
+    ]
+  },
+  {
     id: 'best-humidors-for-home-bars',
     slug: 'best-humidors-for-home-bars',
     title: 'Best Humidors for Home Bars: Three Formats Compared',

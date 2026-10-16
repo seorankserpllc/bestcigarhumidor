@@ -378,7 +378,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
     finderPriority: 82,
     premiumPick: true,
-    relatedGuideSlugs: ['best-glass-top-humidors', 'glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors', 'best-humidors-for-dry-climates', 'best-humidors-for-gifts']
+    relatedGuideSlugs: ['best-glass-top-humidors', 'glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors', 'best-humidors-for-dry-climates', 'best-humidors-for-gifts', 'best-humidors-with-accessory-drawers']
   },
   {
     id: 'klaro-octodor',
@@ -439,7 +439,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
     finderPriority: 88,
     premiumPick: true,
-    relatedGuideSlugs: ['best-50-count-humidors', 'best-glass-top-humidors', 'glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors', 'best-100-count-humidors']
+    relatedGuideSlugs: ['best-50-count-humidors', 'best-glass-top-humidors', 'glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors', 'best-100-count-humidors', 'best-humidors-with-accessory-drawers']
   },
   {
     id: 'klaro-military',
@@ -493,7 +493,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     dimensions: '13.03" x 9.13" x 25.98" (listing)',
     material: 'Wood cabinet with cedar-lined drawers and glass front',
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['spanish-cedar-biology-guide', 'glass-top-humidor-truth-leaks-sealing', 'best-large-capacity-humidors', 'best-humidors-for-long-term-storage', 'best-locking-humidors']
+    relatedGuideSlugs: ['spanish-cedar-biology-guide', 'glass-top-humidor-truth-leaks-sealing', 'best-large-capacity-humidors', 'best-humidors-for-long-term-storage', 'best-locking-humidors', 'best-humidors-with-accessory-drawers']
   },
 
   // ================= ELECTRIC / WINEADORS =================

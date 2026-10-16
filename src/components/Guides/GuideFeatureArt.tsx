@@ -54,6 +54,7 @@ const visualConfig = {
   'dry-climate': { number: '22', label: 'DRY-CLIMATE HUMIDORS', primary: Droplets, secondary: Wind, tertiary: Gauge },
   gift: { number: '23', label: 'HUMIDOR GIFT GUIDE', primary: Gift, secondary: Box, tertiary: Gauge },
   'home-bar': { number: '24', label: 'HOME BAR HUMIDORS', primary: Wine, secondary: Box, tertiary: Thermometer },
+  drawer: { number: '25', label: 'ACCESSORY DRAWER HUMIDORS', primary: Box, secondary: ChevronDown, tertiary: Gauge },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;
