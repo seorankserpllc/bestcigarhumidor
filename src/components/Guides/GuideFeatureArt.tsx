@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   Box,
+  Briefcase,
   Droplets,
   Fan,
   Flame,
@@ -55,6 +56,7 @@ const visualConfig = {
   gift: { number: '23', label: 'HUMIDOR GIFT GUIDE', primary: Gift, secondary: Box, tertiary: Gauge },
   'home-bar': { number: '24', label: 'HOME BAR HUMIDORS', primary: Wine, secondary: Box, tertiary: Thermometer },
   drawer: { number: '25', label: 'ACCESSORY DRAWER HUMIDORS', primary: Box, secondary: ChevronDown, tertiary: Gauge },
+  office: { number: '26', label: 'OFFICE HUMIDORS', primary: Briefcase, secondary: Box, tertiary: Thermometer },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;

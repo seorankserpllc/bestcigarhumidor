@@ -8,6 +8,193 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-humidors-for-offices',
+    slug: 'best-humidors-for-offices',
+    title: 'Best Humidors for Offices: Three Workplace Setups Compared',
+    subtitle: 'Choose a compact solid-lid box, a larger latching desktop, or a cooling cabinet by office policy, measured room conditions, access, and available space.',
+    category: 'selection',
+    categoryLabel: 'Office Humidor Buying Guide',
+    readTimeMinutes: 14,
+    ...editorialByline,
+    publishedDate: '2026-10-17',
+    reviewedDate: '2026-10-17',
+    heroVisual: 'office',
+    excerpt: 'Three exact Amazon humidors compared for office storage, with footprint, access, capacity, cooling limits, setup work, and workplace rules made clear.',
+    featuredProductIds: ['woodronic-wa5022-solid-lid', 'klaro-military', 'needone-23l'],
+    relatedBlueprintIds: ['blueprint-tupperdor-7l', 'blueprint-converted-wineador'],
+    useBrandedProductArt: true,
+    comparisonRows: [
+      {
+        productId: 'woodronic-wa5022-solid-lid',
+        recommendationLabel: 'For a private desk or small cabinet',
+        fit: 'A small loose-cigar rotation in a temperature-stable office where discretion and a shallow footprint matter',
+        capacity: 'WA-5022; listing says 10–20 cigars, while maker enhanced content says 10; includes a humidifier and water dropper but no hygrometer',
+        tradeoff: 'Very limited height, conflicting capacity language, no built-in gauge, no lock, and no temperature control'
+      },
+      {
+        productId: 'klaro-military',
+        recommendationLabel: 'For a larger shared-room desktop',
+        fit: 'A substantial loose-cigar collection that benefits from side latches, handles, a sliding tray, and separate dry tool storage',
+        capacity: 'Military matte-green variant; Amazon says 70–100, while the maker publishes 65–75 Toro 60s and much higher counts for thin cigars',
+        tradeoff: 'Large 15.75 × 9.8 × 8.25-inch body, glass-top placement limits, passive temperature, and latches that are not an access lock'
+      },
+      {
+        productId: 'needone-23l',
+        recommendationLabel: 'For an office with a measured heat problem',
+        fit: 'A larger collection in a warm indoor room with a permitted outlet, stable furniture, ventilation clearance, and a plan for humidity control',
+        capacity: 'NO-23A, 23 L selected; two cedar shelves, one cedar drawer, digital hygrometer, cooling, fan, light, and maker maximum of 150 cigars',
+        tradeoff: 'Cooling only, no automatic humidity control, power and clearance required, and Amazon and NEEDONE disagree on temperature range and noise'
+      }
+    ],
+    sections: [
+      {
+        id: 'what-best-means',
+        title: '1. The best office humidor fits the workplace before the desk',
+        contentMarkdown: `An office changes the buying decision. The room may be locked at night but accessible to coworkers during the day. HVAC can cycle differently on weekends. A window, supply vent, server closet, radiator, or powered cabinet under a desk can turn an attractive location into a poor operating location. Employer and building rules may also allow possession while prohibiting smoking, flame tools, or plug-in appliances.
+
+We reviewed current results for “best office cigar humidor,” “office humidor,” and desktop humidors before selecting these three formats. The useful competing pages compare finish, cedar, basic capacity, hygrometers, and desk appeal. Common omissions are office permission, shared access, after-hours temperature trends, lid or door clearance, powered-cabinet ventilation, cooling-only limits, and the difference between cigar storage and permission to smoke. Several pages also repeat changing prices, ratings, universal humidity targets, or unverified seal and accuracy claims.
+
+This guide compares three different office jobs: a shallow solid-lid box for a small rotation, a large latching desktop for more organized storage, and a powered 23 L cabinet for a measured heat problem. We did not buy, own, or performance-test them. “Best” means the most sensible fit among these exact current products for a defined office—not an objective winner for every workplace.
+
+On October 17, 2026, we rendered the exact Amazon.com pages for Woodronic WA-5022 (ASIN B07PPQMR12), CASE ELEGANCE Military in matte green (ASIN B08TVY2B46), and NEEDONE NO-23A with the 23.0-liter capacity selected (ASIN B09DCCYYKP). Each page matched the brand, model or selected variant, included components, and ASIN described here and showed an active buying offer.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product link, at no extra cost to you. Every buying button goes directly to the exact Amazon page verified for this guide. We do not reproduce Amazon prices, star ratings, review counts, badges, popularity claims, or invented performance results.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Compare footprint, access, capacity, and temperature function',
+        contentMarkdown: `Start with the location, not the cigar-count headline. Measure the furniture surface, lid or door swing, drawer pull, access to the hygrometer or humidity source, and the path people use around the desk. For the NEEDONE, include the clearance required by the received manual, a permitted grounded outlet, and space where the power cord cannot become a trip or crush hazard.
+
+Capacity claims are not standardized. Woodronic's live title says 20 cigars, a bullet says 10–20, and its enhanced comparison table says 10. Case Elegance publishes a cigar-size table for the Military: 65–75 Toro 60s, 85–90 Toro 54s, 90–105 Toro 52s, and higher counts only for thinner cigars. NEEDONE says up to 150 but explicitly warns that actual fit depends on ring gauge. Humidification equipment, trays, spacing, tubes, and large cigars reduce usable capacity.
+
+Temperature is a separate decision. Both wooden boxes follow the room. The NEEDONE cools below ambient temperature but does not heat, and it does not automatically control humidity. Do not buy a powered cabinet merely because it has a display; first log the proposed location through occupied hours, nights, and a weekend.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '3. Six office checks before choosing a product',
+        contentMarkdown: `**1. Permission:** Ask what the employer, landlord, building manager, and insurer permit. Storage, smoking, flame tools, and plug-in appliances can be governed by different rules. NIOSH recommends smoke-free workplaces; keeping a humidor at work does not create permission to smoke there.
+
+**2. Room trend:** Measure temperature and RH at the intended location across work hours and after-hours cycles. Do not infer cabinet need from one afternoon reading.
+
+**3. Access:** Decide whether coworkers, cleaners, clients, or visitors can reach the unit. Side latches keep a lid closed but are not a security lock. None of these three is a safe for high-value inventory.
+
+**4. Operating envelope:** Add room for the Woodronic or Military lid, the Military drawer and handles, or the NEEDONE door, rear airflow, controls, cord, and service access. Avoid direct sun, supply vents, radiators, hot equipment, and unstable furniture.
+
+**5. Real cigar mix:** Count the cigars you actually store by length and ring gauge. Allow space for the humidity source and monitoring rather than filling to an optimistic headline number.
+
+**6. Maintenance ownership:** Choose who will inspect the reading, service the humidity source, respond to a power interruption, and move the collection if the office closes. A workplace humidor without an owner is just an unattended container.`
+      },
+      {
+        id: 'woodronic',
+        title: '4. Woodronic WA-5022: the shallow, discreet office box',
+        contentMarkdown: `The [Woodronic WA-5022](/products/woodronic-wa5022-solid-lid-humidor-review) is the smallest option here. Amazon rendered ASIN B07PPQMR12 with the one-count package selected, an in-stock offer, model WA-5022, and dimensions of 8.6 × 5.7 × 2.7 inches. The page identifies a walnut-finish solid lid, Spanish cedar lining, front clasp, humidifier, and water dropper. No hygrometer is listed.
+
+Its capacity language conflicts. The current title says 20 cigars, one bullet says 10–20, and Woodronic's enhanced comparison table says 10. Treat ten as the safer planning starting point and check your exact cigar lengths and diameters; we did not measure the interior or fit.
+
+**Choose it if** you keep a small office rotation, already have a suitable compact hygrometer, and want a low-profile solid lid. **Choose the Military** if you need a tray, front display, separate accessory drawer, and much more room. **Choose an airtight utility container** if low setup work matters more than traditional wood.
+
+The clasp is a positive closing mechanism, not a keyed lock. The passive box follows room temperature, and its shallow height limits where a sensor and humidifier can sit without touching wrappers.`
+      },
+      {
+        id: 'military',
+        title: '5. CASE ELEGANCE Military: the organized large desktop',
+        contentMarkdown: `The [CASE ELEGANCE Military](/products/klaro-military-glass-top-humidor-review) is a much larger desktop system. Amazon rendered ASIN B08TVY2B46 with **Military** matte green selected and a low-stock active offer. The page identifies a front digital hygrometer, Spanish cedar interior, recessed Hydro System, sliding removable cigar tray, side lid latches and handles, and a foam-lined accessory drawer. The optional accessory kit is not included.
+
+Case Elegance lists a 15.75 × 9.8 × 8.25-inch exterior and publishes useful cigar-size estimates: 65–75 Toro 60s, 85–90 Toro 54s, 90–105 Toro 52s, 105–115 Toro 50s, 130–140 Robustos, and higher numbers for thin formats. These are maker fit claims, not our measurements, but they are more informative than the Amazon headline's broad 70–100 range.
+
+**Choose it if** a private office or dedicated cabinet can support its footprint and lid swing, and you want latches, a two-level cigar layout, and dry tool storage. **Choose the Woodronic** for a modest rotation and discreet footprint. **Choose a locking product** if access control is the actual requirement.
+
+The latches do not lock, the glass top needs protection from direct sun and impact, and the passive box does not heat or cool. Verify the built-in gauge against a checked instrument rather than treating maker accuracy language as independent proof.`
+      },
+      {
+        id: 'needone',
+        title: '6. NEEDONE NO-23A: cooling for a measured warm-office problem',
+        contentMarkdown: `The [NEEDONE 23 L](/products/needone-23l-electric-cigar-humidor-review) is the only powered option here. Amazon rendered ASIN B09DCCYYKP with **23.0 liters** selected and an in-stock offer. The current page identifies model NO23A, thermoelectric cooling, two cedar shelves and a cedar drawer, built-in digital hygrometer, fan circulation, dual-pane glass, interior light, touch controls, and a maximum 150-cigar claim. Humidity packs or another humidity source are not included, and the listing explicitly says there is no automatic humidity control.
+
+Current specifications conflict. Amazon says an adjustable 64–74°F range and under 35 dB. NEEDONE's current model page says 54–74°F and no more than 38 dB. Both describe cooling only, no heating, a recommended 64–78°F room, and 9.8 × 17.7 × 20-inch dimensions. Treat those as manufacturer information, not measured performance, and confirm the received manual before planning clearances or settings.
+
+**Choose it if** logged office temperatures show a real cooling need, building policy permits the appliance, and a stable freestanding location near an outlet can meet the received clearance instructions. **Choose a passive box** when the room is already suitable; it avoids power, fan, ventilation, and outage dependencies.
+
+The displayed RH is monitoring, not automatic humidity regulation. A maximum count does not prove 150 large cigars will fit with the shelves, drawer, humidity source, sensor clearance, and airflow intact.`
+      },
+      {
+        id: 'placement',
+        title: '7. Plan for the office when nobody is there',
+        contentMarkdown: `Put a small temperature/RH logger at the exact proposed location before moving cigars. Review occupied hours, overnight setbacks, weekends, and any period when HVAC is reduced. A comfortable room at 2 p.m. may behave differently after the building empties.
+
+Keep every option out of direct sun and away from radiators, supply vents, server or printer exhaust, kitchenette steam, sinks, cleaning chemicals, and the edge of furniture. Leave the full operating envelope clear. Do not hide a powered cabinet in a closed desk knee well or tight closet unless the received manual expressly allows the available ventilation.
+
+Decide what leaves the office each night. Store flame tools and refill fuel only where workplace policy and their makers allow; a dry accessory drawer is not a general chemical-storage compartment. NIOSH recommends smoke-free indoor workplaces, and laws and policies vary. Use the humidor for storage only where permitted and smoke only in lawful, designated places.
+
+If access is shared, keep an inventory and move valuable cigars to genuinely controlled storage. The Military's latches and Woodronic's clasp keep their lids closed; neither prevents access. The NEEDONE door is also not described as locked.`
+      },
+      {
+        id: 'setup',
+        title: '8. Commission the system before bringing the collection to work',
+        contentMarkdown: `Tobacco is hygroscopic: peer-reviewed sorption research found its equilibrium moisture changes with RH and tobacco type. The USDA Wood Handbook explains that wood also exchanges moisture with surrounding air. NIST's humidity work is a useful reminder that measuring RH is an instrument problem with calibration and uncertainty—not proof delivered by a glowing number on a box.
+
+1. Confirm the delivered ASIN, model, color or capacity, and included parts before discarding packaging.
+2. Inspect the lid or door, hinges, clasp or latches, glass, finish, cord, plug, shelves, drawer, tray, humidifier, and gauge.
+3. Read the exact received instructions. Condition wood only as directed; do not wipe cedar with water unless the manual explicitly requires it.
+4. Place a checked hygrometer near cigar level without touching the humidity source or blocking a tray, drawer, or fan path.
+5. Run the empty system until readings form a stable trend through the office's occupied and unoccupied cycle. For the NEEDONE, also test a safe response to a short power interruption without repeatedly opening the door.
+6. Add cigars gradually and recheck the trend, physical clearance, and instrument agreement.
+7. Record who services the system and what happens during holidays, office moves, building maintenance, or access restrictions.
+
+Use the [seasoning lab](/seasoning-lab) for a structured setup plan, the [hygrometer guide](/guides/best-cigar-hygrometers) for monitoring choices, and the [humidor finder](/) if the measured room or collection changes.`
+      },
+      {
+        id: 'recommendation',
+        title: '9. The shortest honest recommendation',
+        contentMarkdown: `Choose the **Woodronic WA-5022** for a small loose-cigar rotation in a private, temperature-stable office when shallow, discreet storage matters and you can add a checked gauge. Choose the **CASE ELEGANCE Military** when you genuinely need a large organized desktop, have the surface and opening clearance, and understand that latches are not locks. Choose the **NEEDONE NO-23A** only when logged room conditions justify cooling and the workplace permits a powered, ventilated cabinet.
+
+If office policy, shared access, after-hours temperature, or appliance permission is uncertain, keep the main collection at home and bring only a small protected day supply. The best office humidor is the system you are allowed to operate, can monitor when the building is empty, and can remove without drama.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'Can I keep a cigar humidor at work?',
+        answer: 'Only if employer, building, lease, and local rules allow it. Storage, smoking, flame tools, fuel, and plug-in appliances may be governed separately. A humidor at work does not create permission to smoke indoors.'
+      },
+      {
+        question: 'Which office humidor takes the least desk space?',
+        answer: 'The Woodronic WA-5022 has the smallest published exterior at 8.6 by 5.7 by 2.7 inches. Leave additional space to open the lid and handle the humidity source and sensor.'
+      },
+      {
+        question: 'Do the Military latches lock the humidor?',
+        answer: 'No. The current product page describes side lid latches and handles, not a keyed or combination lock. Choose genuinely locked storage if access control is the requirement.'
+      },
+      {
+        question: 'Does the NEEDONE 23 L control humidity automatically?',
+        answer: 'No. The exact NO-23A listing states that it has no automatic humidity control. Its display monitors RH; you still need a compatible humidity source and a verification plan.'
+      },
+      {
+        question: 'Does the NEEDONE heat a cold office?',
+        answer: 'No. Both the current Amazon listing and NEEDONE model page describe cooling only. If the room falls below the desired cabinet temperature, this model does not add heat.'
+      },
+      {
+        question: 'How many cigars will these really hold?',
+        answer: 'Plan from actual cigar length and ring gauge. Woodronic publishes conflicting 10, 10–20, and 20-cigar language. Case Elegance lists 65–75 Toro 60s for the Military. NEEDONE says up to 150 but warns that fit depends on ring gauge. None of these figures is our measurement.'
+      },
+      {
+        question: 'Where should an office humidor sit?',
+        answer: 'Use a stable location away from direct sun, HVAC discharge, radiators, hot electronics, water, and cleaning chemicals. Measure conditions there through nights and weekends, and follow the received manual for clearance and power.'
+      }
+    ],
+    sources: [
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Hygrometers and relative-humidity calibration', publisher: 'National Institute of Standards and Technology', url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers', sourceType: 'Government / technical reference' },
+      { label: 'Wood Handbook: moisture relations and dimensional change', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr282.pdf', sourceType: 'Government / technical reference' },
+      { label: 'Tobacco in the workplace and smoke-free workplace recommendations', publisher: 'National Institute for Occupational Safety and Health', url: 'https://www.cdc.gov/niosh/substance-use/tobacco/', sourceType: 'Government / regulation' },
+      { label: 'WA-5022 model and maker capacity listing', publisher: 'Woodronic', url: 'https://woodronic.shop/collections/wholesale-wooden-cigar-humidors', sourceType: 'Manufacturer instructions' },
+      { label: 'Military dimensions, components, materials, and cigar-size capacity table', publisher: 'Case Elegance', url: 'https://caseelegance.com/products/military-glass-top-humidor-matte-green-with-front-digital-hygrometer-holds-70-100-cigars-by-klaro', sourceType: 'Manufacturer instructions' },
+      { label: 'NO-23A 23 L dimensions, cooling limits, components, and operating specifications', publisher: 'NEEDONE', url: 'https://needonelife.com/products/no-23a-cigar-humidor-23l-cooling-electronic-cabinet', sourceType: 'Manufacturer instructions' },
+      { label: 'Woodronic WA-5022, one-count package — ASIN B07PPQMR12', publisher: 'Amazon.com, rendered October 17, 2026', url: 'https://www.amazon.com/dp/B07PPQMR12?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'CASE ELEGANCE Military, matte-green variant — ASIN B08TVY2B46', publisher: 'Amazon.com, rendered October 17, 2026', url: 'https://www.amazon.com/dp/B08TVY2B46?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'NEEDONE NO-23A, 23.0-liter variant — ASIN B09DCCYYKP', publisher: 'Amazon.com, rendered October 17, 2026', url: 'https://www.amazon.com/dp/B09DCCYYKP?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' }
+    ]
+  },
+  {
     id: 'best-humidors-with-accessory-drawers',
     slug: 'best-humidors-with-accessory-drawers',
     title: 'Best Humidors With Accessory Drawers: Three Sizes Compared',

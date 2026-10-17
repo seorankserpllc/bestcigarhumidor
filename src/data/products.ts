@@ -179,7 +179,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     whoShouldBuy: ['Buyers who have measured a small loose-cigar load', 'Owners willing to add and verify a compact hygrometer'],
     whoShouldAvoid: ['Anyone who needs a dependable 20-cigar fit without measuring ring gauge and length', 'Buyers who want an included gauge or a removable tray'],
     failureModesToWatch: ['Confirm the clasp, hinge, and lid alignment on arrival', 'Keep the included humidifier from touching wrappers', 'Do not treat the seller\'s airtight claim as an independent seal test'],
-    relatedGuideSlugs: ['best-solid-lid-humidors', 'best-desktop-humidors', 'best-cigar-hygrometers', 'spanish-cedar-biology-guide']
+    relatedGuideSlugs: ['best-solid-lid-humidors', 'best-desktop-humidors', 'best-cigar-hygrometers', 'spanish-cedar-biology-guide', 'best-humidors-for-offices']
   },
   {
     id: 'prestige-chalet-black-solid-lid',
@@ -469,7 +469,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
       { question: 'Who should choose this instead of the smaller Renzo?', answer: 'Choose it when you need more room, want a sliding tray, or want an accessory drawer. Choose the Renzo when a smaller footprint matters more.', category: 'comparison' }
     ],
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['best-glass-top-humidors', 'best-desktop-humidors', 'best-humidors-for-beginners', 'best-humidors-for-long-term-storage']
+    relatedGuideSlugs: ['best-glass-top-humidors', 'best-desktop-humidors', 'best-humidors-for-beginners', 'best-humidors-for-long-term-storage', 'best-humidors-for-offices']
   },
   {
     id: 'woodronic-3drawer',
@@ -573,17 +573,20 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     capacitySticks: 150,
     asin: 'B09DCCYYKP',
     amazonSearchQuery: 'NEEDONE 23L Electric Cigar Humidor Thermoelectric Cooling B09DCCYYKP',
-    imageUrl: 'https://m.media-amazon.com/images/I/61JV866G-5L._AC_SL1500_.jpg',
-    description: 'An established 23L thermoelectric cabinet with cooling control, Spanish cedar shelves and a digital hygrometer. It does not provide active heating or automatic humidity control.',
-    highlights: ['23L cabinet', 'Thermoelectric cooling', 'Spanish cedar shelves and drawer', 'Digital temperature display'],
-    pros: ['Longer marketplace track record than most electric alternatives', 'Useful size for a growing collection', 'Quiet thermoelectric cooling'],
-    cons: ['Cooling only—not a heater', 'Humidity still requires packs or another humidifier', 'Advertised capacity assumes smaller cigars'],
-    bestFor: 'Indoor rooms that run warm and collections of roughly 75–125 larger cigars.',
-    sealRating: 8.6,
-    electricFeatures: { heating: false, cooling: true, tempRange: '54°F–74°F (listed)', activeHumidity: false },
-    scorecard: { sealIntegrity: 8.6, thermalStability: 8.8, humidityRetention: 8.4, craftsmanship: 8.4, valueScore: 8.7 },
+    description: 'A 23 L thermoelectric cabinet with cooling control, two Spanish cedar shelves, one cedar drawer, a digital hygrometer, fan circulation, and an interior light. It does not provide heating or automatic humidity control.',
+    highlights: ['NO-23A with 23.0-liter variant selected', 'Cooling only; no heating', 'Two cedar shelves and one cedar drawer', 'Digital hygrometer, circulation fan, and interior light'],
+    pros: ['Cooling function addresses a measured warm-room problem', 'Adjustable storage separates shelves from the cedar drawer', 'Current exact Amazon page showed the 23.0-liter variant in stock'],
+    cons: ['Humidity still requires a separate source', 'Maker maximum of 150 depends on cigar size and usable airflow space', 'Amazon and NEEDONE publish conflicting temperature-range and noise figures'],
+    bestFor: 'A larger collection in a warm indoor room with a permitted outlet, ventilation clearance, and a separate humidity-control plan.',
+    sealRating: 0,
+    dimensions: '9.8 × 17.7 × 20 inches (current Amazon and NEEDONE pages)',
+    material: 'Cabinet with dual-pane glass door, two Spanish cedar shelves, and one Spanish cedar drawer (current listing)',
+    electricFeatures: { heating: false, cooling: true, tempRange: 'Amazon: 64–74°F; NEEDONE: 54–74°F', activeHumidity: false },
+    whoShouldBuy: ['Owners who measured a real cooling need in the proposed room', 'Buyers permitted to operate a powered cabinet with the required clearance'],
+    whoShouldAvoid: ['Cold rooms that require heating', 'Anyone expecting the displayed RH to mean automatic humidity control'],
+    failureModesToWatch: ['Confirm the received manual and clearance requirements', 'Keep the rear airflow path open', 'Plan for humidity separately and verify the built-in gauge'],
     diyAlternativeBlueprintId: 'blueprint-converted-wineador',
-    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors']
+    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors', 'best-humidors-for-offices']
   },
   {
     id: 'kingchii-33l',
