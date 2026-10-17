@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && node scripts/generate-guide-pages.mjs && node scripts/validate-guide-routes.mjs",
+    "build": "node scripts/validate-product-photos.mjs && tsc -b && vite build && node scripts/generate-guide-pages.mjs && node scripts/validate-guide-routes.mjs",
     "lint": "oxlint",
     "preview": "vite preview",
-    "validate:routes": "node scripts/validate-guide-routes.mjs"
+    "validate:routes": "node scripts/validate-guide-routes.mjs",
+    "validate:photos": "node scripts/validate-product-photos.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

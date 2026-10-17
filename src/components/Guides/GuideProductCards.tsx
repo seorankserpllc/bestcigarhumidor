@@ -4,7 +4,6 @@ import type { AmazonProduct, CigarGuide } from '../../types/humidor';
 import { getAmazonUrl } from '../../utils/amazonLinks';
 import { getEditorialRating } from '../../utils/productRatings';
 import { ProductImage } from '../Common/ProductImage';
-import { GuideFeatureArt } from './GuideFeatureArt';
 
 
 interface GuideProductCardProps {
@@ -19,21 +18,23 @@ export const GuideProductCard: React.FC<GuideProductCardProps> = ({ product, gui
 
   return (
     <article className="group overflow-hidden rounded-xl border border-stone-800 bg-[#120b08] shadow-lg transition-colors hover:border-amber-700/70">
-      <div className="relative aspect-[16/10] overflow-hidden border-b border-stone-800 bg-[#f3eee5] p-4">
-        {guide.useBrandedProductArt ? (
-          <div className="h-full w-full overflow-hidden rounded-lg border border-amber-900/30 bg-[#120b08]">
-            <GuideFeatureArt variant={guide.heroVisual} category={product.name} compact />
-          </div>
-        ) : (
+      <div className="relative overflow-hidden border-b border-stone-800 bg-white">
+        <a
+          href={getAmazonUrl(product.amazonSearchQuery, product.asin)}
+          target="_blank"
+          rel="noopener noreferrer sponsored"
+          aria-label={`View ${product.name} on Amazon`}
+          className="block aspect-[4/3] p-6 sm:p-8"
+        >
           <ProductImage
             src={product.imageUrl}
             alt={product.name}
             category={product.category}
             subCategory={product.subCategory}
             className="h-full w-full"
-            imageClassName="h-full w-full object-contain mix-blend-multiply transition-transform duration-300 group-hover:scale-[1.03]"
+            imageClassName="h-full w-full object-contain transition-transform duration-300 group-hover:scale-[1.03]"
           />
-        )}
+        </a>
         {editorialRating !== null && (
           <div className="absolute right-3 top-3 flex items-center gap-1 rounded-full border border-amber-600/50 bg-stone-950/95 px-2.5 py-1 text-[11px] font-bold text-amber-200 shadow-lg">
             <Star className="h-3 w-3 fill-amber-400 text-amber-400" />
@@ -91,23 +92,23 @@ export const InlineGuideProductOffer: React.FC<GuideProductCardProps> = ({ produ
 
   return (
     <aside className="my-5 overflow-hidden rounded-xl border border-amber-800/60 bg-[#17100d] shadow-lg" aria-label={`Buy ${product.name}`}>
-      <div className="grid grid-cols-[104px_1fr] gap-3 p-3 sm:grid-cols-[148px_1fr] sm:gap-5 sm:p-4">
-        <div className="aspect-square overflow-hidden rounded-lg border border-stone-800 bg-[#f3eee5] p-2 sm:p-3">
-          {guide.useBrandedProductArt ? (
-            <div className="h-full w-full overflow-hidden rounded-md bg-[#120b08]">
-              <GuideFeatureArt variant={guide.heroVisual} category={product.name} compact />
-            </div>
-          ) : (
+      <div className="grid gap-4 p-4 sm:grid-cols-[220px_1fr] sm:gap-5">
+        <a
+          href={getAmazonUrl(product.amazonSearchQuery, product.asin)}
+          target="_blank"
+          rel="noopener noreferrer sponsored"
+          aria-label={`View ${product.name} on Amazon`}
+          className="block aspect-[4/3] overflow-hidden rounded-lg border border-stone-800 bg-white p-5 sm:aspect-square"
+        >
             <ProductImage
               src={product.imageUrl}
               alt={product.name}
               category={product.category}
               subCategory={product.subCategory}
               className="h-full w-full"
-              imageClassName="h-full w-full object-contain mix-blend-multiply"
+              imageClassName="h-full w-full object-contain"
             />
-          )}
-        </div>
+        </a>
         <div className="min-w-0 self-center">
           <div className="mb-1 flex flex-wrap items-center gap-2">
             <span className="text-[10px] font-bold uppercase tracking-wider text-amber-500">Featured product</span>
@@ -119,7 +120,7 @@ export const InlineGuideProductOffer: React.FC<GuideProductCardProps> = ({ produ
             )}
           </div>
           <h3 className="font-serif text-sm font-bold leading-snug text-stone-100 sm:text-lg">{product.name}</h3>
-          <p className="mt-1 hidden text-xs leading-5 text-stone-400 sm:block">{comparison?.fit || product.bestFor || product.description}</p>
+          <p className="mt-2 text-xs leading-5 text-stone-400">{comparison?.fit || product.bestFor || product.description}</p>
         </div>
       </div>
       <div className="grid gap-2 border-t border-stone-800 px-3 py-3 sm:grid-cols-[1fr_auto] sm:px-4">

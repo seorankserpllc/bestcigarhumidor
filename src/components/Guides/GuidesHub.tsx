@@ -1,14 +1,15 @@
 import React, { useEffect, useState, useMemo } from 'react';
-import type { CigarGuide } from '../../types/humidor';
+import type { AmazonProduct, CigarGuide } from '../../types/humidor';
 import { BookOpen, Clock, User, ArrowRight } from 'lucide-react';
-import { GuideFeatureArt } from './GuideFeatureArt';
+import { ProductImage } from '../Common/ProductImage';
 
 interface GuidesHubProps {
   guides: CigarGuide[];
+  allProducts: AmazonProduct[];
   onSelectGuide: (slug: string) => void;
 }
 
-export const GuidesHub: React.FC<GuidesHubProps> = ({ guides, onSelectGuide }) => {
+export const GuidesHub: React.FC<GuidesHubProps> = ({ guides, allProducts, onSelectGuide }) => {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
 
   useEffect(() => {
@@ -96,9 +97,17 @@ export const GuidesHub: React.FC<GuidesHubProps> = ({ guides, onSelectGuide }) =
               className="flex h-full flex-col justify-between"
             >
             <div>
-              {/* Branded editorial artwork */}
-              <div className="aspect-video w-full relative overflow-hidden">
-                <GuideFeatureArt variant={guide.heroVisual} category={guide.categoryLabel} compact />
+              <div className="aspect-video w-full relative overflow-hidden bg-white">
+                <div className="grid h-full grid-cols-3 items-center gap-2 px-4 pb-4 pt-12">
+                  {guide.featuredProductIds.slice(0, 3).map(id => {
+                    const product = allProducts.find(item => item.id === id);
+                    return product ? (
+                      <div key={id} className="h-full min-h-0 min-w-0">
+                        <ProductImage src={product.imageUrl} alt={product.name} category={product.category} subCategory={product.subCategory} imageClassName="h-full w-full object-contain transition-transform duration-300 group-hover:scale-105" />
+                      </div>
+                    ) : null;
+                  })}
+                </div>
                 <span className="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-black/80 backdrop-blur-sm text-amber-400 text-[10px] font-bold uppercase tracking-wider border border-stone-700 z-20">
                   {guide.categoryLabel}
                 </span>

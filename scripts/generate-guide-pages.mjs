@@ -43,7 +43,8 @@ function guideHtml(baseHtml, guide, products) {
   const canonicalUrl = `${siteOrigin}/guides/${guide.slug}`;
   const title = `${guide.title} | Best Cigar Humidor`;
   const description = guide.subtitle || guide.excerpt;
-  const imageUrl = `${siteOrigin}/finder-lounge-original.png`;
+  const imageUrl = products.find(product => product.id === guide.featuredProductIds[0])?.imageUrl;
+  if (!imageUrl) throw new Error(`Missing lead product photo for ${guide.slug}`);
   const wordCount = guide.sections
     .map((section) => section.contentMarkdown)
     .join(' ')

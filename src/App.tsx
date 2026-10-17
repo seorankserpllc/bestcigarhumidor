@@ -327,6 +327,7 @@ export function App() {
             {activeTab === 'guides' && (
               <GuidesHub
                 guides={CIGAR_GUIDES}
+                allProducts={AMAZON_PRODUCTS}
                 onSelectGuide={handleSelectGuide}
               />
             )}

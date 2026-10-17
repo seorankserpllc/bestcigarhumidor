@@ -22,7 +22,6 @@ export const CIGAR_GUIDES: CigarGuide[] = [
     excerpt: 'Three exact Amazon humidors compared for office storage, with footprint, access, capacity, cooling limits, setup work, and workplace rules made clear.',
     featuredProductIds: ['woodronic-wa5022-solid-lid', 'klaro-military', 'needone-23l'],
     relatedBlueprintIds: ['blueprint-tupperdor-7l', 'blueprint-converted-wineador'],
-    useBrandedProductArt: true,
     comparisonRows: [
       {
         productId: 'woodronic-wa5022-solid-lid',
@@ -209,7 +208,6 @@ If office policy, shared access, after-hours temperature, or appliance permissio
     excerpt: 'Three exact Amazon humidors with separate accessory drawers compared by cigar capacity, footprint, drawer function, setup work, and temperature limits.',
     featuredProductIds: ['klaro-renzo', 'klaro-octodor', 'woodronic-3drawer'],
     relatedBlueprintIds: ['blueprint-tupperdor-7l'],
-    useBrandedProductArt: true,
     comparisonRows: [
       {
         productId: 'klaro-renzo',
@@ -401,7 +399,6 @@ If you are buying mainly for the drawer, stop and price the space in inches: cig
     excerpt: 'Three exact Amazon humidors compared for home bars, with surface space, capacity, temperature control, setup work, and placement limits made clear.',
     featuredProductIds: ['prestige-chalet-black-solid-lid', 'klaro-felix-pro-acrylic', 'kingchii-16l'],
     relatedBlueprintIds: ['blueprint-tupperdor-7l'],
-    useBrandedProductArt: true,
     comparisonRows: [
       {
         productId: 'prestige-chalet-black-solid-lid',
@@ -568,7 +565,6 @@ If the proposed location is sunny, hot, wet, crowded, or inside closed cabinetry
     excerpt: 'Three exact Amazon humidors compared for occasional smokers, home collectors, and travelers, with capacity, setup work, and gift-day pitfalls made clear.',
     featuredProductIds: ['xifei-acrylic-jar', 'klaro-renzo', 'flauno-travel-5'],
     relatedBlueprintIds: ['blueprint-tupperdor-7l'],
-    useBrandedProductArt: true,
     comparisonRows: [
       {
         productId: 'xifei-acrylic-jar',
@@ -736,7 +732,6 @@ If you do not know the collection size, cigar format, room, or existing equipmen
     excerpt: 'Three exact Amazon humidors for dry rooms compared by enclosure, humidity workload, capacity basis, temperature responsibility, and setup work.',
     featuredProductIds: ['xifei-acrylic-jar', 'klaro-renzo', 'kingchii-16l'],
     relatedBlueprintIds: ['blueprint-tupperdor-7l', 'blueprint-converted-wineador'],
-    useBrandedProductArt: true,
     comparisonRows: [
       {
         productId: 'xifei-acrylic-jar',
@@ -925,7 +920,6 @@ If none fits, the [tupperdor guide](/guides/science-of-airtight-tupperdors) cove
     excerpt: 'Three exact Amazon humidors in the 100-cigar shopping tier compared by capacity basis, included equipment, temperature responsibility, and setup work.',
     featuredProductIds: ['quality-importers-deauville-solid-lid', 'klaro-octodor', 'kingchii-16l'],
     relatedBlueprintIds: ['blueprint-tupperdor-7l', 'blueprint-converted-wineador'],
-    useBrandedProductArt: true,
     comparisonRows: [
       {
         productId: 'quality-importers-deauville-solid-lid',
@@ -1120,7 +1114,6 @@ If your purchase depends on fitting exactly 100 cigars, none of these listings s
     excerpt: 'Three exact Amazon storage systems compared for factory boxes without converting loose-cigar capacity claims into invented box counts.',
     featuredProductIds: ['sistema-236oz', 'coleman-classic-52-coolidor', 'kingchii-33l'],
     relatedBlueprintIds: ['blueprint-coolidor-marine'],
-    useBrandedProductArt: true,
     comparisonRows: [
       {
         productId: 'sistema-236oz',
@@ -1312,7 +1305,6 @@ Do not turn any loose-cigar headline into a box count. The best enclosure for fa
     excerpt: 'Three exact Amazon locking humidors compared without treating a latch as proof of child resistance, burglary protection, a good seal, or stable humidity.',
     featuredProductIds: ['xifei-combination-lock-20-30', 'flauno-locking-70', 'woodronic-3drawer'],
     relatedBlueprintIds: ['blueprint-tupperdor-7l'],
-    useBrandedProductArt: true,
     comparisonRows: [
       {
         productId: 'xifei-combination-lock-20-30',
@@ -1509,7 +1501,6 @@ The [humidor finder](/) can compare storage formats against room conditions and 
     excerpt: 'Three current Amazon humidors compared for a roughly 50-cigar collection, with cigar-size math, accessory displacement, headroom, and setup tradeoffs made explicit.',
     featuredProductIds: ['bald-eagle-30-50-walnut-latch', 'klaro-felix-pro-acrylic', 'klaro-octodor'],
     relatedBlueprintIds: ['blueprint-tupperdor-7l'],
-    useBrandedProductArt: true,
     comparisonRows: [
       {
         productId: 'bald-eagle-30-50-walnut-latch',
@@ -1727,7 +1718,6 @@ The [humidor finder](/) compares these formats against room conditions and growt
         tradeoff: 'Powered, deeper than its narrow face, needs ventilation, and does not control humidity automatically'
       }
     ],
-    useBrandedProductArt: true,
     sections: [
       {
         id: 'why-apartments-are-different',
@@ -1919,7 +1909,6 @@ No format is objectively best for every apartment. Measure the shelf and the roo
         tradeoff: 'Conflicting count and height claims, larger conditioning load, and no temperature control'
       }
     ],
-    useBrandedProductArt: true,
     sections: [
       {
         id: 'what-these-picks-mean',
@@ -2114,7 +2103,6 @@ No solid lid earns a performance award from opacity alone. Measure the cigars an
         tradeoff: 'Requires a separately sized humidity source and checked hygrometer; exterior dimensions do not prove usable cigar fit'
       }
     ],
-    useBrandedProductArt: true,
     sections: [
       {
         id: 'what-these-picks-mean',
@@ -2310,7 +2298,6 @@ Whichever format you choose, dedicate the entire system, verify the reading, kee
         tradeoff: 'Two trays stack to 4.5 in before clearance; listing discloses a cedar-veneered MDF base'
       }
     ],
-    useBrandedProductArt: true,
     sections: [
       {
         id: 'what-this-kit-means',
@@ -2494,7 +2481,6 @@ That order matters. Moisture control is the operating component, monitoring is v
         tradeoff: 'Largest footprint, open top, and maker “windproof” language is not an independent wind result'
       }
     ],
-    useBrandedProductArt: true,
     sections: [
       {
         id: 'what-these-picks-mean',
@@ -2674,7 +2660,6 @@ Then treat the product as one part of a safety routine: stable placement, contin
         tradeoff: 'Largest footprint, no published internal measurements, and no independent cigar-count result'
       }
     ],
-    useBrandedProductArt: true,
     relatedBlueprintIds: ['blueprint-coolidor-marine', 'blueprint-tupperdor-7l'],
     sections: [
       {
@@ -2851,7 +2836,6 @@ Do not buy any cooler because a ranked list calls it airtight, perfectly stable,
         tradeoff: 'Largest footprint here; accessory kit is separate, and maker capacity presentations are not fully consistent'
       }
     ],
-    useBrandedProductArt: true,
     relatedBlueprintIds: ['blueprint-tupperdor-7l'],
     sections: [
       {
@@ -3026,7 +3010,6 @@ Do not buy a glass top because a ranked list calls it leakproof, accurate, or id
         tradeoff: 'Less pinpoint control; no current maker warranty or published fuel-capacity document found'
       }
     ],
-    useBrandedProductArt: true,
     sections: [
       {
         id: 'what-these-picks-mean',
@@ -3210,7 +3193,6 @@ If any ASIN redirects to a different color, flame layout, bundle, or model, do n
         tradeoff: 'No published punch diameter; not a fit for torpedoes, belicosos, or every draw preference'
       }
     ],
-    useBrandedProductArt: true,
     sections: [
       {
         id: 'what-these-picks-mean',
@@ -3377,7 +3359,6 @@ Avoid choosing from finish, gift packaging, or a review-count badge alone. The u
         tradeoff: 'Still needs separate humidity management; Amazon and maker temperature ranges conflict'
       }
     ],
-    useBrandedProductArt: true,
     sections: [
       {
         id: 'what-long-term-means',
@@ -3545,7 +3526,6 @@ Avoid long-term storage in a hot garage, vehicle, shed, direct sun, or any locat
         tradeoff: 'Needs outlet, ventilation and door clearance; temperature control does not actively control humidity'
       }
     ],
-    useBrandedProductArt: true,
     sections: [
       {
         id: 'what-these-picks-mean',
@@ -3744,7 +3724,6 @@ For a format-level recommendation based on collection size, room, and priorities
         tradeoff: 'Requires power, cabinet space, distilled-water service, and sensor verification; not maker-suggested for wineadors'
       }
     ],
-    useBrandedProductArt: true,
     sections: [
       {
         id: 'what-these-picks-mean',
@@ -3928,7 +3907,6 @@ If readings remain unstable after correct sizing, stop adding devices. Verify th
         tradeoff: 'No phone history, remote readings, or alerts; opening the humidor may be needed to read it'
       }
     ],
-    useBrandedProductArt: true,
     sections: [
       {
         id: 'what-these-picks-mean',
@@ -4095,7 +4073,6 @@ Choose a purpose-built calibrated instrument or professional calibration service
         tradeoff: 'Largest footprint and more cedar/setup work than the jar or small box'
       }
     ],
-    useBrandedProductArt: true,
     relatedBlueprintIds: ['blueprint-tupperdor-7l'],
     sections: [
       {
@@ -4249,7 +4226,6 @@ None of these acrylic models is a substitute for temperature control. If the int
         tradeoff: 'It cannot heat or cool, and the 300-cigar claim may be too high for thick cigars or full boxes'
       }
     ],
-    useBrandedProductArt: false,
     relatedBlueprintIds: ['blueprint-coolidor-marine'],
     sections: [
       {
@@ -4499,7 +4475,6 @@ If you mainly store full boxes, have fewer than about 100 cigars, or are shoppin
         tradeoff: 'Large 13.75 × 9.5 × 8.6-inch footprint and more cedar to condition'
       }
     ],
-    useBrandedProductArt: true,
     relatedBlueprintIds: ['blueprint-tupperdor-7l'],
     sections: [
       {
@@ -4649,7 +4624,6 @@ The [seasoning lab](/seasoning-lab) helps plan a controlled setup. If your prior
         tradeoff: 'Large 12.25 × 9.75 × 5.375-inch case; capacity varies with cigar size'
       }
     ],
-    useBrandedProductArt: true,
     relatedBlueprintIds: ['blueprint-tupperdor-7l'],
     sections: [
       {
@@ -4805,7 +4779,6 @@ The presence of a cigar cutter, lighter pocket, pressure feature, or “travel�
       "tradeoff": "Larger footprint and more wood to condition"
     }
   ],
-  "useBrandedProductArt": true,
   "relatedBlueprintIds": [
     "blueprint-converted-wineador"
   ],
@@ -4943,7 +4916,6 @@ The presence of a cigar cutter, lighter pocket, pressure feature, or “travel�
       "tradeoff": "Protective small case, cramped for everyday collecting"
     }
   ],
-  "useBrandedProductArt": true,
   "relatedBlueprintIds": [
     "blueprint-tupperdor-7l"
   ],

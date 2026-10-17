@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import type { CigarGuide, AmazonProduct } from '../../types/humidor';
 import { getAmazonUrl } from '../../utils/amazonLinks';
-import { GuideFeatureArt } from './GuideFeatureArt';
 import { GuideMarkdown } from './GuideMarkdown';
 import { GuideProductCard, InlineGuideProductOffer } from './GuideProductCards';
+import { ProductImage } from '../Common/ProductImage';
 import { 
   ArrowLeft, Clock, Share2, CheckCircle2, 
   AlertTriangle, Sparkles, Wrench, ExternalLink, 
@@ -50,6 +50,11 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
     setMeta('meta[property="og:description"]', 'property', guide.subtitle || guide.excerpt);
     setMeta('meta[property="og:url"]', 'property', canonicalUrl);
     setMeta('meta[property="og:type"]', 'property', 'article');
+    const leadProduct = allProducts.find(product => product.id === guide.featuredProductIds[0]);
+    if (leadProduct?.imageUrl) {
+      setMeta('meta[property="og:image"]', 'property', leadProduct.imageUrl);
+      setMeta('meta[name="twitter:image"]', 'name', leadProduct.imageUrl);
+    }
 
     let canonical = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]');
     if (!canonical) {
@@ -58,7 +63,7 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
       document.head.appendChild(canonical);
     }
     canonical.href = canonicalUrl;
-  }, [guide]);
+  }, [guide, allProducts]);
 
   const handleShare = () => {
     const url = `${window.location.origin}/guides/${guide.slug}`;
@@ -156,12 +161,6 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
         </section>
       )}
 
-      {/* Branded editorial artwork */}
-      <div className="aspect-[21/9] w-full rounded-2xl overflow-hidden border border-amber-900/40 relative shadow-2xl">
-        <GuideFeatureArt variant={guide.heroVisual} category={guide.categoryLabel} />
-      </div>
-
-
       {/* Table of Contents Quick Nav */}
       <div className="p-5 rounded-xl bg-[#140d0a] border border-stone-800 space-y-2">
         <span className="text-[11px] font-bold uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
@@ -225,6 +224,15 @@ export const GuideReader: React.FC<GuideReaderProps> = ({
                       return (
                         <tr key={row.productId} className="border-t border-stone-800 align-top">
                           <th scope="row" className="p-3 font-semibold text-amber-100">
+                            <a
+                              href={getAmazonUrl(product.amazonSearchQuery, product.asin)}
+                              target="_blank"
+                              rel="noopener noreferrer sponsored"
+                              aria-label={`View ${product.name} on Amazon`}
+                              className="mb-3 block h-24 w-28 overflow-hidden rounded-lg bg-white p-2"
+                            >
+                              <ProductImage src={product.imageUrl} alt={product.name} category={product.category} subCategory={product.subCategory} imageClassName="h-full w-full object-contain" />
+                            </a>
                             {row.recommendationLabel && (
                               <span className="mb-2 block text-[10px] font-extrabold uppercase tracking-wide text-amber-400">
                                 {row.recommendationLabel}

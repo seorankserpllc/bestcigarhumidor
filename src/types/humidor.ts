@@ -173,7 +173,6 @@ export interface CigarGuide {
   relatedBlueprintIds?: string[];
   comparisonRows?: GuideComparisonRow[];
   faqs?: { question: string; answer: string }[];
-  useBrandedProductArt?: boolean;
 }
 
 export interface DIYBlueprint {

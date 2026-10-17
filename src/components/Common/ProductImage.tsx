@@ -17,11 +17,11 @@ export const ProductImage: React.FC<ProductImageProps> = ({
   className = 'w-full h-full object-cover',
   imageClassName,
 }) => {
-  const [hasError, setHasError] = useState(false);
+  const [failedSrc, setFailedSrc] = useState<string>();
   const humidityLabel = alt.match(/\b(?:65|69|72|75|84)%/)?.[0] ?? 'RH';
 
-  // Render branded representative artwork unless a compliant, current image source is supplied.
-  if (hasError || !src) {
+  // Artwork is a network-error fallback; supplied product photos always take priority.
+  if (!src || failedSrc === src) {
     return (
       <div className="w-full h-full bg-gradient-to-br from-[#1a110d] via-[#140d0a] to-[#0c0705] flex flex-col items-center justify-center p-4 relative overflow-hidden border border-amber-900/30">
         {/* Subtle background radial glow */}
@@ -113,7 +113,7 @@ export const ProductImage: React.FC<ProductImageProps> = ({
     <img
       src={src}
       alt={alt}
-      onError={() => setHasError(true)}
+      onError={() => setFailedSrc(src)}
       loading="lazy"
       decoding="async"
       referrerPolicy="no-referrer"
