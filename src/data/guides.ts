@@ -8,6 +8,198 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-humidors-with-built-in-hygrometers',
+    slug: 'best-humidors-with-built-in-hygrometers',
+    title: 'Best Humidors With Built-In Hygrometers: Three Formats Compared',
+    subtitle: 'Compare a traditional cedar box, an acrylic tray system, and a temperature-controlled cabinet without confusing a visible reading with automatic humidity control.',
+    category: 'selection',
+    categoryLabel: 'Built-In Hygrometer Buying Guide',
+    readTimeMinutes: 15,
+    ...editorialByline,
+    publishedDate: '2026-10-18',
+    reviewedDate: '2026-10-18',
+    heroVisual: 'built-in-gauge',
+    excerpt: 'Three exact Amazon humidors with built-in hygrometers compared by enclosure, capacity evidence, humidity method, temperature limits, and verification work.',
+    featuredProductIds: ['klaro-octodor', 'klaro-felix-pro-acrylic', 'kingchii-16l'],
+    relatedBlueprintIds: ['blueprint-tupperdor-7l', 'blueprint-converted-wineador'],
+    comparisonRows: [
+      {
+        productId: 'klaro-octodor',
+        recommendationLabel: 'For a traditional cedar desktop',
+        fit: 'A larger loose-cigar collection in a temperature-stable room where a front display, removable tray, and included humidity system matter',
+        capacity: 'Black Octodor; Amazon says 50–100 cigars and shows a front digital hygrometer, removable cedar tray, divider, recessed Hydro System, and accessory drawer',
+        tradeoff: 'No size-specific capacity table, no heating or cooling, full wood-box conditioning, and the maker does not publish a numeric hygrometer tolerance'
+      },
+      {
+        productId: 'klaro-felix-pro-acrylic',
+        recommendationLabel: 'For clear, layered passive storage',
+        fit: 'A loose-cigar collection that benefits from two removable acrylic trays, quick visual inventory, and the clearest size-specific capacity evidence here',
+        capacity: 'PRO variant; Amazon says 50–60 cigars; maker table ranges from 20–25 Toro 60s to 70–90 Robusto 50s and lists a digital hygrometer',
+        tradeoff: 'No active temperature control, clear walls require careful light placement, and maker and Amazon dimensions conflict'
+      },
+      {
+        productId: 'kingchii-16l',
+        recommendationLabel: 'For a measured temperature problem',
+        fit: 'A larger collection in a room that genuinely needs powered heating or cooling and has outlet, door, and ventilation clearance',
+        capacity: 'Black 16 L, two-layer/100-capacity variant; cedar shelf and drawer, built-in hygrometer, circulation, glass door, and semiconductor temperature control',
+        tradeoff: 'No automatic humidity control; Amazon and KingChii disagree on temperature range, noise, and dimensions; Amazon states ±5% RH for the built-in gauge'
+      }
+    ],
+    sections: [
+      {
+        id: 'what-best-means',
+        title: '1. Buy the enclosure first, then judge the built-in hygrometer',
+        contentMarkdown: `A built-in hygrometer is convenient because you can check the display without adding a loose instrument or opening the enclosure. It does not make three very different humidors equivalent. A wooden desktop box, an acrylic tray system, and a powered cabinet have different setup work, usable layouts, temperature limits, and failure modes.
+
+We reviewed current results for “best humidor with hygrometer,” “humidor with built-in hygrometer,” and closely related cabinet searches. Useful competing pages explain digital versus analog displays, cedar, capacity, and included humidifiers. Common gaps are treating a display as humidity control, assuming more decimal places mean more accuracy, repeating maker precision claims as tested facts, omitting sensor location and cross-checking, and comparing cigar counts without cigar dimensions. Some pages also publish changing prices and ratings or promise effortless preservation from the gauge alone.
+
+This guide takes the opposite approach. “Best” means the most sensible fit among three exact current products for three different storage jobs. We did not buy, own, calibrate, seal-test, load-test, or temperature-test them. NIST calibrates humidity instruments in controlled chambers against known moisture conditions; that is a useful reminder that a displayed number is a measurement with uncertainty, not self-validating proof.
+
+On October 18, 2026, we rendered the exact Amazon.com pages for the black CASE ELEGANCE Octodor (ASIN B07Y5GK92B), CASE ELEGANCE Felix Pro with the PRO size selected (ASIN B0CHTZWV9T), and the black KingChii 16 L two-layer/100-capacity variant (ASIN B0BQJ5H5YT). Every page matched the brand, model or selected variant, listed components, and ASIN described here and showed an active buying offer. We excluded Whynter CHC-123DS B09787W1ZZ because its correct rendered page was currently unavailable.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product link, at no extra cost to you. Every buying button goes directly to the exact Amazon page verified for this guide. We do not reproduce Amazon prices, star ratings, review counts, badges, popularity claims, or invented performance results.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Compare what the display measures—and what it does not control',
+        contentMarkdown: `All three picks display humidity, but only the KingChii actively changes temperature. None of the three listings says the product automatically controls humidity. Octodor includes a recessed Hydro System and solutions. Felix Pro uses separately placed humidity packs under or among its trays according to current maker instructions. KingChii requires a separately chosen humidity source while its electronics manage temperature.
+
+The built-in display therefore answers only one part of the storage question. It cannot tell you by itself whether the sensor is offset, whether conditions differ between upper and lower layers, whether the humidity source is too close to the sensing point, or whether the room is outside the enclosure's operating needs. A front display is useful for trend checks; it is not a substitute for a commissioning comparison with a checked reference.
+
+Capacity also changes the measurement problem. Octodor has an upper cedar tray and lower compartment but no current cigar-size table. Felix Pro publishes a useful table that falls sharply as ring gauge grows. KingChii claims up to 100 cigars without publishing a comparable packing table, and its shelf, drawer, humidity source, sensor clearance, and airflow all use space.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '3. Seven checks before choosing a built-in-gauge humidor',
+        contentMarkdown: `**1. Enclosure format:** Choose wood for traditional presentation and cedar buffering, acrylic for a clear passive enclosure with less wood to condition, or electric only for a measured temperature problem.
+
+**2. Gauge location:** A front or built-in sensor reports conditions near that sensor. In a layered or fan-driven cabinet, leave room to compare another checked instrument at cigar level during setup.
+
+**3. Published uncertainty:** KingChii's Amazon page states ±5% RH for its built-in hygrometer. Case Elegance calls its gauges precise but does not publish a numeric tolerance on the current Octodor or Felix Pro product pages. Do not turn either form of maker language into independent proof.
+
+**4. Humidity method:** Identify the actual moisture source, its placement, consumables, and service interval. Monitoring and humidification are different functions.
+
+**5. Temperature responsibility:** Octodor and Felix Pro follow the room. KingChii lists heating and cooling, but its Amazon and maker temperature ranges conflict. Log the proposed location before buying an appliance.
+
+**6. Real cigar dimensions:** Plan from your common lengths and ring gauges, tubes, dividers, trays, humidity equipment, and retrieval space—not the largest headline count.
+
+**7. Operating envelope:** Measure lid or door swing, drawer and tray removal, cable route, outlet access, airflow clearance, light exposure, and the furniture surface. Published exterior size is only the starting rectangle.`
+      },
+      {
+        id: 'octodor',
+        title: '4. Octodor: the traditional box with an always-visible front reading',
+        contentMarkdown: `The [CASE ELEGANCE Octodor](/products/klaro-octodor-large-glass-top-humidor-review) is the traditional wooden choice. Amazon rendered ASIN B07Y5GK92B in black with an in-stock offer. The current title identifies a 50–100-cigar Octodor with a digital hygrometer, cedar construction, humidification system, accessory drawer, octagonal body, piano-black finish, and glass top. The product table confirms model CE-HUM-OCT-BLK-P, 13.75 × 9.5 × 8.6 inches, and the same ASIN.
+
+Case Elegance lists a front digital hygrometer, magnetic lid, full cedar lining, removable cedar tray and divider, felt-lined accessory drawer, and recessed Hydro System. Its maker page lists the humidor, Hydro Tray, Hydro Stick, solution, and gel components. Those are maker specifications; we did not verify gauge accuracy, seal performance, humidity distribution, or capacity.
+
+**Choose it if** a conventional cedar-lined desktop, front reading, tray, and included humidity system fit your routine, and the room already stays within your storage plan. **Choose Felix Pro** if clear acrylic and a size-specific capacity table matter more than wood-box presentation. **Choose KingChii** only when logged room temperature justifies power.
+
+Treat 100 cigars as a maker ceiling, not a working promise. The current product page has no comparable breakdown by length and ring gauge. The glass top and front gauge also do not prove an even reading throughout both storage levels.`
+      },
+      {
+        id: 'felix-pro',
+        title: '5. Felix Pro: the clearest capacity evidence and simplest passive shell',
+        contentMarkdown: `The [CASE ELEGANCE Felix Pro](/products/klaro-felix-pro-acrylic-humidor-review) is the clear acrylic option. Amazon rendered ASIN B0CHTZWV9T with **PRO** selected and an in-stock offer. The current title says 50–60 cigars and identifies an acrylic enclosure, two acrylic trays, and a Spanish cedar tray. The live page also lists a digital hygrometer; the humidity packs shown in frequently-bought-together content are not part of the product listing.
+
+The maker publishes more useful fit information than a single count: 50–60 Churchill 47s, 70–90 Robusto 50s, 38–45 Toro 50/52s, 35–40 Toro 54s, and 20–25 Toro 60s. It lists a 12.3 × 8.8 × 5.9-inch exterior, two acrylic storage trays, an acrylic divider, and a solid Spanish cedar base tray. Amazon's product information has displayed conflicting larger dimensions, so use the maker figure for planning and confirm the delivered unit before committing furniture.
+
+**Choose it if** you want layered passive storage, visible inventory, and capacity evidence tied to cigar size. **Choose Octodor** for a traditional cedar-lined box with an included recessed humidity system. **Choose a basic gasketed utility container** if display finish and a built-in gauge do not justify the additional cost and footprint.
+
+Case Elegance calls the hygrometer precise and says it is factory calibrated; that remains maker information. Its current instructions say the CR2032 battery is replaceable and describe a recalibration control. Use those instructions, but still compare the delivered gauge with a trusted reference during commissioning.`
+      },
+      {
+        id: 'kingchii',
+        title: '6. KingChii 16 L: temperature control, not automatic humidity control',
+        contentMarkdown: `The [KingChii 16 L](/products/kingchii-16l-electric-cigar-humidor-review) is the powered option. Amazon rendered ASIN B0BQJ5H5YT in black with **16L** selected, an in-stock offer, and the two-layer/100-capacity title. The page identifies a built-in hygrometer, cedar storage, circulation, double-layer glass door, and semiconductor temperature control. Its current bullet publishes a ±5% RH hygrometer specification.
+
+Current specifications conflict. Amazon says 64–74°F and no more than 40 dB. KingChii's current maker page says 54–74°F, heating and cooling, no more than 38 dB, and dimensions of 20 × 9.8 × 14.1 inches. Amazon has also displayed different exterior dimensions. Do not resolve those conflicts by guessing; verify the received manual, label, and actual cabinet before final placement.
+
+**Choose it if** logged room conditions show a real heating or cooling need, and you can provide a permitted outlet, stable stand, ventilation clearance, door swing, and a separate humidity plan. **Choose either passive option** when the room is already suitable; a fan, cord, controller, and outage plan add dependencies without creating automatic RH control.
+
+The built-in hygrometer is monitoring only. Even the listing's ±5% RH claim is wide enough that a reading should be treated as a trend plus stated uncertainty, not an exact verdict. A second checked sensor can help identify persistent disagreement or vertical differences during setup.`
+      },
+      {
+        id: 'verification',
+        title: '7. A practical way to check the built-in gauge',
+        contentMarkdown: `NIST's humidity work uses known moisture conditions, controlled temperature, and stated uncertainty. A home commissioning check is not a NIST calibration, but it can reveal whether the installed display and a trusted reference disagree enough to change decisions.
+
+1. Read the exact received manual before changing any calibration or offset setting.
+2. Let the built-in gauge and a checked reference sit together in the empty enclosure, away from the humidity source, direct contact with wet material, glass warmed by sun, and fan discharge.
+3. Wait for both readings to stabilize; do not compare one instrument immediately after moving it.
+4. Record temperature and RH from both instruments at the same time across several checks.
+5. If the offset is stable and the manual supports adjustment, follow the maker's procedure once and record what changed. If disagreement moves around, investigate placement, battery, airflow, temperature, or instrument condition instead of repeatedly “calibrating.”
+6. Repeat the comparison after loading because cigars, trays, cedar, and airflow paths change the system.
+
+Use the [best cigar hygrometers guide](/guides/best-cigar-hygrometers) to compare a local display, Bluetooth history, and Wi-Fi monitoring. A second sensor is evidence only when its own condition and uncertainty are understood.`
+      },
+      {
+        id: 'setup',
+        title: '8. Commission the whole storage system, not just the display',
+        contentMarkdown: `Tobacco is hygroscopic: peer-reviewed sorption research found that equilibrium moisture changes with surrounding RH and tobacco type. The USDA Wood Handbook explains that wood also exchanges moisture with its environment. That means a wooden enclosure, cedar tray, cigars, humidity source, and room all take part in the stabilization process.
+
+1. Confirm the delivered ASIN, model, color or size, and included parts before discarding packaging.
+2. Inspect the enclosure, hinges, lid or door, glass, trays, drawer, sensor opening, power parts, and finish.
+3. Install or condition components only as the exact instructions direct. Do not wipe wood with water unless the received manual explicitly requires it.
+4. Place the humidity source where the maker allows without touching wrappers or blocking the built-in sensor, tray movement, drawer movement, or fan path.
+5. Run the empty system until the readings form a stable trend through the room's normal daily cycle. Check Octodor and Felix Pro away from sun; give KingChii the clearance specified by its received manual.
+6. Compare the built-in display with a checked reference, then load cigars gradually and recheck the trend at cigar level.
+7. Write down the chosen humidity method, battery or refill schedule, observed offset, alarm or response threshold, and what happens during travel or a power interruption.
+
+Use the [seasoning lab](/seasoning-lab) for a structured setup plan and the [humidor finder](/) if the enclosure format still is not settled.`
+      },
+      {
+        id: 'recommendation',
+        title: '9. The shortest honest recommendation',
+        contentMarkdown: `Choose the **Octodor** when you want a traditional cedar-lined desktop with a front reading, removable tray, and included humidity system in a temperature-stable room. Choose the **Felix Pro** when clear layered storage and a cigar-size capacity table matter more than a traditional wood box. Choose the **KingChii 16 L** only when room-temperature logs justify heating or cooling and you accept separate humidity management, power, clearance, and specification conflicts.
+
+Do not buy any of them solely because the hygrometer is built in. The better purchase is the enclosure that fits your cigars, room, access, and maintenance plan—plus a display you have checked well enough to interpret.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'Does a built-in hygrometer control humidity?',
+        answer: 'No. A hygrometer measures and displays humidity. Octodor has a separate passive Hydro System, Felix Pro uses separately placed humidity packs under the maker instructions, and KingChii still needs a separate humidity source.'
+      },
+      {
+        question: 'Is a digital hygrometer automatically more accurate than an analog one?',
+        answer: 'No. Display type does not prove accuracy. Check the delivered instrument against a trusted reference, consider its published tolerance, and follow the exact manual before applying an offset.'
+      },
+      {
+        question: 'Which pick has the clearest hygrometer accuracy specification?',
+        answer: 'The current KingChii Amazon page states ±5% RH. Case Elegance describes the Octodor and Felix Pro gauges as precise but does not publish a numeric tolerance on their current product pages. All are manufacturer or listing claims, not our test results.'
+      },
+      {
+        question: 'Which humidor is easiest to size for large cigars?',
+        answer: 'Felix Pro has the clearest current maker table: it lists 20–25 Toro 60s versus 70–90 Robusto 50s. Octodor and KingChii do not publish equivalent size-specific tables for these exact products.'
+      },
+      {
+        question: 'Does KingChii 16 L automatically control humidity?',
+        answer: 'No. It controls temperature and displays RH, but its current listing does not describe automatic humidity control. Plan a compatible humidity source and verify readings separately.'
+      },
+      {
+        question: 'Do Octodor or Felix Pro control temperature?',
+        answer: 'No. Both are passive enclosures and follow room temperature. Keep them away from direct sun and HVAC discharge, and measure the proposed location before buying.'
+      },
+      {
+        question: 'Why was the Whynter CHC-123DS excluded?',
+        answer: 'Its exact Amazon page still matched model CHC-123DS and ASIN B09787W1ZZ on October 18, 2026, but Amazon showed it as currently unavailable. This guide recommends only exact products with active offers during the run.'
+      }
+    ],
+    sources: [
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Hygrometers and relative-humidity calibration', publisher: 'National Institute of Standards and Technology', url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers', sourceType: 'Government / technical reference' },
+      { label: 'Calibration of Hygrometers with the Hybrid Humidity Generator', publisher: 'National Institute of Standards and Technology', url: 'https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.250-83r1.pdf', sourceType: 'Government / technical research' },
+      { label: 'Wood Handbook: moisture relations and dimensional change', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr282.pdf', sourceType: 'Government / technical reference' },
+      { label: 'Octodor dimensions, components, materials, and humidity system', publisher: 'Case Elegance', url: 'https://caseelegance.com/collections/humidors/products/octodor-large-glass-top-humidor', sourceType: 'Manufacturer instructions' },
+      { label: 'Felix Pro dimensions, materials, and cigar-size capacity table', publisher: 'Case Elegance', url: 'https://caseelegance.com/products/felix-pro-tupperdor-airtight-acrylic-humidor', sourceType: 'Manufacturer instructions' },
+      { label: 'Felix Pro setup and hygrometer instructions', publisher: 'Case Elegance', url: 'https://caseelegance.com/blogs/humidors/felix-humidor-seasoning-instructions', sourceType: 'Manufacturer instructions' },
+      { label: 'KingChii 16 L dimensions, temperature range, storage, and warranty', publisher: 'KingChii', url: 'https://www.kingchii.com/products/16l-electric-humidity-control-cabinet', sourceType: 'Manufacturer instructions' },
+      { label: 'CASE ELEGANCE Octodor, black — ASIN B07Y5GK92B', publisher: 'Amazon.com, rendered October 18, 2026', url: 'https://www.amazon.com/dp/B07Y5GK92B?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'CASE ELEGANCE Felix Pro, PRO size — ASIN B0CHTZWV9T', publisher: 'Amazon.com, rendered October 18, 2026', url: 'https://www.amazon.com/dp/B0CHTZWV9T?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'KingChii 16 L, black two-layer/100-capacity variant — ASIN B0BQJ5H5YT', publisher: 'Amazon.com, rendered October 18, 2026', url: 'https://www.amazon.com/dp/B0BQJ5H5YT?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' }
+    ]
+  },
+  {
     id: 'best-humidors-for-offices',
     slug: 'best-humidors-for-offices',
     title: 'Best Humidors for Offices: Three Workplace Setups Compared',

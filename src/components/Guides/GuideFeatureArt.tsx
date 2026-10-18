@@ -57,6 +57,7 @@ const visualConfig = {
   'home-bar': { number: '24', label: 'HOME BAR HUMIDORS', primary: Wine, secondary: Box, tertiary: Thermometer },
   drawer: { number: '25', label: 'ACCESSORY DRAWER HUMIDORS', primary: Box, secondary: ChevronDown, tertiary: Gauge },
   office: { number: '26', label: 'OFFICE HUMIDORS', primary: Briefcase, secondary: Box, tertiary: Thermometer },
+  'built-in-gauge': { number: '27', label: 'BUILT-IN HYGROMETERS', primary: Gauge, secondary: Box, tertiary: Thermometer },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;

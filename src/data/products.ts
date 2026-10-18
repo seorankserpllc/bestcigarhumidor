@@ -453,7 +453,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
     finderPriority: 88,
     premiumPick: true,
-    relatedGuideSlugs: ['best-50-count-humidors', 'best-glass-top-humidors', 'glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors', 'best-100-count-humidors', 'best-humidors-with-accessory-drawers']
+    relatedGuideSlugs: ['best-50-count-humidors', 'best-glass-top-humidors', 'glass-top-humidor-truth-leaks-sealing', 'spanish-cedar-biology-guide', 'best-desktop-humidors', 'best-100-count-humidors', 'best-humidors-with-accessory-drawers', 'best-humidors-with-built-in-hygrometers']
   },
   {
     id: 'klaro-military',
@@ -651,7 +651,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     material: 'Electric cabinet with double-layer glass door and Spanish cedar shelves/drawer',
     electricFeatures: { heating: true, cooling: true, tempRange: '54–74°F maker page; 64–74°F current Amazon bullet', activeHumidity: false },
     diyAlternativeBlueprintId: 'blueprint-converted-wineador',
-    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors', 'best-humidors-for-small-spaces', 'best-100-count-humidors', 'best-humidors-for-dry-climates', 'best-humidors-for-home-bars']
+    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors', 'best-humidors-for-small-spaces', 'best-100-count-humidors', 'best-humidors-for-dry-climates', 'best-humidors-for-home-bars', 'best-humidors-with-built-in-hygrometers']
   },
 
   // ================= ACRYLIC & AIRTIGHT =================
@@ -700,7 +700,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     dimensions: 'Maker: 12.3 × 8.8 × 5.9 in; Amazon table currently shows 15.75 × 9.8 × 8.25 in',
     material: 'Acrylic body and trays with a solid Spanish cedar base tray (maker information)',
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['best-50-count-humidors', 'science-of-airtight-tupperdors', 'spanish-cedar-biology-guide', 'best-acrylic-humidors', 'best-humidors-for-home-bars']
+    relatedGuideSlugs: ['best-50-count-humidors', 'science-of-airtight-tupperdors', 'spanish-cedar-biology-guide', 'best-acrylic-humidors', 'best-humidors-for-home-bars', 'best-humidors-with-built-in-hygrometers']
   },
   {
     id: 'prestige-aj25-acrylic',
