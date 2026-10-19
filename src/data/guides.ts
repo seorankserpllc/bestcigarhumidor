@@ -8,6 +8,180 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-cigar-humidity-packs',
+    slug: 'best-cigar-humidity-packs',
+    title: 'Best Cigar Humidity Packs: 65%, 69%, and 72% Compared',
+    subtitle: 'Choose a Size 60 humidity-pack set point by enclosure, measured conditions, and smoking preference—not by treating one RH number as universal.',
+    category: 'selection',
+    categoryLabel: 'Humidity Pack Buying Guide',
+    readTimeMinutes: 14,
+    ...editorialByline,
+    publishedDate: '2026-10-19',
+    reviewedDate: '2026-10-19',
+    heroVisual: 'humidity-pack',
+    excerpt: 'Three exact Size 60 twelve-packs compared by RH set point, enclosure fit, sizing, monitoring, transition work, and realistic limitations.',
+    featuredProductIds: ['boveda-65-brick', 'boveda-69-brick', 'boveda-72-brick'],
+    relatedBlueprintIds: ['blueprint-tupperdor-7l'],
+    comparisonRows: [
+      {
+        productId: 'boveda-65-brick',
+        recommendationLabel: 'For a deliberately lower target',
+        fit: 'A well-sealed enclosure or owner who has measured the system and prefers a lower-RH storage profile',
+        capacity: '65% RH; twelve individually wrapped Size 60 packs; maker sizes one pack per 25 cigars of enclosure capacity',
+        tradeoff: 'Not a fix for a dry, drafty, or unseasoned box; a low reading first needs sensor, seal, wood, and pack-count checks'
+      },
+      {
+        productId: 'boveda-69-brick',
+        recommendationLabel: 'For the maker’s general starting point',
+        fit: 'Most first-time pack users and mixed wood, acrylic, plastic, cooler, bag, or travel storage',
+        capacity: '69% RH; twelve individually wrapped Size 60 packs; maker sizes one pack per 25 cigars of enclosure capacity',
+        tradeoff: 'A 69% label does not guarantee every consumer gauge will display 69% or that every cigar will share one preferred moisture condition'
+      },
+      {
+        productId: 'boveda-72-brick',
+        recommendationLabel: 'For a proven dry-room or drafty-box problem',
+        fit: 'A porous wooden enclosure or dry environment that stabilizes below the owner’s chosen range after other causes are checked',
+        capacity: '72% RH; twelve individually wrapped Size 60 packs; maker sizes one pack per 25 cigars of enclosure capacity',
+        tradeoff: 'Higher set point is not a repair for a bad seal and is usually the wrong first move in tightly sealed plastic or acrylic storage'
+      }
+    ],
+    sections: [
+      {
+        id: 'what-these-picks-mean',
+        title: '1. These are three set points, not three quality grades',
+        contentMarkdown: `All three recommendations are the same basic format: Boveda Size 60, twelve individually wrapped packs, with different labeled relative-humidity set points. We rendered the exact Amazon.com pages on October 19, 2026 and confirmed the displayed 65%, 69%, and 72% variants, twelve-count Size 60 format, matching ASINs, and active buying offers.
+
+The useful decision is therefore **which target fits the complete storage system**. Current search results often call one percentage best for a wrapper type, climate, or aging plan without showing independent evidence for those precise outcomes. They also blur a pack's labeled set point with the reading on a consumer hygrometer. This guide does neither. Tobacco is hygroscopic, wood exchanges moisture with surrounding air, and a gauge has measurement uncertainty. Enclosure leakage, dry cedar, pack quantity, temperature, sensor placement, and time can all affect the number you see.
+
+We did not open, weigh, condition, instrument, or run these packs side by side. The RH tolerance, ingredients, sizing, use, and replacement statements are manufacturer information. The marketplace checks establish current product identity and availability, not independent performance.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, star ratings, review counts, badges, or claims of hands-on ownership.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Start at 69%, then move only for a measured reason',
+        contentMarkdown: `For a first pack-based setup, 69% is the manufacturer's broad recommendation across wood, acrylic, plastic, cooler, bag, and travel storage. That makes it the clearest baseline here—not an independently proven universal optimum.
+
+Choose 65% when you deliberately want a lower target and the enclosure is already sound. Choose 72% when a checked sensor shows that a dry room or porous wooden box settles below your intended range after you have ruled out too few packs, dry unconditioned wood, a poor seal, or a bad gauge. Do not jump between percentages in response to every daily reading.
+
+The three cartons do not solve different capacity tiers. Boveda currently tells buyers to use one Size 60 for each 25 cigars the container is designed to hold. A twelve-pack therefore represents up to 300 cigars of maker-rated total enclosure capacity, whether used in one large box or divided among smaller ones. Size from the enclosure, not the number of cigars inside today.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '3. Six checks before choosing the percentage',
+        contentMarkdown: `**Check the enclosure first.** A tight acrylic box and a porous or drafty wood humidor impose different moisture loads. A higher-RH pack should not be used to disguise a lid, gasket, hinge, or fit problem.
+
+**Size by rated capacity.** The maker bases Size 60 quantity on total container capacity. Under-packing can create a slow recovery and shorter service life that looks like a wrong percentage.
+
+**Account for unfinished wood.** The USDA Wood Handbook explains that wood equilibrium moisture content depends on surrounding RH and temperature. New or dried cedar can absorb moisture while the system settles. Follow the humidor's conditioning instructions before judging the ongoing pack choice.
+
+**Verify the gauge.** NIST calibrates RH sensors in controlled air with known moisture content and reports uncertainty. A consumer display is useful for trends, but its last digit is not proof. Check it with a trustworthy method and place it near the cigars without touching a pack.
+
+**Measure temperature too.** Relative humidity is temperature-dependent. None of these packs heats or cools the room, and a changing temperature can change the displayed RH even when nobody opened the enclosure.
+
+**Change one variable at a time.** Keep the pack count, sensor position, loading, and enclosure unchanged while evaluating a new set point. Otherwise you cannot tell which change affected the trend.`
+      },
+      {
+        id: 'boveda-65',
+        title: '4. Boveda 65% Size 60: the lower-target option',
+        contentMarkdown: `The [Boveda 65% RH Size 60 twelve-pack](/products/boveda-65-rh-size-60-12-pack-review) is the deliberate lower-target choice. The exact Amazon page identifies **65%**, **Size 60**, and **12 count** at ASIN B00CPPG228. Its current listing says one pack for up to 25 items of container capacity, describes two-way moisture exchange, and says not to mix different RH levels. Boveda's current cigar guidance describes 65% as a drier-profile option and a long-term-aging choice. Those are manufacturer recommendations, not our comparative test results.
+
+**Choose it if** a sound, monitored enclosure is running at a higher moisture condition than you prefer, or you want a controlled lower-RH trial. **Choose 69% if** this is your first pack setup and you do not yet have a measured reason to move. **Do not use 65% as a diagnostic shortcut** when a wooden box is dry, under-packed, or leaking.
+
+Allow a stable observation period after changing levels. Tobacco-sorption research shows that equilibrium moisture changes with surrounding RH; it does not establish that every finished cigar reaches equilibrium on the same schedule or smokes best at one number. Record temperature and RH trends and judge your own stored cigars without turning preference into a universal claim.`
+      },
+      {
+        id: 'boveda-69',
+        title: '5. Boveda 69% Size 60: the broad starting point',
+        contentMarkdown: `The [Boveda 69% RH Size 60 twelve-pack](/products/boveda-69-rh-size-60-12-pack-review) is the simplest starting point in this comparison. The exact Amazon page identifies **69%**, **Size 60**, and **12 count** at ASIN B00CPPG21Y. The rendered listing showed twelve individually wrapped packs and an active offer. It says to remove any clear outer overwrap, leave the brown packet intact, use one Size 60 per 25 cigars of container capacity, and avoid mixing percentages.
+
+**Choose it if** you are setting up pack-based control for the first time, the enclosure type does not provide a clear reason to start higher or lower, and you want the maker's general cigar-storage baseline. **Choose 65%** after a controlled trial if you intentionally prefer a lower target. **Consider 72% only** when measurements in a dry room or porous wooden box show a persistent shortfall after the system itself has been checked.
+
+Do not expect every gauge to display exactly 69%. Boveda currently states a ±2% RH specification when the recommended pack count is used, but that is a maker claim about its product—not a calibration certificate for the sensor, proof of uniform conditions at every cigar, or a promise that the enclosure has no leaks.`
+      },
+      {
+        id: 'boveda-72',
+        title: '6. Boveda 72% Size 60: the compensating option',
+        contentMarkdown: `The [Boveda 72% RH Size 60 twelve-pack](/products/boveda-72-rh-size-60-12-pack-review) is the highest set point here. The exact Amazon page identifies **72%**, **Size 60**, and **12 count** at ASIN B00CPPG23W. The current listing positions this variant for porous wooden or leather enclosures, low-humidity environments, and high altitude, again with one pack per 25 items of container capacity. Boveda's current cigar guidance similarly describes 72% for drafty humidors, dry environments, or a preferred higher moisture profile.
+
+**Choose it if** a checked system in a dry room or porous wooden humidor consistently stabilizes below your chosen range with the correct pack count. **Choose 69% if** you have no evidence that compensation is needed. **Choose 65%** when the objective is deliberately lower-RH storage in a sound enclosure.
+
+Do not make 72% the automatic answer for every dry climate. A bad seal can consume packs without creating a stable system, while a tightly sealed plastic or acrylic enclosure has less moisture loss to compensate for. Fix physical problems first, observe the temperature and calibrated-gauge trend, and then decide whether the higher label is warranted.`
+      },
+      {
+        id: 'transition-plan',
+        title: '7. Change RH levels without creating an unreadable experiment',
+        contentMarkdown: `1. Confirm the delivered ASIN, percentage, Size 60 format, and twelve-count carton before opening multiple packs.
+2. Check the enclosure for damage, poor closure, wet surfaces, or odor. Condition unfinished wood according to the humidor maker's instructions.
+3. Verify the hygrometer with a suitable reference method. Record its known offset, if any, rather than mentally correcting it differently each day.
+4. Install the maker-recommended number of same-percentage Size 60 packs based on the enclosure's rated capacity. Remove only the clear outer overwrap; do not cut the brown packet.
+5. Do not mix 65%, 69%, and 72% packs in one enclosure, and do not combine them with a separate humidifier. Boveda says those combinations make the products work against one another.
+6. Keep temperature, sensor position, pack placement, and cigar load as consistent as practical. Watch a stable trend instead of reacting to each opening.
+7. If you switch set points, replace the whole working set with one percentage and label the start date. Store unused packs sealed in their original packaging.
+8. Investigate a persistent miss in this order: gauge, temperature, closure, dry wood, pack quantity, expired or damaged packs, loading, and only then the labeled RH choice.
+
+For broader format choices, compare the [best humidor humidifiers](/guides/best-humidor-humidifiers). For monitoring, see the [cigar hygrometer guide](/guides/best-cigar-hygrometers). Use the [seasoning lab](/seasoning-lab) when preparing a wooden humidor.`
+      },
+      {
+        id: 'when-packs-are-not-enough',
+        title: '8. Know what a humidity pack cannot fix',
+        contentMarkdown: `A humidity pack does not cool an overheated room, heat a cold one, repair a warped lid, replace a damaged gasket, move air through a crowded multi-drawer cabinet, or certify a hygrometer. It also does not standardize cigar capacity: thick cigars, boxes, trays, and accessories change how the enclosure is loaded.
+
+Choose a different strategy when the main problem is temperature, large-cabinet circulation, or enclosure failure. The [electric humidor guide](/guides/best-electric-cigar-humidors) explains temperature-control limits. The [tupperdor guide](/guides/science-of-airtight-tupperdors) covers a lower-leakage DIY enclosure. The [dry-climate humidor guide](/guides/best-humidors-for-dry-climates) compares complete storage formats rather than only pack percentages.
+
+If several drawers or shelves show different readings, adding a higher-RH pack may raise the average without fixing distribution. Reduce crowding, follow the cabinet's airflow instructions, and verify with checked sensors at cigar level before changing the target.`
+      },
+      {
+        id: 'shortest-recommendation',
+        title: '9. The shortest honest recommendation',
+        contentMarkdown: `Start with **69% Size 60** if this is your first pack-based cigar setup and no measured enclosure problem points elsewhere. Choose **65%** for a deliberate lower-RH trial in a sound, monitored enclosure. Choose **72%** only when a dry room or porous wooden box demonstrably needs compensation after the gauge, seal, wood condition, temperature, and pack count have been checked.
+
+All three exact listings were active during this run, but availability can change. Reconfirm the percentage, Size 60 format, twelve-count quantity, and ASIN on the destination page before ordering. Use the [humidor finder](/) if the enclosure itself—not the humidity source—is still undecided.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'Is 65%, 69%, or 72% best for every cigar?',
+        answer: 'No. This guide treats 69% as the maker’s broad starting point, 65% as a deliberate lower target, and 72% as a compensating option for a measured dry-room or porous-box problem. Enclosure behavior, temperature, sensor uncertainty, and personal smoking preference all matter.'
+      },
+      {
+        question: 'How many Size 60 packs should I use?',
+        answer: 'Boveda currently says one Size 60 per 25 cigars of the enclosure’s rated capacity, not per 25 cigars currently inside. A 100-count box therefore uses four packs under the maker’s rule.'
+      },
+      {
+        question: 'Can I mix 65% and 69% packs to make 67%?',
+        answer: 'No. Boveda explicitly says not to mix different RH levels in one enclosure because the packs work against one another. Use one percentage for the entire working set.'
+      },
+      {
+        question: 'Should a 69% pack make my hygrometer read exactly 69%?',
+        answer: 'Not necessarily. The pack specification, consumer sensor uncertainty, temperature, enclosure leakage, dry wood, pack count, placement, loading, and stabilization time can all affect the displayed number.'
+      },
+      {
+        question: 'Should I use 72% in every dry climate?',
+        answer: 'No. First verify the sensor, correct pack count, enclosure closure, wood condition, and temperature. Use 72% only when the checked system consistently needs the higher set point or you deliberately prefer it.'
+      },
+      {
+        question: 'Do humidity packs control temperature?',
+        answer: 'No. These products exchange moisture inside an enclosure; they do not heat or cool it. Measure room and enclosure temperature separately.'
+      },
+      {
+        question: 'When should I replace Size 60 packs?',
+        answer: 'Boveda currently instructs cigar users to replace its packs every three months. Treat that as manufacturer guidance, mark the start date without puncturing the packet, and replace damaged or fully hardened packs sooner.'
+      }
+    ],
+    sources: [
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Hygrometers and relative-humidity calibration', publisher: 'National Institute of Standards and Technology', url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers', sourceType: 'Government / technical reference' },
+      { label: 'Humidity fixed points of binary saturated aqueous solutions', publisher: 'National Bureau of Standards / NIST', url: 'https://nvlpubs.nist.gov/nistpubs/jres/081/1/V81.N01.A06.pdf', sourceType: 'Government / technical research' },
+      { label: 'Wood Handbook: physical properties and moisture relations of wood', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr113/ch03.pdf', sourceType: 'Government / technical reference' },
+      { label: 'Choosing 65%, 69%, or 72% RH for cigars', publisher: 'Boveda', url: 'https://help.bovedainc.com/what-boveda-rh-do-i-need-for-my-cigars', sourceType: 'Manufacturer instructions' },
+      { label: 'Size 60 pack quantity and use instructions', publisher: 'Boveda', url: 'https://store.bovedainc.com/products/boveda-for-cigars-size-60', sourceType: 'Manufacturer instructions' },
+      { label: 'Boveda 65% Size 60 twelve-count — ASIN B00CPPG228', publisher: 'Amazon.com, rendered October 19, 2026', url: 'https://www.amazon.com/dp/B00CPPG228?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Boveda 69% Size 60 twelve-count — ASIN B00CPPG21Y', publisher: 'Amazon.com, rendered October 19, 2026', url: 'https://www.amazon.com/dp/B00CPPG21Y?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Boveda 72% Size 60 twelve-count — ASIN B00CPPG23W', publisher: 'Amazon.com, rendered October 19, 2026', url: 'https://www.amazon.com/dp/B00CPPG23W?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' }
+    ]
+  },
+  {
     id: 'best-humidors-with-built-in-hygrometers',
     slug: 'best-humidors-with-built-in-hygrometers',
     title: 'Best Humidors With Built-In Hygrometers: Three Formats Compared',

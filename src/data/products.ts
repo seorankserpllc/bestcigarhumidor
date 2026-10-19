@@ -1119,13 +1119,13 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     asin: 'B00CPPG228',
     amazonSearchQuery: 'Boveda 65 Size 60 12 Count B00CPPG228',
     imageUrl: 'https://m.media-amazon.com/images/I/81jPc4x3RjL._AC_SL1500_.jpg',
-    description: 'A 12-count box of Size 60 two-way humidity packs for long-term cigar storage at 65% RH.',
-    highlights: ['65% RH target', 'Twelve Size 60 packs', 'Two-way humidity control', 'No refilling'],
-    pros: ['Established high-feedback listing', 'Useful for airtight storage and lower-RH preferences', 'Simple replacement schedule'],
-    cons: ['Use enough packs for the enclosure', 'Not a substitute for temperature control'],
-    bestFor: 'Airtight containers and smokers who prefer a slightly drier draw and burn.',
-    sealRating: 10,
-    relatedGuideSlugs: ['science-of-airtight-tupperdors']
+    description: 'The verified 12-count carton of individually wrapped Size 60 packs, labeled for two-way humidity control at 65% RH.',
+    highlights: ['65% RH target', 'Twelve individually wrapped Size 60 packs', 'Maker sizes one pack per 25-count capacity', 'No reservoir or power'],
+    pros: ['Deliberate lower-RH option', 'Flexible placement across smaller enclosures', 'No refilling'],
+    cons: ['Use enough packs for the full enclosure capacity', 'Not a repair for a dry or leaking box', 'Does not control temperature'],
+    bestFor: 'Sound, monitored enclosures where the owner has deliberately chosen a 65% target.',
+    sealRating: 0,
+    relatedGuideSlugs: ['best-cigar-humidity-packs', 'science-of-airtight-tupperdors', 'best-humidor-humidifiers']
   },
   {
     id: 'boveda-69-brick',
@@ -1146,7 +1146,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     cons: ['Replacement is an ongoing consumable cost', 'Pack count follows enclosure capacity rather than current inventory', 'Does not control temperature'],
     bestFor: 'Small and medium airtight or well-sealed humidors where 69% is the chosen target.',
     sealRating: 0,
-    relatedGuideSlugs: ['best-tupperdor-accessories', 'glass-top-humidor-truth-leaks-sealing', 'best-humidor-humidifiers']
+    relatedGuideSlugs: ['best-cigar-humidity-packs', 'best-tupperdor-accessories', 'glass-top-humidor-truth-leaks-sealing', 'best-humidor-humidifiers']
   },
   {
     id: 'boveda-72-brick',
@@ -1161,13 +1161,13 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     asin: 'B00CPPG23W',
     amazonSearchQuery: 'Boveda 72 Size 60 12 Count B00CPPG23W',
     imageUrl: 'https://m.media-amazon.com/images/I/81iGnM0Sg9L._AC_SL1500_.jpg',
-    description: 'A 12-count box of Size 60 two-way humidity packs intended for dry environments or porous wooden enclosures that stabilize below the pack rating.',
-    highlights: ['72% RH target', 'Twelve Size 60 packs', 'Two-way humidity control', 'For dry or porous storage'],
-    pros: ['Correctly links to the 72% product', 'Established listing', 'Useful when a calibrated gauge proves lower output is insufficient'],
-    cons: ['Usually too humid for airtight plastic or acrylic storage', 'Use only after observing a stable low reading'],
-    bestFor: 'Dry rooms and porous wooden humidors that cannot maintain the desired internal RH with 69% packs.',
-    sealRating: 10,
-    relatedGuideSlugs: ['high-altitude-cigar-preservation']
+    description: 'The verified 12-count carton of individually wrapped Size 60 packs, labeled for two-way humidity control at 72% RH.',
+    highlights: ['72% RH target', 'Twelve individually wrapped Size 60 packs', 'Maker sizes one pack per 25-count capacity', 'For a measured dry-room or porous-box need'],
+    pros: ['Compensating option for a checked dry system', 'Flexible placement across smaller enclosures', 'No refilling'],
+    cons: ['Not the default choice for tightly sealed storage', 'Does not repair a poor seal', 'Does not control temperature'],
+    bestFor: 'Dry rooms and porous wooden humidors that remain below the chosen range after other causes are checked.',
+    sealRating: 0,
+    relatedGuideSlugs: ['best-cigar-humidity-packs', 'best-humidors-for-dry-climates', 'high-altitude-cigar-preservation', 'best-humidor-humidifiers']
   },
   {
     id: 'boveda-84-seasoning',
