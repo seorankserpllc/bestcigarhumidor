@@ -8,6 +8,176 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'acrylic-vs-wood-humidors',
+    slug: 'acrylic-vs-wood-humidors',
+    title: 'Acrylic vs. Wood Humidors: Three Buying Paths Compared',
+    subtitle: 'Choose a clear jar, traditional cedar-lined box, or acrylic-and-cedar hybrid by setup work, access, capacity evidence, and room conditions.',
+    category: 'selection',
+    categoryLabel: 'Materials & Format',
+    readTimeMinutes: 13,
+    ...editorialByline,
+    publishedDate: '2026-10-20',
+    reviewedDate: '2026-10-20',
+    heroVisual: 'material-choice',
+    excerpt: 'Acrylic and wood humidors compared without assuming either material proves a good seal, stable humidity, standardized capacity, or temperature control.',
+    featuredProductIds: ['xifei-acrylic-jar', 'prestige-chalet-black-solid-lid', 'klaro-felix-pro-acrylic'],
+    comparisonRows: [
+      {
+        productId: 'xifei-acrylic-jar',
+        fit: 'Small visible rotation with the least unfinished wood',
+        capacity: 'Listing: about 15–20 cigars; 7.28 in high × 5 in diameter',
+        tradeoff: 'Bottom access is awkward; included gauge and seal are not independently verified'
+      },
+      {
+        productId: 'prestige-chalet-black-solid-lid',
+        fit: 'Traditional opaque desktop storage with cedar lining',
+        capacity: 'Current listing: 20–50 cigars; 10.5 × 8.75 × 4.25 in',
+        tradeoff: 'Most wood-conditioning work; passive box cannot correct room temperature'
+      },
+      {
+        productId: 'klaro-felix-pro-acrylic',
+        fit: 'Larger display collection that benefits from layered access',
+        capacity: 'Maker table: 20–90 by cigar size; Amazon headline: 50–60',
+        tradeoff: 'Largest footprint; Amazon and maker exterior dimensions conflict'
+      }
+    ],
+    relatedBlueprintIds: ['blueprint-tupperdor-7l'],
+    sections: [
+      {
+        id: 'answer-first',
+        title: '1. Acrylic or wood? Choose the storage job first',
+        contentMarkdown: `Neither acrylic nor wood is automatically the better humidor. Choose acrylic when visibility, simpler shell preparation, and a compact gasketed format matter most. Choose a cedar-lined wood box when you want opaque traditional furniture, a divider-friendly horizontal layout, and are willing to condition and monitor the wood. Choose a hybrid when you want clear acrylic plus cedar organization and accept a larger footprint.
+
+The material label does **not** prove the closure, joints, gauge, humidifier, capacity, or room placement will work. A poorly fitted acrylic lid can leak. A well-made wooden box can still arrive dry, need conditioning, or have a gauge that requires checking. Neither passive material cools a hot room or heats a cold one.
+
+For three concrete buying paths, we rendered the exact Amazon.com pages on October 20, 2026. XIFEI B07H244RDZ displayed the one-count clear jar; Prestige Chalet B004JH0X20 displayed the black model; and CASE ELEGANCE Felix Pro B0CHTZWV9T displayed the PRO variant. All three had active buying offers. We did not buy, own, seal-test, season, load-test, or measure them.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. Every buying button goes directly to the exact Amazon product page verified for this guide. We do not publish Amazon prices, star ratings, review counts, badges, popularity claims, or invented performance results.`
+      },
+      {
+        id: 'what-comparisons-miss',
+        title: '2. What current acrylic-versus-wood comparisons leave unresolved',
+        contentMarkdown: `Current comparison pages generally explain that acrylic is clear and that unfinished wood exchanges moisture with surrounding air. Those are useful starting points. The weak step is turning a material category into a performance verdict: “acrylic is airtight,” “wood is better for aging,” or “acrylic is maintenance-free.” None follows from the material name alone.
+
+The USDA Wood Handbook documents that wood moisture content responds to relative humidity and temperature. That supports treating a dry cedar interior as part of the moisture system; it does not prove that every wooden box stabilizes every cigar load. Peer-reviewed tobacco sorption research likewise shows that tobacco moisture changes with surrounding humidity. It does not establish one universal enclosure material or one universal set point for every cigar.
+
+A useful comparison therefore separates five things: **shell material, closure, exposed wood, humidity source, and room temperature**. It also treats the hygrometer as an instrument with uncertainty. NIST calibrates humidity sensors in controlled air of known moisture content; a preinstalled display is convenient, not self-validating proof.`
+      },
+      {
+        id: 'material-changes',
+        title: '3. What the material changes—and what it does not',
+        contentMarkdown: `**Acrylic shell:** The shell does not need wood-box seasoning. You can see cigars and a gauge without opening the lid. But hinges, lid lips, clasps, gaskets, gauge penetrations, and damage still determine how the assembled enclosure behaves. Clear walls also make light and placement easier to overlook; keep any humidor away from direct sun and heat.
+
+**Cedar-lined wood box:** Exposed wood absorbs and releases moisture as the surrounding RH and temperature change. That creates setup work and can buffer short changes, but it also means dry wood competes with cigars and the humidity source until the system settles. Exterior finish, veneer, lining thickness, joints, hinges, and lid fit vary by product.
+
+**Hybrid acrylic and cedar:** A hybrid can reduce the amount of unfinished wood while retaining a cedar tray or base. It still needs a product-specific setup plan. The Felix Pro, for example, uses an acrylic shell and shelves with a solid cedar base tray; that is not the same moisture load as a fully cedar-lined wooden box.
+
+**Unchanged by material:** Cigar size still controls working capacity. A humidity source still needs appropriate sizing and placement. A checked sensor still matters. No passive option here controls temperature, prevents mold by itself, or makes direct sun safe.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '4. Seven checks before choosing acrylic, wood, or hybrid',
+        contentMarkdown: `1. **Count the actual cigars.** Record length, ring gauge, tubes, and how often you rotate stock. Headline counts are not standardized fit tests.
+2. **Measure the operating envelope.** Include lid swing, room for your hands, clearance around the gauge or humidifier, and the surface under the box.
+3. **Log room temperature.** A passive humidor cannot solve a verified heat or cold problem. Use the [electric humidor guide](/guides/best-electric-cigar-humidors) only when room measurements justify an appliance.
+4. **Inspect the closure.** Check the exact received gasket, lip, clasp, hinges, and alignment. Do not infer seal quality from acrylic, cedar, “airtight,” or a satisfying closing sound.
+5. **Inventory included parts.** A gauge and humidifier reduce the shopping list, but both still need compatible instructions and verification.
+6. **Plan for wood stabilization.** Condition exposed cedar according to the received instructions. More unfinished wood normally means more material participating in the moisture transition; it does not justify soaking or a universal schedule.
+7. **Leave an exit path.** Choose a format that can still work if the collection grows, the cigar mix changes, or the room proves unsuitable. The [humidor finder](/) and [humidity tools](/tools) help test those assumptions before buying.`
+      },
+      {
+        id: 'xifei-jar',
+        title: '5. XIFEI acrylic jar: the smallest, simplest shell',
+        contentMarkdown: `The [XIFEI clear acrylic jar](/products/xifei-acrylic-humidor-jar-review) is the low-wood path. Its rendered one-count listing showed a clasp, rubber gasket, external adjustable hygrometer, loose rectangular humidifier, dropper, and cedar lining at the bottom. The page says 7.28 inches high by 5 inches in diameter and about 15–20 cigars depending on size. ASIN B07H244RDZ was in stock and sold by XIFEI with Amazon fulfillment during verification.
+
+**Choose it if** a narrow visible container suits a small rotation and you value seeing the contents without opening the lid. The limited cedar area means less wood to stabilize than a fully lined box.
+
+**Choose something else if** you need horizontal tray access, separated layers, or a working count near 20 without measuring the actual cigars. Reaching the bottom can disturb the load. The listing's seal, gauge accuracy, humidity range, and flavor language are seller claims, not our test results. Inspect the gasket, keep the loose humidifier away from wrappers, and check the gauge before trusting it.`
+      },
+      {
+        id: 'prestige-chalet',
+        title: '6. Prestige Chalet: the traditional opaque wood-box path',
+        contentMarkdown: `The [Prestige Import Group Chalet in black](/products/prestige-chalet-black-solid-lid-humidor-review) is the traditional choice. The current listing displayed the black color, cedar-lined interior, external hygrometer, humidifier, adjustable divider, felt bottom, and internal locking hinges. It gives a 20–50-cigar range and 10.5 × 8.75 × 4.25-inch exterior dimensions. ASIN B004JH0X20 showed active Add to Cart and Buy Now controls during verification.
+
+**Choose it if** you prefer an opaque horizontal box, a divider, and traditional furniture styling, and you are willing to commission the cedar interior before loading valuable cigars.
+
+**Choose something else if** you want to inspect cigars without opening the lid, want minimal wood-conditioning work, or need a standardized 50-cigar fit. Prestige's catalog has historically described the black opaque Chalet separately from its glass-top version; the exact verified Amazon page is the opaque black model. Treat the broad count as maker/listing information and fit the longest, thickest cigars first.`
+      },
+      {
+        id: 'felix-pro',
+        title: '7. Felix Pro: the acrylic-and-cedar hybrid path',
+        contentMarkdown: `The [CASE ELEGANCE Felix Pro](/products/klaro-felix-pro-acrylic-humidor-review) combines a clear acrylic enclosure, two acrylic storage trays, a solid Spanish cedar base tray, a front digital hygrometer, and a black ashwood base. The rendered Amazon page had the **PRO** size selected, named the 50–60-cigar variant, and showed ASIN B0CHTZWV9T in stock.
+
+The maker publishes more useful size-specific capacity estimates: 50–60 Churchill 47s, 70–90 Robusto 50s, 38–45 Toro 50s or 52s, 35–40 Toro 54s, and 20–25 Toro 60s. Those remain maker estimates, but they are more honest planning inputs than one count. The maker lists 12.3 × 8.8 × 5.9 inches; Amazon's current product table lists 15.75 × 9.8 × 8.25 inches. Confirm the received footprint rather than hiding the conflict.
+
+**Choose it if** visibility, layered access, and cigar-size planning justify the largest desktop footprint here. **Choose the XIFEI** for a small rotation with less cedar. **Choose the Chalet** for an opaque traditional box. Case Elegance's airtightness and hygrometer-precision statements are manufacturer claims; check the lid, tray fit, gauge, and empty-system trend yourself.`
+      },
+      {
+        id: 'commissioning-plan',
+        title: '8. Set up the whole system, not only the material',
+        contentMarkdown: `1. Put the empty humidor in its intended room, away from direct sun, exterior walls, heaters, vents, and wet work surfaces.
+2. Inspect for cracks, odor, damaged hardware, gasket problems, tray interference, and a lid that does not align. Confirm the exact model and included parts.
+3. Follow the received cleaning and wood-conditioning instructions. Do not wipe or soak wood merely because another brand's guide says to do so. The acrylic shell itself does not need seasoning.
+4. Check the hygrometer using its instructions and a suitable reference. NIST's work is a reminder that humidity readings have uncertainty; it is not a claim that a household kit creates laboratory calibration.
+5. Install one compatible humidity method at the maker's recommended amount. Avoid combining wet foam, gel, solution, and packs without a defined reason.
+6. Observe the closed empty system until the trend is understandable. Add cigars gradually and expect the reading to change as tobacco and any unfinished wood exchange moisture.
+7. Recheck after each load change. If the trend is wrong, verify the sensor, closure, humidity source, and room before changing several variables at once.
+
+Use the [seasoning lab](/seasoning-lab) for a structured record, the [hygrometer guide](/guides/best-cigar-hygrometers) for sensor choices, and the [humidity-pack guide](/guides/best-cigar-humidity-packs) when selecting a pack set point.`
+      },
+      {
+        id: 'shortest-recommendation',
+        title: '9. The shortest honest recommendation',
+        contentMarkdown: `Choose the **XIFEI jar** for a measured 15–20-cigar rotation when compact visibility matters most. Choose the **Prestige Chalet** when you want an opaque traditional desktop box and accept cedar conditioning. Choose the **Felix Pro** when a larger layered display and size-specific capacity table justify the space and cost.
+
+Choose none of them if the room itself needs heating or cooling, if you store factory boxes, or if you want the lowest-cost utility enclosure. Compare the [electric humidor guide](/guides/best-electric-cigar-humidors), [factory-box storage guide](/guides/best-humidors-for-cigar-boxes), or [tupperdor guide](/guides/science-of-airtight-tupperdors) instead.
+
+The right answer is the enclosure whose exact closure, layout, capacity evidence, setup work, and room placement fit your collection. Acrylic versus wood is one input—not the verdict.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'Is an acrylic humidor better than a wooden humidor?',
+        answer: 'Not universally. Acrylic can reduce shell-conditioning work and improve visibility; a cedar-lined wood box offers traditional presentation and a wood moisture buffer. Closure quality, usable layout, humidity-source sizing, gauge uncertainty, and room temperature can matter more than the material label.'
+      },
+      {
+        question: 'Does an acrylic humidor need seasoning?',
+        answer: 'The acrylic shell does not. A cedar bottom, base tray, or other unfinished wood component may need maker-directed stabilization. Follow the exact product instructions instead of applying a full wood-box routine to every acrylic enclosure.'
+      },
+      {
+        question: 'Which material holds humidity longer?',
+        answer: 'Material alone cannot answer that. Lid and gasket fit, joints, penetrations, enclosure size, wood dryness, cigar load, opening frequency, humidity-source capacity, temperature, and sensor uncertainty all affect the observed trend. We did not seal-test these products.'
+      },
+      {
+        question: 'Is wood proven better for aging cigars?',
+        answer: 'The cited USDA source supports that wood exchanges moisture with surrounding air, and tobacco research supports that tobacco moisture responds to ambient humidity. Those facts do not independently prove that every wooden humidor produces better aging outcomes than every acrylic one.'
+      },
+      {
+        question: 'Can I put a clear acrylic humidor in sunlight?',
+        answer: 'No clear enclosure makes direct sun or a hot shelf safe. All three products here are passive and need a temperature-suitable location away from direct sun and strong heat sources.'
+      },
+      {
+        question: 'Can I trust the included hygrometer?',
+        answer: 'Treat it as an unchecked instrument until you verify it using its instructions and a suitable reference. A digital display is not automatically accurate, and an analog dial is not automatically useless; calibration range, repeatability, placement, and drift matter.'
+      },
+      {
+        question: 'Do any of these humidors control temperature?',
+        answer: 'No. The XIFEI jar, Prestige Chalet, and Felix Pro are passive enclosures. Measure the room first and consider a correctly specified powered cabinet only when temperature is the actual problem.'
+      }
+    ],
+    sources: [
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Wood Handbook: moisture relations and physical properties', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr282.pdf', sourceType: 'Government / technical reference' },
+      { label: 'Hygrometers and relative-humidity calibration', publisher: 'National Institute of Standards and Technology', url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers', sourceType: 'Government / technical reference' },
+      { label: 'XIFEI clear one-count acrylic jar — ASIN B07H244RDZ', publisher: 'Amazon.com, rendered October 20, 2026', url: 'https://www.amazon.com/dp/B07H244RDZ?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Prestige Import Group Chalet black — ASIN B004JH0X20', publisher: 'Amazon.com, rendered October 20, 2026', url: 'https://www.amazon.com/dp/B004JH0X20?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Prestige Import Group catalog: Chalet model specifications', publisher: 'Prestige Import Group', url: 'https://www.prestigeimportgroup.com/catalog/prestigecatalog.pdf', sourceType: 'Manufacturer instructions' },
+      { label: 'CASE ELEGANCE Felix Pro, PRO variant — ASIN B0CHTZWV9T', publisher: 'Amazon.com, rendered October 20, 2026', url: 'https://www.amazon.com/dp/B0CHTZWV9T?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Felix Pro dimensions, materials, components, and capacity table', publisher: 'Case Elegance', url: 'https://caseelegance.com/products/felix-pro-tupperdor-airtight-acrylic-humidor', sourceType: 'Manufacturer instructions' },
+      { label: 'Endorsement Guides: affiliate relationships and clear disclosure', publisher: 'Federal Trade Commission', url: 'https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking', sourceType: 'Government / regulation' }
+    ]
+  },
+  {
     id: 'best-cigar-humidity-packs',
     slug: 'best-cigar-humidity-packs',
     title: 'Best Cigar Humidity Packs: 65%, 69%, and 72% Compared',

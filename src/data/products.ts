@@ -212,7 +212,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     whoShouldBuy: ['Buyers who want a traditional opaque desktop box with starter monitoring and humidification', 'Owners whose measured cigar load fits the maker\'s 25–50 range'],
     whoShouldAvoid: ['Collectors who need a lift-out tray', 'Rooms that require active heating or cooling'],
     failureModesToWatch: ['Inspect lid alignment and hinge stops before conditioning', 'Verify the external hygrometer against a trusted reference', 'Do not force the advertised count if cigars or accessories crowd the lid'],
-    relatedGuideSlugs: ['best-solid-lid-humidors', 'best-desktop-humidors', 'best-humidor-humidifiers', 'best-cigar-hygrometers', 'best-humidors-for-home-bars']
+    relatedGuideSlugs: ['best-solid-lid-humidors', 'best-desktop-humidors', 'best-humidor-humidifiers', 'best-cigar-hygrometers', 'best-humidors-for-home-bars', 'acrylic-vs-wood-humidors']
   },
   {
     id: 'quality-importers-deauville-solid-lid',
@@ -700,7 +700,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     dimensions: 'Maker: 12.3 × 8.8 × 5.9 in; Amazon table currently shows 15.75 × 9.8 × 8.25 in',
     material: 'Acrylic body and trays with a solid Spanish cedar base tray (maker information)',
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['best-50-count-humidors', 'science-of-airtight-tupperdors', 'spanish-cedar-biology-guide', 'best-acrylic-humidors', 'best-humidors-for-home-bars', 'best-humidors-with-built-in-hygrometers']
+    relatedGuideSlugs: ['best-50-count-humidors', 'science-of-airtight-tupperdors', 'spanish-cedar-biology-guide', 'best-acrylic-humidors', 'best-humidors-for-home-bars', 'best-humidors-with-built-in-hygrometers', 'acrylic-vs-wood-humidors']
   },
   {
     id: 'prestige-aj25-acrylic',
@@ -748,7 +748,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     dimensions: '7.28" high x 5" diameter (current listing)',
     material: 'Clear acrylic with rubber gasket and cedar bottom lining',
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-desktop-humidors', 'best-acrylic-humidors', 'best-humidors-for-small-spaces', 'best-humidors-for-dry-climates', 'best-humidors-for-gifts']
+    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-desktop-humidors', 'best-acrylic-humidors', 'best-humidors-for-small-spaces', 'best-humidors-for-dry-climates', 'best-humidors-for-gifts', 'acrylic-vs-wood-humidors']
   },
 
   // ================= TRAVEL HUMIDORS =================

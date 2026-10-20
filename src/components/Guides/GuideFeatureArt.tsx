@@ -59,6 +59,7 @@ const visualConfig = {
   office: { number: '26', label: 'OFFICE HUMIDORS', primary: Briefcase, secondary: Box, tertiary: Thermometer },
   'built-in-gauge': { number: '27', label: 'BUILT-IN HYGROMETERS', primary: Gauge, secondary: Box, tertiary: Thermometer },
   'humidity-pack': { number: '28', label: 'HUMIDITY PACKS', primary: Droplets, secondary: Gauge, tertiary: Box },
+  'material-choice': { number: '29', label: 'ACRYLIC VS. WOOD', primary: Box, secondary: TreePine, tertiary: GlassWater },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;

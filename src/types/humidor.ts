@@ -136,7 +136,7 @@ export interface GuideSection {
   callout?: GuideCallout;
 }
 
-export type GuideVisual = 'wineador' | 'glass-top' | 'tupperdor' | 'altitude' | 'cedar' | 'travel' | 'hygrometer' | 'humidifier' | 'compact' | 'long-term' | 'cutter' | 'lighter' | 'coolidor' | 'ashtray' | 'accessory' | 'infused' | 'solid-lid' | 'capacity' | 'locking' | 'box-storage' | 'hundred-capacity' | 'dry-climate' | 'gift' | 'home-bar' | 'drawer' | 'office' | 'built-in-gauge' | 'humidity-pack';
+export type GuideVisual = 'wineador' | 'glass-top' | 'tupperdor' | 'altitude' | 'cedar' | 'travel' | 'hygrometer' | 'humidifier' | 'compact' | 'long-term' | 'cutter' | 'lighter' | 'coolidor' | 'ashtray' | 'accessory' | 'infused' | 'solid-lid' | 'capacity' | 'locking' | 'box-storage' | 'hundred-capacity' | 'dry-climate' | 'gift' | 'home-bar' | 'drawer' | 'office' | 'built-in-gauge' | 'humidity-pack' | 'material-choice';
 
 export interface GuideComparisonRow {
   productId: string;
