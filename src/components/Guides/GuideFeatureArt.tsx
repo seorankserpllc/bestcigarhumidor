@@ -60,6 +60,7 @@ const visualConfig = {
   'built-in-gauge': { number: '27', label: 'BUILT-IN HYGROMETERS', primary: Gauge, secondary: Box, tertiary: Thermometer },
   'humidity-pack': { number: '28', label: 'HUMIDITY PACKS', primary: Droplets, secondary: Gauge, tertiary: Box },
   'material-choice': { number: '29', label: 'ACRYLIC VS. WOOD', primary: Box, secondary: TreePine, tertiary: GlassWater },
+  'small-collection': { number: '30', label: 'SMALL COLLECTIONS', primary: Box, secondary: Circle, tertiary: Gauge },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;

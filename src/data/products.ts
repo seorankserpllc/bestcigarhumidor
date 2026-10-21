@@ -186,7 +186,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     whoShouldBuy: ['Buyers who have measured a small loose-cigar load', 'Owners willing to add and verify a compact hygrometer'],
     whoShouldAvoid: ['Anyone who needs a dependable 20-cigar fit without measuring ring gauge and length', 'Buyers who want an included gauge or a removable tray'],
     failureModesToWatch: ['Confirm the clasp, hinge, and lid alignment on arrival', 'Keep the included humidifier from touching wrappers', 'Do not treat the seller\'s airtight claim as an independent seal test'],
-    relatedGuideSlugs: ['best-solid-lid-humidors', 'best-desktop-humidors', 'best-cigar-hygrometers', 'spanish-cedar-biology-guide', 'best-humidors-for-offices']
+    relatedGuideSlugs: ['best-solid-lid-humidors', 'best-desktop-humidors', 'best-cigar-hygrometers', 'spanish-cedar-biology-guide', 'best-humidors-for-offices', 'best-small-humidors']
   },
   {
     id: 'prestige-chalet-black-solid-lid',
@@ -676,7 +676,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     sealRating: 0,
     material: 'Clear acrylic with a rubber gasket and cedar at the bottom (listing information)',
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-acrylic-humidors', 'best-humidors-for-infused-cigars']
+    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-acrylic-humidors', 'best-humidors-for-infused-cigars', 'best-small-humidors']
   },
   {
     id: 'klaro-felix-pro-acrylic',
@@ -748,7 +748,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     dimensions: '7.28" high x 5" diameter (current listing)',
     material: 'Clear acrylic with rubber gasket and cedar bottom lining',
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-desktop-humidors', 'best-acrylic-humidors', 'best-humidors-for-small-spaces', 'best-humidors-for-dry-climates', 'best-humidors-for-gifts', 'acrylic-vs-wood-humidors']
+    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-desktop-humidors', 'best-acrylic-humidors', 'best-humidors-for-small-spaces', 'best-humidors-for-dry-climates', 'best-humidors-for-gifts', 'acrylic-vs-wood-humidors', 'best-small-humidors']
   },
 
   // ================= TRAVEL HUMIDORS =================

@@ -8,6 +8,179 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-small-humidors',
+    slug: 'best-small-humidors',
+    title: 'Best Small Humidors: Three 10–20-Cigar Formats Compared',
+    subtitle: 'Choose a vertical acrylic jar, a horizontal clear box, or a low solid-lid wood case by cigar dimensions, access, setup work, and the room where it will live.',
+    category: 'selection',
+    categoryLabel: 'Small Collection Buying Guide',
+    readTimeMinutes: 13,
+    ...editorialByline,
+    publishedDate: '2026-10-21',
+    reviewedDate: '2026-10-21',
+    heroVisual: 'small-collection',
+    excerpt: 'Three exact small humidors compared by working capacity, cigar orientation, included components, setup work, and honest temperature limits.',
+    featuredProductIds: ['xifei-acrylic-jar', 'tisfa-small-acrylic', 'woodronic-wa5022-solid-lid'],
+    relatedBlueprintIds: ['blueprint-tupperdor-7l'],
+    comparisonRows: [
+      {
+        productId: 'xifei-acrylic-jar',
+        recommendationLabel: 'For the narrowest shelf space',
+        fit: 'A small visible rotation when a five-inch-diameter upright container fits the shelf better than a flat box',
+        capacity: 'Listing: about 15–20 cigars; 7.28 in high × 5 in diameter; hygrometer, humidifier, dropper, and cedar bottom listed',
+        tradeoff: 'Cigars stand vertically and lower cigars are less convenient to retrieve; the external gauge still needs checking'
+      },
+      {
+        productId: 'tisfa-small-acrylic',
+        recommendationLabel: 'For easiest everyday access',
+        fit: 'A compact 15–20-cigar rotation that benefits from a shallow horizontal layout and closed-lid visibility',
+        capacity: 'Small variant; listing: about 15–20 cigars by ring gauge; adjustable hygrometer, humidifier, clasp, gasket, and cedar bottom listed',
+        tradeoff: 'Amazon does not publish a size-specific cigar table; thick or long cigars and the humidifier reduce working capacity'
+      },
+      {
+        productId: 'woodronic-wa5022-solid-lid',
+        recommendationLabel: 'For traditional opaque storage',
+        fit: 'A measured 10-cigar load when a low cedar-lined wood box and positive clasp matter more than visibility',
+        capacity: 'Listing conflicts between 10–20 and 20 cigars; maker gives 7.9 × 5 × 1.7 in internal dimensions; humidifier and dropper listed',
+        tradeoff: 'No hygrometer is listed, the wood needs maker-directed conditioning, and a 1.7-inch internal height is restrictive'
+      }
+    ],
+    sections: [
+      {
+        id: 'what-these-picks-mean',
+        title: '1. “Small” should describe the collection, not just the footprint',
+        contentMarkdown: `This guide is for a **working collection of roughly 10–20 loose cigars**, not every product marketed as compact. We rendered the exact Amazon.com pages on October 21, 2026 and confirmed the selected variants, brands, displayed components, ASINs, and active offers for the XIFEI one-count clear jar, TISFA Small acrylic box, and Woodronic one-count solid-lid case.
+
+Current “best small humidor” results do a reasonable job showing that shoppers can choose acrylic, wood, bags, and travel cases. The gaps are more important: many publish changing prices or ratings, call seller capacity a fact, treat a claimed airtight seal as tested, or recommend a product without comparing cigar orientation, internal height, humidifier space, gauge uncertainty, and room temperature. Some are written by a maker or retailer selling one of the recommendations. This guide makes those limits visible.
+
+We did not buy, fill, season, seal-test, calibrate, or temperature-test these humidors. Capacity, dimensions, included parts, materials, warranty, and sealing language remain current seller or manufacturer information. A live listing confirms product identity and availability; it does not prove storage performance.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, star ratings, review counts, badges, or claims of hands-on ownership.`
+      },
+      {
+        id: 'comparison',
+        title: '2. Choose by cigar orientation and access first',
+        contentMarkdown: `Choose the **XIFEI** when shelf width is the constraint and you do not mind standing cigars upright. Choose the **TISFA Small** when a shallow horizontal layout and full visibility make the daily rotation easier to reach. Choose the **Woodronic WA-5022** when you prefer an opaque traditional box and your measured cigars fit its low interior.
+
+These are not three quality grades. They are three layouts with different failure points. An upright jar can hide lower cigars, a clear horizontal box still depends on its clasp and gasket, and a wood case adds conditioning work while offering much less internal height. All three are passive: none heats or cools the storage air.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '3. Seven checks before buying a small humidor',
+        contentMarkdown: `**Measure actual cigars.** Record the longest cigar and largest ring gauge you plan to store. A count without cigar dimensions is not a standard unit.
+
+**Reserve component space.** A humidifier, pack, gauge, cedar insert, divider, and the clearance needed to close the lid all reduce usable volume.
+
+**Choose the retrieval pattern.** A jar is narrow but lower cigars can be awkward to reach. A horizontal box offers direct access, provided cigars are not stacked against the lid or humidifier.
+
+**Check the room.** Measure the intended shelf over several days. These products manage an enclosure's moisture only; acrylic and wood do not make a hot room cool.
+
+**Treat every gauge as unchecked.** NIST calibrates humidity instruments against air with accurately known moisture content and reports uncertainty. A consumer dial or display is useful for trends, not self-validating proof.
+
+**Separate maker claims from evidence.** A gasket, clasp, or seller use of “airtight” describes construction or marketing. It is not our seal test. Inspect the exact unit after delivery.
+
+**Plan the exit.** If you already buy boxes or expect to exceed 20 cigars soon, a [larger desktop humidor](/guides/best-desktop-humidors), [7 L tupperdor](/guides/science-of-airtight-tupperdors), or the [humidor finder](/) may be a better first purchase.`
+      },
+      {
+        id: 'xifei-jar',
+        title: '4. XIFEI jar: the narrow vertical option',
+        contentMarkdown: `The [XIFEI acrylic humidor jar](/products/xifei-acrylic-humidor-jar-review) rendered with the **1 Count (Pack of 1)** size selected at ASIN B07H244RDZ. The title says about 18 cigars; the bullets say about 15–20 depending on cigar size and list a 7.28-inch height, 5-inch diameter, clasp, rubber gasket, external hygrometer, bottom cedar lining, loose rectangular humidifier, and dropper.
+
+**Choose it if** a narrow cylinder fits the shelf and you want to see the collection without opening it. **Choose the TISFA instead** if you retrieve cigars often and want a horizontal layer. **Choose a different format** if long tubes, factory boxes, or sorting by multiple groups matter.
+
+The cedar is limited to the bottom lining, so do not apply a full wood-box seasoning routine unless the seller's instructions require it. Verify the external gauge before relying on it, and place the loose humidifier so it cannot rub wrappers or block closure.`
+      },
+      {
+        id: 'tisfa-small',
+        title: '5. TISFA Small: the horizontal clear option',
+        contentMarkdown: `The [TISFA Small acrylic humidor](/products/tisfa-small-acrylic-cigar-humidor-review) rendered with **Small** selected at ASIN B09LM167T7. The exact title identifies a 15–20-cigar desktop case. The listing shows a clear acrylic body, clasp, rubber gasket, cedar at the bottom, adjustable hygrometer, and humidifier.
+
+**Choose it if** you want to see and reach a small rotation in a horizontal layer. **Choose the XIFEI instead** when five inches of shelf width is easier to spare than a rectangular footprint. **Choose a wood box instead** when opaque presentation is worth extra setup work.
+
+Amazon does not show a size-specific fit table for particular cigar lengths and ring gauges. The 15–20 range is therefore a planning ceiling, not our measured result. Lay out your intended cigars and reserve space for the humidifier before treating the headline number as usable capacity.`
+      },
+      {
+        id: 'woodronic-wa5022',
+        title: '6. Woodronic WA-5022: the low opaque wood option',
+        contentMarkdown: `The [Woodronic WA-5022 solid-lid humidor](/products/woodronic-wa5022-solid-lid-humidor-review) rendered with **1 Count (Pack of 1)** selected at ASIN B07PPQMR12. Amazon lists a solid wood walnut-finish box, Spanish cedar lining, front clasp, humidifier, and dropper. It does not list an included hygrometer. The page conflicts between “up to 10–20,” “20 cigars,” and an older 10-cigar product basis.
+
+Woodronic's current Slim Travel page gives 8.6 × 5.7 × 2.7-inch exterior dimensions and 7.9 × 5 × 1.7-inch internal dimensions. Those maker figures are more useful than the count alone: 1.7 inches of internal height leaves little room for stacking, a bulky humidity source, or unusually thick cigars.
+
+**Choose it if** a measured small load fits and you want an opaque cedar-lined case. **Choose an acrylic option** if you want lower wood-conditioning work or a listed gauge. Despite the travel language, this is not a crush-tested waterproof hard case; use the [travel humidor guide](/guides/best-travel-humidors) when physical protection is the main job.`
+      },
+      {
+        id: 'capacity-plan',
+        title: '7. Turn a seller count into a working-capacity plan',
+        contentMarkdown: `Start with the product's **usable dimensions**, then subtract the space taken by every component. Next, sketch the intended cigar orientation. A 20-cigar claim built around smaller cigars does not guarantee 20 large ring-gauge cigars, tubes, or mixed lengths.
+
+For the XIFEI and TISFA, the listing itself qualifies capacity by cigar size or ring gauge. For the Woodronic, current seller copy conflicts, so its published 7.9 × 5 × 1.7-inch interior should drive the decision. Leave enough clearance to close the clasp without pressing wrappers or accessories.
+
+Do not oversize automatically. A much larger enclosure needs a humidity source sized to its rated container capacity, not only today's cigar count. But do leave deliberate growth room. If the plan already exceeds one easy layer or requires frequent digging, move up a format rather than turning a small humidor into a tightly packed puzzle.`
+      },
+      {
+        id: 'setup',
+        title: '8. Commission the empty system before loading cigars',
+        contentMarkdown: `Tobacco moisture changes with surrounding relative humidity, as peer-reviewed sorption research demonstrates. The USDA Wood Handbook likewise explains that wood exchanges moisture with air according to relative humidity, temperature, and its current moisture content. Those principles support a measured setup rather than a fixed “ready in 24 hours” promise.
+
+1. Inspect the received ASIN, selected variant, clasp, gasket or lid fit, hinge alignment, finish, odor, and listed components.
+2. Clean acrylic only as its instructions allow. Condition the Woodronic's cedar only with the maker's method; do not improvise by soaking or wiping it with free water.
+3. Check the included hygrometer, or add a compact checked gauge to the Woodronic. Keep the sensing area clear of direct contact with the humidifier.
+4. Install one compatible humidity method at its maker's recommended amount. Do not crowd cigars against a wet element or mix several methods without a defined reason.
+5. Observe the closed empty enclosure in its final room until the trend is understandable. Then add cigars gradually and recheck.
+6. If the reading is wrong, verify the instrument, closure, humidity source, wood condition, temperature, and loading one variable at a time.
+
+Use the [seasoning lab](/seasoning-lab) to record the setup, the [hygrometer guide](/guides/best-cigar-hygrometers) to choose a monitor, and the [humidity-pack guide](/guides/best-cigar-humidity-packs) to compare pack set points.`
+      },
+      {
+        id: 'shortest-recommendation',
+        title: '9. The shortest honest recommendation',
+        contentMarkdown: `Choose the **XIFEI jar** when narrow shelf width and visibility matter most. Choose the **TISFA Small** when horizontal access is the priority. Choose the **Woodronic WA-5022** only after confirming that its low interior fits your cigars and you are willing to add a checked hygrometer and condition wood.
+
+Choose none of them if the room itself needs heating or cooling, if you store factory boxes, if you need waterproof impact protection, or if your collection is already growing beyond one compact layer. The best small humidor is the one whose exact usable space, access pattern, setup work, and room conditions fit the collection—not the one with the largest unqualified count.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'How many cigars does a small humidor really hold?',
+        answer: 'There is no standard cigar-count unit. Length, ring gauge, tubes, the humidity source, gauge, cedar, divider, and closure clearance all change working capacity. Treat the seller count as a ceiling until you compare the usable dimensions with your actual cigars.'
+      },
+      {
+        question: 'Is a jar or a box better for 10–20 cigars?',
+        answer: 'A jar uses little shelf width and keeps the contents visible, but lower cigars are harder to retrieve. A horizontal box offers easier access but needs more surface area. Closure quality, component space, monitoring, and room temperature matter more than the shape alone.'
+      },
+      {
+        question: 'Do acrylic humidors need seasoning?',
+        answer: 'The acrylic shell does not. A cedar bottom or insert may need maker-directed stabilization. Follow the exact instructions instead of applying a full wooden-humidor routine to every clear enclosure.'
+      },
+      {
+        question: 'Does the Woodronic WA-5022 include a hygrometer?',
+        answer: 'The rendered Amazon page lists a humidifier and dropper but not a hygrometer. Plan to add a compact checked gauge if you want to monitor the storage air.'
+      },
+      {
+        question: 'Can I trust the included hygrometer?',
+        answer: 'Treat it as unchecked until you compare it using its instructions and a suitable reference. A visible dial or display is useful for trends, but it does not prove accuracy or uniform conditions throughout the enclosure.'
+      },
+      {
+        question: 'Can a small humidor control temperature?',
+        answer: 'Not these three. The XIFEI, TISFA, and Woodronic are passive enclosures. They follow the temperature of the room and should stay away from direct sun, heaters, hot vehicles, and unsuitable unconditioned spaces.'
+      },
+      {
+        question: 'Should I buy a 20-cigar humidor if I own 20 cigars?',
+        answer: 'Usually not without a careful fit check. A product filled to its seller maximum can leave little room for larger cigars, accessories, retrieval, or growth. Compare dimensions and consider the next size when the planned load already reaches the headline count.'
+      }
+    ],
+    sources: [
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Wood Handbook, Chapter 4: moisture relations and physical properties', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/chapter_04_fpl_gtr282.pdf', sourceType: 'Government / technical reference' },
+      { label: 'Hygrometers and relative-humidity calibration', publisher: 'National Institute of Standards and Technology', url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers', sourceType: 'Government / technical reference' },
+      { label: 'XIFEI clear one-count acrylic jar — ASIN B07H244RDZ', publisher: 'Amazon.com, rendered October 21, 2026', url: 'https://www.amazon.com/dp/B07H244RDZ?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'TISFA Small acrylic humidor — ASIN B09LM167T7', publisher: 'Amazon.com, rendered October 21, 2026', url: 'https://www.amazon.com/dp/B09LM167T7?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Woodronic one-count solid-lid humidor — ASIN B07PPQMR12', publisher: 'Amazon.com, rendered October 21, 2026', url: 'https://www.amazon.com/dp/B07PPQMR12?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Slim Travel cigar humidor dimensions and included components', publisher: 'Woodronic', url: 'https://woodronic.shop/products/slim-travel-cigar-humidor-box', sourceType: 'Manufacturer instructions' },
+      { label: 'Endorsement Guides: affiliate relationships and clear disclosure', publisher: 'Federal Trade Commission', url: 'https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking', sourceType: 'Government / regulation' }
+    ]
+  },
+  {
     id: 'acrylic-vs-wood-humidors',
     slug: 'acrylic-vs-wood-humidors',
     title: 'Acrylic vs. Wood Humidors: Three Buying Paths Compared',
