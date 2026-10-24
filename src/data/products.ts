@@ -651,7 +651,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     material: 'Electric cabinet with double-layer glass door and Spanish cedar shelves/drawer',
     electricFeatures: { heating: true, cooling: true, tempRange: '54–74°F maker page; 64–74°F current Amazon bullet', activeHumidity: false },
     diyAlternativeBlueprintId: 'blueprint-converted-wineador',
-    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors', 'best-humidors-for-small-spaces', 'best-100-count-humidors', 'best-humidors-for-dry-climates', 'best-humidors-for-home-bars', 'best-humidors-with-built-in-hygrometers']
+    relatedGuideSlugs: ['electric-wineador-masterclass-heating-cooling', 'best-electric-cigar-humidors', 'best-humidors-for-small-spaces', 'best-100-count-humidors', 'best-humidors-for-dry-climates', 'best-humidors-for-home-bars', 'best-humidors-with-built-in-hygrometers', 'best-humidors-for-large-cigars']
   },
 
   // ================= ACRYLIC & AIRTIGHT =================
@@ -700,7 +700,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     dimensions: 'Maker: 12.3 × 8.8 × 5.9 in; Amazon table currently shows 15.75 × 9.8 × 8.25 in',
     material: 'Acrylic body and trays with a solid Spanish cedar base tray (maker information)',
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['best-50-count-humidors', 'science-of-airtight-tupperdors', 'spanish-cedar-biology-guide', 'best-acrylic-humidors', 'best-humidors-for-home-bars', 'best-humidors-with-built-in-hygrometers', 'acrylic-vs-wood-humidors']
+    relatedGuideSlugs: ['best-50-count-humidors', 'science-of-airtight-tupperdors', 'spanish-cedar-biology-guide', 'best-acrylic-humidors', 'best-humidors-for-home-bars', 'best-humidors-with-built-in-hygrometers', 'acrylic-vs-wood-humidors', 'best-humidors-for-large-cigars']
   },
   {
     id: 'prestige-aj25-acrylic',
@@ -724,7 +724,7 @@ export const AMAZON_PRODUCTS: AmazonProduct[] = [
     dimensions: '9" high x 5.25" diameter (listing)',
     material: 'Acrylic with Spanish cedar bottom lining',
     diyAlternativeBlueprintId: 'blueprint-tupperdor-7l',
-    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-humidors-for-beginners', 'best-acrylic-humidors', 'best-humidors-for-infused-cigars']
+    relatedGuideSlugs: ['science-of-airtight-tupperdors', 'best-humidors-for-beginners', 'best-acrylic-humidors', 'best-humidors-for-infused-cigars', 'best-humidors-for-large-cigars']
   },
   {
     id: 'xifei-acrylic-jar',

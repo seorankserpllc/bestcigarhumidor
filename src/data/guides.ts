@@ -8,6 +8,182 @@ const editorialByline = {
 
 export const CIGAR_GUIDES: CigarGuide[] = [
   {
+    id: 'best-humidors-for-large-cigars',
+    slug: 'best-humidors-for-large-cigars',
+    title: 'Best Humidors for Large Cigars: Three Layouts Compared',
+    subtitle: 'Choose a vertical jar, a layered acrylic humidor, or a temperature-controlled cabinet by actual cigar length, ring gauge, access, and working capacity.',
+    category: 'selection',
+    categoryLabel: 'Large-Ring Cigar Buying Guide',
+    readTimeMinutes: 14,
+    ...editorialByline,
+    publishedDate: '2026-10-24',
+    reviewedDate: '2026-10-24',
+    heroVisual: 'large-ring',
+    excerpt: 'Three current humidors compared for thick cigars, with one maker-published 60-ring capacity table and no invented fit claims.',
+    featuredProductIds: ['prestige-aj25-acrylic', 'klaro-felix-pro-acrylic', 'kingchii-16l'],
+    relatedBlueprintIds: ['blueprint-tupperdor-7l', 'blueprint-converted-wineador'],
+    comparisonRows: [
+      {
+        productId: 'prestige-aj25-acrylic',
+        recommendationLabel: 'For a small vertical rotation',
+        fit: 'A few measured thick or long cigars when a narrow upright jar is easier to place than a wide tray',
+        capacity: 'Maker: up to 25 cigars and up to 8 in long; 9 in high × 5.25 in diameter; no ring-gauge-specific count',
+        tradeoff: 'Lower cigars are harder to retrieve, the included humidifier takes space, and no hygrometer is included'
+      },
+      {
+        productId: 'klaro-felix-pro-acrylic',
+        recommendationLabel: 'For documented 60-ring planning',
+        fit: 'A visible loose-cigar collection that benefits from two removable trays and the clearest size-specific maker evidence',
+        capacity: 'Maker table: 20–25 Toro 60s; 12.3 × 8.8 × 5.9 in; two acrylic trays, cedar base tray, digital hygrometer',
+        tradeoff: 'The 50–60 headline is not the large-cigar count, and Amazon and maker exterior dimensions conflict'
+      },
+      {
+        productId: 'kingchii-16l',
+        recommendationLabel: 'For a room that needs temperature control',
+        fit: 'A growing indoor collection of measured loose cigars when room temperature—not only humidity—is the storage problem',
+        capacity: '16 L; two cedar storage layers; maker claim up to 100 cigars; no size-specific large-ring count',
+        tradeoff: 'Humidity is managed separately, airflow needs clearance, and Amazon and maker temperature and dimension figures conflict'
+      }
+    ],
+    sections: [
+      {
+        id: 'what-large-cigars-means',
+        title: '1. Start with two measurements, not a vitola name',
+        contentMarkdown: `This guide is for owners of **thick cigars—especially 54- to 60-plus ring gauge formats—and mixed collections where large cigars drive the storage decision**. Ring gauge describes diameter in sixty-fourths of an inch; FDA product records use that convention. A 60-ring cigar is therefore 60/64 inch, or 0.9375 inch, across before any protective tube or spacing allowance. Length is a separate constraint.
+
+We rendered the exact Amazon.com pages on October 24, 2026 and confirmed the brands, models, selected variants, ASINs, displayed components, and active buying offers for the Prestige Import Group AJ25 one-count jar, Case Elegance Felix Pro PRO, and KingChii 16 L two-layer cabinet. The current Sistema 7 L listing was excluded because its selected 7 L variant showed no featured offer and was unavailable.
+
+We did not buy, fill, seal-test, calibrate, or temperature-test these products. Capacity, dimensions, components, materials, temperature ranges, and closure language remain current seller or manufacturer information. A live listing confirms identity and availability; it does not prove that a specific cigar will fit or that the humidor will perform as claimed.
+
+**Affiliate disclosure:** Best Cigar Humidor may earn a commission when you use a product buying link, at no extra cost to you. We do not publish Amazon prices, star ratings, review counts, badges, or claims of hands-on ownership.`
+      },
+      {
+        id: 'search-result-gaps',
+        title: '2. What current large-cigar advice leaves unresolved',
+        contentMarkdown: `Current results explain that ring gauge changes capacity and often advise buying a larger box. That is useful, but many pages still compare headline cigar counts, changing prices, ratings, or broad categories without tying a recommendation to an exact live variant. Some convert a diameter into a promised fit without accounting for the container wall, round-versus-rectangular packing, trays, dividers, gauges, humidity sources, or closure clearance.
+
+Broad “best humidor” lists also tend to call one product best overall, repeat maker precision or seal language as tested fact, and imply that an electric cabinet automatically controls humidity. This guide takes the narrower buying question seriously: **which layout gives your measured large cigars a workable home, and what evidence supports that fit?** Only the Felix Pro maker publishes a capacity table for Toro 60s. The AJ25 and KingChii remain useful options, but their large-cigar working capacity must be measured rather than guessed.`
+      },
+      {
+        id: 'comparison',
+        title: '3. Compare the layout and evidence behind the count',
+        contentMarkdown: `Choose the **Prestige AJ25** when you have a small rotation and a narrow upright footprint is the easiest fit. Choose the **Felix Pro** when size-specific planning matters most: Case Elegance publishes a 20–25 count for Toro 60s, far below the product's broad 50–60 headline. Choose the **KingChii 16 L** only when the room also needs heating or cooling and you can measure the received shelves before committing the collection.
+
+These are three storage jobs, not three universal quality ranks. The jar minimizes footprint but makes bottom access awkward. The Felix provides the strongest 60-ring evidence but occupies a wide surface. The KingChii adds powered temperature control, yet still requires a separate humidity method and open circulation paths.`
+      },
+      {
+        id: 'selection-criteria',
+        title: '4. Seven checks before buying for thick cigars',
+        contentMarkdown: `**Measure the actual cigar.** Record total length and the widest diameter, including a tube if it will stay on. Names such as Gordo, Gigante, Toro, and Double Robusto are not dimensions.
+
+**Plan by working count.** A 25-, 60-, or 100-cigar headline is not a standardized volume. Use a size-specific table when one exists and leave room for components, retrieval, and future purchases.
+
+**Sketch the orientation.** Upright storage uses little shelf width but creates a deep stack. Horizontal trays make selection easier but can lose capacity quickly as diameter rises.
+
+**Check every obstruction.** Subtract space for the humidifier, hygrometer, cedar, tray rails, dividers, door frame, and any air inlet or outlet. Do not press wrappers against a lid or powered-cabinet vent.
+
+**Separate humidity from temperature.** The AJ25 and Felix Pro follow the room temperature. The KingChii lists heating and cooling, but not active humidity control.
+
+**Treat the gauge as unchecked.** NIST calibrates humidity instruments against air with accurately known moisture content and reports uncertainty. A display is useful for trends; it is not self-validating proof.
+
+**Inspect the received unit.** Model families, selected variants, and specifications change. Confirm the ASIN, variant, trays, closure, dimensions, instructions, and electrical label before loading valuable cigars.`
+      },
+      {
+        id: 'prestige-aj25',
+        title: '5. Prestige AJ25: the small vertical option',
+        contentMarkdown: `The [Prestige Import Group AJ25 acrylic jar](/products/prestige-aj25-acrylic-humidor-review) rendered as the **one-count AJ25** at ASIN B00J21X9IS. Amazon showed an active offer and identified a 25-count acrylic jar with a humidifier and Spanish cedar bottom lining. The product table showed 9 × 5.25 × 5.25 inches. Prestige's current AJ25 page describes a 9-inch-high, 5.25-inch-diameter jar, an integrated gasket and clasp, a removable round humidifier, and cigars up to eight inches long.
+
+**Choose it if** you own a small measured group of large cigars and vertical storage works for the shelf. **Choose the Felix instead** when you want horizontal access and a published Toro 60 capacity. **Choose a different format** if you need separate layers, frequent access to every cigar, or powered temperature control.
+
+Prestige does not publish a ring-gauge-specific AJ25 count, so “25” is not a promise for 25 thick cigars. The circular footprint, the humidifier's placement, and the space needed to lift a cigar from the group all reduce working capacity. The current listing does not include a hygrometer; plan space for a compact checked sensor.`
+      },
+      {
+        id: 'felix-pro',
+        title: '6. Felix Pro: the clearest 60-ring capacity evidence',
+        contentMarkdown: `The [Case Elegance Felix Pro acrylic humidor](/products/klaro-felix-pro-acrylic-humidor-review) rendered with **PRO** selected at ASIN B0CHTZWV9T. Amazon showed an active offer, two acrylic trays, a Spanish cedar base tray, digital hygrometer, black ashwood base, and a 50–60-cigar headline. The rendered table listed 15.75 × 9.8 × 8.25 inches, while Case Elegance publishes 12.3 × 8.8 × 5.9 inches for SKU KL-HUM-ACR-PRO.
+
+The maker's size table is the useful part: it estimates **20–25 Toro 60s**, 35–40 Toro 54s, 38–45 Toro 50s or 52s, and 70–90 Robusto 50s. Those are manufacturer estimates, not our fit test, but they expose how strongly length and diameter change capacity.
+
+**Choose it if** your collection is mostly loose cigars and the maker's size table resembles what you own. **Choose the AJ25 instead** for a much smaller vertical rotation. **Choose the KingChii instead** only when room temperature demands powered control. Confirm the received exterior dimensions because the current Amazon and maker figures do not agree, and confirm which humidity supplies are actually included before setup.`
+      },
+      {
+        id: 'kingchii-16l',
+        title: '7. KingChii 16 L: temperature control with separate humidity work',
+        contentMarkdown: `The [KingChii 16 L electric humidor](/products/kingchii-16l-electric-cigar-humidor-review) rendered with **16L** selected at ASIN B0BQJ5H5YT. The title identified the two-layer, 100-capacity 16L-B model; Amazon showed an active offer, Spanish cedar storage, a built-in hygrometer, a glass door, semiconductor temperature control, and a 110-volt electrical note.
+
+Amazon currently lists 64–74°F and dimensions of 10.2 × 18.7 × 19.5 inches. KingChii's current maker page lists 54–74°F and 20 × 9.8 × 14.1 inches. We cannot reconcile those conflicts from published copy, so confirm the received manual and cabinet before choosing a stand or relying on the lower set point.
+
+**Choose it if** the room itself moves outside the temperature band you intend to maintain and you can leave ventilation clearance around the cabinet. **Choose a passive option** when the room is already suitable and you want fewer powered dependencies. Neither Amazon nor KingChii publishes a 60-ring capacity for this model; measure the shelf and drawer layout, keep large cigars clear of the fan path, and treat 100 as a maker ceiling rather than a working count.`
+      },
+      {
+        id: 'fit-plan',
+        title: '8. Turn cigar dimensions into a fit plan',
+        contentMarkdown: `Make a simple inventory with one row per recurring size: quantity, length, ring gauge, tube on or off, and preferred orientation. Convert ring gauge only to understand diameter—60/64 inch is 0.9375 inch—but do not turn that arithmetic into a packing guarantee. Round cigars leave gaps, a circular jar narrows at its edges, and trays have lips, rails, and dividers.
+
+Build a paper template or use inexpensive stand-ins matching the length and diameter of the cigars you expect to store. Reserve the exact space for the humidity source and sensor. In the KingChii, also mark a no-block zone around the circulation path. If the planned load already reaches a seller maximum, move up a size or reduce the number stored together.
+
+Use the [humidor finder](/) to compare enclosure types, the [small-humidor guide](/guides/best-small-humidors) when the collection is under 20 ordinary-size cigars, the [100-count guide](/guides/best-100-count-humidors) for a larger mixed collection, and the [electric wineador guide](/guides/electric-wineador-masterclass-heating-cooling) when temperature control is the deciding factor.`
+      },
+      {
+        id: 'setup-and-verdict',
+        title: '9. Commission the empty system, then load gradually',
+        contentMarkdown: `Peer-reviewed sorption research shows that tobacco moisture changes with surrounding relative humidity. The USDA Wood Handbook likewise explains that wood exchanges moisture with air according to relative humidity, temperature, and its present moisture content. Those principles support a measured setup, not a universal “ready in 24 hours” promise.
+
+1. Confirm the received ASIN, model, selected variant, dimensions, closure, trays, components, manual, and electrical label.
+2. Clean acrylic only as directed. Stabilize exposed cedar using the maker's instructions; do not soak or wipe it with free water unless those instructions explicitly require it.
+3. Check the built-in gauge, or add a compact checked hygrometer to the AJ25. Keep the sensor away from direct contact with the humidity source.
+4. Install one compatible humidity method in the maker-recommended amount. The KingChii controls temperature, not humidity.
+5. Observe the closed empty system in its final room until the trend is understandable. For the powered cabinet, verify clearance, fan operation, and the actual temperature range before loading.
+6. Add cigars gradually, preserve retrieval space, and recheck multiple levels before filling further.
+
+The shortest recommendation: **AJ25 for a small measured vertical group; Felix Pro for the best published 60-ring evidence; KingChii 16 L only when powered temperature control earns its extra setup and dependence.** Use the [seasoning lab](/seasoning-lab) to log the process and the [hygrometer guide](/guides/best-cigar-hygrometers) to choose a monitor.`
+      }
+    ],
+    faqs: [
+      {
+        question: 'What does 60 ring gauge mean?',
+        answer: 'Ring gauge is measured in sixty-fourths of an inch, so 60 ring gauge equals 60/64 inch, or 0.9375 inch, in diameter. Length is a separate measurement and matters just as much for humidor fit.'
+      },
+      {
+        question: 'Will a 25-count humidor hold 25 large cigars?',
+        answer: 'Not necessarily. Headline counts are not standardized by cigar size. Thick cigars, tubes, the humidity source, the gauge, dividers, and retrieval clearance can reduce working capacity substantially.'
+      },
+      {
+        question: 'Which featured humidor has a published 60-ring capacity?',
+        answer: 'Case Elegance publishes a maker estimate of 20–25 Toro 60s for the Felix Pro. That is still manufacturer information rather than an independent fit test, but it is more useful than an unqualified 50–60 count.'
+      },
+      {
+        question: 'Can the Prestige AJ25 hold long cigars?',
+        answer: 'Prestige says the AJ25 accepts cigars up to eight inches long. It does not publish a ring-gauge-specific count, so measure both length and diameter and reserve space for the humidifier and a separate hygrometer.'
+      },
+      {
+        question: 'Does the KingChii 16 L control humidity?',
+        answer: 'No active humidity control is listed. It heats and cools while the owner supplies and monitors a separate humidity method. Keep the humidity source and cigars clear of the circulation path.'
+      },
+      {
+        question: 'Do acrylic humidors need seasoning?',
+        answer: 'The acrylic shell does not. Any cedar insert or tray may need maker-directed stabilization. Follow the exact product instructions rather than applying a full wooden-box routine to the whole enclosure.'
+      },
+      {
+        question: 'Should large cigars be packed tightly to maximize capacity?',
+        answer: 'No. Leave enough room to retrieve cigars without wrapper damage, keep accessories from pressing on them, and preserve any required air path. A lower working count is more useful than a maximum squeeze count.'
+      }
+    ],
+    sources: [
+      { label: 'Moisture sorption isotherms of various tobaccos', publisher: 'Agricultural and Biological Chemistry, 1978', url: 'https://doi.org/10.1271/bbb1961.42.2285', sourceType: 'Peer-reviewed research' },
+      { label: 'Wood Handbook, Chapter 4: moisture relations and physical properties', publisher: 'USDA Forest Products Laboratory', url: 'https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/chapter_04_fpl_gtr282.pdf', sourceType: 'Government / technical reference' },
+      { label: 'Hygrometers and relative-humidity calibration', publisher: 'National Institute of Standards and Technology', url: 'https://www.nist.gov/pml/sensor-science/thermodynamic-metrology/hygrometers', sourceType: 'Government / technical reference' },
+      { label: 'FDA cigar product records using ring gauge in 1/64 inch', publisher: 'U.S. Food and Drug Administration', url: 'https://www.fda.gov/media/179899/download', sourceType: 'Government / regulation' },
+      { label: 'Prestige AJ25 dimensions, components, and maximum cigar length', publisher: 'Prestige Import Group', url: 'https://www.prestigeimportgroup.com/jar-acrylic-humidors.htm', sourceType: 'Manufacturer instructions' },
+      { label: 'Felix Pro dimensions, components, and cigar-size capacity table', publisher: 'Case Elegance', url: 'https://caseelegance.com/products/felix-pro-tupperdor-airtight-acrylic-humidor', sourceType: 'Manufacturer instructions' },
+      { label: 'KingChii 16 L dimensions and temperature specifications', publisher: 'KingChii', url: 'https://www.kingchii.com/products/16l-electric-humidity-control-cabinet', sourceType: 'Manufacturer instructions' },
+      { label: 'Prestige AJ25 one-count acrylic jar — ASIN B00J21X9IS', publisher: 'Amazon.com, rendered October 24, 2026', url: 'https://www.amazon.com/dp/B00J21X9IS?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Case Elegance Felix Pro PRO — ASIN B0CHTZWV9T', publisher: 'Amazon.com, rendered October 24, 2026', url: 'https://www.amazon.com/dp/B0CHTZWV9T?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'KingChii 16 L two-layer cabinet — ASIN B0BQJ5H5YT', publisher: 'Amazon.com, rendered October 24, 2026', url: 'https://www.amazon.com/dp/B0BQJ5H5YT?tag=bestcigarhumidor0c-20', sourceType: 'Current marketplace listing' },
+      { label: 'Endorsement Guides: affiliate relationships and clear disclosure', publisher: 'Federal Trade Commission', url: 'https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking', sourceType: 'Government / regulation' }
+    ]
+  },
+  {
     id: 'best-small-humidors',
     slug: 'best-small-humidors',
     title: 'Best Small Humidors: Three 10–20-Cigar Formats Compared',

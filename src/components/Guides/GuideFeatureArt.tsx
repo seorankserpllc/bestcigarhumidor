@@ -61,6 +61,7 @@ const visualConfig = {
   'humidity-pack': { number: '28', label: 'HUMIDITY PACKS', primary: Droplets, secondary: Gauge, tertiary: Box },
   'material-choice': { number: '29', label: 'ACRYLIC VS. WOOD', primary: Box, secondary: TreePine, tertiary: GlassWater },
   'small-collection': { number: '30', label: 'SMALL COLLECTIONS', primary: Box, secondary: Circle, tertiary: Gauge },
+  'large-ring': { number: '31', label: 'LARGE-RING CIGARS', primary: Circle, secondary: Box, tertiary: Gauge },
 } satisfies Record<GuideVisual, {
   number: string;
   label: string;
